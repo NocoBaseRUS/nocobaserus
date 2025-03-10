@@ -1,4 +1,4 @@
-English | [中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md) | [Русский](./README.ru.md)
+English | [中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md) 
 
 https://github.com/user-attachments/assets/a50c100a-4561-4e06-b2d2-d48098659ec0
 
@@ -24,7 +24,7 @@ https://demo.nocobase.com/new
 Документация: 
 https://docs.nocobase.com/
 
-Форум:  
+Форум:
 https://forum.nocobase.com/
 
 ## Отличительные черты
