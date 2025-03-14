@@ -4479,2714 +4479,2705 @@ Reference: [Custom request](https://docs.nocobase.com/handbook/action-custom-req
 
 - chore(versions): 😊 публикация v0.15.0-alpha.1 [`29457cb`](https://github.com/nocobase/nocobase/commit/29457cb2bc4e795ec21fa25566fda37b7e36cd9a)
 - chore: обновление журнала изменений [`3b2ad2f`](https://github.com/nocobase/nocobase/commit/3b2ad2fa9fd2d07c029a008076012498e1a4d6db)
-- fix: env APPEND_PRESET_LOCAL_PLUGINS [`5c93750`](https://github.com/nocobase/nocobase/commit/5c937500b7ca62ec4c096c5a697f703d9d419097)
+- исправление: переменная окружения APPEND_PRESET_LOCAL_PLUGINS [`5c93750`](https://github.com/nocobase/nocobase/commit/5c937500b7ca62ec4c096c5a697f703d9d419097)
 
 ## [v0.14.0-alpha.8](https://github.com/nocobase/nocobase/compare/v0.14.0-alpha.7...v0.14.0-alpha.8) - 2023-11-01
 
-### Merged
+### Объединено
 
 - fix(e2e): APP_BASE_URL [`#2938`](https://github.com/nocobase/nocobase/pull/2938)
-- refactor(variable): rename [`#2937`](https://github.com/nocobase/nocobase/pull/2937)
-- fix(plugin-workflow): ajdust style [`#2934`](https://github.com/nocobase/nocobase/pull/2934)
-- fix: theme migration error [`#2929`](https://github.com/nocobase/nocobase/pull/2929)
-- refactor(plugin-workflow): add end property to branch [`#2928`](https://github.com/nocobase/nocobase/pull/2928)
-- fix(plugin-workflow): fix migration [`#2927`](https://github.com/nocobase/nocobase/pull/2927)
-- fix: app quickstart [`#2921`](https://github.com/nocobase/nocobase/pull/2921)
-- chore(theme-editor): add migration [`#2367`](https://github.com/nocobase/nocobase/pull/2367)
-- feat(e2e): add test.pgOnly [`#2923`](https://github.com/nocobase/nocobase/pull/2923)
-- chore: optimize locators [`#2833`](https://github.com/nocobase/nocobase/pull/2833)
-- chore(e2e): based postgres in CI to run e2e [`#2924`](https://github.com/nocobase/nocobase/pull/2924)
-- refactor(plugin-workflow): adjust branch styles [`#2922`](https://github.com/nocobase/nocobase/pull/2922)
-- feat: framework benchmark [`#2915`](https://github.com/nocobase/nocobase/pull/2915)
-- refactor: reset form values after create action [`#2905`](https://github.com/nocobase/nocobase/pull/2905)
-- chore: upgrade @formily/antd-v5 [`#2920`](https://github.com/nocobase/nocobase/pull/2920)
-- fix(core): print not work when has sub-form or sub-details [`#2852`](https://github.com/nocobase/nocobase/pull/2852)
-- fix: association block was not associated after adding data [`#2907`](https://github.com/nocobase/nocobase/pull/2907)
+- refactor(variable): переименование [`#2937`](https://github.com/nocobase/nocobase/pull/2937)
+- fix(plugin-workflow): корректировка стилей [`#2934`](https://github.com/nocobase/nocobase/pull/2934)
+- fix: ошибка миграции темы [`#2929`](https://github.com/nocobase/nocobase/pull/2929)
+- refactor(plugin-workflow): добавлено свойство end к ветке [`#2928`](https://github.com/nocobase/nocobase/pull/2928)
+- fix(plugin-workflow): исправлена миграция [`#2927`](https://github.com/nocobase/nocobase/pull/2927)
+- fix: быстрый старт приложения [`#2921`](https://github.com/nocobase/nocobase/pull/2921)
+- chore(theme-editor): добавлена миграция [`#2367`](https://github.com/nocobase/nocobase/pull/2367)
+- feat(e2e): добавлен тест test.pgOnly [`#2923`](https://github.com/nocobase/nocobase/pull/2923)
+- chore: оптимизация локаторов [`#2833`](https://github.com/nocobase/nocobase/pull/2833)
+- chore(e2e): база postgres в CI для запуска e2e [`#2924`](https://github.com/nocobase/nocobase/pull/2924)
+- refactor(plugin-workflow): корректировка стилей веток [`#2922`](https://github.com/nocobase/nocobase/pull/2922)
+- feat: бенчмарк фреймворка [`#2915`](https://github.com/nocobase/nocobase/pull/2915)
+- refactor: сброс значений формы после действия создания [`#2905`](https://github.com/nocobase/nocobase/pull/2905)
+- chore: обновление @formily/antd-v5 [`#2920`](https://github.com/nocobase/nocobase/pull/2920)
+- fix(core): печать не работает при наличии подформ или поддеталей [`#2852`](https://github.com/nocobase/nocobase/pull/2852)
+- fix: блок ассоциации не был связан после добавления данных [`#2907`](https://github.com/nocobase/nocobase/pull/2907)
 - feat: plugin-disable-pm-add-online [`#2918`](https://github.com/nocobase/nocobase/pull/2918)
-- fix: error when post create action with emtpy value [`#2916`](https://github.com/nocobase/nocobase/pull/2916)
-- fix: removed plugins, no longer added when upgrading [`#2917`](https://github.com/nocobase/nocobase/pull/2917)
-- refactor(plugin-workflow): change to use node key for variables [`#2909`](https://github.com/nocobase/nocobase/pull/2909)
-- fix: disappearing of fixed-block option [`#2914`](https://github.com/nocobase/nocobase/pull/2914)
-- fix: linkage rules cause abnormal field display [`#2913`](https://github.com/nocobase/nocobase/pull/2913)
+- fix: ошибка при создании действия post с пустым значением [`#2916`](https://github.com/nocobase/nocobase/pull/2916)
+- fix: удаленные плагины больше не добавляются при обновлении [`#2917`](https://github.com/nocobase/nocobase/pull/2917)
+- refactor(plugin-workflow): изменение использования ключа узла для переменных [`#2909`](https://github.com/nocobase/nocobase/pull/2909)
+- fix: исчезновение опции fixed-block [`#2914`](https://github.com/nocobase/nocobase/pull/2914)
+- fix: правила связывания вызывают аномальное отображение поля [`#2913`](https://github.com/nocobase/nocobase/pull/2913)
 - fix: useRecord [`#2911`](https://github.com/nocobase/nocobase/pull/2911)
-- fix: useValuesFromRecord with cloneDeep [`#2902`](https://github.com/nocobase/nocobase/pull/2902)
-- fix: app fix at initialized state [`#2908`](https://github.com/nocobase/nocobase/pull/2908)
-- fix: cascadeSelect title label display error [`#2904`](https://github.com/nocobase/nocobase/pull/2904)
-- fix: foreignKey undefined in association field [`#2903`](https://github.com/nocobase/nocobase/pull/2903)
-- fix: linkage rule memory overflow [`#2899`](https://github.com/nocobase/nocobase/pull/2899)
-- fix: remove search by packageName [`#2901`](https://github.com/nocobase/nocobase/pull/2901)
-- refactor(plugin-workflow): add isAvailable check for adding node [`#2898`](https://github.com/nocobase/nocobase/pull/2898)
-- fix: fileManager selector should be radio when not allow multiple [`#2884`](https://github.com/nocobase/nocobase/pull/2884)
-- fix(plugin-workflow): fix schedule workflow under normal multi-apps [`#2896`](https://github.com/nocobase/nocobase/pull/2896)
-- chore: expose auth manager option in application [`#2894`](https://github.com/nocobase/nocobase/pull/2894)
-- fix(plugin-workflow): fix cycling association stackoverflow [`#2892`](https://github.com/nocobase/nocobase/pull/2892)
-- chore: create sub app db with context [`#2891`](https://github.com/nocobase/nocobase/pull/2891)
-- refactor(plugin-workflow): add property to determine workflow type triggerable on ui [`#2890`](https://github.com/nocobase/nocobase/pull/2890)
-- fix(variable): compat old variable names [`#2889`](https://github.com/nocobase/nocobase/pull/2889)
-- fix: disappearing of sub-form data [`#2888`](https://github.com/nocobase/nocobase/pull/2888)
-- fix(variable): fix currentObject [`#2887`](https://github.com/nocobase/nocobase/pull/2887)
-- refactor: assocation select file clear linkage [`#2885`](https://github.com/nocobase/nocobase/pull/2885)
-- fix(plugin-custom-request): improve x button style and afterSuccess not work when manualClose is enable [`#2882`](https://github.com/nocobase/nocobase/pull/2882)
-- fix(variable): make all fields of currentForm and currentObject variable optional [`#2878`](https://github.com/nocobase/nocobase/pull/2878)
-- fix(plugin-workflow): fix lang [`#2881`](https://github.com/nocobase/nocobase/pull/2881)
-- fix: non UI configured states should only display corresponding inhreited collection block [`#2879`](https://github.com/nocobase/nocobase/pull/2879)
-- fix: assocition select rendering error in create mode [`#2880`](https://github.com/nocobase/nocobase/pull/2880)
-- fix: action linkage not work in detail block [`#2875`](https://github.com/nocobase/nocobase/pull/2875)
-- fix: record picker did not refresh list after adding data [`#2877`](https://github.com/nocobase/nocobase/pull/2877)
-- fix: select field incorrect rendering in association field block [`#2876`](https://github.com/nocobase/nocobase/pull/2876)
-- feat(variable): add current parent record [`#2857`](https://github.com/nocobase/nocobase/pull/2857)
-- fix(plugin-custom-request): variables not work in form block [`#2873`](https://github.com/nocobase/nocobase/pull/2873)
-- fix: remote plugin name [`#2872`](https://github.com/nocobase/nocobase/pull/2872)
-- feat(database): sync false option [`#2864`](https://github.com/nocobase/nocobase/pull/2864)
-- fix(client): fix varaible textarea setRange bug [`#2862`](https://github.com/nocobase/nocobase/pull/2862)
-- fix: after successful submission failed to config redirectTo [`#2867`](https://github.com/nocobase/nocobase/pull/2867)
-- fix: m2o association field should not allow sub-table as field component [`#2865`](https://github.com/nocobase/nocobase/pull/2865)
-- fix(plugin-sequence): avoid invalid value from `ArrayTable.useRecord()` [`#2859`](https://github.com/nocobase/nocobase/pull/2859)
-- fix: field in detail block should not allow config default value [`#2858`](https://github.com/nocobase/nocobase/pull/2858)
-- chore: ci yarn cache [`#2853`](https://github.com/nocobase/nocobase/pull/2853)
-- feat(ci): run backend tests concurrently [`#2815`](https://github.com/nocobase/nocobase/pull/2815)
-- feat(custom-request): improve x button of variable [`#2829`](https://github.com/nocobase/nocobase/pull/2829)
-- docs(plugin-api-keys): add warning for API_KEY env [`#2847`](https://github.com/nocobase/nocobase/pull/2847)
-- refactor(client): add exports [`#2846`](https://github.com/nocobase/nocobase/pull/2846)
-- fix(variable): should have currentObject in sub-blocks [`#2823`](https://github.com/nocobase/nocobase/pull/2823)
-- fix: revert linkage rules [`#2821`](https://github.com/nocobase/nocobase/pull/2821)
-- fix: should not display currentRecord in creation form block [`#2814`](https://github.com/nocobase/nocobase/pull/2814)
-- fix(plugin-workflow): fix lang [`#2844`](https://github.com/nocobase/nocobase/pull/2844)
-- fix: codesanbox bug [`#2842`](https://github.com/nocobase/nocobase/pull/2842)
-- revert:association field log [`#2840`](https://github.com/nocobase/nocobase/pull/2840)
-- fix: association field in assign field should set title field as collection field config [`#2839`](https://github.com/nocobase/nocobase/pull/2839)
-- fix: version source [`#2836`](https://github.com/nocobase/nocobase/pull/2836)
-- fix(plugin-workflow): fix action order in workflow list [`#2835`](https://github.com/nocobase/nocobase/pull/2835)
-- fix(file-manager): improve initialization logic [`#2834`](https://github.com/nocobase/nocobase/pull/2834)
-- feat: support filter blocks in select record drawer [`#2828`](https://github.com/nocobase/nocobase/pull/2828)
-- fix: remote plugin [`#2831`](https://github.com/nocobase/nocobase/pull/2831)
-- fix: fix auto-close dialog [`#2825`](https://github.com/nocobase/nocobase/pull/2825)
-- feat(auth): add global auth token provider [`#2824`](https://github.com/nocobase/nocobase/pull/2824)
-- feat(file-manager): support configuring thumbnail rules [`#2810`](https://github.com/nocobase/nocobase/pull/2810)
-- feat(client): add disabled for initializer switch and undeletable for action settings [`#2820`](https://github.com/nocobase/nocobase/pull/2820)
-- refactor(plugin-workflow): adjust ui and client api [`#2817`](https://github.com/nocobase/nocobase/pull/2817)
-- fix(client): fix action component warning [`#2818`](https://github.com/nocobase/nocobase/pull/2818)
-- fix: multiple select should assigned null after clear value [`#2822`](https://github.com/nocobase/nocobase/pull/2822)
-- feat(plugin-custom-request): support better custom-request [`#2536`](https://github.com/nocobase/nocobase/pull/2536)
-- fix: cascadeselect report error in m2m association field [`#2819`](https://github.com/nocobase/nocobase/pull/2819)
-- fix(plugin-workflow): ignore queuing executions which workflow has been deleted [`#2808`](https://github.com/nocobase/nocobase/pull/2808)
-- fix: assign field modal cantnot open [`#2807`](https://github.com/nocobase/nocobase/pull/2807)
-- fix(auth): SSO issues [`#2733`](https://github.com/nocobase/nocobase/pull/2733)
-- fix: data scope report error with invalid variables [`#2811`](https://github.com/nocobase/nocobase/pull/2811)
-- style: import action modal formlayout [`#2809`](https://github.com/nocobase/nocobase/pull/2809)
-- fix: option should clear when data scope change [`#2800`](https://github.com/nocobase/nocobase/pull/2800)
-- test: confirm the feasibility of e2e test cases [`#2799`](https://github.com/nocobase/nocobase/pull/2799)
-- fix: the input box displayed should correspond to the field type [`#2805`](https://github.com/nocobase/nocobase/pull/2805)
-- fix(bi): query with `limit` [`#2803`](https://github.com/nocobase/nocobase/pull/2803)
-- fix: record picker cannot select data when editing [`#2798`](https://github.com/nocobase/nocobase/pull/2798)
-- feat: add measure execution function [`#2801`](https://github.com/nocobase/nocobase/pull/2801)
-- chore(bi): complete chart api [`#2771`](https://github.com/nocobase/nocobase/pull/2771)
-- fix: fix the wrong way to determine form type [`#2787`](https://github.com/nocobase/nocobase/pull/2787)
-- fix: bug [`#2797`](https://github.com/nocobase/nocobase/pull/2797)
-- fix: should not show loading when children is enpty in menu [`#2796`](https://github.com/nocobase/nocobase/pull/2796)
-- fix: should save operators [`#2794`](https://github.com/nocobase/nocobase/pull/2794)
-- fix(client): fix undefined field method on button [`#2795`](https://github.com/nocobase/nocobase/pull/2795)
-- fix: data scope linkage in association field [`#2786`](https://github.com/nocobase/nocobase/pull/2786)
-- chore(e2e): delete collectionName key [`#2783`](https://github.com/nocobase/nocobase/pull/2783)
-- fix(client): fix rendering cause range bug [`#2785`](https://github.com/nocobase/nocobase/pull/2785)
-- chore(collection-manager): Throw an error when the value of foreignKey is the same as otherKey [`#2780`](https://github.com/nocobase/nocobase/pull/2780)
-- fix: percent value invalid [`#2782`](https://github.com/nocobase/nocobase/pull/2782)
-- fix: percent value should divide by 100 [`#2781`](https://github.com/nocobase/nocobase/pull/2781)
-- Revert "fix(client): fix rerendering cause range bug (#2770)" [`#2779`](https://github.com/nocobase/nocobase/pull/2779)
-- refactor(e2e):  support batch creation of collections [`#2778`](https://github.com/nocobase/nocobase/pull/2778)
-- fix: field history with reverse field [`#2776`](https://github.com/nocobase/nocobase/pull/2776)
-- fix: should allow to set default value in relationship form block [`#2777`](https://github.com/nocobase/nocobase/pull/2777)
-- fix(plugin-workflow): fix toJSON type check [`#2772`](https://github.com/nocobase/nocobase/pull/2772)
-- fix: create collections with multiple records [`#2753`](https://github.com/nocobase/nocobase/pull/2753)
-- fix(client): fix rerendering cause range bug [`#2770`](https://github.com/nocobase/nocobase/pull/2770)
-- fix(default): should allow to set default value in relationship form block [`#2774`](https://github.com/nocobase/nocobase/pull/2774)
-- fix(percent): percent failed to input 0 [`#2769`](https://github.com/nocobase/nocobase/pull/2769)
-- refactor(duplicate action):duplicate fields error when change duplicate mode & support unselect all  [`#2768`](https://github.com/nocobase/nocobase/pull/2768)
-- feat(gateway): extend app selector as middleware [`#2761`](https://github.com/nocobase/nocobase/pull/2761)
-- fix(expression): should reset lastIndex of regular [`#2767`](https://github.com/nocobase/nocobase/pull/2767)
-- refactor(plugin-workflow): add new status for 'retry needed' scenarios [`#2765`](https://github.com/nocobase/nocobase/pull/2765)
-- fix(variable): should not return undefined when parsing 0 [`#2766`](https://github.com/nocobase/nocobase/pull/2766)
-- fix(variable): should not disable options in expression [`#2764`](https://github.com/nocobase/nocobase/pull/2764)
-- fix(subtable): should not have a value by default and fix key of table [`#2763`](https://github.com/nocobase/nocobase/pull/2763)
-- style: fix PageHeader [`#2760`](https://github.com/nocobase/nocobase/pull/2760)
-- fix(graph-collection-manager):graph collection cannot open edit modal [`#2759`](https://github.com/nocobase/nocobase/pull/2759)
-- test(e2e): add a test for check table row [`#2757`](https://github.com/nocobase/nocobase/pull/2757)
-- style: list block style improve [`#2755`](https://github.com/nocobase/nocobase/pull/2755)
+- fix: useValuesFromRecord с cloneDeep [`#2902`](https://github.com/nocobase/nocobase/pull/2902)
+- fix: исправление приложения в состоянии инициализации [`#2908`](https://github.com/nocobase/nocobase/pull/2908)
+- fix: ошибка отображения заголовка cascadeSelect [`#2904`](https://github.com/nocobase/nocobase/pull/2904)
+- fix: foreignKey undefined в поле ассоциации [`#2903`](https://github.com/nocobase/nocobase/pull/2903)
+- fix: переполнение памяти в правилах связывания [`#2899`](https://github.com/nocobase/nocobase/pull/2899)
+- fix: удаление поиска по packageName [`#2901`](https://github.com/nocobase/nocobase/pull/2901)
+### Объединено
 
-### Commits
+- refactor(plugin-workflow): добавлена проверка isAvailable для добавления узла [`#2898`](https://github.com/nocobase/nocobase/pull/2898)
+- fix: селектор fileManager должен быть радио, если не разрешено множественное выбор [`#2884`](https://github.com/nocobase/nocobase/pull/2884)
+- fix(plugin-workflow): исправлена работа планировщика workflow в обычных мульти-приложениях [`#2896`](https://github.com/nocobase/nocobase/pull/2896)
+- chore: предоставление опции auth manager в приложении [`#2894`](https://github.com/nocobase/nocobase/pull/2894)
+- fix(plugin-workflow): исправлено переполнение стека при циклической ассоциации [`#2892`](https://github.com/nocobase/nocobase/pull/2892)
+- chore: создание базы данных подприложения с контекстом [`#2891`](https://github.com/nocobase/nocobase/pull/2891)
+- refactor(plugin-workflow): добавлено свойство для определения типа workflow, запускаемого на UI [`#2890`](https://github.com/nocobase/nocobase/pull/2890)
+- fix(variable): совместимость со старыми именами переменных [`#2889`](https://github.com/nocobase/nocobase/pull/2889)
+- fix: исчезновение данных подформы [`#2888`](https://github.com/nocobase/nocobase/pull/2888)
+- fix(variable): исправлен currentObject [`#2887`](https://github.com/nocobase/nocobase/pull/2887)
+- refactor: очистка связей в assocation select file [`#2885`](https://github.com/nocobase/nocobase/pull/2885)
+- fix(plugin-custom-request): улучшен стиль кнопки X и afterSuccess не работает при включенном manualClose [`#2882`](https://github.com/nocobase/nocobase/pull/2882)
+- fix(variable): все поля currentForm и currentObject сделаны необязательными [`#2878`](https://github.com/nocobase/nocobase/pull/2878)
+- fix(plugin-workflow): исправлен язык [`#2881`](https://github.com/nocobase/nocobase/pull/2881)
+- fix: состояния без UI должны отображать только соответствующий блок коллекции [`#2879`](https://github.com/nocobase/nocobase/pull/2879)
+- fix: ошибка рендеринга assocition select в режиме создания [`#2880`](https://github.com/nocobase/nocobase/pull/2880)
+- fix: связь действий не работает в блоке деталей [`#2875`](https://github.com/nocobase/nocobase/pull/2875)
+- fix: record picker не обновлял список после добавления данных [`#2877`](https://github.com/nocobase/nocobase/pull/2877)
+- fix: неправильный рендеринг поля select в блоке ассоциаций [`#2876`](https://github.com/nocobase/nocobase/pull/2876)
+- feat(variable): добавлена текущая родительская запись [`#2857`](https://github.com/nocobase/nocobase/pull/2857)
+- fix(plugin-custom-request): переменные не работают в блоке формы [`#2873`](https://github.com/nocobase/nocobase/pull/2873)
+- fix: удаленное имя плагина [`#2872`](https://github.com/nocobase/nocobase/pull/2872)
+- feat(database): добавлена опция sync false [`#2864`](https://github.com/nocobase/nocobase/pull/2864)
+- fix(client): исправлена ошибка setRange в textarea переменной [`#2862`](https://github.com/nocobase/nocobase/pull/2862)
+- fix: после успешной отправки не удалось настроить redirectTo [`#2867`](https://github.com/nocobase/nocobase/pull/2867)
+- fix: поле m2o ассоциации не должно разрешать подтаблицу как компонент поля [`#2865`](https://github.com/nocobase/nocobase/pull/2865)
+- fix(plugin-sequence): избегание недопустимых значений из `ArrayTable.useRecord()` [`#2859`](https://github.com/nocobase/nocobase/pull/2859)
+- fix: поле в блоке деталей не должно позволять настраивать значение по умолчанию [`#2858`](https://github.com/nocobase/nocobase/pull/2858)
+- chore: кэширование yarn в CI [`#2853`](https://github.com/nocobase/nocobase/pull/2853)
+- feat(ci): параллельный запуск тестов бэкенда [`#2815`](https://github.com/nocobase/nocobase/pull/2815)
+- feat(custom-request): улучшена кнопка X переменной [`#2829`](https://github.com/nocobase/nocobase/pull/2829)
+- docs(plugin-api-keys): добавлено предупреждение для API_KEY env [`#2847`](https://github.com/nocobase/nocobase/pull/2847)
+- refactor(client): добавлены экспорты [`#2846`](https://github.com/nocobase/nocobase/pull/2846)
+- fix(variable): должен быть currentObject в подблоках [`#2823`](https://github.com/nocobase/nocobase/pull/2823)
+- fix: отменены правила связывания [`#2821`](https://github.com/nocobase/nocobase/pull/2821)
+- fix: не следует отображать currentRecord в форме создания блока [`#2814`](https://github.com/nocobase/nocobase/pull/2814)
+- fix(plugin-workflow): исправлен язык [`#2844`](https://github.com/nocobase/nocobase/pull/2844)
+- fix: исправлена ошибка codesandbox [`#2842`](https://github.com/nocobase/nocobase/pull/2842)
+- revert: лог ассоциативного поля [`#2840`](https://github.com/nocobase/nocobase/pull/2840)
+- fix: поле ассоциации в assign field должно устанавливать заголовок как конфигурацию поля коллекции [`#2839`](https://github.com/nocobase/nocobase/pull/2839)
+- fix: источник версии [`#2836`](https://github.com/nocobase/nocobase/pull/2836)
+- fix(plugin-workflow): исправлен порядок действий в списке workflow [`#2835`](https://github.com/nocobase/nocobase/pull/2835)
+- fix(file-manager): улучшена логика инициализации [`#2834`](https://github.com/nocobase/nocobase/pull/2834)
+- feat: поддержка фильтрации блоков в ящике выбора записей [`#2828`](https://github.com/nocobase/nocobase/pull/2828)
+- fix: удаленный плагин [`#2831`](https://github.com/nocobase/nocobase/pull/2831)
+- fix: исправлен автоматически закрывающийся диалог [`#2825`](https://github.com/nocobase/nocobase/pull/2825)
+- feat(auth): добавлен глобальный провайдер токена авторизации [`#2824`](https://github.com/nocobase/nocobase/pull/2824)
+- feat(file-manager): поддержка настройки правил миниатюр [`#2810`](https://github.com/nocobase/nocobase/pull/2810)
+- feat(client): добавлен disabled для переключателя инициализатора и undeletable для настроек действия [`#2820`](https://github.com/nocobase/nocobase/pull/2820)
+- refactor(plugin-workflow): изменен интерфейс и клиентский API [`#2817`](https://github.com/nocobase/nocobase/pull/2817)
+- fix(client): исправлено предупреждение компонента действия [`#2818`](https://github.com/nocobase/nocobase/pull/2818)
+- fix: множественный выбор должен назначаться null после очистки значения [`#2822`](https://github.com/nocobase/nocobase/pull/2822)
+- feat(plugin-custom-request): улучшена поддержка custom-request [`#2536`](https://github.com/nocobase/nocobase/pull/2536)
+- fix: cascadeselect выдает ошибку в поле ассоциации m2m [`#2819`](https://github.com/nocobase/nocobase/pull/2819)
+- fix(plugin-workflow): игнорирование выполнений в очереди, если workflow был удален [`#2808`](https://github.com/nocobase/nocobase/pull/2808)
+### Объединено
 
-- Delete docs/tr-TR directory [`3fe6265`](https://github.com/nocobase/nocobase/commit/3fe6265269c7640a726d337c33adbfc75279022e)
-- test: 确认e2e测试用例可行性 [`ef1b07e`](https://github.com/nocobase/nocobase/commit/ef1b07e6a300ece0a1b1edfce14a5d59f9875e4c)
-- Revert "fix(default): should allow to set default value in relationship form block (#2774)" [`88807b3`](https://github.com/nocobase/nocobase/commit/88807b3cdf384ec2e99bffcfb7d69adcb77ff84d)
+- fix: модальное окно assign field не открывается [`#2807`](https://github.com/nocobase/nocobase/pull/2807)
+- fix(auth): проблемы SSO [`#2733`](https://github.com/nocobase/nocobase/pull/2733)
+- fix: ошибка области данных с недопустимыми переменными [`#2811`](https://github.com/nocobase/nocobase/pull/2811)
+- style: макет формы для модального окна действия импорта [`#2809`](https://github.com/nocobase/nocobase/pull/2809)
+- fix: параметры должны очищаться при изменении области данных [`#2800`](https://github.com/nocobase/nocobase/pull/2800)
+- test: подтверждение работоспособности тестов e2e [`#2799`](https://github.com/nocobase/nocobase/pull/2799)
+- fix: отображаемое поле ввода должно соответствовать типу поля [`#2805`](https://github.com/nocobase/nocobase/pull/2805)
+- fix(bi): запрос с `limit` [`#2803`](https://github.com/nocobase/nocobase/pull/2803)
+- fix: record picker не может выбрать данные при редактировании [`#2798`](https://github.com/nocobase/nocobase/pull/2798)
+- feat: добавлена функция измерения выполнения [`#2801`](https://github.com/nocobase/nocobase/pull/2801)
+- chore(bi): завершено API диаграмм [`#2771`](https://github.com/nocobase/nocobase/pull/2771)
+- fix: исправлен неправильный способ определения типа формы [`#2787`](https://github.com/nocobase/nocobase/pull/2787)
+- fix: ошибка [`#2797`](https://github.com/nocobase/nocobase/pull/2797)
+- fix: не следует показывать загрузку, если children пуст в меню [`#2796`](https://github.com/nocobase/nocobase/pull/2796)
+- fix: следует сохранять операторы [`#2794`](https://github.com/nocobase/nocobase/pull/2794)
+- fix(client): исправлено undefined метода поля на кнопке [`#2795`](https://github.com/nocobase/nocobase/pull/2795)
+- fix: связь области данных в поле ассоциации [`#2786`](https://github.com/nocobase/nocobase/pull/2786)
+- chore(e2e): удаление ключа collectionName [`#2783`](https://github.com/nocobase/nocobase/pull/2783)
+- fix(client): исправлен рендеринг, вызывающий ошибку диапазона [`#2785`](https://github.com/nocobase/nocobase/pull/2785)
+- chore(collection-manager): выброс ошибки, если значение foreignKey совпадает с otherKey [`#2780`](https://github.com/nocobase/nocobase/pull/2780)
+- fix: недопустимое значение процента [`#2782`](https://github.com/nocobase/nocobase/pull/2782)
+- fix: значение процента должно делиться на 100 [`#2781`](https://github.com/nocobase/nocobase/pull/2781)
+- Revert "fix(client): исправлен повторный рендеринг, вызывающий ошибку диапазона (#2770)" [`#2779`](https://github.com/nocobase/nocobase/pull/2779)
+- refactor(e2e): поддержка пакетного создания коллекций [`#2778`](https://github.com/nocobase/nocobase/pull/2778)
+- fix: история полей с обратным полем [`#2776`](https://github.com/nocobase/nocobase/pull/2776)
+- fix: следует разрешить установку значения по умолчанию в блоке формы отношений [`#2777`](https://github.com/nocobase/nocobase/pull/2777)
+- fix(plugin-workflow): исправлена проверка типа toJSON [`#2772`](https://github.com/nocobase/nocobase/pull/2772)
+- fix: создание коллекций с несколькими записями [`#2753`](https://github.com/nocobase/nocobase/pull/2753)
+- fix(client): исправлен повторный рендеринг, вызывающий ошибку диапазона [`#2770`](https://github.com/nocobase/nocobase/pull/2770)
+- fix(default): следует разрешать установку значения по умолчанию в блоке формы отношений [`#2774`](https://github.com/nocobase/nocobase/pull/2774)
+- fix(percent): процент не принимал значение 0 [`#2769`](https://github.com/nocobase/nocobase/pull/2769)
+- refactor(duplicate action): ошибка дублирования полей при изменении режима дублирования и поддержка отмены выбора всех [`#2768`](https://github.com/nocobase/nocobase/pull/2768)
+- feat(gateway): расширение селектора приложения как middleware [`#2761`](https://github.com/nocobase/nocobase/pull/2761)
+- fix(expression): следует сбросить lastIndex регулярного выражения [`#2767`](https://github.com/nocobase/nocobase/pull/2767)
+- refactor(plugin-workflow): добавлен новый статус для сценариев 'требуется повторная попытка' [`#2765`](https://github.com/nocobase/nocobase/pull/2765)
+- fix(variable): не должен возвращать undefined при парсинге 0 [`#2766`](https://github.com/nocobase/nocobase/pull/2766)
+- fix(variable): не следует отключать параметры в выражении [`#2764`](https://github.com/nocobase/nocobase/pull/2764)
+- fix(subtable): не должен иметь значение по умолчанию и исправлен ключ таблицы [`#2763`](https://github.com/nocobase/nocobase/pull/2763)
+- style: исправлен PageHeader [`#2760`](https://github.com/nocobase/nocobase/pull/2760)
+- fix(graph-collection-manager): графическая коллекция не может открыть модальное окно редактирования [`#2759`](https://github.com/nocobase/nocobase/pull/2759)
+- test(e2e): добавлен тест для проверки строки таблицы [`#2757`](https://github.com/nocobase/nocobase/pull/2757)
+- style: улучшение стиля блока списка [`#2755`](https://github.com/nocobase/nocobase/pull/2755)
+
+### Коммиты
+
+- Удалена директория docs/tr-TR [`3fe6265`](https://github.com/nocobase/nocobase/commit/3fe6265269c7640a726d337c33adbfc75279022e)
+- test: подтверждение работоспособности тестов e2e [`ef1b07e`](https://github.com/nocobase/nocobase/commit/ef1b07e6a300ece0a1b1edfce14a5d59f9875e4c)
+- Revert "fix(default): следует разрешать установку значения по умолчанию в блоке формы отношений (#2774)" [`88807b3`](https://github.com/nocobase/nocobase/commit/88807b3cdf384ec2e99bffcfb7d69adcb77ff84d)
 
 ## [v0.14.0-alpha.7](https://github.com/nocobase/nocobase/compare/v0.14.0-alpha.6...v0.14.0-alpha.7) - 2023-10-07
 
-### Merged
+### Объединено
 
-- feat(variable): lazy load association fields [`#2382`](https://github.com/nocobase/nocobase/pull/2382)
-- chore(e2e): make stability [`#2751`](https://github.com/nocobase/nocobase/pull/2751)
-- fix(plugin-workflow): fix context data of form trigger [`#2749`](https://github.com/nocobase/nocobase/pull/2749)
-- refactor(auth): OIDC, SAML auth switch popup to redirectction [`#2737`](https://github.com/nocobase/nocobase/pull/2737)
-- chore(database): clean invalid associations in collection model when set field failed [`#2720`](https://github.com/nocobase/nocobase/pull/2720)
-- feat: support e2e [`#2624`](https://github.com/nocobase/nocobase/pull/2624)
-- feat(application): cron job in application [`#2730`](https://github.com/nocobase/nocobase/pull/2730)
-- refactor(bi): improve chart frontend api [`#2721`](https://github.com/nocobase/nocobase/pull/2721)
-- chore(multi-app-manager): add sub app upgrade handler [`#2728`](https://github.com/nocobase/nocobase/pull/2728)
-- fix(association-field): sub-table cannot move [`#2727`](https://github.com/nocobase/nocobase/pull/2727)
-- fix(plugin-workflow): fix assignees and aggregate variable [`#2725`](https://github.com/nocobase/nocobase/pull/2725)
-- refactor: file association field should default to using preview field as title field [`#2718`](https://github.com/nocobase/nocobase/pull/2718)
-- refactor: view collection support jsonb [`#2719`](https://github.com/nocobase/nocobase/pull/2719)
-- perf: improve the UX of SchemaInitializer [`#2666`](https://github.com/nocobase/nocobase/pull/2666)
-- fix: fileManager did not close drawer after selecting files [`#2716`](https://github.com/nocobase/nocobase/pull/2716)
-- fix: association block should not close drawer after deleting data [`#2717`](https://github.com/nocobase/nocobase/pull/2717)
-- fix: action linkage rule not effect in tree collection [`#2713`](https://github.com/nocobase/nocobase/pull/2713)
+- feat(variable): ленивая загрузка полей ассоциации [`#2382`](https://github.com/nocobase/nocobase/pull/2382)
+- chore(e2e): обеспечение стабильности [`#2751`](https://github.com/nocobase/nocobase/pull/2751)
+- fix(plugin-workflow): исправлены данные контекста триггера формы [`#2749`](https://github.com/nocobase/nocobase/pull/2749)
+- refactor(auth): переключение OIDC, SAML авторизации с всплывающего окна на редирект [`#2737`](https://github.com/nocobase/nocobase/pull/2737)
+- chore(database): очистка недопустимых ассоциаций в модели коллекции при сбое установки поля [`#2720`](https://github.com/nocobase/nocobase/pull/2720)
+- feat: поддержка e2e [`#2624`](https://github.com/nocobase/nocobase/pull/2624)
+- feat(application): cron job в приложении [`#2730`](https://github.com/nocobase/nocobase/pull/2730)
+- refactor(bi): улучшено API фронтенда диаграмм [`#2721`](https://github.com/nocobase/nocobase/pull/2721)
+- chore(multi-app-manager): добавлен обработчик обновления для подприложения [`#2728`](https://github.com/nocobase/nocobase/pull/2728)
+- fix(association-field): подтаблица не может перемещаться [`#2727`](https://github.com/nocobase/nocobase/pull/2727)
+- fix(plugin-workflow): исправлены назначенные и переменные агрегации [`#2725`](https://github.com/nocobase/nocobase/pull/2725)
+- refactor: поле ассоциации файлов должно по умолчанию использовать поле предпросмотра как поле заголовка [`#2718`](https://github.com/nocobase/nocobase/pull/2718)
+- refactor: поддержка jsonb в коллекции представлений [`#2719`](https://github.com/nocobase/nocobase/pull/2719)
+- perf: улучшен UX SchemaInitializer [`#2666`](https://github.com/nocobase/nocobase/pull/2666)
+- fix: fileManager не закрывал ящик после выбора файлов [`#2716`](https://github.com/nocobase/nocobase/pull/2716)
+- fix: блок ассоциации не должен закрывать ящик после удаления данных [`#2717`](https://github.com/nocobase/nocobase/pull/2717)
+- fix: правило связывания действий не работает в древовидной коллекции [`#2713`](https://github.com/nocobase/nocobase/pull/2713)
 - fix: useAssociationNames [`#2714`](https://github.com/nocobase/nocobase/pull/2714)
-- refactor: attachment field support size config [`#2552`](https://github.com/nocobase/nocobase/pull/2552)
-- feat: association support select cascade for tree collection field [`#2514`](https://github.com/nocobase/nocobase/pull/2514)
-- feat(database): append tree parent recursively [`#2573`](https://github.com/nocobase/nocobase/pull/2573)
-- feat: support load belongs to association with collection that without primary key [`#2529`](https://github.com/nocobase/nocobase/pull/2529)
-- fix(gateway): should not refresh when application start from error recover [`#2711`](https://github.com/nocobase/nocobase/pull/2711)
-- feat(db): add sql collection [`#2419`](https://github.com/nocobase/nocobase/pull/2419)
-- fix: inherited collection failed to select [`#2710`](https://github.com/nocobase/nocobase/pull/2710)
-- fix: form-data-template failed to clear option [`#2709`](https://github.com/nocobase/nocobase/pull/2709)
-- fix: tableoid options value of association field in filter is incorrect [`#2705`](https://github.com/nocobase/nocobase/pull/2705)
-- fix:  saving method of association field creation button is not effect [`#2706`](https://github.com/nocobase/nocobase/pull/2706)
-- fix: gen tsconfig.paths.json  bug [`#2708`](https://github.com/nocobase/nocobase/pull/2708)
-- fix(plugin-workflow): fix exporting types [`#2707`](https://github.com/nocobase/nocobase/pull/2707)
-- fix(plugin-workflow): fix parallel bug in loop [`#2703`](https://github.com/nocobase/nocobase/pull/2703)
+- refactor: поле вложения поддерживает конфигурацию размера [`#2552`](https://github.com/nocobase/nocobase/pull/2552)
+- feat: поддержка каскадного выбора для поля древовидной коллекции [`#2514`](https://github.com/nocobase/nocobase/pull/2514)
+- feat(database): рекурсивное добавление родителя дерева [`#2573`](https://github.com/nocobase/nocobase/pull/2573)
+- feat: поддержка загрузки принадлежности к ассоциации с коллекцией без первичного ключа [`#2529`](https://github.com/nocobase/nocobase/pull/2529)
+- fix(gateway): не следует обновляться при запуске приложения из состояния восстановления после ошибки [`#2711`](https://github.com/nocobase/nocobase/pull/2711)
+- feat(db): добавлена SQL коллекция [`#2419`](https://github.com/nocobase/nocobase/pull/2419)
+- fix: не удалось выбрать унаследованную коллекцию [`#2710`](https://github.com/nocobase/nocobase/pull/2710)
+- fix: шаблон данных формы не очищал опции [`#2709`](https://github.com/nocobase/nocobase/pull/2709)
+- fix: некорректное значение параметров tableoid в поле ассоциации в фильтре [`#2705`](https://github.com/nocobase/nocobase/pull/2705)
+- fix: метод сохранения кнопки создания поля ассоциации не работает [`#2706`](https://github.com/nocobase/nocobase/pull/2706)
+- fix: ошибка генерации tsconfig.paths.json [`#2708`](https://github.com/nocobase/nocobase/pull/2708)
+- fix(plugin-workflow): исправлены типы экспорта [`#2707`](https://github.com/nocobase/nocobase/pull/2707)
+- fix(plugin-workflow): исправлена ошибка параллелизма в цикле [`#2703`](https://github.com/nocobase/nocobase/pull/2703)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.14.0-alpha.7 [`384cc1c`](https://github.com/nocobase/nocobase/commit/384cc1c56c4e78be6ba158b9c141c66c4149e9cd)
+- chore(versions): 😊 публикация v0.14.0-alpha.7 [`384cc1c`](https://github.com/nocobase/nocobase/commit/384cc1c56c4e78be6ba158b9c141c66c4149e9cd)
 - Revert "refactor(auth): OIDC, SAML auth switch popup to redirectction (#2737)" [`301a85d`](https://github.com/nocobase/nocobase/commit/301a85d7671d42670ceba40d97de21283f9eb617)
-- feat: update docs [`dd53633`](https://github.com/nocobase/nocobase/commit/dd536331a9853a509a51adcc41c7cfbfe68efcbd)
+- feat: обновление документации [`dd53633`](https://github.com/nocobase/nocobase/commit/dd536331a9853a509a51adcc41c7cfbfe68efcbd)
 
 ## [v0.14.0-alpha.6](https://github.com/nocobase/nocobase/compare/v0.14.0-alpha.4...v0.14.0-alpha.6) - 2023-09-22
 
-### Merged
+### Объединено
 
-- refactor(plugin-workflow): add client exports [`#2702`](https://github.com/nocobase/nocobase/pull/2702)
-- refactor: view collection support add m2o association field [`#2422`](https://github.com/nocobase/nocobase/pull/2422)
-- fix: fix operator called  of date field [`#2701`](https://github.com/nocobase/nocobase/pull/2701)
-- fix: deep level association field adding error [`#2700`](https://github.com/nocobase/nocobase/pull/2700)
-- fix(cli): fix template file mode [`#2697`](https://github.com/nocobase/nocobase/pull/2697)
+- refactor(plugin-workflow): добавлены клиентские экспорты [`#2702`](https://github.com/nocobase/nocobase/pull/2702)
+- refactor: поддержка добавления поля ассоциации m2o в коллекцию представлений [`#2422`](https://github.com/nocobase/nocobase/pull/2422)
+- fix: исправлен оператор вызова для поля даты [`#2701`](https://github.com/nocobase/nocobase/pull/2701)
+- fix: ошибка добавления поля ассоциации глубокого уровня [`#2700`](https://github.com/nocobase/nocobase/pull/2700)
+- fix(cli): исправлен режим шаблонного файла [`#2697`](https://github.com/nocobase/nocobase/pull/2697)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.14.0-alpha.5 [`3b0b648`](https://github.com/nocobase/nocobase/commit/3b0b6483c221ebec4c7c1992c8002f0e004ae738)
-- chore(versions): 😊 publish v0.14.0-alpha.6 [`8eb6344`](https://github.com/nocobase/nocobase/commit/8eb634459d1f0fd2e1d41f453912b1c62a236de3)
-- chore(versions): 😊 publish v0.14.0-alpha.5 [`bffa53a`](https://github.com/nocobase/nocobase/commit/bffa53a04e032ade25d794761a6cb8e3ff95f451)
+- chore(versions): 😊 публикация v0.14.0-alpha.5 [`3b0b648`](https://github.com/nocobase/nocobase/commit/3b0b6483c221ebec4c7c1992c8002f0e004ae738)
+- chore(versions): 😊 публикация v0.14.0-alpha.6 [`8eb6344`](https://github.com/nocobase/nocobase/commit/8eb634459d1f0fd2e1d41f453912b1c62a236de3)
+- chore(versions): 😊 публикация v0.14.0-alpha.5 [`bffa53a`](https://github.com/nocobase/nocobase/commit/bffa53a04e032ade25d794761a6cb8e3ff95f451)
 
 ## [v0.14.0-alpha.4](https://github.com/nocobase/nocobase/compare/v0.14.0-alpha.3...v0.14.0-alpha.4) - 2023-09-21
 
-### Merged
+### Объединено
 
-- fix: collection schema not exists [`#2669`](https://github.com/nocobase/nocobase/pull/2669)
-- fix: core doc filter params [`#2695`](https://github.com/nocobase/nocobase/pull/2695)
-- feat: add testid [`#2434`](https://github.com/nocobase/nocobase/pull/2434)
-- feat(database): support read ssl file in database config [`#2689`](https://github.com/nocobase/nocobase/pull/2689)
-- test: should correctly parse the command options [`#2688`](https://github.com/nocobase/nocobase/pull/2688)
-- fix: build bug [`#2685`](https://github.com/nocobase/nocobase/pull/2685)
-- feat(database): perform data validation before the update/create operation [`#2681`](https://github.com/nocobase/nocobase/pull/2681)
-- fix: build bug [`#2683`](https://github.com/nocobase/nocobase/pull/2683)
-- refactor: association block acl improve [`#2682`](https://github.com/nocobase/nocobase/pull/2682)
-- refactor: acl collection field provider [`#2679`](https://github.com/nocobase/nocobase/pull/2679)
-- chore: test [`#2677`](https://github.com/nocobase/nocobase/pull/2677)
-- style:form-item style improve [`#2678`](https://github.com/nocobase/nocobase/pull/2678)
-- fix(acl): association field acl check error [`#2675`](https://github.com/nocobase/nocobase/pull/2675)
-- chore(command): set command handle by ipc Server or not [`#2660`](https://github.com/nocobase/nocobase/pull/2660)
-- fix(auth): user role not found [`#2674`](https://github.com/nocobase/nocobase/pull/2674)
-- fix: file association field cannot set file manager as field component [`#2672`](https://github.com/nocobase/nocobase/pull/2672)
-- feat(database): database connecting backoff [`#2668`](https://github.com/nocobase/nocobase/pull/2668)
-- refactor(plugin-workflow): adjust code [`#2663`](https://github.com/nocobase/nocobase/pull/2663)
-- fix(auth): change password issue of basic auth [`#2662`](https://github.com/nocobase/nocobase/pull/2662)
-- fix: interface  group undefined [`#2656`](https://github.com/nocobase/nocobase/pull/2656)
-- refactor: view collection float type field supports number and percent [`#2653`](https://github.com/nocobase/nocobase/pull/2653)
-- fix: template tsconfig paths [`#2652`](https://github.com/nocobase/nocobase/pull/2652)
-- fix: improve build [`#2643`](https://github.com/nocobase/nocobase/pull/2643)
-- fix(share-collection): sync plugins when install sub app [`#2650`](https://github.com/nocobase/nocobase/pull/2650)
-- fix: fix quarter variables [`#2648`](https://github.com/nocobase/nocobase/pull/2648)
+- fix: схема коллекции не существует [`#2669`](https://github.com/nocobase/nocobase/pull/2669)
+- fix: параметры фильтрации в документации core [`#2695`](https://github.com/nocobase/nocobase/pull/2695)
+- feat: добавлен testid [`#2434`](https://github.com/nocobase/nocobase/pull/2434)
+- feat(database): поддержка чтения SSL-файла в конфигурации базы данных [`#2689`](https://github.com/nocobase/nocobase/pull/2689)
+- test: корректный парсинг параметров команды [`#2688`](https://github.com/nocobase/nocobase/pull/2688)
+- fix: ошибка сборки [`#2685`](https://github.com/nocobase/nocobase/pull/2685)
+- feat(database): выполнение проверки данных перед операциями обновления/создания [`#2681`](https://github.com/nocobase/nocobase/pull/2681)
+- fix: ошибка сборки [`#2683`](https://github.com/nocobase/nocobase/pull/2683)
+- refactor: улучшение ACL блока ассоциаций [`#2682`](https://github.com/nocobase/nocobase/pull/2682)
+- refactor: провайдер поля коллекции ACL [`#2679`](https://github.com/nocobase/nocobase/pull/2679)
+- chore: тест [`#2677`](https://github.com/nocobase/nocobase/pull/2677)
+- style: улучшение стиля form-item [`#2678`](https://github.com/nocobase/nocobase/pull/2678)
+- fix(acl): ошибка проверки ACL для поля ассоциации [`#2675`](https://github.com/nocobase/nocobase/pull/2675)
+- chore(command): установка обработчика команд через IPC-сервер или нет [`#2660`](https://github.com/nocobase/nocobase/pull/2660)
+- fix(auth): роль пользователя не найдена [`#2674`](https://github.com/nocobase/nocobase/pull/2674)
+- fix: поле ассоциации файлов не может быть установлено как компонент поля file manager [`#2672`](https://github.com/nocobase/nocobase/pull/2672)
+- feat(database): откат подключения к базе данных [`#2668`](https://github.com/nocobase/nocobase/pull/2668)
+- refactor(plugin-workflow): корректировка кода [`#2663`](https://github.com/nocobase/nocobase/pull/2663)
+- fix(auth): проблема смены пароля базовой авторизации [`#2662`](https://github.com/nocobase/nocobase/pull/2662)
+- fix: undefined группа интерфейсов [`#2656`](https://github.com/nocobase/nocobase/pull/2656)
+- refactor: поле типа float в коллекции представлений поддерживает число и процент [`#2653`](https://github.com/nocobase/nocobase/pull/2653)
+- fix: шаблон tsconfig paths [`#2652`](https://github.com/nocobase/nocobase/pull/2652)
+- fix: улучшение сборки [`#2643`](https://github.com/nocobase/nocobase/pull/2643)
+- fix(share-collection): синхронизация плагинов при установке подприложения [`#2650`](https://github.com/nocobase/nocobase/pull/2650)
+- fix: исправлены переменные квартала [`#2648`](https://github.com/nocobase/nocobase/pull/2648)
 - fix: filterable undefined [`#2646`](https://github.com/nocobase/nocobase/pull/2646)
-- fix(cli): reset command options [`#2645`](https://github.com/nocobase/nocobase/pull/2645)
+- fix(cli): сброс параметров команды [`#2645`](https://github.com/nocobase/nocobase/pull/2645)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.14.0-alpha.4 [`d20398f`](https://github.com/nocobase/nocobase/commit/d20398f73f80ffdc77a72ab53beb1cf1f247bc84)
-- feat: update readme.md [`a484e89`](https://github.com/nocobase/nocobase/commit/a484e891aa55e0860e7221ce775f8d2c95a4e31d)
+- chore(versions): 😊 публикация v0.14.0-alpha.4 [`d20398f`](https://github.com/nocobase/nocobase/commit/d20398f73f80ffdc77a72ab53beb1cf1f247bc84)
+- feat: обновление readme.md [`a484e89`](https://github.com/nocobase/nocobase/commit/a484e891aa55e0860e7221ce775f8d2c95a4e31d)
 - fix: db.sync [`282645e`](https://github.com/nocobase/nocobase/commit/282645ed8b215713ca19a9f845d7b702e7434a96)
 
 ## [v0.14.0-alpha.3](https://github.com/nocobase/nocobase/compare/v0.14.0-alpha.2...v0.14.0-alpha.3) - 2023-09-13
 
-### Merged
+### Объединено
 
-- fix: plugin symbol link with `dir` type [`#2640`](https://github.com/nocobase/nocobase/pull/2640)
-- style: collection category style improve [`#2638`](https://github.com/nocobase/nocobase/pull/2638)
-- style: collection category style improve [`#2637`](https://github.com/nocobase/nocobase/pull/2637)
-- chore: should update belongs to many through table when it is a view [`#2635`](https://github.com/nocobase/nocobase/pull/2635)
+- fix: символическая ссылка плагина с типом `dir` [`#2640`](https://github.com/nocobase/nocobase/pull/2640)
+- style: улучшение стиля категории коллекции [`#2638`](https://github.com/nocobase/nocobase/pull/2638)
+- style: улучшение стиля категории коллекции [`#2637`](https://github.com/nocobase/nocobase/pull/2637)
+- chore: обновление таблицы belongs to many через, если это представление [`#2635`](https://github.com/nocobase/nocobase/pull/2635)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.14.0-alpha.3 [`6058850`](https://github.com/nocobase/nocobase/commit/6058850db1d177bcacfebabdf0566e506021be53)
-- feat: update docs [`3e87ad9`](https://github.com/nocobase/nocobase/commit/3e87ad9083d68883cc7472c60d8c944ba178c602)
-- fix: remove PluginManager.getPackageName [`de8fc80`](https://github.com/nocobase/nocobase/commit/de8fc8079a2d6eaa045a22328edb3acba374a164)
+- chore(versions): 😊 публикация v0.14.0-alpha.3 [`6058850`](https://github.com/nocobase/nocobase/commit/6058850db1d177bcacfebabdf0566e506021be53)
+- feat: обновление документации [`3e87ad9`](https://github.com/nocobase/nocobase/commit/3e87ad9083d68883cc7472c60d8c944ba178c602)
+- fix: удаление PluginManager.getPackageName [`de8fc80`](https://github.com/nocobase/nocobase/commit/de8fc8079a2d6eaa045a22328edb3acba374a164)
 
 ## [v0.14.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.14.0-alpha.1...v0.14.0-alpha.2) - 2023-09-13
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.14.0-alpha.2 [`3670d67`](https://github.com/nocobase/nocobase/commit/3670d670ac7f113e68345ac2a83ed6231aebda69)
-- chore: update changelog [`4271713`](https://github.com/nocobase/nocobase/commit/427171342f579e4352f026454ef679e9222dd3ee)
-- fix: migration error [`1798170`](https://github.com/nocobase/nocobase/commit/1798170a9cee161a6d3b5270039fb4c325a2e0da)
+- chore(versions): 😊 публикация v0.14.0-alpha.2 [`3670d67`](https://github.com/nocobase/nocobase/commit/3670d670ac7f113e68345ac2a83ed6231aebda69)
+- chore: обновление журнала изменений [`4271713`](https://github.com/nocobase/nocobase/commit/427171342f579e4352f026454ef679e9222dd3ee)
+- fix: ошибка миграции [`1798170`](https://github.com/nocobase/nocobase/commit/1798170a9cee161a6d3b5270039fb4c325a2e0da)
 
 ## [v0.14.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.10...v0.14.0-alpha.1) - 2023-09-12
 
-### Merged
+### Объединено
 
-- feat: new plugin manager, supports adding plugins through UI [`#2430`](https://github.com/nocobase/nocobase/pull/2430)
-- fix(mobile-client-plugin): avoid primary field error [`#2625`](https://github.com/nocobase/nocobase/pull/2625)
-- fix(plugin-workflow): fix scope variable in loop [`#2633`](https://github.com/nocobase/nocobase/pull/2633)
-- fix: create action reported error when config save mode filterKeys [`#2631`](https://github.com/nocobase/nocobase/pull/2631)
-- fix(gateway): throw error when run from cli [`#2627`](https://github.com/nocobase/nocobase/pull/2627)
-- feat(plugin-workflow): support variable in midway path [`#2598`](https://github.com/nocobase/nocobase/pull/2598)
-- feat(database): support ssl config of database [`#2620`](https://github.com/nocobase/nocobase/pull/2620)
+- feat: новый менеджер плагинов, поддерживает добавление плагинов через UI [`#2430`](https://github.com/nocobase/nocobase/pull/2430)
+- fix(mobile-client-plugin): избежание ошибки основного поля [`#2625`](https://github.com/nocobase/nocobase/pull/2625)
+- fix(plugin-workflow): исправлена переменная области видимости в цикле [`#2633`](https://github.com/nocobase/nocobase/pull/2633)
+- fix: ошибка при создании действия при настройке режима сохранения filterKeys [`#2631`](https://github.com/nocobase/nocobase/pull/2631)
+- fix(gateway): выброс ошибки при запуске из CLI [`#2627`](https://github.com/nocobase/nocobase/pull/2627)
+- feat(plugin-workflow): поддержка переменных в midway path [`#2598`](https://github.com/nocobase/nocobase/pull/2598)
+- feat(database): поддержка SSL-конфигурации базы данных [`#2620`](https://github.com/nocobase/nocobase/pull/2620)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.14.0-alpha.1 [`117d4b8`](https://github.com/nocobase/nocobase/commit/117d4b81865f8939c4ff46d3d789ad8369a90ced)
-- fix: error: SQLITE_ERROR: no such table: authenticators [`adf11bf`](https://github.com/nocobase/nocobase/commit/adf11bf6243632ac9a9ff9919a0d8b7bb66d1530)
-- fix: original error: SQLITE_ERROR: no such column: options [`6cc88df`](https://github.com/nocobase/nocobase/commit/6cc88dfa2bf0d8aeed49d20094167db4a1f4c8c0)
+- chore(versions): 😊 публикация v0.14.0-alpha.1 [`117d4b8`](https://github.com/nocobase/nocobase/commit/117d4b81865f8939c4ff46d3d789ad8369a90ced)
+- fix: ошибка: SQLITE_ERROR: no such table: authenticators [`adf11bf`](https://github.com/nocobase/nocobase/commit/adf11bf6243632ac9a9ff9919a0d8b7bb66d1530)
+- fix: исходная ошибка: SQLITE_ERROR: no such column: options [`6cc88df`](https://github.com/nocobase/nocobase/commit/6cc88dfa2bf0d8aeed49d20094167db4a1f4c8c0)
 
 ## [v0.13.0-alpha.10](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.9...v0.13.0-alpha.10) - 2023-09-10
 
-### Merged
+### Объединено
 
-- chore: remove username interface [`#2621`](https://github.com/nocobase/nocobase/pull/2621)
+- chore: удаление интерфейса username [`#2621`](https://github.com/nocobase/nocobase/pull/2621)
 - refactor: useFieldModeOptions [`#2612`](https://github.com/nocobase/nocobase/pull/2612)
-- feat(bi): allow to use variables in query filter [`#2609`](https://github.com/nocobase/nocobase/pull/2609)
+- feat(bi): разрешить использование переменных в фильтре запроса [`#2609`](https://github.com/nocobase/nocobase/pull/2609)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.10 [`fec17d5`](https://github.com/nocobase/nocobase/commit/fec17d5661e864392ef44defd1d8100da867a1b0)
-- chore: add NOCOBASE_SYSTEM_SETTINGS to localStorage [`893b2d7`](https://github.com/nocobase/nocobase/commit/893b2d71bc66fb2285cfb13af07f98f5dba51638)
+- chore(versions): 😊 публикация v0.13.0-alpha.10 [`fec17d5`](https://github.com/nocobase/nocobase/commit/fec17d5661e864392ef44defd1d8100da867a1b0)
+- chore: добавление NOCOBASE_SYSTEM_SETTINGS в localStorage [`893b2d7`](https://github.com/nocobase/nocobase/commit/893b2d71bc66fb2285cfb13af07f98f5dba51638)
 
 ## [v0.13.0-alpha.9](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.8...v0.13.0-alpha.9) - 2023-09-07
 
-### Merged
+### Объединено
 
-- fix: core/client package.json module error [`#2610`](https://github.com/nocobase/nocobase/pull/2610)
+- fix: ошибка package.json модуля core/client [`#2610`](https://github.com/nocobase/nocobase/pull/2610)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.9 [`b655517`](https://github.com/nocobase/nocobase/commit/b655517a74bb5818693b7dd62074c93ecc2cdd08)
+- chore(versions): 😊 публикация v0.13.0-alpha.9 [`b655517`](https://github.com/nocobase/nocobase/commit/b655517a74bb5818693b7dd62074c93ecc2cdd08)
 
 ## [v0.13.0-alpha.8](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.7...v0.13.0-alpha.8) - 2023-09-07
 
-### Merged
+### Объединено
 
-- chore(antd): reduce animation duration [`#2602`](https://github.com/nocobase/nocobase/pull/2602)
-- fix: window reload after pm load failed [`#2605`](https://github.com/nocobase/nocobase/pull/2605)
-- fix: sync roles collection in share plugin [`#2601`](https://github.com/nocobase/nocobase/pull/2601)
-- fix: fix collapsed panels not working when clicked [`#2600`](https://github.com/nocobase/nocobase/pull/2600)
-- feat(graph-collection-manager): display collections on demand [`#2583`](https://github.com/nocobase/nocobase/pull/2583)
-- fix(acl): parse acl params of association collection [`#2594`](https://github.com/nocobase/nocobase/pull/2594)
-- fix: issue of plugin snippet [`#2593`](https://github.com/nocobase/nocobase/pull/2593)
+- chore(antd): уменьшение длительности анимации [`#2602`](https://github.com/nocobase/nocobase/pull/2602)
+- fix: перезагрузка окна после сбоя загрузки плагинов [`#2605`](https://github.com/nocobase/nocobase/pull/2605)
+- fix: синхронизация коллекции ролей в общем плагине [`#2601`](https://github.com/nocobase/nocobase/pull/2601)
+- fix: исправлено нерабочее сворачивание панелей при клике [`#2600`](https://github.com/nocobase/nocobase/pull/2600)
+- feat(graph-collection-manager): отображение коллекций по запросу [`#2583`](https://github.com/nocobase/nocobase/pull/2583)
+- fix(acl): парсинг параметров ACL для связанной коллекции [`#2594`](https://github.com/nocobase/nocobase/pull/2594)
+- fix: проблема сниппета плагина [`#2593`](https://github.com/nocobase/nocobase/pull/2593)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.8 [`17d4476`](https://github.com/nocobase/nocobase/commit/17d4476c1074079db1e9874127e62b3599c7ea8c)
-- chore: upgrade vitest to v0.34.3 [`4ead715`](https://github.com/nocobase/nocobase/commit/4ead7150f051786d5b7ede121981d47fbbf48199)
+- chore(versions): 😊 публикация v0.13.0-alpha.8 [`17d4476`](https://github.com/nocobase/nocobase/commit/17d4476c1074079db1e9874127e62b3599c7ea8c)
+- chore: обновление vitest до версии v0.34.3 [`4ead715`](https://github.com/nocobase/nocobase/commit/4ead7150f051786d5b7ede121981d47fbbf48199)
 
 ## [v0.13.0-alpha.7](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.6...v0.13.0-alpha.7) - 2023-09-05
 
-### Merged
+### Объединено
 
-- chore: incr bodyParser body limit [`#2591`](https://github.com/nocobase/nocobase/pull/2591)
+- chore: увеличение лимита bodyParser [`#2591`](https://github.com/nocobase/nocobase/pull/2591)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.7 [`97b4570`](https://github.com/nocobase/nocobase/commit/97b4570bd22d9e485ad7b2d3124b0d59725beabf)
+- chore(versions): 😊 публикация v0.13.0-alpha.7 [`97b4570`](https://github.com/nocobase/nocobase/commit/97b4570bd22d9e485ad7b2d3124b0d59725beabf)
 
 ## [v0.13.0-alpha.6](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.5...v0.13.0-alpha.6) - 2023-09-04
 
-### Merged
+### Объединено
 
-- fix: resource undefind [`#2589`](https://github.com/nocobase/nocobase/pull/2589)
-- fix(RangePicker): fix shortcut invalid [`#2586`](https://github.com/nocobase/nocobase/pull/2586)
-- fix(auth): add authenticator uid limitation [`#2587`](https://github.com/nocobase/nocobase/pull/2587)
+- fix: неопределенный ресурс [`#2589`](https://github.com/nocobase/nocobase/pull/2589)
+- fix(RangePicker): исправлен недействительный ярлык [`#2586`](https://github.com/nocobase/nocobase/pull/2586)
+- fix(auth): добавлено ограничение uid аутентификатора [`#2587`](https://github.com/nocobase/nocobase/pull/2587)
 
-### Commits
+### Коммиты
 
-- fix: yarn install on windows [`eb255df`](https://github.com/nocobase/nocobase/commit/eb255df35e215b4d5e945b9ee363ed61862b49cf)
-- chore(versions): 😊 publish v0.13.0-alpha.6 [`e5f5358`](https://github.com/nocobase/nocobase/commit/e5f5358be07b642c2614f71a45b85cc3f04e5b30)
-- chore: optimize versions of deps [`88b2eb8`](https://github.com/nocobase/nocobase/commit/88b2eb8a5d4300147261446116c869c2b96a03f3)
+- fix: установка yarn на Windows [`eb255df`](https://github.com/nocobase/nocobase/commit/eb255df35e215b4d5e945b9ee363ed61862b49cf)
+- chore(versions): 😊 публикация v0.13.0-alpha.6 [`e5f5358`](https://github.com/nocobase/nocobase/commit/e5f5358be07b642c2614f71a45b85cc3f04e5b30)
+- chore: оптимизация версий зависимостей [`88b2eb8`](https://github.com/nocobase/nocobase/commit/88b2eb8a5d4300147261446116c869c2b96a03f3)
 
 ## [v0.13.0-alpha.5](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.4...v0.13.0-alpha.5) - 2023-09-03
 
-### Merged
+### Объединено
 
-- refactor: build tools [`#2374`](https://github.com/nocobase/nocobase/pull/2374)
-- feat(plugin-cas): support cas authenticator [`#2580`](https://github.com/nocobase/nocobase/pull/2580)
-- fix: association block report error for toOne association field [`#2582`](https://github.com/nocobase/nocobase/pull/2582)
-- feat(gateway): response cli result when run nocobase command [`#2563`](https://github.com/nocobase/nocobase/pull/2563)
-- fix(collection-manager): redundant fields after set collection fields [`#2575`](https://github.com/nocobase/nocobase/pull/2575)
-- refactor: restrict the use of tree table in data selectors [`#2581`](https://github.com/nocobase/nocobase/pull/2581)
-- fix(plugin-fm): add migration to fix attachment ui schema [`#2579`](https://github.com/nocobase/nocobase/pull/2579)
-- fix(plugin-fm): fix attachment field param typo [`#2577`](https://github.com/nocobase/nocobase/pull/2577)
-- fix(FilterDynamicComponent): avoid crashing [`#2566`](https://github.com/nocobase/nocobase/pull/2566)
-- feat(api-keys): add tooltip for roles [`#2567`](https://github.com/nocobase/nocobase/pull/2567)
-- fix: number field reported error when clear data [`#2561`](https://github.com/nocobase/nocobase/pull/2561)
-- docs(plugin-workflow): fix swagger docs [`#2565`](https://github.com/nocobase/nocobase/pull/2565)
-- fix(acl): grant action with table without createdAt field [`#2562`](https://github.com/nocobase/nocobase/pull/2562)
-- refactor(collection-manager): collection &&fields support description  config [`#2554`](https://github.com/nocobase/nocobase/pull/2554)
-- chore: set audit-logs as local plugin [`#2564`](https://github.com/nocobase/nocobase/pull/2564)
-- style: sub-table add button style improve [`#2508`](https://github.com/nocobase/nocobase/pull/2508)
-- refactor: associatiion fields in  table should not have data scope settings [`#2509`](https://github.com/nocobase/nocobase/pull/2509)
-- feat(plugin-workflow): add filter button for workflows list [`#2555`](https://github.com/nocobase/nocobase/pull/2555)
-- fix(plugin-workflow): fix destroy node bug [`#2553`](https://github.com/nocobase/nocobase/pull/2553)
-- fix: properties initialized in plugin.load are still empty in plugin.install [`#2544`](https://github.com/nocobase/nocobase/pull/2544)
-- fix: plugin list not updated after upgrade [`#2545`](https://github.com/nocobase/nocobase/pull/2545)
-- fix(theme-editor): fix enable invalid [`#2539`](https://github.com/nocobase/nocobase/pull/2539)
+- refactor: инструменты сборки [`#2374`](https://github.com/nocobase/nocobase/pull/2374)
+- feat(plugin-cas): поддержка аутентификатора CAS [`#2580`](https://github.com/nocobase/nocobase/pull/2580)
+- fix: блок ассоциации выдает ошибку для поля связи toOne [`#2582`](https://github.com/nocobase/nocobase/pull/2582)
+- feat(gateway): ответ CLI при выполнении команды nocobase [`#2563`](https://github.com/nocobase/nocobase/pull/2563)
+- fix(collection-manager): лишние поля после установки полей коллекции [`#2575`](https://github.com/nocobase/nocobase/pull/2575)
+- refactor: ограничение использования древовидной таблицы в селекторах данных [`#2581`](https://github.com/nocobase/nocobase/pull/2581)
+- fix(plugin-fm): добавлена миграция для исправления UI-схемы вложений [`#2579`](https://github.com/nocobase/nocobase/pull/2579)
+- fix(plugin-fm): исправлена опечатка в параметре поля вложений [`#2577`](https://github.com/nocobase/nocobase/pull/2577)
+- fix(FilterDynamicComponent): предотвращение аварийного завершения [`#2566`](https://github.com/nocobase/nocobase/pull/2566)
+- feat(api-keys): добавлена подсказка для ролей [`#2567`](https://github.com/nocobase/nocobase/pull/2567)
+- fix: поле числа выдает ошибку при очистке данных [`#2561`](https://github.com/nocobase/nocobase/pull/2561)
+- docs(plugin-workflow): исправлены документы Swagger [`#2565`](https://github.com/nocobase/nocobase/pull/2565)
+- fix(acl): предоставление действия с таблицей без поля createdAt [`#2562`](https://github.com/nocobase/nocobase/pull/2562)
+- refactor(collection-manager): коллекция и поля поддерживают конфигурацию описания [`#2554`](https://github.com/nocobase/nocobase/pull/2554)
+- chore: установлен audit-logs как локальный плагин [`#2564`](https://github.com/nocobase/nocobase/pull/2564)
+- style: улучшение стиля кнопки добавления в подтаблице [`#2508`](https://github.com/nocobase/nocobase/pull/2508)
+- refactor: поля ассоциации в таблице не должны иметь настройки области данных [`#2509`](https://github.com/nocobase/nocobase/pull/2509)
+- feat(plugin-workflow): добавлена кнопка фильтра для списка рабочих процессов [`#2555`](https://github.com/nocobase/nocobase/pull/2555)
+- fix(plugin-workflow): исправлена ошибка удаления узла [`#2553`](https://github.com/nocobase/nocobase/pull/2553)
+- fix: свойства, инициализированные в plugin.load, остаются пустыми в plugin.install [`#2544`](https://github.com/nocobase/nocobase/pull/2544)
+- fix: список плагинов не обновляется после обновления [`#2545`](https://github.com/nocobase/nocobase/pull/2545)
+- fix(theme-editor): исправлена недействительная активация [`#2539`](https://github.com/nocobase/nocobase/pull/2539)
 
-### Commits
+### Коммиты
 
-- chore(api-doc): collection manager db views api doc [`9288cb9`](https://github.com/nocobase/nocobase/commit/9288cb9338a11344586ac6374846dfc2708296d2)
-- Revert "fix(RangePicker): fix shortcut invalid (#2489)" [`8e42da2`](https://github.com/nocobase/nocobase/commit/8e42da2b01ed5f8f773d11f76f358363886f1f39)
-- chore(versions): 😊 publish v0.13.0-alpha.5 [`af34fe1`](https://github.com/nocobase/nocobase/commit/af34fe10ab1c00e271c6a387543639baf4aaedfb)
+- chore(api-doc): документация API для представлений базы данных менеджера коллекций [`9288cb9`](https://github.com/nocobase/nocobase/commit/9288cb9338a11344586ac6374846dfc2708296d2)
+- Revert "fix(RangePicker): исправлена недействительная ярлык (#2489)" [`8e42da2`](https://github.com/nocobase/nocobase/commit/8e42da2b01ed5f8f773d11f76f358363886f1f39)
+- chore(versions): 😊 публикация v0.13.0-alpha.5 [`af34fe1`](https://github.com/nocobase/nocobase/commit/af34fe10ab1c00e271c6a387543639baf4aaedfb)
 
 ## [v0.13.0-alpha.4](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.3...v0.13.0-alpha.4) - 2023-08-27
 
-### Merged
+### Объединено
 
-- fix(RangePicker): fix shortcut invalid [`#2489`](https://github.com/nocobase/nocobase/pull/2489)
+- fix(RangePicker): исправлена недействительная ярлык [`#2489`](https://github.com/nocobase/nocobase/pull/2489)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.4 [`0fd38a5`](https://github.com/nocobase/nocobase/commit/0fd38a5c56520063956b85facb30f5112699999c)
-- fix: insert a record after pm.add [`f5a4413`](https://github.com/nocobase/nocobase/commit/f5a4413a9a4f14479e1bc9b98660c867f46f3a31)
+- chore(versions): 😊 публикация v0.13.0-alpha.4 [`0fd38a5`](https://github.com/nocobase/nocobase/commit/0fd38a5c56520063956b85facb30f5112699999c)
+- fix: вставка записи после pm.add [`f5a4413`](https://github.com/nocobase/nocobase/commit/f5a4413a9a4f14479e1bc9b98660c867f46f3a31)
 
 ## [v0.13.0-alpha.3](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.2...v0.13.0-alpha.3) - 2023-08-26
 
-### Merged
+### Объединено
 
-- fix(themeEditor): should allow all roles to use [`#2538`](https://github.com/nocobase/nocobase/pull/2538)
-- fix(plugin-cm): fix life cycle [`#2535`](https://github.com/nocobase/nocobase/pull/2535)
+- fix(themeEditor): следует разрешить использование всем ролям [`#2538`](https://github.com/nocobase/nocobase/pull/2538)
+- fix(plugin-cm): исправлен жизненный цикл [`#2535`](https://github.com/nocobase/nocobase/pull/2535)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.3 [`5278017`](https://github.com/nocobase/nocobase/commit/5278017fffcf437258a4d5e0d8f30bea6a42f672)
-- fix: swagger filter params [`3d9a6ef`](https://github.com/nocobase/nocobase/commit/3d9a6ef76f748012e765fc7737d60510f12a6d92)
+- chore(versions): 😊 публикация v0.13.0-alpha.3 [`5278017`](https://github.com/nocobase/nocobase/commit/5278017fffcf437258a4d5e0d8f30bea6a42f672)
+- fix: параметры фильтра Swagger [`3d9a6ef`](https://github.com/nocobase/nocobase/commit/3d9a6ef76f748012e765fc7737d60510f12a6d92)
 - fix: xpipe.eq [`9364a44`](https://github.com/nocobase/nocobase/commit/9364a44681ed37eb48e16d42a25406a4350c0367)
 
 ## [v0.13.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.13.0-alpha.1...v0.13.0-alpha.2) - 2023-08-24
 
-### Merged
+### Объединено
 
-- refactor(plugin-workflow): hide unused form in manual ui after done [`#2526`](https://github.com/nocobase/nocobase/pull/2526)
-- style(plugin-workflow): adjust terminal style on workflow canvas [`#2524`](https://github.com/nocobase/nocobase/pull/2524)
+- refactor(plugin-workflow): скрытие неиспользуемой формы в ручном UI после завершения [`#2526`](https://github.com/nocobase/nocobase/pull/2526)
+- style(plugin-workflow): корректировка стиля терминала на холсте рабочего процесса [`#2524`](https://github.com/nocobase/nocobase/pull/2524)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.2 [`f4a1953`](https://github.com/nocobase/nocobase/commit/f4a1953980cb21d786fa9d140ec91bbb0ff1d412)
-- chore: update changelog [`a638442`](https://github.com/nocobase/nocobase/commit/a6384421b624c52a2af085abfa5767a3775024f2)
-- fix(plugin-client): extract locale files of antd [`cf77ca1`](https://github.com/nocobase/nocobase/commit/cf77ca17929ad64cd920d2adf1611a29b5ad8a0d)
+- chore(versions): 😊 публикация v0.13.0-alpha.2 [`f4a1953`](https://github.com/nocobase/nocobase/commit/f4a1953980cb21d786fa9d140ec91bbb0ff1d412)
+- chore: обновление журнала изменений [`a638442`](https://github.com/nocobase/nocobase/commit/a6384421b624c52a2af085abfa5767a3775024f2)
+- fix(plugin-client): извлечение локализационных файлов antd [`cf77ca1`](https://github.com/nocobase/nocobase/commit/cf77ca17929ad64cd920d2adf1611a29b5ad8a0d)
 
 ## [v0.13.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.12.0-alpha.5...v0.13.0-alpha.1) - 2023-08-24
 
-### Merged
+### Объединено
 
-- feat: application supervisor [`#2353`](https://github.com/nocobase/nocobase/pull/2353)
-- fix: sort field init [`#2520`](https://github.com/nocobase/nocobase/pull/2520)
-- feat: api documentation plugin [`#2255`](https://github.com/nocobase/nocobase/pull/2255)
-- fix(plugin-workflow): fix duplicated downstream executions after condition [`#2517`](https://github.com/nocobase/nocobase/pull/2517)
-- fix: basic-auth compitibility issue [`#2515`](https://github.com/nocobase/nocobase/pull/2515)
-- fix(plugin-workflow): fix status button styles [`#2516`](https://github.com/nocobase/nocobase/pull/2516)
-- fix(plugin-fm): fix error when add attachment field to manual form assigned values [`#2503`](https://github.com/nocobase/nocobase/pull/2503)
-- fix(plugin-workflow): fix loop scope variable parsing [`#2502`](https://github.com/nocobase/nocobase/pull/2502)
-- feat(database): support field get in view preview [`#2482`](https://github.com/nocobase/nocobase/pull/2482)
-- refactor: m2m data filtering through collection data [`#2497`](https://github.com/nocobase/nocobase/pull/2497)
-- refactor(graph-collection-manager): update antv-x6  to 2.x [`#2466`](https://github.com/nocobase/nocobase/pull/2466)
-- fix: view collection  reported error when editing [`#2493`](https://github.com/nocobase/nocobase/pull/2493)
-- fix: dev load plugin [`#2455`](https://github.com/nocobase/nocobase/pull/2455)
-- fix(plugin-workflow): fix variable type check [`#2492`](https://github.com/nocobase/nocobase/pull/2492)
-- chore: remove Default value option for sequence field [`#2488`](https://github.com/nocobase/nocobase/pull/2488)
-- fix: tagcolor value error [`#2487`](https://github.com/nocobase/nocobase/pull/2487)
-- feat(auth): support signing in with username [`#2376`](https://github.com/nocobase/nocobase/pull/2376)
-- fix: view collection source field [`#2483`](https://github.com/nocobase/nocobase/pull/2483)
+- feat: супервизор приложения [`#2353`](https://github.com/nocobase/nocobase/pull/2353)
+- fix: инициализация поля сортировки [`#2520`](https://github.com/nocobase/nocobase/pull/2520)
+- feat: плагин документации API [`#2255`](https://github.com/nocobase/nocobase/pull/2255)
+- fix(plugin-workflow): исправлена дублированная обработка выполнений после условия [`#2517`](https://github.com/nocobase/nocobase/pull/2517)
+- fix: проблема совместимости базовой аутентификации [`#2515`](https://github.com/nocobase/nocobase/pull/2515)
+- fix(plugin-workflow): исправлены стили кнопок состояния [`#2516`](https://github.com/nocobase/nocobase/pull/2516)
+- fix(plugin-fm): исправлена ошибка при добавлении поля вложения в форму с предопределенными значениями [`#2503`](https://github.com/nocobase/nocobase/pull/2503)
+- fix(plugin-workflow): исправлен парсинг переменных области видимости цикла [`#2502`](https://github.com/nocobase/nocobase/pull/2502)
+- feat(database): поддержка получения поля в режиме просмотра [`#2482`](https://github.com/nocobase/nocobase/pull/2482)
+- refactor: фильтрация данных m2m через данные коллекции [`#2497`](https://github.com/nocobase/nocobase/pull/2497)
+- refactor(graph-collection-manager): обновление antv-x6 до версии 2.x [`#2466`](https://github.com/nocobase/nocobase/pull/2466)
+- fix: ошибка при редактировании коллекции представлений [`#2493`](https://github.com/nocobase/nocobase/pull/2493)
+- fix: загрузка плагина в режиме разработки [`#2455`](https://github.com/nocobase/nocobase/pull/2455)
+- fix(plugin-workflow): исправлена проверка типа переменной [`#2492`](https://github.com/nocobase/nocobase/pull/2492)
+- chore: удалена опция "Значение по умолчанию" для поля последовательности [`#2488`](https://github.com/nocobase/nocobase/pull/2488)
+- fix: ошибка значения tagcolor [`#2487`](https://github.com/nocobase/nocobase/pull/2487)
+- feat(auth): поддержка входа по имени пользователя [`#2376`](https://github.com/nocobase/nocobase/pull/2376)
+- fix: поле источника коллекции представлений [`#2483`](https://github.com/nocobase/nocobase/pull/2483)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.13.0-alpha.1 [`6debb8d`](https://github.com/nocobase/nocobase/commit/6debb8d00b62e9df228e0e2a6e9df70d8ba587c8)
-- chore: update changelog [`b91a923`](https://github.com/nocobase/nocobase/commit/b91a923fe001552a0dd0323d3fed02c1f489f0e5)
-- fix: swagger block event loop [`b063000`](https://github.com/nocobase/nocobase/commit/b0630005d923b495708547e913c90d4e8aa5bb59)
+- chore(versions): 😊 публикация v0.13.0-alpha.1 [`6debb8d`](https://github.com/nocobase/nocobase/commit/6debb8d00b62e9df228e0e2a6e9df70d8ba587c8)
+- chore: обновление журнала изменений [`b91a923`](https://github.com/nocobase/nocobase/commit/b91a923fe001552a0dd0323d3fed02c1f489f0e5)
+- fix: блокировка цикла событий Swagger [`b063000`](https://github.com/nocobase/nocobase/commit/b0630005d923b495708547e913c90d4e8aa5bb59)
 
 ## [v0.12.0-alpha.5](https://github.com/nocobase/nocobase/compare/v0.12.0-alpha.4...v0.12.0-alpha.5) - 2023-08-18
 
-### Merged
+### Объединено
 
-- fix(sdk): window is not defined in nuxt (#2479) [`#2481`](https://github.com/nocobase/nocobase/pull/2481)
-- fix: source collections not updated during synchronization in view collection [`#2480`](https://github.com/nocobase/nocobase/pull/2480)
-- feat(plugin-workflow): add user variable to form trigger context [`#2477`](https://github.com/nocobase/nocobase/pull/2477)
-- fix: large field in the subtable do not display value [`#2475`](https://github.com/nocobase/nocobase/pull/2475)
-- fix:  error in tree table dragging and sorting [`#2476`](https://github.com/nocobase/nocobase/pull/2476)
-- fix:  prompt on the last row of the subtable row is obscured [`#2467`](https://github.com/nocobase/nocobase/pull/2467)
-- fix(plugin-workflow): fix form trigger data bug [`#2472`](https://github.com/nocobase/nocobase/pull/2472)
-- fix: hook error in `isTitleField` [`#2471`](https://github.com/nocobase/nocobase/pull/2471)
-- fix(plugin-workflow): fix create/edit workflow form [`#2470`](https://github.com/nocobase/nocobase/pull/2470)
-- fix(plugin-workflow): fix fields filter in value assignment nodes [`#2469`](https://github.com/nocobase/nocobase/pull/2469)
-- refactor: view synchronization field, source field support selected to inherited collection field [`#2456`](https://github.com/nocobase/nocobase/pull/2456)
-- fix(plugin-workflow): fix schedule config component witdh [`#2461`](https://github.com/nocobase/nocobase/pull/2461)
-- refactor: sub-table/sub-form support formula field [`#2449`](https://github.com/nocobase/nocobase/pull/2449)
-- refactor: remoteSelect fieldName value [`#2457`](https://github.com/nocobase/nocobase/pull/2457)
-- chore(database): view with hashed id field [`#2458`](https://github.com/nocobase/nocobase/pull/2458)
+- fix(sdk): `window is not defined` в Nuxt (#2479) [`#2481`](https://github.com/nocobase/nocobase/pull/2481)
+- fix: исходные коллекции не обновляются при синхронизации в представлении коллекции [`#2480`](https://github.com/nocobase/nocobase/pull/2480)
+- feat(plugin-workflow): добавлена пользовательская переменная в контекст триггера формы [`#2477`](https://github.com/nocobase/nocobase/pull/2477)
+- fix: большое поле в подтаблице не отображает значение [`#2475`](https://github.com/nocobase/nocobase/pull/2475)
+- fix: ошибка при перетаскивании и сортировке в древовидной таблице [`#2476`](https://github.com/nocobase/nocobase/pull/2476)
+- fix: подсказка в последней строке подтаблицы скрыта [`#2467`](https://github.com/nocobase/nocobase/pull/2467)
+- fix(plugin-workflow): исправлена ошибка данных триггера формы [`#2472`](https://github.com/nocobase/nocobase/pull/2472)
+- fix: ошибка хука в `isTitleField` [`#2471`](https://github.com/nocobase/nocobase/pull/2471)
+- fix(plugin-workflow): исправлена форма создания/редактирования рабочего процесса [`#2470`](https://github.com/nocobase/nocobase/pull/2470)
+- fix(plugin-workflow): исправлен фильтр полей в узлах назначения значений [`#2469`](https://github.com/nocobase/nocobase/pull/2469)
+- refactor: синхронизация полей представления, исходное поле поддерживает выбор поля унаследованной коллекции [`#2456`](https://github.com/nocobase/nocobase/pull/2456)
+- fix(plugin-workflow): исправлена ширина компонента конфигурации расписания [`#2461`](https://github.com/nocobase/nocobase/pull/2461)
+- refactor: подтаблица/подформа поддерживают поле формулы [`#2449`](https://github.com/nocobase/nocobase/pull/2449)
+- refactor: значение fieldName для remoteSelect [`#2457`](https://github.com/nocobase/nocobase/pull/2457)
+- chore(database): представление с хэшированным полем id [`#2458`](https://github.com/nocobase/nocobase/pull/2458)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.12.0-alpha.5 [`d878749`](https://github.com/nocobase/nocobase/commit/d8787493db64624a5efdfc7132605aae7aa9610f)
-- chore(eslint): ignore docker [`1977e00`](https://github.com/nocobase/nocobase/commit/1977e00414ee590d0d8783f2b6491d45afdbd545)
+- chore(versions): 😊 публикация v0.12.0-alpha.5 [`d878749`](https://github.com/nocobase/nocobase/commit/d8787493db64624a5efdfc7132605aae7aa9610f)
+- chore(eslint): игнорирование docker [`1977e00`](https://github.com/nocobase/nocobase/commit/1977e00414ee590d0d8783f2b6491d45afdbd545)
 
 ## [v0.12.0-alpha.4](https://github.com/nocobase/nocobase/compare/v0.12.0-alpha.3...v0.12.0-alpha.4) - 2023-08-15
 
-### Merged
+### Объединено
 
-- feat(plugin-workflow): add sort and pagination to query node params [`#2453`](https://github.com/nocobase/nocobase/pull/2453)
-- style: ellipsisWithTooltip style improve [`#2451`](https://github.com/nocobase/nocobase/pull/2451)
-- refactor: add new action init icon [`#2454`](https://github.com/nocobase/nocobase/pull/2454)
-- fix(plugin-map): should filter empty data, Close T-1380 [`#2447`](https://github.com/nocobase/nocobase/pull/2447)
-- fix: should show/hide schema when enabled/disabled TabBar, Tabs, Header [`#2428`](https://github.com/nocobase/nocobase/pull/2428)
-- fix(client): fix select button height in variable textarea [`#2450`](https://github.com/nocobase/nocobase/pull/2450)
-- refactor: default value for field configuration in sub-table [`#2425`](https://github.com/nocobase/nocobase/pull/2425)
-- fix(plugin-workflow): fix assign attachment value in nodes [`#2448`](https://github.com/nocobase/nocobase/pull/2448)
-- fix(findSchema): table operation action  and detail operation action  interact with each other [`#2446`](https://github.com/nocobase/nocobase/pull/2446)
-- refactor: recordPicker =&gt; associationField [`#2444`](https://github.com/nocobase/nocobase/pull/2444)
-- style: schemaSetting dropdown style improve [`#2432`](https://github.com/nocobase/nocobase/pull/2432)
-- refactor: buffer form attachment file name [`#2429`](https://github.com/nocobase/nocobase/pull/2429)
-- fix(plugin-workflow): fix aggregate node association select [`#2438`](https://github.com/nocobase/nocobase/pull/2438)
-- fix(plugin-workflow): add enablement editing back to workflow form [`#2431`](https://github.com/nocobase/nocobase/pull/2431)
-- fix(plugin-workflow): fix locale [`#2427`](https://github.com/nocobase/nocobase/pull/2427)
-- feat(map-plugin): map block support select map field of association tables [`#2214`](https://github.com/nocobase/nocobase/pull/2214)
-- feat(plugin-workflow): allow to configure auto delete execution in history [`#2423`](https://github.com/nocobase/nocobase/pull/2423)
-- refactor(schema-template): Inherit collection using blockTemplate [`#2418`](https://github.com/nocobase/nocobase/pull/2418)
-- fix(mobile-client): style broken and display correct mobile url in sub app [`#2414`](https://github.com/nocobase/nocobase/pull/2414)
-- fix(plugin-workflow): adjust styles [`#2417`](https://github.com/nocobase/nocobase/pull/2417)
-- feat(plugin-workflow): add form trigger type [`#2347`](https://github.com/nocobase/nocobase/pull/2347)
+- feat(plugin-workflow): добавлены сортировка и пагинация в параметры запроса узла [`#2453`](https://github.com/nocobase/nocobase/pull/2453)
+- style: улучшение стиля ellipsisWithTooltip [`#2451`](https://github.com/nocobase/nocobase/pull/2451)
+- refactor: добавлена иконка для нового действия init [`#2454`](https://github.com/nocobase/nocobase/pull/2454)
+- fix(plugin-map): следует фильтровать пустые данные, закрыть T-1380 [`#2447`](https://github.com/nocobase/nocobase/pull/2447)
+- fix: показывать/скрывать схему при включении/отключении TabBar, Tabs, Header [`#2428`](https://github.com/nocobase/nocobase/pull/2428)
+- fix(client): исправлена высота кнопки выбора в текстовой области переменной [`#2450`](https://github.com/nocobase/nocobase/pull/2450)
+- refactor: значение по умолчанию для конфигурации поля в подтаблице [`#2425`](https://github.com/nocobase/nocobase/pull/2425)
+- fix(plugin-workflow): исправлено назначение значения вложения в узлах [`#2448`](https://github.com/nocobase/nocobase/pull/2448)
+- fix(findSchema): взаимодействие между действиями операций таблицы и деталей [`#2446`](https://github.com/nocobase/nocobase/pull/2446)
+- refactor: recordPicker => associationField [`#2444`](https://github.com/nocobase/nocobase/pull/2444)
+- style: улучшение стиля выпадающего списка schemaSetting [`#2432`](https://github.com/nocobase/nocobase/pull/2432)
+- refactor: буферизация имени файла вложения формы [`#2429`](https://github.com/nocobase/nocobase/pull/2429)
+- fix(plugin-workflow): исправлен выбор ассоциации в узле агрегации [`#2438`](https://github.com/nocobase/nocobase/pull/2438)
+- fix(plugin-workflow): добавлено редактирование включения обратно в форму рабочего процесса [`#2431`](https://github.com/nocobase/nocobase/pull/2431)
+- fix(plugin-workflow): исправлен локаль [`#2427`](https://github.com/nocobase/nocobase/pull/2427)
+- feat(map-plugin): блок карты поддерживает выбор полей карты из связанных таблиц [`#2214`](https://github.com/nocobase/nocobase/pull/2214)
+- feat(plugin-workflow): возможность настройки автоматического удаления выполнений в истории [`#2423`](https://github.com/nocobase/nocobase/pull/2423)
+- refactor(schema-template): наследование коллекции с использованием blockTemplate [`#2418`](https://github.com/nocobase/nocobase/pull/2418)
+- fix(mobile-client): исправлены стили и отображается правильный URL мобильного приложения в подприложении [`#2414`](https://github.com/nocobase/nocobase/pull/2414)
+- fix(plugin-workflow): корректировка стилей [`#2417`](https://github.com/nocobase/nocobase/pull/2417)
+- feat(plugin-workflow): добавлен тип триггера формы [`#2347`](https://github.com/nocobase/nocobase/pull/2347)
 - fix(data-template): titleField undefined [`#2398`](https://github.com/nocobase/nocobase/pull/2398)
-- refactor: map clear modal getContainer [`#2410`](https://github.com/nocobase/nocobase/pull/2410)
-- fix: useSyncFromForm support multi-level relationships [`#2413`](https://github.com/nocobase/nocobase/pull/2413)
-- refactor: restrict the fields within the configured data scope in sub table [`#2394`](https://github.com/nocobase/nocobase/pull/2394)
-- feat(plugin-workflow): add execution dropdown for quick navigating [`#2404`](https://github.com/nocobase/nocobase/pull/2404)
-- refactor(plugin-workflow): change reload api to sync, and fix duplicated listening [`#2403`](https://github.com/nocobase/nocobase/pull/2403)
-- feat(plugin-workflow): add clear button for clearing executions [`#2401`](https://github.com/nocobase/nocobase/pull/2401)
-- feat(plugin-workflow): add modal to edit title when duplicating workflow [`#2399`](https://github.com/nocobase/nocobase/pull/2399)
-- refactor: should not trigger event of row when clicking in drawer [`#2400`](https://github.com/nocobase/nocobase/pull/2400)
-- fix(database): update belongs to many relation with target collection [`#2393`](https://github.com/nocobase/nocobase/pull/2393)
-- refractor(remote-select):  association field data scope merge with  original filter conditions [`#2118`](https://github.com/nocobase/nocobase/pull/2118)
-- fix(plugin-workflow): fix manual assignee select variable type filter [`#2396`](https://github.com/nocobase/nocobase/pull/2396)
+- refactor: очистка модального окна карты getContainer [`#2410`](https://github.com/nocobase/nocobase/pull/2410)
+- fix: useSyncFromForm поддерживает многоуровневые отношения [`#2413`](https://github.com/nocobase/nocobase/pull/2413)
+- refactor: ограничение полей в пределах настроенной области данных в подтаблице [`#2394`](https://github.com/nocobase/nocobase/pull/2394)
+- feat(plugin-workflow): добавлен выпадающий список выполнений для быстрой навигации [`#2404`](https://github.com/nocobase/nocobase/pull/2404)
+- refactor(plugin-workflow): изменен API перезагрузки на синхронный и исправлено дублированное прослушивание [`#2403`](https://github.com/nocobase/nocobase/pull/2403)
+- feat(plugin-workflow): добавлена кнопка очистки для удаления выполнений [`#2401`](https://github.com/nocobase/nocobase/pull/2401)
+- feat(plugin-workflow): добавлено модальное окно для редактирования заголовка при дублировании рабочего процесса [`#2399`](https://github.com/nocobase/nocobase/pull/2399)
+- refactor: не следует вызывать событие строки при клике в ящике [`#2400`](https://github.com/nocobase/nocobase/pull/2400)
+- fix(database): обновление связи "принадлежит многим" с целевой коллекцией [`#2393`](https://github.com/nocobase/nocobase/pull/2393)
+- refractor(remote-select): слияние области данных поля ассоциации с исходными условиями фильтра [`#2118`](https://github.com/nocobase/nocobase/pull/2118)
+- fix(plugin-workflow): исправлен фильтр типа переменной для ручного выбора исполнителей [`#2396`](https://github.com/nocobase/nocobase/pull/2396)
 - fix: params undefined [`#2397`](https://github.com/nocobase/nocobase/pull/2397)
-- feat(plugin-workflow): add reload for multi-app [`#2391`](https://github.com/nocobase/nocobase/pull/2391)
-- refactor:the default value of the built-in field should not be required [`#2115`](https://github.com/nocobase/nocobase/pull/2115)
-- feat(bi): make more config visualizable [`#2386`](https://github.com/nocobase/nocobase/pull/2386)
-- refactor: table select record restricted the usage association field [`#2338`](https://github.com/nocobase/nocobase/pull/2338)
+- feat(plugin-workflow): добавлена перезагрузка для мульти-приложений [`#2391`](https://github.com/nocobase/nocobase/pull/2391)
+- refactor: значение по умолчанию для встроенного поля не должно быть обязательным [`#2115`](https://github.com/nocobase/nocobase/pull/2115)
+- feat(bi): улучшена визуализация дополнительных конфигураций [`#2386`](https://github.com/nocobase/nocobase/pull/2386)
+- refactor: выбор записей таблицы ограничен использованием поля ассоциации [`#2338`](https://github.com/nocobase/nocobase/pull/2338)
 - fix: useVariablesCtx [`#2390`](https://github.com/nocobase/nocobase/pull/2390)
-- fix: customized create  action  supports tree data for table selection data [`#2328`](https://github.com/nocobase/nocobase/pull/2328)
-- fix: no field configuration items for association field details in the sub table [`#2384`](https://github.com/nocobase/nocobase/pull/2384)
-- fix: resource undefined [`#2372`](https://github.com/nocobase/nocobase/pull/2372)
-- refactor: remoteSelect support non object value [`#2375`](https://github.com/nocobase/nocobase/pull/2375)
-- fix: linkagerule copy data mutual influence [`#2333`](https://github.com/nocobase/nocobase/pull/2333)
-- refactor: association field support sorting rules in sub-table [`#2326`](https://github.com/nocobase/nocobase/pull/2326)
-- feat(association-field): association field support sub-form(popover) [`#2373`](https://github.com/nocobase/nocobase/pull/2373)
-- fix(markdowm): markdown style hook error reporting [`#2380`](https://github.com/nocobase/nocobase/pull/2380)
-- fix: currentObject can not loadData [`#2385`](https://github.com/nocobase/nocobase/pull/2385)
-- chore: change debug Server to yarn dev [`#2383`](https://github.com/nocobase/nocobase/pull/2383)
-- feat: association blocks support `GridCard` and `List` blocks [`#2356`](https://github.com/nocobase/nocobase/pull/2356)
-- fix(plugin-mobile): the layout is incorrect [`#2360`](https://github.com/nocobase/nocobase/pull/2360)
+- fix: пользовательское действие создания поддерживает древовидные данные для выбора данных таблицы [`#2328`](https://github.com/nocobase/nocobase/pull/2328)
+- fix: нет элементов конфигурации поля для деталей поля ассоциации в подтаблице [`#2384`](https://github.com/nocobase/nocobase/pull/2384)
+- fix: ресурс undefined [`#2372`](https://github.com/nocobase/nocobase/pull/2372)
+- refactor: remoteSelect поддерживает не объектные значения [`#2375`](https://github.com/nocobase/nocobase/pull/2375)
+- fix: копирование данных правила связи взаимно влияет [`#2333`](https://github.com/nocobase/nocobase/pull/2333)
+- refactor: поле ассоциации поддерживает правила сортировки в подтаблице [`#2326`](https://github.com/nocobase/nocobase/pull/2326)
+- feat(association-field): поле ассоциации поддерживает подформу (popover) [`#2373`](https://github.com/nocobase/nocobase/pull/2373)
+- fix(markdown): исправлена ошибка отчета об ошибках стиля markdown [`#2380`](https://github.com/nocobase/nocobase/pull/2380)
+- fix: currentObject не может загрузить данные [`#2385`](https://github.com/nocobase/nocobase/pull/2385)
+- chore: изменен сервер отладки на yarn dev [`#2383`](https://github.com/nocobase/nocobase/pull/2383)
+- feat: блоки ассоциаций поддерживают блоки `GridCard` и `List` [`#2356`](https://github.com/nocobase/nocobase/pull/2356)
+- fix(plugin-mobile): неверная компоновка [`#2360`](https://github.com/nocobase/nocobase/pull/2360)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.12.0-alpha.4 [`df85fb4`](https://github.com/nocobase/nocobase/commit/df85fb430a67c9f75e3cad5844e0a7d8c63064e3)
-- fix: improve translation [`15504c2`](https://github.com/nocobase/nocobase/commit/15504c2813a896cdc1b53cc85d7ec4d3a093c0e5)
-- chore: dockerignore [`b34b731`](https://github.com/nocobase/nocobase/commit/b34b7319e999655454a5d298ef808d6bbc1ad04e)
+- chore(versions): 😊 публикация v0.12.0-alpha.4 [`df85fb4`](https://github.com/nocobase/nocobase/commit/df85fb430a67c9f75e3cad5844e0a7d8c63064e3)
+- fix: улучшение перевода [`15504c2`](https://github.com/nocobase/nocobase/commit/15504c2813a896cdc1b53cc85d7ec4d3a093c0e5)
+- chore: игнорирование docker [`b34b731`](https://github.com/nocobase/nocobase/commit/b34b7319e999655454a5d298ef808d6bbc1ad04e)
 
 ## [v0.12.0-alpha.3](https://github.com/nocobase/nocobase/compare/v0.12.0-alpha.2...v0.12.0-alpha.3) - 2023-08-02
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.12.0-alpha.3 [`9251fe0`](https://github.com/nocobase/nocobase/commit/9251fe015f8ac58d42168637c29e887f6ee95348)
-- chore: update docker-entrypoint.sh [`c33c325`](https://github.com/nocobase/nocobase/commit/c33c32566c924ef75c4a9c0cb7e1a6afdd93bfb4)
+- chore(versions): 😊 публикация v0.12.0-alpha.3 [`9251fe0`](https://github.com/nocobase/nocobase/commit/9251fe015f8ac58d42168637c29e887f6ee95348)
+- chore: обновление docker-entrypoint.sh [`c33c325`](https://github.com/nocobase/nocobase/commit/c33c32566c924ef75c4a9c0cb7e1a6afdd93bfb4)
 
 ## [v0.12.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.12.0-alpha.1...v0.12.0-alpha.2) - 2023-08-02
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.12.0-alpha.2 [`6ae22ce`](https://github.com/nocobase/nocobase/commit/6ae22cea68da3bfe41cde33969f70384c737a55c)
-- fix: chore: update changelog [`524571e`](https://github.com/nocobase/nocobase/commit/524571e0fe2a6efa47759a5c500576d7e32fe3f0)
-- fix: update dockerfile [`f4d97a5`](https://github.com/nocobase/nocobase/commit/f4d97a50cbf436ca0d38ac2cba3f8134df606b72)
+- chore(versions): 😊 публикация v0.12.0-alpha.2 [`6ae22ce`](https://github.com/nocobase/nocobase/commit/6ae22cea68da3bfe41cde33969f70384c737a55c)
+- fix: chore: обновление журнала изменений [`524571e`](https://github.com/nocobase/nocobase/commit/524571e0fe2a6efa47759a5c500576d7e32fe3f0)
+- fix: обновление Dockerfile [`f4d97a5`](https://github.com/nocobase/nocobase/commit/f4d97a50cbf436ca0d38ac2cba3f8134df606b72)
 
 ## [v0.12.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.11.1-alpha.5...v0.12.0-alpha.1) - 2023-08-02
 
-### Merged
+### Объединено
 
-- refactor!: plugins build and plugins load [`#2253`](https://github.com/nocobase/nocobase/pull/2253)
-- fix: modal will automatically close when configing fields to association field details in sub-table [`#2371`](https://github.com/nocobase/nocobase/pull/2371)
-- fix(default-value): should not show 'N/A' when a normal value is selected. [`#2365`](https://github.com/nocobase/nocobase/pull/2365)
-- fix(bi): issue of parsing label of region & file field [`#2366`](https://github.com/nocobase/nocobase/pull/2366)
-- chore: upgrade antd to 5.7.3 [`#2359`](https://github.com/nocobase/nocobase/pull/2359)
-- fix(bi): g2plot render wrong when fields contain `.` [`#2363`](https://github.com/nocobase/nocobase/pull/2363)
-- fix: graph collection current appInfo error [`#2364`](https://github.com/nocobase/nocobase/pull/2364)
-- refactor(association field): association field support tag field mode [`#2251`](https://github.com/nocobase/nocobase/pull/2251)
-- refactor: form data templates and depulicate action support sync from form fields [`#2314`](https://github.com/nocobase/nocobase/pull/2314)
-- chore: only dev env can throw errors [`#2355`](https://github.com/nocobase/nocobase/pull/2355)
-- fix: inheritd association field failed to get detail data [`#2354`](https://github.com/nocobase/nocobase/pull/2354)
-- refactor(plugin-workflow): adjust full-width to auto-width [`#2351`](https://github.com/nocobase/nocobase/pull/2351)
-- Revert "feat(theme-editor): add migration (#2310)" [`#2352`](https://github.com/nocobase/nocobase/pull/2352)
-- fix(locale): acl bug of localization management [`#2350`](https://github.com/nocobase/nocobase/pull/2350)
-- feat(theme-editor): add migration [`#2310`](https://github.com/nocobase/nocobase/pull/2310)
-- feat: support JSONB [`#2321`](https://github.com/nocobase/nocobase/pull/2321)
-- fix(bi): parsing enum labels of field with alias [`#2349`](https://github.com/nocobase/nocobase/pull/2349)
+- refactor!: сборка плагинов и загрузка плагинов [`#2253`](https://github.com/nocobase/nocobase/pull/2253)
+- fix: модальное окно автоматически закрывается при настройке полей для деталей поля ассоциации в подтаблице [`#2371`](https://github.com/nocobase/nocobase/pull/2371)
+- fix(default-value): не должно отображаться 'N/A', если выбрано обычное значение [`#2365`](https://github.com/nocobase/nocobase/pull/2365)
+- fix(bi): проблема с разбором метки поля региона и файла [`#2366`](https://github.com/nocobase/nocobase/pull/2366)
+- chore: обновление antd до версии 5.7.3 [`#2359`](https://github.com/nocobase/nocobase/pull/2359)
+- fix(bi): неправильная отрисовка g2plot, когда поля содержат `.` [`#2363`](https://github.com/nocobase/nocobase/pull/2363)
+- fix: ошибка appInfo в графической коллекции [`#2364`](https://github.com/nocobase/nocobase/pull/2364)
+- refactor(association field): поле ассоциации поддерживает режим тегового поля [`#2251`](https://github.com/nocobase/nocobase/pull/2251)
+- refactor: шаблоны данных формы и дублирующее действие поддерживают синхронизацию с полями формы [`#2314`](https://github.com/nocobase/nocobase/pull/2314)
+- chore: только в dev-среде могут возникать ошибки [`#2355`](https://github.com/nocobase/nocobase/pull/2355)
+- fix: унаследованное поле ассоциации не может получить данные деталей [`#2354`](https://github.com/nocobase/nocobase/pull/2354)
+- refactor(plugin-workflow): изменение full-width на auto-width [`#2351`](https://github.com/nocobase/nocobase/pull/2351)
+- Revert "feat(theme-editor): добавлена миграция (#2310)" [`#2352`](https://github.com/nocobase/nocobase/pull/2352)
+- fix(locale): ошибка ACL в управлении локализацией [`#2350`](https://github.com/nocobase/nocobase/pull/2350)
+- feat(theme-editor): добавлена миграция [`#2310`](https://github.com/nocobase/nocobase/pull/2310)
+- feat: поддержка JSONB [`#2321`](https://github.com/nocobase/nocobase/pull/2321)
+- fix(bi): разбор меток перечисления полей с псевдонимом [`#2349`](https://github.com/nocobase/nocobase/pull/2349)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.12.0-alpha.1 [`93f2bc2`](https://github.com/nocobase/nocobase/commit/93f2bc2e6782dec1388208e6fd40905faa82f82d)
+- chore(versions): 😊 публикация v0.12.0-alpha.1 [`93f2bc2`](https://github.com/nocobase/nocobase/commit/93f2bc2e6782dec1388208e6fd40905faa82f82d)
 
 ## [v0.11.1-alpha.5](https://github.com/nocobase/nocobase/compare/v0.11.1-alpha.4...v0.11.1-alpha.5) - 2023-07-29
 
-### Merged
+### Объединено
 
-- refactor(plugin-workflow): change strict equal and not equal to unstrict [`#2346`](https://github.com/nocobase/nocobase/pull/2346)
+- refactor(plugin-workflow): изменение строгого равенства и неравенства на нестрогое [`#2346`](https://github.com/nocobase/nocobase/pull/2346)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.11.1-alpha.5 [`40c4aab`](https://github.com/nocobase/nocobase/commit/40c4aab50799d78ac3d7820d8fa5a732aa6f4723)
-- fix: update yarn.lock [`656287e`](https://github.com/nocobase/nocobase/commit/656287e57be749eb00ec01189573a2088ed417df)
-- refactor: make testing more stable [`3c7b3f3`](https://github.com/nocobase/nocobase/commit/3c7b3f3caff5563d0f13b0076294a64e8e330f41)
+- chore(versions): 😊 публикация v0.11.1-alpha.5 [`40c4aab`](https://github.com/nocobase/nocobase/commit/40c4aab50799d78ac3d7820d8fa5a732aa6f4723)
+- fix: обновление yarn.lock [`656287e`](https://github.com/nocobase/nocobase/commit/656287e57be749eb00ec01189573a2088ed417df)
+- refactor: повышение стабильности тестирования [`3c7b3f3`](https://github.com/nocobase/nocobase/commit/3c7b3f3caff5563d0f13b0076294a64e8e330f41)
 
 ## [v0.11.1-alpha.4](https://github.com/nocobase/nocobase/compare/v0.11.1-alpha.3...v0.11.1-alpha.4) - 2023-07-29
 
-### Merged
+### Объединено
 
-- refactor(plugin-workflow): allow system values to be assigned in create and update node [`#2345`](https://github.com/nocobase/nocobase/pull/2345)
-- chore(database): merge fields arguments by path [`#2331`](https://github.com/nocobase/nocobase/pull/2331)
-- fix(theme-editor): avoid error [`#2340`](https://github.com/nocobase/nocobase/pull/2340)
-- refactor: upgrade @testing-library/react to 14.x [`#2339`](https://github.com/nocobase/nocobase/pull/2339)
-- test: view collection as through model [`#2336`](https://github.com/nocobase/nocobase/pull/2336)
-- fix: sub-form record provider data failed to matching [`#2337`](https://github.com/nocobase/nocobase/pull/2337)
-- fix(bi): issue of formatting relation field & reference link of line chart [`#2332`](https://github.com/nocobase/nocobase/pull/2332)
+- refactor(plugin-workflow): разрешить присваивание системных значений в узлах создания и обновления [`#2345`](https://github.com/nocobase/nocobase/pull/2345)
+- chore(database): слияние аргументов полей по пути [`#2331`](https://github.com/nocobase/nocobase/pull/2331)
+- fix(theme-editor): предотвращение ошибок [`#2340`](https://github.com/nocobase/nocobase/pull/2340)
+- refactor: обновление @testing-library/react до версии 14.x [`#2339`](https://github.com/nocobase/nocobase/pull/2339)
+- test: представление коллекции как через модель [`#2336`](https://github.com/nocobase/nocobase/pull/2336)
+- fix: данные провайдера записей подформы не соответствуют [`#2337`](https://github.com/nocobase/nocobase/pull/2337)
+- fix(bi): проблема форматирования поля отношений и ссылки линейного графика [`#2332`](https://github.com/nocobase/nocobase/pull/2332)
 - chore: tsx [`#2329`](https://github.com/nocobase/nocobase/pull/2329)
-- chore: upgrade jest [`#2323`](https://github.com/nocobase/nocobase/pull/2323)
+- chore: обновление jest [`#2323`](https://github.com/nocobase/nocobase/pull/2323)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.11.1-alpha.4 [`b93f28a`](https://github.com/nocobase/nocobase/commit/b93f28a952fef20e99570ca6f19b3bf8192db465)
+- chore(versions): 😊 публикация v0.11.1-alpha.4 [`b93f28a`](https://github.com/nocobase/nocobase/commit/b93f28a952fef20e99570ca6f19b3bf8192db465)
 - fix: yarn run test [`d956c90`](https://github.com/nocobase/nocobase/commit/d956c90e91e303ae02e54f71498b92481eab0399)
-- chore: update changelog [`54f2405`](https://github.com/nocobase/nocobase/commit/54f240539c5cf82d31c689bf409bcb5656ded496)
+- chore: обновление журнала изменений [`54f2405`](https://github.com/nocobase/nocobase/commit/54f240539c5cf82d31c689bf409bcb5656ded496)
 
 ## [v0.11.1-alpha.3](https://github.com/nocobase/nocobase/compare/v0.11.1-alpha.2...v0.11.1-alpha.3) - 2023-07-26
 
-### Merged
+### Объединено
 
-- fix(plugin-workflow): fix expression field in sub-form [`#2324`](https://github.com/nocobase/nocobase/pull/2324)
-- chore: improve FormProvider [`#2322`](https://github.com/nocobase/nocobase/pull/2322)
+- fix(plugin-workflow): исправлено поле выражения в подформе [`#2324`](https://github.com/nocobase/nocobase/pull/2324)
+- chore: улучшение FormProvider [`#2322`](https://github.com/nocobase/nocobase/pull/2322)
 - fix: collectionField undefined [`#2320`](https://github.com/nocobase/nocobase/pull/2320)
-- fix: should use `filter` instead of `where` [`#2318`](https://github.com/nocobase/nocobase/pull/2318)
-- fix(bi): issue of dnd [`#2315`](https://github.com/nocobase/nocobase/pull/2315)
-- feat(filter-block): support foreign key and inheritance [`#2302`](https://github.com/nocobase/nocobase/pull/2302)
-- chore: merge docker build [`#2317`](https://github.com/nocobase/nocobase/pull/2317)
-- feat(locale): allows to manage locale resources in core package [`#2293`](https://github.com/nocobase/nocobase/pull/2293)
-- fix(plugin-workflow): fix styles [`#2316`](https://github.com/nocobase/nocobase/pull/2316)
+- fix: следует использовать `filter` вместо `where` [`#2318`](https://github.com/nocobase/nocobase/pull/2318)
+- fix(bi): проблема с dnd [`#2315`](https://github.com/nocobase/nocobase/pull/2315)
+- feat(filter-block): поддержка внешнего ключа и наследования [`#2302`](https://github.com/nocobase/nocobase/pull/2302)
+- chore: слияние сборки Docker [`#2317`](https://github.com/nocobase/nocobase/pull/2317)
+- feat(locale): возможность управления локализационными ресурсами в основном пакете [`#2293`](https://github.com/nocobase/nocobase/pull/2293)
+- fix(plugin-workflow): исправлены стили [`#2316`](https://github.com/nocobase/nocobase/pull/2316)
 - Feat/translation fr_FR [`#2275`](https://github.com/nocobase/nocobase/pull/2275)
-- feat: customize action support create record for any collection [`#2264`](https://github.com/nocobase/nocobase/pull/2264)
-- refactor: form data template  support data scope config [`#2229`](https://github.com/nocobase/nocobase/pull/2229)
-- chore: auto fix eslint errors when pre-commit [`#2304`](https://github.com/nocobase/nocobase/pull/2304)
-- refactor: sub-table acl ignore [`#2259`](https://github.com/nocobase/nocobase/pull/2259)
-- refactor: date field UI supports configuration formatting [`#2241`](https://github.com/nocobase/nocobase/pull/2241)
-- fix(plugin-workflow): fix schedule duplicated triggering in multi-apps [`#2313`](https://github.com/nocobase/nocobase/pull/2313)
-- refactor: table column field provider optimize [`#2312`](https://github.com/nocobase/nocobase/pull/2312)
-- fix: table column field undefined fix [`#2311`](https://github.com/nocobase/nocobase/pull/2311)
-- fix: table column field failed to be actived [`#2309`](https://github.com/nocobase/nocobase/pull/2309)
-- fix(default-value): fix tag in RemoteSelect [`#2306`](https://github.com/nocobase/nocobase/pull/2306)
-- fix: modal  not displayed when clicking on the association field in the table [`#2292`](https://github.com/nocobase/nocobase/pull/2292)
-- fix(database): skip reference delete on view collection [`#2303`](https://github.com/nocobase/nocobase/pull/2303)
+- feat: пользовательское действие поддерживает создание записи для любой коллекции [`#2264`](https://github.com/nocobase/nocobase/pull/2264)
+- refactor: шаблон данных формы поддерживает конфигурацию области данных [`#2229`](https://github.com/nocobase/nocobase/pull/2229)
+- chore: автоматическое исправление ошибок eslint при предварительном коммите [`#2304`](https://github.com/nocobase/nocobase/pull/2304)
+- refactor: игнорирование ACL в подтаблице [`#2259`](https://github.com/nocobase/nocobase/pull/2259)
+- refactor: поле даты UI поддерживает конфигурацию форматирования [`#2241`](https://github.com/nocobase/nocobase/pull/2241)
+- fix(plugin-workflow): исправлена дублированная активация расписания в мульти-приложениях [`#2313`](https://github.com/nocobase/nocobase/pull/2313)
+- refactor: оптимизация провайдера полей столбца таблицы [`#2312`](https://github.com/nocobase/nocobase/pull/2312)
+- fix: исправлено undefined поле столбца таблицы [`#2311`](https://github.com/nocobase/nocobase/pull/2311)
+- fix: поле столбца таблицы не активировалось [`#2309`](https://github.com/nocobase/nocobase/pull/2309)
+- fix(default-value): исправлен тег в RemoteSelect [`#2306`](https://github.com/nocobase/nocobase/pull/2306)
+- fix: модальное окно не отображается при клике на поле ассоциации в таблице [`#2292`](https://github.com/nocobase/nocobase/pull/2292)
+- fix(database): пропуск удаления ссылки в представлении коллекции [`#2303`](https://github.com/nocobase/nocobase/pull/2303)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.11.1-alpha.3 [`81819f0`](https://github.com/nocobase/nocobase/commit/81819f04e3bdd108a1a70038352545748552c2f9)
-- chore: fix Warning if eslint [`986e241`](https://github.com/nocobase/nocobase/commit/986e2414d4b8eba2bd0cf3cf1932a74ff507271e)
-- chore: fix prettier [`30b0d9b`](https://github.com/nocobase/nocobase/commit/30b0d9b3f303a43eeb340482a567a50145437f27)
+- chore(versions): 😊 публикация v0.11.1-alpha.3 [`81819f0`](https://github.com/nocobase/nocobase/commit/81819f04e3bdd108a1a70038352545748552c2f9)
+- chore: исправление предупреждений eslint [`986e241`](https://github.com/nocobase/nocobase/commit/986e2414d4b8eba2bd0cf3cf1932a74ff507271e)
+- chore: исправление prettier [`30b0d9b`](https://github.com/nocobase/nocobase/commit/30b0d9b3f303a43eeb340482a567a50145437f27)
 
 ## [v0.11.1-alpha.2](https://github.com/nocobase/nocobase/compare/v0.11.1-alpha.1...v0.11.1-alpha.2) - 2023-07-23
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.11.1-alpha.2 [`c84476d`](https://github.com/nocobase/nocobase/commit/c84476d805bae897fea7a23cec38813dbe28cae0)
-- chore(theme-editor): fix deps [`d0528cf`](https://github.com/nocobase/nocobase/commit/d0528cf1f273fd7e3efbe6eb58a247a20dbaffb1)
-- chore(theme-editor): fix deps [`25decf0`](https://github.com/nocobase/nocobase/commit/25decf0aa9f6d37b972ba460a999558ecc25a819)
+- chore(versions): 😊 публикация v0.11.1-alpha.2 [`c84476d`](https://github.com/nocobase/nocobase/commit/c84476d805bae897fea7a23cec38813dbe28cae0)
+- chore(theme-editor): исправление зависимостей [`d0528cf`](https://github.com/nocobase/nocobase/commit/d0528cf1f273fd7e3efbe6eb58a247a20dbaffb1)
+- chore(theme-editor): исправление зависимостей [`25decf0`](https://github.com/nocobase/nocobase/commit/25decf0aa9f6d37b972ba460a999558ecc25a819)
 
 ## [v0.11.1-alpha.1](https://github.com/nocobase/nocobase/compare/v0.11.0-alpha.1...v0.11.1-alpha.1) - 2023-07-22
 
-### Merged
+### Объединено
 
-- fix(plugin-workflow): workflow collections should not appear in blocks [`#2290`](https://github.com/nocobase/nocobase/pull/2290)
-- chore: remove belongsToMany through table as collection dependency [`#2289`](https://github.com/nocobase/nocobase/pull/2289)
-- feat(database):  handle targetCollection option in repository find [`#2175`](https://github.com/nocobase/nocobase/pull/2175)
-- feat: add built-in themes [`#2284`](https://github.com/nocobase/nocobase/pull/2284)
-- docs: add doc for Theme Editor [`#2280`](https://github.com/nocobase/nocobase/pull/2280)
-- fix: fix sorting of user menu [`#2288`](https://github.com/nocobase/nocobase/pull/2288)
-- feat(theme-editor): support to config Header's color and Settings button's color [`#2263`](https://github.com/nocobase/nocobase/pull/2263)
-- feat(plugin-workflow): add sql node [`#2276`](https://github.com/nocobase/nocobase/pull/2276)
-- fix: the drop-down multiple selection fields are not displayed as title fields when inherited collection [`#2257`](https://github.com/nocobase/nocobase/pull/2257)
-- fix(bi): orderBy bug under MySQL [`#2283`](https://github.com/nocobase/nocobase/pull/2283)
-- test: make testing more stable [`#2277`](https://github.com/nocobase/nocobase/pull/2277)
-- fix(bi): eliminate redundancy queries [`#2268`](https://github.com/nocobase/nocobase/pull/2268)
-- fix(client): using component as action title [`#2274`](https://github.com/nocobase/nocobase/pull/2274)
-- fix(middleware): revert now variable back [`#2267`](https://github.com/nocobase/nocobase/pull/2267)
-- fix: linkage failed with current date variable [`#2272`](https://github.com/nocobase/nocobase/pull/2272)
-- fix: fix style of page tab [`#2270`](https://github.com/nocobase/nocobase/pull/2270)
-- fix: collection select no options [`#2271`](https://github.com/nocobase/nocobase/pull/2271)
-- refactor: add locale plugin [`#2261`](https://github.com/nocobase/nocobase/pull/2261)
-- feat(plugin-workflow): allow manual form button to be configured with preset values [`#2225`](https://github.com/nocobase/nocobase/pull/2225)
-- feat(plugin-workflow): change to unlimited depth preloading associations in workflow [`#2142`](https://github.com/nocobase/nocobase/pull/2142)
-- feat: localization management [`#2210`](https://github.com/nocobase/nocobase/pull/2210)
-- refactor: linkage rules support datetime [`#2260`](https://github.com/nocobase/nocobase/pull/2260)
-- fix:  view  inherited collection field reported error [`#2249`](https://github.com/nocobase/nocobase/pull/2249)
-- fix: loading did not disappear after submission failure [`#2252`](https://github.com/nocobase/nocobase/pull/2252)
-- feat: support custome themes [`#2228`](https://github.com/nocobase/nocobase/pull/2228)
-- chore(plugin-workflow): fix breadcrumb warning [`#2256`](https://github.com/nocobase/nocobase/pull/2256)
-- fix(plugin-workflow): fix request node error in loop [`#2254`](https://github.com/nocobase/nocobase/pull/2254)
-- feat(database): view collection support for add new, update and delete actions [`#2119`](https://github.com/nocobase/nocobase/pull/2119)
-- refactor(client): change isTitleField check to interface property titleUsable [`#2250`](https://github.com/nocobase/nocobase/pull/2250)
-- fix: option field display value in workflow todo list [`#2246`](https://github.com/nocobase/nocobase/pull/2246)
-- fix(plugin-workflow): fix dispatch bug [`#2247`](https://github.com/nocobase/nocobase/pull/2247)
-- fix: avoid crashes when emptying DatePicker's value [`#2237`](https://github.com/nocobase/nocobase/pull/2237)
-- fix: no template data requested during depulicating [`#2240`](https://github.com/nocobase/nocobase/pull/2240)
-- fix(plugin-workflow): fix job button style [`#2243`](https://github.com/nocobase/nocobase/pull/2243)
-- fix: avoid crashing when delete group menu [`#2239`](https://github.com/nocobase/nocobase/pull/2239)
-- fix: should auto focus in drop-down menu [`#2234`](https://github.com/nocobase/nocobase/pull/2234)
-- fix(plugin-fm): adjust upload file size to 1G which same as default on Server side [`#2236`](https://github.com/nocobase/nocobase/pull/2236)
-- fix: should only show one scroll bar in drop-down menu [`#2231`](https://github.com/nocobase/nocobase/pull/2231)
-- fix: failed to correctly respond to optional fields in the child collection  in the parent  collection table [`#2207`](https://github.com/nocobase/nocobase/pull/2207)
-- fix(core): fix batch update query logic [`#2230`](https://github.com/nocobase/nocobase/pull/2230)
-- fix: should limit submenu height [`#2227`](https://github.com/nocobase/nocobase/pull/2227)
-- fix(upload): fix style of attachement in Table [`#2213`](https://github.com/nocobase/nocobase/pull/2213)
+- fix(plugin-workflow): коллекции рабочих процессов не должны отображаться в блоках [`#2290`](https://github.com/nocobase/nocobase/pull/2290)
+- chore: удаление таблицы belongsToMany как зависимости коллекции [`#2289`](https://github.com/nocobase/nocobase/pull/2289)
+- feat(database): обработка опции targetCollection в репозитории find [`#2175`](https://github.com/nocobase/nocobase/pull/2175)
+- feat: добавлены встроенные темы [`#2284`](https://github.com/nocobase/nocobase/pull/2284)
+- docs: добавлена документация для Theme Editor [`#2280`](https://github.com/nocobase/nocobase/pull/2280)
+- fix: исправлена сортировка пользовательского меню [`#2288`](https://github.com/nocobase/nocobase/pull/2288)
+- feat(theme-editor): поддержка настройки цвета заголовка и кнопки настроек [`#2263`](https://github.com/nocobase/nocobase/pull/2263)
+- feat(plugin-workflow): добавлен SQL-узел [`#2276`](https://github.com/nocobase/nocobase/pull/2276)
+- fix: выпадающие поля множественного выбора не отображаются как заголовки при наследовании коллекции [`#2257`](https://github.com/nocobase/nocobase/pull/2257)
+- fix(bi): ошибка orderBy в MySQL [`#2283`](https://github.com/nocobase/nocobase/pull/2283)
+- test: повышение стабильности тестирования [`#2277`](https://github.com/nocobase/nocobase/pull/2277)
+- fix(bi): устранение избыточных запросов [`#2268`](https://github.com/nocobase/nocobase/pull/2268)
+- fix(client): использование компонента как заголовка действия [`#2274`](https://github.com/nocobase/nocobase/pull/2274)
+- fix(middleware): возврат переменной now [`#2267`](https://github.com/nocobase/nocobase/pull/2267)
+- fix: сбой связи с текущей датой переменной [`#2272`](https://github.com/nocobase/nocobase/pull/2272)
+- fix: исправление стиля вкладки страницы [`#2270`](https://github.com/nocobase/nocobase/pull/2270)
+- fix: в поле выбора коллекции отсутствуют опции [`#2271`](https://github.com/nocobase/nocobase/pull/2271)
+- refactor: добавлен плагин локализации [`#2261`](https://github.com/nocobase/nocobase/pull/2261)
+- feat(plugin-workflow): кнопка ручной формы может быть настроена с предустановленными значениями [`#2225`](https://github.com/nocobase/nocobase/pull/2225)
+- feat(plugin-workflow): изменение на неограниченную глубину предзагрузки ассоциаций в рабочем процессе [`#2142`](https://github.com/nocobase/nocobase/pull/2142)
+- feat: управление локализацией [`#2210`](https://github.com/nocobase/nocobase/pull/2210)
+- refactor: правила связывания поддерживают datetime [`#2260`](https://github.com/nocobase/nocobase/pull/2260)
+- fix: ошибка поля коллекции представления при наследовании [`#2249`](https://github.com/nocobase/nocobase/pull/2249)
+- fix: индикатор загрузки не исчез после сбоя отправки [`#2252`](https://github.com/nocobase/nocobase/pull/2252)
+- feat: поддержка пользовательских тем [`#2228`](https://github.com/nocobase/nocobase/pull/2228)
+- chore(plugin-workflow): исправление предупреждения хлебных крошек [`#2256`](https://github.com/nocobase/nocobase/pull/2256)
+- fix(plugin-workflow): исправление ошибки узла запроса в цикле [`#2254`](https://github.com/nocobase/nocobase/pull/2254)
+- feat(database): поддержка действий добавления, обновления и удаления для представления коллекции [`#2119`](https://github.com/nocobase/nocobase/pull/2119)
+- refactor(client): изменение проверки isTitleField на свойство интерфейса titleUsable [`#2250`](https://github.com/nocobase/nocobase/pull/2250)
+- fix: значение поля option в списке задач рабочего процесса [`#2246`](https://github.com/nocobase/nocobase/pull/2246)
+- fix(plugin-workflow): исправление ошибки dispatch [`#2247`](https://github.com/nocobase/nocobase/pull/2247)
+- fix: предотвращение сбоев при очистке значения DatePicker [`#2237`](https://github.com/nocobase/nocobase/pull/2237)
+- fix: отсутствие запроса данных шаблона при дублировании [`#2240`](https://github.com/nocobase/nocobase/pull/2240)
+- fix(plugin-workflow): исправление стиля кнопки задания [`#2243`](https://github.com/nocobase/nocobase/pull/2243)
+- fix: предотвращение сбоев при удалении группового меню [`#2239`](https://github.com/nocobase/nocobase/pull/2239)
+- fix: автоматический фокус в выпадающем меню [`#2234`](https://github.com/nocobase/nocobase/pull/2234)
+- fix(plugin-fm): увеличение размера загрузки файла до 1 ГБ (как по умолчанию на стороне сервера) [`#2236`](https://github.com/nocobase/nocobase/pull/2236)
+- fix: только одна полоса прокрутки в выпадающем меню [`#2231`](https://github.com/nocobase/nocobase/pull/2231)
+- fix: неправильная реакция на необязательные поля в дочерней коллекции в таблице родительской коллекции [`#2207`](https://github.com/nocobase/nocobase/pull/2207)
+- fix(core): исправление логики пакетного обновления запроса [`#2230`](https://github.com/nocobase/nocobase/pull/2230)
+- fix: ограничение высоты подменю [`#2227`](https://github.com/nocobase/nocobase/pull/2227)
+- fix(upload): исправление стиля вложения в таблице [`#2213`](https://github.com/nocobase/nocobase/pull/2213)
 
-### Fixed
+### Исправлено
 
-- fix(plugin-fm): adjust upload file size to 1G which same as default on Server side (#2236) [`#2215`](https://github.com/nocobase/nocobase/issues/2215)
+- fix(plugin-fm): размер загрузки файла увеличен до 1 ГБ (как по умолчанию на стороне сервера) (#2236) [`#2215`](https://github.com/nocobase/nocobase/issues/2215)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.11.1-alpha.1 [`e979194`](https://github.com/nocobase/nocobase/commit/e979194cf29debcc10d2e6765c96083793186331)
-- fix(theme-editor): remove db.sync [`fa2de8e`](https://github.com/nocobase/nocobase/commit/fa2de8e8060da00a85b381df0d7fbf9fca2793b3)
-- fix(theme-editor): fix color of menu when it is selected [`8c90436`](https://github.com/nocobase/nocobase/commit/8c904363ad055d6aaacfe67d9f74a9467e7c90b5)
+- chore(versions): 😊 публикация v0.11.1-alpha.1 [`e979194`](https://github.com/nocobase/nocobase/commit/e979194cf29debcc10d2e6765c96083793186331)
+- fix(theme-editor): удаление db.sync [`fa2de8e`](https://github.com/nocobase/nocobase/commit/fa2de8e8060da00a85b381df0d7fbf9fca2793b3)
+- fix(theme-editor): исправление цвета меню при выборе [`8c90436`](https://github.com/nocobase/nocobase/commit/8c904363ad055d6aaacfe67d9f74a9467e7c90b5)
 
 ## [v0.11.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.10.1-alpha.1...v0.11.0-alpha.1) - 2023-07-08
 
-### Merged
+### Объединено
 
-- refactor(client)!: upgrade antd to v5 [`#2078`](https://github.com/nocobase/nocobase/pull/2078)
-- fix(plugin-workflow): fix loop variable [`#2211`](https://github.com/nocobase/nocobase/pull/2211)
-- fix(db): fix .now variable [`#2209`](https://github.com/nocobase/nocobase/pull/2209)
-- chore(plugin-workflow): adjust types [`#2206`](https://github.com/nocobase/nocobase/pull/2206)
-- **Breaking change:** refactor(client)!: application, router and plugin [`#2068`](https://github.com/nocobase/nocobase/pull/2068)
-- fix(plugin-workflow): try to avoid occasionally duplicated executions [`#2196`](https://github.com/nocobase/nocobase/pull/2196)
-- fix: association field display has been delete in sub-form [`#2205`](https://github.com/nocobase/nocobase/pull/2205)
-- refactor(client): abstract RawTextArea for variable input [`#2204`](https://github.com/nocobase/nocobase/pull/2204)
-- fix: error reported when open data scope [`#2202`](https://github.com/nocobase/nocobase/pull/2202)
-- fix: current object variavle can not be selected [`#2201`](https://github.com/nocobase/nocobase/pull/2201)
+- refactor(client)!: обновление antd до версии 5 [`#2078`](https://github.com/nocobase/nocobase/pull/2078)
+- fix(plugin-workflow): исправление переменной цикла [`#2211`](https://github.com/nocobase/nocobase/pull/2211)
+- fix(db): исправление переменной `.now` [`#2209`](https://github.com/nocobase/nocobase/pull/2209)
+- chore(plugin-workflow): корректировка типов [`#2206`](https://github.com/nocobase/nocobase/pull/2206)
+- **Критическое изменение:** refactor(client)!: приложение, маршрутизация и плагины [`#2068`](https://github.com/nocobase/nocobase/pull/2068)
+- fix(plugin-workflow): попытка избежать случайных дублированных выполнений [`#2196`](https://github.com/nocobase/nocobase/pull/2196)
+- fix: поле ассоциации отображается как удаленное в подформе [`#2205`](https://github.com/nocobase/nocobase/pull/2205)
+- refactor(client): абстракция RawTextArea для ввода переменных [`#2204`](https://github.com/nocobase/nocobase/pull/2204)
+- fix: ошибка при открытии области данных [`#2202`](https://github.com/nocobase/nocobase/pull/2202)
+- fix: переменная текущего объекта не может быть выбрана [`#2201`](https://github.com/nocobase/nocobase/pull/2201)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.11.0-alpha.1 [`c0a5952`](https://github.com/nocobase/nocobase/commit/c0a59524ab55f42f3455656d632bb6be6ae36424)
-- chore: update changelog [`44adf53`](https://github.com/nocobase/nocobase/commit/44adf53c1105016beb850005199c73d9189347fb)
+- chore(versions): 😊 публикация v0.11.0-alpha.1 [`c0a5952`](https://github.com/nocobase/nocobase/commit/c0a59524ab55f42f3455656d632bb6be6ae36424)
+- chore: обновление журнала изменений [`44adf53`](https://github.com/nocobase/nocobase/commit/44adf53c1105016beb850005199c73d9189347fb)
 
 ## [v0.10.1-alpha.1](https://github.com/nocobase/nocobase/compare/v0.10.0-alpha.5...v0.10.1-alpha.1) - 2023-07-07
 
-### Merged
+### Объединено
 
-- fix(client): fix variable component for preload label based on value [`#2200`](https://github.com/nocobase/nocobase/pull/2200)
-- fix: add new collection linakge disabled [`#2198`](https://github.com/nocobase/nocobase/pull/2198)
-- refactor: the default value setting of association field supports variables [`#2138`](https://github.com/nocobase/nocobase/pull/2138)
-- refactor: performance optimization of association field data scope [`#2113`](https://github.com/nocobase/nocobase/pull/2113)
-- refactor: duplicate support  inherited collection [`#2181`](https://github.com/nocobase/nocobase/pull/2181)
-- fix: optional fields of the child collection cannot be displayed correctly in the parent collection [`#2194`](https://github.com/nocobase/nocobase/pull/2194)
-- fix(data-templates): fix filter is empty [`#2193`](https://github.com/nocobase/nocobase/pull/2193)
-- feat(api-keys): the expiration field support custom option [`#2186`](https://github.com/nocobase/nocobase/pull/2186)
-- refactor(plugin-workflow): refactor nodes variable option api [`#2192`](https://github.com/nocobase/nocobase/pull/2192)
-- fix: error reported when rewriting the collection field [`#2189`](https://github.com/nocobase/nocobase/pull/2189)
-- refactor: enable child collection support current object [`#2188`](https://github.com/nocobase/nocobase/pull/2188)
-- refactor(client): refactor variable components and variables in workflow [`#2157`](https://github.com/nocobase/nocobase/pull/2157)
-- feat: support token blacklist [`#2168`](https://github.com/nocobase/nocobase/pull/2168)
-- fix: change ci timeout minutes [`#2187`](https://github.com/nocobase/nocobase/pull/2187)
-- fix: cannot open the template when the data template filter is a custom function [`#2183`](https://github.com/nocobase/nocobase/pull/2183)
-- feat(collection-manager): tableOID field and collection field [`#2161`](https://github.com/nocobase/nocobase/pull/2161)
-- fix(utils): fix json-template type checking logic [`#2177`](https://github.com/nocobase/nocobase/pull/2177)
-- fix: error opening when data scope is null [`#2178`](https://github.com/nocobase/nocobase/pull/2178)
-- fix(plugin-workflow): fix data scope on todo table block [`#2176`](https://github.com/nocobase/nocobase/pull/2176)
-- fix: time zone when showTime is false [`#2170`](https://github.com/nocobase/nocobase/pull/2170)
-- chore(database): skip update association if through model is a view [`#2173`](https://github.com/nocobase/nocobase/pull/2173)
-- test: add data-testid attr [`#2167`](https://github.com/nocobase/nocobase/pull/2167)
-- fix(plugin-workflow): fix cancel action on trigger config [`#2166`](https://github.com/nocobase/nocobase/pull/2166)
-- fix(utils): avoid to use default value for null in json-templates [`#2165`](https://github.com/nocobase/nocobase/pull/2165)
-- fix(plugin-api-keys): use currentRoles instead of get roles from roles:list [`#2163`](https://github.com/nocobase/nocobase/pull/2163)
-- docs: update api-keys related documentation [`#2162`](https://github.com/nocobase/nocobase/pull/2162)
-- feat: data visualization [`#2160`](https://github.com/nocobase/nocobase/pull/2160)
-- refactor: optimization of tree table stuck performance [`#2154`](https://github.com/nocobase/nocobase/pull/2154)
-- feat(plugin-api-keys): support fetch api via api-keys [`#2136`](https://github.com/nocobase/nocobase/pull/2136)
-- feat(map-plugin): support google map [`#2027`](https://github.com/nocobase/nocobase/pull/2027)
-- fix: 修复 gulp-less 版本导致的初始化 bug [`#2153`](https://github.com/nocobase/nocobase/pull/2153)
+- fix(client): исправлен компонент переменной для предварительной загрузки метки на основе значения [`#2200`](https://github.com/nocobase/nocobase/pull/2200)
+- fix: добавление новой коллекции с отключенной связью [`#2198`](https://github.com/nocobase/nocobase/pull/2198)
+- refactor: настройка значения по умолчанию для поля ассоциации поддерживает переменные [`#2138`](https://github.com/nocobase/nocobase/pull/2138)
+- refactor: оптимизация производительности области данных поля ассоциации [`#2113`](https://github.com/nocobase/nocobase/pull/2113)
+- refactor: дублирование поддерживает наследуемую коллекцию [`#2181`](https://github.com/nocobase/nocobase/pull/2181)
+- fix: необязательные поля дочерней коллекции не отображаются корректно в родительской коллекции [`#2194`](https://github.com/nocobase/nocobase/pull/2194)
+- fix(data-templates): исправлен пустой фильтр [`#2193`](https://github.com/nocobase/nocobase/pull/2193)
+- feat(api-keys): поле срока действия поддерживает пользовательские опции [`#2186`](https://github.com/nocobase/nocobase/pull/2186)
+- refactor(plugin-workflow): рефакторинг API опций переменных узлов [`#2192`](https://github.com/nocobase/nocobase/pull/2192)
+- fix: ошибка при перезаписи поля коллекции [`#2189`](https://github.com/nocobase/nocobase/pull/2189)
+- refactor: поддержка текущего объекта для дочерней коллекции [`#2188`](https://github.com/nocobase/nocobase/pull/2188)
+- refactor(client): рефакторинг компонентов переменных и переменных в рабочем процессе [`#2157`](https://github.com/nocobase/nocobase/pull/2157)
+- feat: поддержка черного списка токенов [`#2168`](https://github.com/nocobase/nocobase/pull/2168)
+- fix: изменение времени ожидания CI [`#2187`](https://github.com/nocobase/nocobase/pull/2187)
+- fix: невозможно открыть шаблон, если фильтр шаблона данных является пользовательской функцией [`#2183`](https://github.com/nocobase/nocobase/pull/2183)
+- feat(collection-manager): поля tableOID и коллекции [`#2161`](https://github.com/nocobase/nocobase/pull/2161)
+- fix(utils): исправлена логика проверки типов json-template [`#2177`](https://github.com/nocobase/nocobase/pull/2177)
+- fix: ошибка при открытии, если область данных равна null [`#2178`](https://github.com/nocobase/nocobase/pull/2178)
+- fix(plugin-workflow): исправлена область данных в блоке таблицы задач [`#2176`](https://github.com/nocobase/nocobase/pull/2176)
+- fix: часовой пояс при showTime = false [`#2170`](https://github.com/nocobase/nocobase/pull/2170)
+- chore(database): пропуск обновления ассоциации, если модель представления является через модель [`#2173`](https://github.com/nocobase/nocobase/pull/2173)
+- test: добавлен атрибут data-testid [`#2167`](https://github.com/nocobase/nocobase/pull/2167)
+- fix(plugin-workflow): исправлено действие отмены в конфигурации триггера [`#2166`](https://github.com/nocobase/nocobase/pull/2166)
+- fix(utils): избегать использования значения по умолчанию для null в json-templates [`#2165`](https://github.com/nocobase/nocobase/pull/2165)
+- fix(plugin-api-keys): использование currentRoles вместо получения ролей из roles:list [`#2163`](https://github.com/nocobase/nocobase/pull/2163)
+- docs: обновлена документация, связанная с api-keys [`#2162`](https://github.com/nocobase/nocobase/pull/2162)
+- feat: визуализация данных [`#2160`](https://github.com/nocobase/nocobase/pull/2160)
+- refactor: оптимизация производительности застревания древовидной таблицы [`#2154`](https://github.com/nocobase/nocobase/pull/2154)
+- feat(plugin-api-keys): поддержка fetch API через api-keys [`#2136`](https://github.com/nocobase/nocobase/pull/2136)
+- feat(map-plugin): поддержка Google Maps [`#2027`](https://github.com/nocobase/nocobase/pull/2027)
+- fix: исправлен баг инициализации, вызванный версией gulp-less [`#2153`](https://github.com/nocobase/nocobase/pull/2153)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.10.1-alpha.1 [`15f0282`](https://github.com/nocobase/nocobase/commit/15f028295c1f788c16da7a0643f7feff41e08434)
-- chore: update changelog [`a96c4cd`](https://github.com/nocobase/nocobase/commit/a96c4cdd8410fcb1011b014f75b09c14f3960b88)
-- fix(acl): add roles.users field [`7e0ac57`](https://github.com/nocobase/nocobase/commit/7e0ac57057d884583fe4fdbd89353ac30f408925)
+- chore(versions): 😊 публикация v0.10.1-alpha.1 [`15f0282`](https://github.com/nocobase/nocobase/commit/15f028295c1f788c16da7a0643f7feff41e08434)
+- chore: обновление журнала изменений [`a96c4cd`](https://github.com/nocobase/nocobase/commit/a96c4cdd8410fcb1011b014f75b09c14f3960b88)
+- fix(acl): добавлено поле roles.users [`7e0ac57`](https://github.com/nocobase/nocobase/commit/7e0ac57057d884583fe4fdbd89353ac30f408925)
 
 ## [v0.10.0-alpha.5](https://github.com/nocobase/nocobase/compare/v0.10.0-alpha.4...v0.10.0-alpha.5) - 2023-06-29
 
-### Merged
+### Объединено
 
-- fix(assigned field):dynamic value validation error when assigned field [`#2117`](https://github.com/nocobase/nocobase/pull/2117)
-- fix(upload): fix the upload status not being updated if the upload was successful [`#2133`](https://github.com/nocobase/nocobase/pull/2133)
-- fix:  association fields cannot config in table [`#2146`](https://github.com/nocobase/nocobase/pull/2146)
-- feat: error cache [`#2145`](https://github.com/nocobase/nocobase/pull/2145)
-- fix(client): fix field initializer in detail block [`#2144`](https://github.com/nocobase/nocobase/pull/2144)
+- fix(assigned field): ошибка проверки динамического значения при назначении поля [`#2117`](https://github.com/nocobase/nocobase/pull/2117)
+- fix(upload): исправлено обновление статуса загрузки, если загрузка была успешной [`#2133`](https://github.com/nocobase/nocobase/pull/2133)
+- fix: поля ассоциации нельзя настроить в таблице [`#2146`](https://github.com/nocobase/nocobase/pull/2146)
+- feat: кэширование ошибок [`#2145`](https://github.com/nocobase/nocobase/pull/2145)
+- fix(client): исправлен инициализатор поля в блоке деталей [`#2144`](https://github.com/nocobase/nocobase/pull/2144)
 - fix: dropdownMatchSelectWidth=false [`#2143`](https://github.com/nocobase/nocobase/pull/2143)
-- fix(doc): 同级目录跳转 [`#2140`](https://github.com/nocobase/nocobase/pull/2140)
-- refactor: should use useDocumentTitle to change document title [`#2137`](https://github.com/nocobase/nocobase/pull/2137)
+- fix(doc): переход между каталогами одного уровня [`#2140`](https://github.com/nocobase/nocobase/pull/2140)
+- refactor: следует использовать useDocumentTitle для изменения заголовка документа [`#2137`](https://github.com/nocobase/nocobase/pull/2137)
 - Add *.pdf preview [`#2105`](https://github.com/nocobase/nocobase/pull/2105)
-- fix: migration up error [`#2135`](https://github.com/nocobase/nocobase/pull/2135)
+- fix: ошибка миграции вверх [`#2135`](https://github.com/nocobase/nocobase/pull/2135)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.10.0-alpha.5 [`560c00c`](https://github.com/nocobase/nocobase/commit/560c00cc3eda9352f32dd33d234668673f835175)
-- chore: update changelog [`c32533e`](https://github.com/nocobase/nocobase/commit/c32533e1b8e660c827ddcb18b7c41cf4b15e90e5)
+- chore(versions): 😊 публикация v0.10.0-alpha.5 [`560c00c`](https://github.com/nocobase/nocobase/commit/560c00cc3eda9352f32dd33d234668673f835175)
+- chore: обновление журнала изменений [`c32533e`](https://github.com/nocobase/nocobase/commit/c32533e1b8e660c827ddcb18b7c41cf4b15e90e5)
 
 ## [v0.10.0-alpha.4](https://github.com/nocobase/nocobase/compare/v0.10.0-alpha.3...v0.10.0-alpha.4) - 2023-06-27
 
-### Merged
+### Объединено
 
-- refactor: request data when the drop-down list is opened [`#2127`](https://github.com/nocobase/nocobase/pull/2127)
-- fix: fix dialog does not appear [`#2134`](https://github.com/nocobase/nocobase/pull/2134)
-- fix(association-field):submitting failed after adding data in subform for multiple association fields [`#2065`](https://github.com/nocobase/nocobase/pull/2065)
-- fix(sub-apps): fix incorrect page display when navigating sub-apps [`#2126`](https://github.com/nocobase/nocobase/pull/2126)
-- fix: tree gantt block does not display correctly [`#2123`](https://github.com/nocobase/nocobase/pull/2123)
-- fix(plugin-workflow): change to use formv2 to avoid values updating issue [`#2124`](https://github.com/nocobase/nocobase/pull/2124)
-- style:list and gridCard block style improve [`#2087`](https://github.com/nocobase/nocobase/pull/2087)
-- fix: fix designer button does not appear [`#2120`](https://github.com/nocobase/nocobase/pull/2120)
-- fix: fix the drop-down menu does not disapper [`#2109`](https://github.com/nocobase/nocobase/pull/2109)
-- chore: fix typo [`#2108`](https://github.com/nocobase/nocobase/pull/2108)
+- refactor: запрос данных при открытии выпадающего списка [`#2127`](https://github.com/nocobase/nocobase/pull/2127)
+- fix: исправлено появление диалогового окна [`#2134`](https://github.com/nocobase/nocobase/pull/2134)
+- fix(association-field): ошибка отправки после добавления данных в подформу для нескольких полей ассоциации [`#2065`](https://github.com/nocobase/nocobase/pull/2065)
+- fix(sub-apps): исправлено некорректное отображение страницы при навигации в подприложениях [`#2126`](https://github.com/nocobase/nocobase/pull/2126)
+- fix: блок tree gantt не отображается корректно [`#2123`](https://github.com/nocobase/nocobase/pull/2123)
+- fix(plugin-workflow): изменение на использование formv2 для избежания проблем обновления значений [`#2124`](https://github.com/nocobase/nocobase/pull/2124)
+- style: улучшение стиля блоков list и gridCard [`#2087`](https://github.com/nocobase/nocobase/pull/2087)
+- fix: исправлено появление кнопки дизайнера [`#2120`](https://github.com/nocobase/nocobase/pull/2120)
+- fix: исправлено исчезновение выпадающего меню [`#2109`](https://github.com/nocobase/nocobase/pull/2109)
+- chore: исправлена опечатка [`#2108`](https://github.com/nocobase/nocobase/pull/2108)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.10.0-alpha.4 [`f3f91bd`](https://github.com/nocobase/nocobase/commit/f3f91bd649c5c7c57ef3927d4ae47b5e5b1a9e74)
-- chore: update changelog [`ce79e4d`](https://github.com/nocobase/nocobase/commit/ce79e4dc5bc6584c74ec335b33216163a8f6deec)
-- Revert "chore: upgrade types of react" [`b2e7185`](https://github.com/nocobase/nocobase/commit/b2e71850f8f52b1c65c0c3783dbb48f64810c57b)
+- chore(versions): 😊 публикация v0.10.0-alpha.4 [`f3f91bd`](https://github.com/nocobase/nocobase/commit/f3f91bd649c5c7c57ef3927d4ae47b5e5b1a9e74)
+- chore: обновление журнала изменений [`ce79e4d`](https://github.com/nocobase/nocobase/commit/ce79e4dc5bc6584c74ec335b33216163a8f6deec)
+- Revert "chore: обновление типов react" [`b2e7185`](https://github.com/nocobase/nocobase/commit/b2e71850f8f52b1c65c0c3783dbb48f64810c57b)
 
 ## [v0.10.0-alpha.3](https://github.com/nocobase/nocobase/compare/v0.10.0-alpha.2...v0.10.0-alpha.3) - 2023-06-25
 
-### Merged
+### Объединено
 
-- fix:  deleting the last field from  sub table, the entire table will be delete [`#2077`](https://github.com/nocobase/nocobase/pull/2077)
-- fix(sub-table): inherited fields cannot be edited in a subtable [`#2106`](https://github.com/nocobase/nocobase/pull/2106)
-- fix(input-number): change step to 1 [`#2104`](https://github.com/nocobase/nocobase/pull/2104)
+- fix: удаление последнего поля из подтаблицы приводит к удалению всей таблицы [`#2077`](https://github.com/nocobase/nocobase/pull/2077)
+- fix(sub-table): унаследованные поля нельзя редактировать в подтаблице [`#2106`](https://github.com/nocobase/nocobase/pull/2106)
+- fix(input-number): изменение шага на 1 [`#2104`](https://github.com/nocobase/nocobase/pull/2104)
 - fix: schema-uid-invalid [`#2107`](https://github.com/nocobase/nocobase/pull/2107)
-- fix(plugin-workflow): fix branch and exit logic [`#2103`](https://github.com/nocobase/nocobase/pull/2103)
-- fix: create plugin cli error [`#2102`](https://github.com/nocobase/nocobase/pull/2102)
-- fix: select options [`#2101`](https://github.com/nocobase/nocobase/pull/2101)
-- chore(deps): bump formily from 2.2.24 to 2.2.26 [`#2088`](https://github.com/nocobase/nocobase/pull/2088)
-- fix(sub-table): allows configuration of "Display association fields" [`#2073`](https://github.com/nocobase/nocobase/pull/2073)
-- style: enable child collection modal style improve [`#2100`](https://github.com/nocobase/nocobase/pull/2100)
-- feat: data scope support variables for association fields [`#2049`](https://github.com/nocobase/nocobase/pull/2049)
-- refactor: fix warning of antd 4.x [`#1998`](https://github.com/nocobase/nocobase/pull/1998)
-- fix(plugin-workflow): fix job button style [`#2098`](https://github.com/nocobase/nocobase/pull/2098)
-- fix(mobile-client): fix multiple bugs and do some improvement [`#2072`](https://github.com/nocobase/nocobase/pull/2072)
-- fix(plugin-verification): fix duplication of installation [`#2097`](https://github.com/nocobase/nocobase/pull/2097)
-- fix: incomplete field list for assigned fields [`#2093`](https://github.com/nocobase/nocobase/pull/2093)
-- fix: add useAdminSchemaUid [`#2092`](https://github.com/nocobase/nocobase/pull/2092)
-- refactor(db): add batch logic to update for better performance [`#2070`](https://github.com/nocobase/nocobase/pull/2070)
-- fix: unable to load data from chinaRegion during the first configuation [`#2089`](https://github.com/nocobase/nocobase/pull/2089)
-- refactor: migrate adminSchemaUid & mobileSchemaUid to system settings [`#2084`](https://github.com/nocobase/nocobase/pull/2084)
-- fix(plugin-workflow): fix occasional error on enter workflow page [`#2086`](https://github.com/nocobase/nocobase/pull/2086)
-- fix: mobile docs style [`#2083`](https://github.com/nocobase/nocobase/pull/2083)
+- fix(plugin-workflow): исправлены логика ветвления и выхода [`#2103`](https://github.com/nocobase/nocobase/pull/2103)
+- fix: ошибка создания CLI плагина [`#2102`](https://github.com/nocobase/nocobase/pull/2102)
+- fix: параметры выбора [`#2101`](https://github.com/nocobase/nocobase/pull/2101)
+- chore(deps): обновление formily с 2.2.24 до 2.2.26 [`#2088`](https://github.com/nocobase/nocobase/pull/2088)
+- fix(sub-table): разрешена настройка "Отображение полей ассоциации" [`#2073`](https://github.com/nocobase/nocobase/pull/2073)
+- style: улучшение стиля модального окна дочерней коллекции [`#2100`](https://github.com/nocobase/nocobase/pull/2100)
+- feat: область данных поддерживает переменные для полей ассоциации [`#2049`](https://github.com/nocobase/nocobase/pull/2049)
+- refactor: исправление предупреждений antd 4.x [`#1998`](https://github.com/nocobase/nocobase/pull/1998)
+- fix(plugin-workflow): исправлен стиль кнопки задачи [`#2098`](https://github.com/nocobase/nocobase/pull/2098)
+- fix(mobile-client): исправлено несколько ошибок и улучшения [`#2072`](https://github.com/nocobase/nocobase/pull/2072)
+- fix(plugin-verification): исправлено дублирование установки [`#2097`](https://github.com/nocobase/nocobase/pull/2097)
+- fix: неполный список полей для назначенных полей [`#2093`](https://github.com/nocobase/nocobase/pull/2093)
+- fix: добавлен useAdminSchemaUid [`#2092`](https://github.com/nocobase/nocobase/pull/2092)
+- refactor(db): добавлена пакетная логика обновления для повышения производительности [`#2070`](https://github.com/nocobase/nocobase/pull/2070)
+- fix: невозможность загрузки данных из chinaRegion при первой настройке [`#2089`](https://github.com/nocobase/nocobase/pull/2089)
+- refactor: миграция adminSchemaUid и mobileSchemaUid в системные настройки [`#2084`](https://github.com/nocobase/nocobase/pull/2084)
+- fix(plugin-workflow): исправлена случайная ошибка на странице рабочего процесса [`#2086`](https://github.com/nocobase/nocobase/pull/2086)
+- fix: стиль мобильной документации [`#2083`](https://github.com/nocobase/nocobase/pull/2083)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.10.0-alpha.3 [`83bf8ea`](https://github.com/nocobase/nocobase/commit/83bf8ea3bbf7d5e2d2c8094d56844cec8560274f)
-- chore: update changelog [`cc37667`](https://github.com/nocobase/nocobase/commit/cc376673a931411435a8b4ffffa22dc4921fcbf8)
-- feat: update docs [`5672ffc`](https://github.com/nocobase/nocobase/commit/5672ffc9fa4b7b311e97fbb59fce8c368369c9c7)
+- chore(versions): 😊 публикация v0.10.0-alpha.3 [`83bf8ea`](https://github.com/nocobase/nocobase/commit/83bf8ea3bbf7d5e2d2c8094d56844cec8560274f)
+- chore: обновление журнала изменений [`cc37667`](https://github.com/nocobase/nocobase/commit/cc376673a931411435a8b4ffffa22dc4921fcbf8)
+- feat: обновление документации [`5672ffc`](https://github.com/nocobase/nocobase/commit/5672ffc9fa4b7b311e97fbb59fce8c368369c9c7)
 
 ## [v0.10.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.9.4-alpha.2...v0.10.0-alpha.2) - 2023-06-20
 
-### Merged
+### Объединено
 
-- refactor: upgrade `umi`, `react` and `react-router-dom` [`#1921`](https://github.com/nocobase/nocobase/pull/1921)
-- fix(collection-manager): share collection when COLLECTION_MANAGER_SCHEMA not set [`#2081`](https://github.com/nocobase/nocobase/pull/2081)
-- fix(plugin-formula): fix formula field effect and read-pretty component [`#2076`](https://github.com/nocobase/nocobase/pull/2076)
-- fix: file collection  field should default to preview as the title field [`#2059`](https://github.com/nocobase/nocobase/pull/2059)
-- fix(client): remove incorrect onchange in json component [`#2079`](https://github.com/nocobase/nocobase/pull/2079)
-- fix(client): fix onchange mistake [`#2075`](https://github.com/nocobase/nocobase/pull/2075)
-- fix(client): fix locale [`#2074`](https://github.com/nocobase/nocobase/pull/2074)
-- fix(Varaible): fix option is disabled [`#2043`](https://github.com/nocobase/nocobase/pull/2043)
+- refactor: обновление `umi`, `react` и `react-router-dom` [`#1921`](https://github.com/nocobase/nocobase/pull/1921)
+- fix(collection-manager): общий доступ к коллекции, когда COLLECTION_MANAGER_SCHEMA не установлен [`#2081`](https://github.com/nocobase/nocobase/pull/2081)
+- fix(plugin-formula): исправление эффекта поля формулы и компонента read-pretty [`#2076`](https://github.com/nocobase/nocobase/pull/2076)
+- fix: поле коллекции файлов должно по умолчанию отображаться как поле заголовка [`#2059`](https://github.com/nocobase/nocobase/pull/2059)
+- fix(client): удаление некорректного onchange в компоненте json [`#2079`](https://github.com/nocobase/nocobase/pull/2079)
+- fix(client): исправление ошибки onchange [`#2075`](https://github.com/nocobase/nocobase/pull/2075)
+- fix(client): исправление локализации [`#2074`](https://github.com/nocobase/nocobase/pull/2074)
+- fix(Varaible): исправление отключенной опции [`#2043`](https://github.com/nocobase/nocobase/pull/2043)
 - fix: rowSelection undefined [`#2071`](https://github.com/nocobase/nocobase/pull/2071)
-- fix: association field cannot enable link in table column [`#2066`](https://github.com/nocobase/nocobase/pull/2066)
-- refactor(plugin-workflow): manual collection block migration [`#2064`](https://github.com/nocobase/nocobase/pull/2064)
-- refactor(association-field): support sub table [`#1862`](https://github.com/nocobase/nocobase/pull/1862)
-- fix: avoid error [`#2060`](https://github.com/nocobase/nocobase/pull/2060)
-- fix(Data-template): fix field cannot be expanded [`#2057`](https://github.com/nocobase/nocobase/pull/2057)
-- feat(association field):quick add new [`#1953`](https://github.com/nocobase/nocobase/pull/1953)
-- fix: duplicate action locale [`#2052`](https://github.com/nocobase/nocobase/pull/2052)
-- fix: fix default value of optional field [`#2053`](https://github.com/nocobase/nocobase/pull/2053)
-- refactor: List block and GridCard block style improve [`#1988`](https://github.com/nocobase/nocobase/pull/1988)
-- fix: block disappears when dragged over its parent [`#2048`](https://github.com/nocobase/nocobase/pull/2048)
-- fix: form performance [`#2047`](https://github.com/nocobase/nocobase/pull/2047)
-- fix:  default value for multiple select cannot be set [`#2031`](https://github.com/nocobase/nocobase/pull/2031)
-- fix: display on the PC side of moblie access is incomplete [`#2039`](https://github.com/nocobase/nocobase/pull/2039)
-- fix: enable tab and deleting tab page  will result in an error [`#2045`](https://github.com/nocobase/nocobase/pull/2045)
-- refactor(PluginManager): remove useless code [`#2022`](https://github.com/nocobase/nocobase/pull/2022)
-- fix(mobile-client): some mobile-client bugs [`#2017`](https://github.com/nocobase/nocobase/pull/2017)
-- fix: error reported after deleting the associationFilter  block linkage field [`#2038`](https://github.com/nocobase/nocobase/pull/2038)
-- fix(association-field): default values for the fields of a association field [`#2037`](https://github.com/nocobase/nocobase/pull/2037)
-- chore(database): return emtpy fields when attributes not specified [`#2034`](https://github.com/nocobase/nocobase/pull/2034)
-- refactor:  child and parent field are not linked [`#2030`](https://github.com/nocobase/nocobase/pull/2030)
-- fix(oidc): bugs of integration with logto [`#2032`](https://github.com/nocobase/nocobase/pull/2032)
-- fix(data-template): filter out foreign keys [`#2033`](https://github.com/nocobase/nocobase/pull/2033)
-- fix(client): fix json input component value handling [`#2028`](https://github.com/nocobase/nocobase/pull/2028)
-- feat: filter out IDs in sub-forms [`#2025`](https://github.com/nocobase/nocobase/pull/2025)
-- fix(GridCard): column count not work [`#2023`](https://github.com/nocobase/nocobase/pull/2023)
-- feat: use `ActionContextProvider` instated of `ActionContext.Provider` [`#2019`](https://github.com/nocobase/nocobase/pull/2019)
-- fix: re-insert repeat routes [`#2018`](https://github.com/nocobase/nocobase/pull/2018)
-- refactor(plugin-workflow): change node config api render to component [`#2014`](https://github.com/nocobase/nocobase/pull/2014)
-- chore(github-actions): separate frontend and backend tests [`#2013`](https://github.com/nocobase/nocobase/pull/2013)
-- feat(plugin-mobile-client): support mobile-side client [`#1879`](https://github.com/nocobase/nocobase/pull/1879)
-- chore(database): append inherit inspect attribute with eager load [`#2010`](https://github.com/nocobase/nocobase/pull/2010)
-- feat(auth): support custom authentication [`#2007`](https://github.com/nocobase/nocobase/pull/2007)
-- feat(plugin-fm): add option for storage to remove file physically or not [`#2005`](https://github.com/nocobase/nocobase/pull/2005)
-- fix: eager load with nested association [`#2002`](https://github.com/nocobase/nocobase/pull/2002)
-- chore(acl): write role to acl if it exists in database and not found … [`#2001`](https://github.com/nocobase/nocobase/pull/2001)
-- feat: duplicate action [`#1973`](https://github.com/nocobase/nocobase/pull/1973)
-- refactor(association-field): useAssociationNames hook [`#1956`](https://github.com/nocobase/nocobase/pull/1956)
-- chore(collection-manager): should not throw error when source collection destoryed [`#1999`](https://github.com/nocobase/nocobase/pull/1999)
-- fix: assignedField can not select dynamicValue [`#2000`](https://github.com/nocobase/nocobase/pull/2000)
-- test: add tests for client [`#1960`](https://github.com/nocobase/nocobase/pull/1960)
-- fix: display title enable [`#1995`](https://github.com/nocobase/nocobase/pull/1995)
-- fix(plugin-formula): fix result component caused page crash [`#1996`](https://github.com/nocobase/nocobase/pull/1996)
-- feat(collection-manger): lazy load collection field [`#1993`](https://github.com/nocobase/nocobase/pull/1993)
-- fix: the edit drawer's audit logs block can only get records by this … [`#1917`](https://github.com/nocobase/nocobase/pull/1917)
-- feat: upgrade formily [`#1880`](https://github.com/nocobase/nocobase/pull/1880)
-- refactor(plugin-fm): change api and allow to select storage [`#1250`](https://github.com/nocobase/nocobase/pull/1250)
-- fix: fix default value is invalid in subform [`#1989`](https://github.com/nocobase/nocobase/pull/1989)
-- feat(database): add firstOrCreate and updateOrCreate in repository [`#1943`](https://github.com/nocobase/nocobase/pull/1943)
-- feat(database): append child collection name after eager load [`#1978`](https://github.com/nocobase/nocobase/pull/1978)
-- fix(multip-app-manager): init multiple Application instances while starting up a sub app [`#1986`](https://github.com/nocobase/nocobase/pull/1986)
-- feat(plugin-workflow): manual forms [`#1748`](https://github.com/nocobase/nocobase/pull/1748)
-- fix(charts): fields undefined bug [`#1980`](https://github.com/nocobase/nocobase/pull/1980)
-- chore(database): pg oid and name data type in view [`#1982`](https://github.com/nocobase/nocobase/pull/1982)
-- feat: infer belongs to association field in view collection [`#1756`](https://github.com/nocobase/nocobase/pull/1756)
-- fix: treeCollection config in detail block [`#1975`](https://github.com/nocobase/nocobase/pull/1975)
-- fix(database): missing reference when rewrite parent field [`#1977`](https://github.com/nocobase/nocobase/pull/1977)
-- fix(evaluators): fix number lead key in variable path [`#1976`](https://github.com/nocobase/nocobase/pull/1976)
+- fix: поле связи не может включить ссылку в столбце таблицы [`#2066`](https://github.com/nocobase/nocobase/pull/2066)
+- refactor(plugin-workflow): миграция блока ручной коллекции [`#2064`](https://github.com/nocobase/nocobase/pull/2064)
+- refactor(association-field): поддержка подтаблиц [`#1862`](https://github.com/nocobase/nocobase/pull/1862)
+- fix: избежание ошибки [`#2060`](https://github.com/nocobase/nocobase/pull/2060)
+- fix(Data-template): исправление невозможности раскрытия поля [`#2057`](https://github.com/nocobase/nocobase/pull/2057)
+- feat(association field): быстрое добавление нового [`#1953`](https://github.com/nocobase/nocobase/pull/1953)
+- fix: дублирование локализации действия [`#2052`](https://github.com/nocobase/nocobase/pull/2052)
+- fix: исправление значения по умолчанию для необязательного поля [`#2053`](https://github.com/nocobase/nocobase/pull/2053)
+- refactor: улучшение стиля блока списка и блока сетки [`#1988`](https://github.com/nocobase/nocobase/pull/1988)
+- fix: блок исчезает при перетаскивании над его родителем [`#2048`](https://github.com/nocobase/nocobase/pull/2048)
+- fix: производительность формы [`#2047`](https://github.com/nocobase/nocobase/pull/2047)
+- fix: значение по умолчанию для множественного выбора не может быть установлено [`#2031`](https://github.com/nocobase/nocobase/pull/2031)
+- fix: отображение на стороне ПК при мобильном доступе неполное [`#2039`](https://github.com/nocobase/nocobase/pull/2039)
+- fix: включение вкладки и удаление страницы вкладки приводит к ошибке [`#2045`](https://github.com/nocobase/nocobase/pull/2045)
+- refactor(PluginManager): удаление бесполезного кода [`#2022`](https://github.com/nocobase/nocobase/pull/2022)
+- fix(mobile-client): некоторые ошибки mobile-client [`#2017`](https://github.com/nocobase/nocobase/pull/2017)
+- fix: ошибка после удаления поля связи блока associationFilter [`#2038`](https://github.com/nocobase/nocobase/pull/2038)
+- fix(association-field): значения по умолчанию для полей поля связи [`#2037`](https://github.com/nocobase/nocobase/pull/2037)
+- chore(database): возврат пустых полей при неуказанных атрибутах [`#2034`](https://github.com/nocobase/nocobase/pull/2034)
+- refactor: дочернее и родительское поле не связаны [`#2030`](https://github.com/nocobase/nocobase/pull/2030)
+- fix(oidc): ошибки интеграции с logto [`#2032`](https://github.com/nocobase/nocobase/pull/2032)
+- fix(data-template): фильтрация внешних ключей [`#2033`](https://github.com/nocobase/nocobase/pull/2033)
+- fix(client): исправление обработки значений компонента ввода json [`#2028`](https://github.com/nocobase/nocobase/pull/2028)
+- feat: фильтрация ID в подформах [`#2025`](https://github.com/nocobase/nocobase/pull/2025)
+- fix(GridCard): количество столбцов не работает [`#2023`](https://github.com/nocobase/nocobase/pull/2023)
+- feat: использование `ActionContextProvider` вместо `ActionContext.Provider` [`#2019`](https://github.com/nocobase/nocobase/pull/2019)
+- fix: повторная вставка дублирующихся маршрутов [`#2018`](https://github.com/nocobase/nocobase/pull/2018)
+- refactor(plugin-workflow): изменение API рендеринга конфигурации узла на компонент [`#2014`](https://github.com/nocobase/nocobase/pull/2014)
+- chore(github-actions): разделение тестов для фронтенда и бэкенда [`#2013`](https://github.com/nocobase/nocobase/pull/2013)
+- feat(plugin-mobile-client): поддержка клиентской части мобильного приложения [`#1879`](https://github.com/nocobase/nocobase/pull/1879)
+- chore(database): добавление проверки атрибутов с жадной загрузкой [`#2010`](https://github.com/nocobase/nocobase/pull/2010)
+- feat(auth): поддержка пользовательской аутентификации [`#2007`](https://github.com/nocobase/nocobase/pull/2007)
+- feat(plugin-fm): добавление опции для удаления файла физически или нет [`#2005`](https://github.com/nocobase/nocobase/pull/2005)
+- fix: жадная загрузка с вложенными связями [`#2002`](https://github.com/nocobase/nocobase/pull/2002)
+- chore(acl): запись роли в ACL, если она существует в базе данных и не найдена [`#2001`](https://github.com/nocobase/nocobase/pull/2001)
+- feat: действие дублирования [`#1973`](https://github.com/nocobase/nocobase/pull/1973)
+- refactor(association-field): хук useAssociationNames [`#1956`](https://github.com/nocobase/nocobase/pull/1956)
+- chore(collection-manager): не выбрасывать ошибку при удалении исходной коллекции [`#1999`](https://github.com/nocobase/nocobase/pull/1999)
+- fix: assignedField не может выбрать dynamicValue [`#2000`](https://github.com/nocobase/nocobase/pull/2000)
+- test: добавление тестов для клиента [`#1960`](https://github.com/nocobase/nocobase/pull/1960)
+- fix: включение отображения заголовка [`#1995`](https://github.com/nocobase/nocobase/pull/1995)
+- fix(plugin-formula): исправление компонента результата, вызывающего сбой страницы [`#1996`](https://github.com/nocobase/nocobase/pull/1996)
+- feat(collection-manger): ленивая загрузка полей коллекции [`#1993`](https://github.com/nocobase/nocobase/pull/1993)
+- fix: блок журналов аудита в редактируемом ящике может получать записи только этого [`#1917`](https://github.com/nocobase/nocobase/pull/1917)
+- feat: обновление formily [`#1880`](https://github.com/nocobase/nocobase/pull/1880)
+- refactor(plugin-fm): изменение API и разрешение выбора хранилища [`#1250`](https://github.com/nocobase/nocobase/pull/1250)
+- fix: исправление недействительного значения по умолчанию в подформе [`#1989`](https://github.com/nocobase/nocobase/pull/1989)
+- feat(database): добавление firstOrCreate и updateOrCreate в репозиторий [`#1943`](https://github.com/nocobase/nocobase/pull/1943)
+- feat(database): добавление имени дочерней коллекции после жадной загрузки [`#1978`](https://github.com/nocobase/nocobase/pull/1978)
+- fix(multip-app-manager): инициализация нескольких экземпляров Application при запуске подприложения [`#1986`](https://github.com/nocobase/nocobase/pull/1986)
+- feat(plugin-workflow): ручные формы [`#1748`](https://github.com/nocobase/nocobase/pull/1748)
+- fix(charts): ошибка undefined поля [`#1980`](https://github.com/nocobase/nocobase/pull/1980)
+- chore(database): типы данных pg oid и name в представлении [`#1982`](https://github.com/nocobase/nocobase/pull/1982)
+- feat: вывод поля связи belongs to в коллекции представления [`#1756`](https://github.com/nocobase/nocobase/pull/1756)
+- fix: конфигурация treeCollection в детальном блоке [`#1975`](https://github.com/nocobase/nocobase/pull/1975)
+- fix(database): отсутствующая ссылка при перезаписи родительского поля [`#1977`](https://github.com/nocobase/nocobase/pull/1977)
+- fix(evaluators): исправление числового ключа в пути переменной [`#1976`](https://github.com/nocobase/nocobase/pull/1976)
 - fix(association-field): form.get & set valuesIn field.path [`#1972`](https://github.com/nocobase/nocobase/pull/1972)
 - fix: useCreateActionProps [`#1971`](https://github.com/nocobase/nocobase/pull/1971)
-- fix(database): update association values with nested associations [`#1970`](https://github.com/nocobase/nocobase/pull/1970)
-- fix:  adding inherited blocks in relation fields under edited operate should only display themselves [`#1967`](https://github.com/nocobase/nocobase/pull/1967)
-- fix(form-item): data scope and sorting rule config should only display in association field [`#1964`](https://github.com/nocobase/nocobase/pull/1964)
-- fix: select with color tag value [`#1963`](https://github.com/nocobase/nocobase/pull/1963)
-- fix: select toValue [`#1962`](https://github.com/nocobase/nocobase/pull/1962)
-- fix: select null value [`#1961`](https://github.com/nocobase/nocobase/pull/1961)
-- refactor(sub-form):sub-form style  [`#1959`](https://github.com/nocobase/nocobase/pull/1959)
-- fix(plugin-formula): fix read-pretty component when used in association field [`#1957`](https://github.com/nocobase/nocobase/pull/1957)
-- perf(data-scope): async loading of variable data [`#1932`](https://github.com/nocobase/nocobase/pull/1932)
-- fix: undefined mode [`#1950`](https://github.com/nocobase/nocobase/pull/1950)
-- fix(grid-card, list): display title only work on current block [`#1942`](https://github.com/nocobase/nocobase/pull/1942)
-- refactor(linkage-rule): linkage rules condition support toMany association fields [`#1924`](https://github.com/nocobase/nocobase/pull/1924)
-- feat(plugin-manager): better plugin manager experience [`#1927`](https://github.com/nocobase/nocobase/pull/1927)
-- chore(database): sort many to many associations by primary key by … [`#1948`](https://github.com/nocobase/nocobase/pull/1948)
-- test(audit-logs): audit log changes [`#1928`](https://github.com/nocobase/nocobase/pull/1928)
-- fix: eager load belongs to many with through table [`#1946`](https://github.com/nocobase/nocobase/pull/1946)
+- fix(database): обновление значений связи с вложенными связями [`#1970`](https://github.com/nocobase/nocobase/pull/1970)
+- fix: добавление унаследованных блоков в поля отношений при редактировании должно отображать только себя [`#1967`](https://github.com/nocobase/nocobase/pull/1967)
+- fix(form-item): конфигурация области данных и правила сортировки должны отображаться только в поле связи [`#1964`](https://github.com/nocobase/nocobase/pull/1964)
+- fix: выбор с цветовым тегом [`#1963`](https://github.com/nocobase/nocobase/pull/1963)
+- fix: выбор toValue [`#1962`](https://github.com/nocobase/nocobase/pull/1962)
+- fix: выбор null значения [`#1961`](https://github.com/nocobase/nocobase/pull/1961)
+- refactor(sub-form): стиль подформы [`#1959`](https://github.com/nocobase/nocobase/pull/1959)
+- fix(plugin-formula): исправление компонента read-pretty при использовании в поле связи [`#1957`](https://github.com/nocobase/nocobase/pull/1957)
+- perf(data-scope): асинхронная загрузка данных переменных [`#1932`](https://github.com/nocobase/nocobase/pull/1932)
+- fix: неопределенный режим [`#1950`](https://github.com/nocobase/nocobase/pull/1950)
+- fix(grid-card, list): отображение заголовка работает только в текущем блоке [`#1942`](https://github.com/nocobase/nocobase/pull/1942)
+- refactor(linkage-rule): правила связи поддерживают поля связи toMany [`#1924`](https://github.com/nocobase/nocobase/pull/1924)
+- feat(plugin-manager): улучшенный опыт работы с менеджером плагинов [`#1927`](https://github.com/nocobase/nocobase/pull/1927)
+- chore(database): сортировка связей многие-ко-многим по первичному ключу [`#1948`](https://github.com/nocobase/nocobase/pull/1948)
+- test(audit-logs): изменения журнала аудита [`#1928`](https://github.com/nocobase/nocobase/pull/1928)
+- fix: жадная загрузка belongsToMany с промежуточной таблицей [`#1946`](https://github.com/nocobase/nocobase/pull/1946)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.10.0-alpha.2 [`0b06e2c`](https://github.com/nocobase/nocobase/commit/0b06e2cd6967ee355a76ce201a80338bee536c97)
-- Revert "fix: the edit drawer's audit logs block can only get records by this … (#1917)" [`a1872fa`](https://github.com/nocobase/nocobase/commit/a1872fa75beae8ae02774a8e4550a192518e7aa7)
-- fix(association-field): show add new button when no data [`261ca0d`](https://github.com/nocobase/nocobase/commit/261ca0dbbb5659841b31026dad33b799782a8511)
+- chore(versions): 😊 публикация v0.10.0-alpha.2 [`0b06e2c`](https://github.com/nocobase/nocobase/commit/0b06e2cd6967ee355a76ce201a80338bee536c97)
+- Revert "fix: блок журналов аудита в редактируемом ящике может получать записи только этого … (#1917)" [`a1872fa`](https://github.com/nocobase/nocobase/commit/a1872fa75beae8ae02774a8e4550a192518e7aa7)
+- fix(association-field): показывать кнопку добавления новых данных при отсутствии данных [`261ca0d`](https://github.com/nocobase/nocobase/commit/261ca0dbbb5659841b31026dad33b799782a8511)
 
 ## [v0.9.4-alpha.2](https://github.com/nocobase/nocobase/compare/v0.9.4-alpha.1...v0.9.4-alpha.2) - 2023-05-26
 
-### Merged
+### Объединено
 
-- fix: parse nested associations in filterParser [`#1941`](https://github.com/nocobase/nocobase/pull/1941)
-- fix(association-field): allow dissociate [`#1940`](https://github.com/nocobase/nocobase/pull/1940)
-- fix(data-template): fix title input prevented proper data switching [`#1937`](https://github.com/nocobase/nocobase/pull/1937)
-- refactor: association select display loading when data is loading [`#1925`](https://github.com/nocobase/nocobase/pull/1925)
-- fix(association-field): allow multiple [`#1938`](https://github.com/nocobase/nocobase/pull/1938)
-- feat(multi-app-manager): support auto start [`#1931`](https://github.com/nocobase/nocobase/pull/1931)
-- fix(client): fix some warnings [`#1934`](https://github.com/nocobase/nocobase/pull/1934)
+- fix: разбор вложенных связей в filterParser [`#1941`](https://github.com/nocobase/nocobase/pull/1941)
+- fix(association-field): разрешить отсоединение [`#1940`](https://github.com/nocobase/nocobase/pull/1940)
+- fix(data-template): исправление ввода заголовка, предотвращающего правильное переключение данных [`#1937`](https://github.com/nocobase/nocobase/pull/1937)
+- refactor: отображение загрузки в поле выбора связи при загрузке данных [`#1925`](https://github.com/nocobase/nocobase/pull/1925)
+- fix(association-field): поддержка множественного выбора [`#1938`](https://github.com/nocobase/nocobase/pull/1938)
+- feat(multi-app-manager): поддержка автозапуска [`#1931`](https://github.com/nocobase/nocobase/pull/1931)
+- fix(client): исправление некоторых предупреждений [`#1934`](https://github.com/nocobase/nocobase/pull/1934)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.9.4-alpha.2 [`d7f2146`](https://github.com/nocobase/nocobase/commit/d7f21460c68ba7415d7d46f93303ead706b6d8f9)
-- fix(association-field): display sub-details by default [`1e870cf`](https://github.com/nocobase/nocobase/commit/1e870cf5ef7770b3e71051b39983dbca7d496706)
-- chore: update changelog [`f2619b0`](https://github.com/nocobase/nocobase/commit/f2619b032597a0b65db7717cab418a6282a12651)
+- chore(versions): 😊 публикация v0.9.4-alpha.2 [`d7f2146`](https://github.com/nocobase/nocobase/commit/d7f21460c68ba7415d7d46f93303ead706b6d8f9)
+- fix(association-field): отображение поддеталей по умолчанию [`1e870cf`](https://github.com/nocobase/nocobase/commit/1e870cf5ef7770b3e71051b39983dbca7d496706)
+- chore: обновление журнала изменений [`f2619b0`](https://github.com/nocobase/nocobase/commit/f2619b032597a0b65db7717cab418a6282a12651)
 
 ## [v0.9.4-alpha.1](https://github.com/nocobase/nocobase/compare/v0.9.3-alpha.1...v0.9.4-alpha.1) - 2023-05-25
 
-### Merged
+### Объединено
 
-- chore: load view collection when source not found [`#1930`](https://github.com/nocobase/nocobase/pull/1930)
-- feat(data-template): support to set data scope and title field [`#1918`](https://github.com/nocobase/nocobase/pull/1918)
-- feat(data-template): support for unlimited levels of fields selection [`#1910`](https://github.com/nocobase/nocobase/pull/1910)
-- chore: when using association field by picker mode,it's open size can be changed [`#1926`](https://github.com/nocobase/nocobase/pull/1926)
-- fix(ConfigurationTabs): avoid error [`#1782`](https://github.com/nocobase/nocobase/pull/1782)
-- fix: tableField query data in add child action [`#1876`](https://github.com/nocobase/nocobase/pull/1876)
-- refactor: front-end testing with vitest [`#1900`](https://github.com/nocobase/nocobase/pull/1900)
-- fix: disable popup button in add-modal [`#1808`](https://github.com/nocobase/nocobase/pull/1808)
-- fix: append acl resource params [`#1923`](https://github.com/nocobase/nocobase/pull/1923)
-- chore: update guard with array contains null [`#1922`](https://github.com/nocobase/nocobase/pull/1922)
-- refactor: initialization when switching field components [`#1915`](https://github.com/nocobase/nocobase/pull/1915)
-- fix(association-field): only when the new data is successfully created can the data be associated [`#1884`](https://github.com/nocobase/nocobase/pull/1884)
-- fix: eager load with belongs to many with custom source key [`#1913`](https://github.com/nocobase/nocobase/pull/1913)
-- fix: hiding the title of a subform will hide all embedded titles [`#1904`](https://github.com/nocobase/nocobase/pull/1904)
+- chore: загрузка коллекции представления, если источник не найден [`#1930`](https://github.com/nocobase/nocobase/pull/1930)
+- feat(data-template): поддержка установки области данных и поля заголовка [`#1918`](https://github.com/nocobase/nocobase/pull/1918)
+- feat(data-template): поддержка выбора полей на неограниченное количество уровней [`#1910`](https://github.com/nocobase/nocobase/pull/1910)
+- chore: при использовании поля связи в режиме выбора размер открытия можно изменить [`#1926`](https://github.com/nocobase/nocobase/pull/1926)
+- fix(ConfigurationTabs): избежание ошибки [`#1782`](https://github.com/nocobase/nocobase/pull/1782)
+- fix: запрос данных tableField при добавлении дочернего действия [`#1876`](https://github.com/nocobase/nocobase/pull/1876)
+- refactor: тестирование фронтенда с использованием vitest [`#1900`](https://github.com/nocobase/nocobase/pull/1900)
+- fix: отключение кнопки всплывающего окна в add-modal [`#1808`](https://github.com/nocobase/nocobase/pull/1808)
+- fix: добавление параметров ресурса ACL [`#1923`](https://github.com/nocobase/nocobase/pull/1923)
+- chore: обновление защиты для массивов, содержащих null [`#1922`](https://github.com/nocobase/nocobase/pull/1922)
+- refactor: инициализация при переключении компонентов полей [`#1915`](https://github.com/nocobase/nocobase/pull/1915)
+- fix(association-field): связь данных возможна только при успешном создании новых данных [`#1884`](https://github.com/nocobase/nocobase/pull/1884)
+- fix: жадная загрузка belongsToMany с пользовательским sourceKey [`#1913`](https://github.com/nocobase/nocobase/pull/1913)
+- fix: скрытие заголовка подформы скрывает все вложенные заголовки [`#1904`](https://github.com/nocobase/nocobase/pull/1904)
 - fix: updateAssociationValues [`#1903`](https://github.com/nocobase/nocobase/pull/1903)
-- fix(plugin-formula): use read-pretty component in result [`#1911`](https://github.com/nocobase/nocobase/pull/1911)
-- fix: can't set default value when turn on the form field required [`#1887`](https://github.com/nocobase/nocobase/pull/1887)
-- fix(Data-template): fix bug when deleting fields [`#1907`](https://github.com/nocobase/nocobase/pull/1907)
-- feat(app): add clear cache button [`#1909`](https://github.com/nocobase/nocobase/pull/1909)
-- fix: eager load belongs to many association [`#1906`](https://github.com/nocobase/nocobase/pull/1906)
-- feat: support to-multi field variables [`#1680`](https://github.com/nocobase/nocobase/pull/1680)
-- fix: append belongs to association with fields [`#1894`](https://github.com/nocobase/nocobase/pull/1894)
-- fix: appends belongs to association [`#1893`](https://github.com/nocobase/nocobase/pull/1893)
-- fix: preload relational data [`#1847`](https://github.com/nocobase/nocobase/pull/1847)
-- feat: support reboot application manually [`#1889`](https://github.com/nocobase/nocobase/pull/1889)
+- fix(plugin-formula): использование read-pretty компонента в результате [`#1911`](https://github.com/nocobase/nocobase/pull/1911)
+- fix: невозможность установки значения по умолчанию при включении обязательного поля формы [`#1887`](https://github.com/nocobase/nocobase/pull/1887)
+- fix(Data-template): исправление ошибки при удалении полей [`#1907`](https://github.com/nocobase/nocobase/pull/1907)
+- feat(app): добавление кнопки очистки кэша [`#1909`](https://github.com/nocobase/nocobase/pull/1909)
+- fix: жадная загрузка связи belongsToMany [`#1906`](https://github.com/nocobase/nocobase/pull/1906)
+- feat: поддержка переменных полей to-multi [`#1680`](https://github.com/nocobase/nocobase/pull/1680)
+- fix: добавление связи belongsTo с полями [`#1894`](https://github.com/nocobase/nocobase/pull/1894)
+- fix: добавление связи belongsTo [`#1893`](https://github.com/nocobase/nocobase/pull/1893)
+- fix: предварительная загрузка связанных данных [`#1847`](https://github.com/nocobase/nocobase/pull/1847)
+- feat: поддержка ручного перезапуска приложения [`#1889`](https://github.com/nocobase/nocobase/pull/1889)
 - Refactor/append fields [`#1883`](https://github.com/nocobase/nocobase/pull/1883)
-- chore: pg sql parser [`#1890`](https://github.com/nocobase/nocobase/pull/1890)
-- fix(plugin-workflow): fix language [`#1886`](https://github.com/nocobase/nocobase/pull/1886)
-- fix: field required  when setting sorting rules [`#1885`](https://github.com/nocobase/nocobase/pull/1885)
-- feat(plugin-workflow): add node description to drawer when edit node [`#1882`](https://github.com/nocobase/nocobase/pull/1882)
-- fix(plugin-workflow): fix variable api caller in loop [`#1877`](https://github.com/nocobase/nocobase/pull/1877)
-- chore(github-template): clean comments and format [`#1878`](https://github.com/nocobase/nocobase/pull/1878)
-- feat(association-field): default one data for to-many association [`#1873`](https://github.com/nocobase/nocobase/pull/1873)
-- fix(plugin-workflow): fix trigger title when workflow not loaded [`#1875`](https://github.com/nocobase/nocobase/pull/1875)
-- feat(plugin-workflow): aggregate [`#1852`](https://github.com/nocobase/nocobase/pull/1852)
+- chore: парсер SQL для PostgreSQL [`#1890`](https://github.com/nocobase/nocobase/pull/1890)
+- fix(plugin-workflow): исправление языка [`#1886`](https://github.com/nocobase/nocobase/pull/1886)
+- fix: обязательное поле при установке правил сортировки [`#1885`](https://github.com/nocobase/nocobase/pull/1885)
+- feat(plugin-workflow): добавление описания узла в выдвижной панели при редактировании узла [`#1882`](https://github.com/nocobase/nocobase/pull/1882)
+- fix(plugin-workflow): исправление вызова API переменной в цикле [`#1877`](https://github.com/nocobase/nocobase/pull/1877)
+- chore(github-template): очистка комментариев и форматирование [`#1878`](https://github.com/nocobase/nocobase/pull/1878)
+- feat(association-field): значение по умолчанию для связи to-many [`#1873`](https://github.com/nocobase/nocobase/pull/1873)
+- fix(plugin-workflow): исправление заголовка триггера при незагруженном workflow [`#1875`](https://github.com/nocobase/nocobase/pull/1875)
+- feat(plugin-workflow): агрегация [`#1852`](https://github.com/nocobase/nocobase/pull/1852)
 - Feat/translation es_ES [`#1801`](https://github.com/nocobase/nocobase/pull/1801)
-- fix: data is not updated when appends are changed [`#1872`](https://github.com/nocobase/nocobase/pull/1872)
-- fix:association select no options when clearing filter [`#1866`](https://github.com/nocobase/nocobase/pull/1866)
-- fix(acl): issue with repeated createdById field [`#1871`](https://github.com/nocobase/nocobase/pull/1871)
-- feat(client): allow search by title in collection select [`#1869`](https://github.com/nocobase/nocobase/pull/1869)
-- chore: skip get standalone deployment sub application [`#1868`](https://github.com/nocobase/nocobase/pull/1868)
-- fix(plugin-workflow): remove useless context option [`#1867`](https://github.com/nocobase/nocobase/pull/1867)
-- fix: inherit fields filter Foreign Key fields [`#1864`](https://github.com/nocobase/nocobase/pull/1864)
-- feat(plugin-workflow): loop [`#1787`](https://github.com/nocobase/nocobase/pull/1787)
-- fix: insertAdjacent not find [`#1861`](https://github.com/nocobase/nocobase/pull/1861)
-- refactor(add-new):association field add new support button edit [`#1854`](https://github.com/nocobase/nocobase/pull/1854)
-- feat: support List and Grid Card block [`#1753`](https://github.com/nocobase/nocobase/pull/1753)
-- fix: fix multi-select field not show 'Allow multiple' switch [`#1857`](https://github.com/nocobase/nocobase/pull/1857)
-- fix: field for attachment interface type  without appends [`#1856`](https://github.com/nocobase/nocobase/pull/1856)
-- fix: action error when field deleted [`#1849`](https://github.com/nocobase/nocobase/pull/1849)
-- feat: support running single sub app [`#1853`](https://github.com/nocobase/nocobase/pull/1853)
-- fix: assign field with delete field [`#1850`](https://github.com/nocobase/nocobase/pull/1850)
-- fix: title field in assign fields value [`#1848`](https://github.com/nocobase/nocobase/pull/1848)
-- fix:association appends [`#1842`](https://github.com/nocobase/nocobase/pull/1842)
-- feat(plugin-workflow): add delete button in workflow canvas page [`#1844`](https://github.com/nocobase/nocobase/pull/1844)
-- fix(block-provider): getNesterAppends filter fix [`#1839`](https://github.com/nocobase/nocobase/pull/1839)
-- feat: repository aggregate method [`#1829`](https://github.com/nocobase/nocobase/pull/1829)
+- fix: данные не обновляются при изменении appends [`#1872`](https://github.com/nocobase/nocobase/pull/1872)
+- fix: association select без опций при очистке фильтра [`#1866`](https://github.com/nocobase/nocobase/pull/1866)
+- fix(acl): проблема с повторяющимся полем createdById [`#1871`](https://github.com/nocobase/nocobase/pull/1871)
+- feat(client): разрешение поиска по заголовку в выборе коллекции [`#1869`](https://github.com/nocobase/nocobase/pull/1869)
+- chore: пропуск получения автономного подприложения [`#1868`](https://github.com/nocobase/nocobase/pull/1868)
+- fix(plugin-workflow): удаление бесполезной опции контекста [`#1867`](https://github.com/nocobase/nocobase/pull/1867)
+- fix: фильтрация внешних ключей при наследовании полей [`#1864`](https://github.com/nocobase/nocobase/pull/1864)
+- feat(plugin-workflow): цикл [`#1787`](https://github.com/nocobase/nocobase/pull/1787)
+- fix: insertAdjacent не найден [`#1861`](https://github.com/nocobase/nocobase/pull/1861)
+- refactor(add-new): поддержка кнопки редактирования для поля связи [`#1854`](https://github.com/nocobase/nocobase/pull/1854)
+- feat: поддержка блоков List и Grid Card [`#1753`](https://github.com/nocobase/nocobase/pull/1753)
+- fix: исправление отсутствия переключателя "Разрешить множественный выбор" для поля множественного выбора [`#1857`](https://github.com/nocobase/nocobase/pull/1857)
+- fix: поле интерфейса вложений без appends [`#1856`](https://github.com/nocobase/nocobase/pull/1856)
+- fix: ошибка действия при удалении поля [`#1849`](https://github.com/nocobase/nocobase/pull/1849)
+- feat: поддержка запуска одного подприложения [`#1853`](https://github.com/nocobase/nocobase/pull/1853)
+- fix: назначение поля с удаленным полем [`#1850`](https://github.com/nocobase/nocobase/pull/1850)
+- fix: поле заголовка при назначении значений поля [`#1848`](https://github.com/nocobase/nocobase/pull/1848)
+- fix: association appends [`#1842`](https://github.com/nocobase/nocobase/pull/1842)
+- feat(plugin-workflow): добавление кнопки удаления на странице холста workflow [`#1844`](https://github.com/nocobase/nocobase/pull/1844)
+- fix(block-provider): исправление фильтра getNesterAppends [`#1839`](https://github.com/nocobase/nocobase/pull/1839)
+- feat: метод агрегации в репозитории [`#1829`](https://github.com/nocobase/nocobase/pull/1829)
 
-### Commits
+### Коммиты
 
-- feat(docs): update docs [`0b0a8d2`](https://github.com/nocobase/nocobase/commit/0b0a8d2be5f007c94c2050ddf28767100eba2ea8)
-- chore(versions): 😊 publish v0.9.4-alpha.1 [`9c94840`](https://github.com/nocobase/nocobase/commit/9c94840c6b8cafa7dfc37bb660a7269c2480f995)
-- chore: update changelog [`a6c7b41`](https://github.com/nocobase/nocobase/commit/a6c7b417dee9b45006b77459a29ebbdb8428dfc5)
+- feat(docs): обновление документации [`0b0a8d2`](https://github.com/nocobase/nocobase/commit/0b0a8d2be5f007c94c2050ddf28767100eba2ea8)
+- chore(versions): 😊 публикация v0.9.4-alpha.1 [`9c94840`](https://github.com/nocobase/nocobase/commit/9c94840c6b8cafa7dfc37bb660a7269c2480f995)
+- chore: обновление журнала изменений [`a6c7b41`](https://github.com/nocobase/nocobase/commit/a6c7b417dee9b45006b77459a29ebbdb8428dfc5)
 
 ## [v0.9.3-alpha.1](https://github.com/nocobase/nocobase/compare/v0.9.2-alpha.4...v0.9.3-alpha.1) - 2023-05-11
 
-### Merged
+### Объединено
 
-- refactor: association field [`#1838`](https://github.com/nocobase/nocobase/pull/1838)
-- fix: tree with fields option [`#1833`](https://github.com/nocobase/nocobase/pull/1833)
-- fix(client): fix ime status in variable textarea [`#1832`](https://github.com/nocobase/nocobase/pull/1832)
-- chore: should not return children property when child nodes are empty [`#1825`](https://github.com/nocobase/nocobase/pull/1825)
-- fix: tree with sort field [`#1822`](https://github.com/nocobase/nocobase/pull/1822)
-- fix(plugin-workflow): select menu width [`#1820`](https://github.com/nocobase/nocobase/pull/1820)
-- fix: filter with appends [`#1819`](https://github.com/nocobase/nocobase/pull/1819)
+- refactor: поле связи [`#1838`](https://github.com/nocobase/nocobase/pull/1838)
+- fix: дерево с опцией полей [`#1833`](https://github.com/nocobase/nocobase/pull/1833)
+- fix(client): исправление состояния ime в текстовой области переменных [`#1832`](https://github.com/nocobase/nocobase/pull/1832)
+- chore: не возвращать свойство children, если дочерние узлы пусты [`#1825`](https://github.com/nocobase/nocobase/pull/1825)
+- fix: дерево с полем сортировки [`#1822`](https://github.com/nocobase/nocobase/pull/1822)
+- fix(plugin-workflow): ширина меню выбора [`#1820`](https://github.com/nocobase/nocobase/pull/1820)
+- fix: фильтр с appends [`#1819`](https://github.com/nocobase/nocobase/pull/1819)
 - Fix/filter by array field [`#1813`](https://github.com/nocobase/nocobase/pull/1813)
 - Fix/empty tree query [`#1814`](https://github.com/nocobase/nocobase/pull/1814)
-- fix: association scope inherit [`#1806`](https://github.com/nocobase/nocobase/pull/1806)
-- fix: update tree node [`#1812`](https://github.com/nocobase/nocobase/pull/1812)
-- fix: list trees [`#1810`](https://github.com/nocobase/nocobase/pull/1810)
-- test: filter nested association [`#1802`](https://github.com/nocobase/nocobase/pull/1802)
-- fix: table configuration delete button problem [`#1764`](https://github.com/nocobase/nocobase/pull/1764)
-- fix: fix Menu dismiss on Drag&Drop [`#1772`](https://github.com/nocobase/nocobase/pull/1772)
-- fix(linkage-rule): condition variable field is allow select  To many association fields [`#1798`](https://github.com/nocobase/nocobase/pull/1798)
-- chore: duration calculation [`#1770`](https://github.com/nocobase/nocobase/pull/1770)
-- fix: tree performance [`#1779`](https://github.com/nocobase/nocobase/pull/1779)
-- fix: close the drawer incorrectly after submit [`#1775`](https://github.com/nocobase/nocobase/pull/1775)
+- fix: наследование области связи [`#1806`](https://github.com/nocobase/nocobase/pull/1806)
+- fix: обновление узла дерева [`#1812`](https://github.com/nocobase/nocobase/pull/1812)
+- fix: список деревьев [`#1810`](https://github.com/nocobase/nocobase/pull/1810)
+- test: фильтр вложенной связи [`#1802`](https://github.com/nocobase/nocobase/pull/1802)
+- fix: проблема с кнопкой удаления в конфигурации таблицы [`#1764`](https://github.com/nocobase/nocobase/pull/1764)
+- fix: исправление закрытия меню при перетаскивании [`#1772`](https://github.com/nocobase/nocobase/pull/1772)
+- fix(linkage-rule): условное поле переменной позволяет выбирать поля связи to-many [`#1798`](https://github.com/nocobase/nocobase/pull/1798)
+- chore: расчет продолжительности [`#1770`](https://github.com/nocobase/nocobase/pull/1770)
+- fix: производительность дерева [`#1779`](https://github.com/nocobase/nocobase/pull/1779)
+- fix: некорректное закрытие выдвижной панели после отправки [`#1775`](https://github.com/nocobase/nocobase/pull/1775)
 - Fix/recreate association field [`#1789`](https://github.com/nocobase/nocobase/pull/1789)
-- fix: drop repeated "Connect data blocks" [`#1763`](https://github.com/nocobase/nocobase/pull/1763)
-- fix:  failed to open child collections add new modal [`#1780`](https://github.com/nocobase/nocobase/pull/1780)
-- fix(utils): fix json-templates bug and moved to utils [`#1784`](https://github.com/nocobase/nocobase/pull/1784)
-- fix(evaluators): fix date result in variable [`#1781`](https://github.com/nocobase/nocobase/pull/1781)
-- fix: fix button design about edit action [`#1755`](https://github.com/nocobase/nocobase/pull/1755)
-- chore: enable overring field default value [`#1777`](https://github.com/nocobase/nocobase/pull/1777)
+- fix: удаление повторяющегося "Связывание блоков данных" [`#1763`](https://github.com/nocobase/nocobase/pull/1763)
+- fix: ошибка открытия модального окна добавления для дочерних коллекций [`#1780`](https://github.com/nocobase/nocobase/pull/1780)
+- fix(utils): исправление ошибки json-templates и перемещение в utils [`#1784`](https://github.com/nocobase/nocobase/pull/1784)
+- fix(evaluators): исправление результата даты в переменной [`#1781`](https://github.com/nocobase/nocobase/pull/1781)
+- fix: исправление дизайна кнопки действия редактирования [`#1755`](https://github.com/nocobase/nocobase/pull/1755)
+- chore: разрешение переопределения значения по умолчанию для поля [`#1777`](https://github.com/nocobase/nocobase/pull/1777)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.9.3-alpha.1 [`cf0a921`](https://github.com/nocobase/nocobase/commit/cf0a921f85e4eb783ce7d61a7d5f5f354078a7c1)
-- chore: update changelog [`daf2034`](https://github.com/nocobase/nocobase/commit/daf2034f8d6aa5857fc0802586668a35f0140b4a)
-- chore: fix lint errors [`23ad507`](https://github.com/nocobase/nocobase/commit/23ad507261399b0be72b02e5399bf42ff9df48cb)
+- chore(versions): 😊 публикация v0.9.3-alpha.1 [`cf0a921`](https://github.com/nocobase/nocobase/commit/cf0a921f85e4eb783ce7d61a7d5f5f354078a7c1)
+- chore: обновление журнала изменений [`daf2034`](https://github.com/nocobase/nocobase/commit/daf2034f8d6aa5857fc0802586668a35f0140b4a)
+- chore: исправление ошибок линтера [`23ad507`](https://github.com/nocobase/nocobase/commit/23ad507261399b0be72b02e5399bf42ff9df48cb)
 
 ## [v0.9.2-alpha.4](https://github.com/nocobase/nocobase/compare/v0.9.2-alpha.3...v0.9.2-alpha.4) - 2023-04-26
 
-### Merged
+### Объединено
 
-- feat: node args in pm2 runtime [`#1774`](https://github.com/nocobase/nocobase/pull/1774)
-- fix: hide default value for expression [`#1765`](https://github.com/nocobase/nocobase/pull/1765)
-- fix(AssociationSelect): fix x-read-pretty not working [`#1766`](https://github.com/nocobase/nocobase/pull/1766)
-- fix: fixed the configuration field filter [`#1742`](https://github.com/nocobase/nocobase/pull/1742)
-- fix(filter-block): fix association fields not being filtered [`#1758`](https://github.com/nocobase/nocobase/pull/1758)
-- fix(variable-input): fix style [`#1761`](https://github.com/nocobase/nocobase/pull/1761)
-- chore: skip sync overriding field default value [`#1762`](https://github.com/nocobase/nocobase/pull/1762)
-- fix: gantt abnormal drag and drop update action [`#1760`](https://github.com/nocobase/nocobase/pull/1760)
+- feat: аргументы узла в среде выполнения pm2 [`#1774`](https://github.com/nocobase/nocobase/pull/1774)
+- fix: скрытие значения по умолчанию для выражения [`#1765`](https://github.com/nocobase/nocobase/pull/1765)
+- fix(AssociationSelect): исправление неработающего x-read-pretty [`#1766`](https://github.com/nocobase/nocobase/pull/1766)
+- fix: исправление фильтра поля конфигурации [`#1742`](https://github.com/nocobase/nocobase/pull/1742)
+- fix(filter-block): исправление фильтрации полей связи [`#1758`](https://github.com/nocobase/nocobase/pull/1758)
+- fix(variable-input): исправление стиля [`#1761`](https://github.com/nocobase/nocobase/pull/1761)
+- chore: пропуск синхронизации переопределения значения по умолчанию поля [`#1762`](https://github.com/nocobase/nocobase/pull/1762)
+- fix: исправление аномального действия перетаскивания и обновления в диаграмме Ганта [`#1760`](https://github.com/nocobase/nocobase/pull/1760)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.9.2-alpha.4 [`923f6e7`](https://github.com/nocobase/nocobase/commit/923f6e788419991b8215110a5f2ffc7eba4d2d5f)
-- docs: update changelog [`2c75aa7`](https://github.com/nocobase/nocobase/commit/2c75aa723d61c4d07554aaa5c4abb8df7e102359)
-- chore: cleanup [`77a6cbf`](https://github.com/nocobase/nocobase/commit/77a6cbf7733ea55c0db761c5d23974a41563fbd3)
+- chore(versions): 😊 публикация v0.9.2-alpha.4 [`923f6e7`](https://github.com/nocobase/nocobase/commit/923f6e788419991b8215110a5f2ffc7eba4d2d5f)
+- docs: обновление журнала изменений [`2c75aa7`](https://github.com/nocobase/nocobase/commit/2c75aa723d61c4d07554aaa5c4abb8df7e102359)
+- chore: очистка [`77a6cbf`](https://github.com/nocobase/nocobase/commit/77a6cbf7733ea55c0db761c5d23974a41563fbd3)
 
 ## [v0.9.2-alpha.3](https://github.com/nocobase/nocobase/compare/v0.9.2-alpha.2...v0.9.2-alpha.3) - 2023-04-25
 
-### Merged
+### Объединено
 
 - fix: eslint [`#1759`](https://github.com/nocobase/nocobase/pull/1759)
-- feat: deleted collection field give some tips [`#1744`](https://github.com/nocobase/nocobase/pull/1744)
-- chore: optimize the white screen problem [`#1639`](https://github.com/nocobase/nocobase/pull/1639)
-- fix: plugin-manage and designable-switch add tooltip [`#1749`](https://github.com/nocobase/nocobase/pull/1749)
-- chore: update dockerfile [`#1754`](https://github.com/nocobase/nocobase/pull/1754)
+- feat: удаление поля коллекции с подсказками [`#1744`](https://github.com/nocobase/nocobase/pull/1744)
+- chore: оптимизация проблемы белого экрана [`#1639`](https://github.com/nocobase/nocobase/pull/1639)
+- fix: добавление подсказок для plugin-manage и designable-switch [`#1749`](https://github.com/nocobase/nocobase/pull/1749)
+- chore: обновление Dockerfile [`#1754`](https://github.com/nocobase/nocobase/pull/1754)
 - chore(comment): collectionOptions.duplicator [`#1752`](https://github.com/nocobase/nocobase/pull/1752)
-- fix: custom column title, same as form field title [`#1745`](https://github.com/nocobase/nocobase/pull/1745)
-- feat: support to use variables to set default value [`#1726`](https://github.com/nocobase/nocobase/pull/1726)
-- fix(plugin-workflow): request headers and params should support input [`#1750`](https://github.com/nocobase/nocobase/pull/1750)
-- fix(client): fix initializer meno props based on antd@^4.24 [`#1746`](https://github.com/nocobase/nocobase/pull/1746)
-- fix: improve the display of the title field [`#1741`](https://github.com/nocobase/nocobase/pull/1741)
-- fix: batch edit deletes relational table fields [`#1743`](https://github.com/nocobase/nocobase/pull/1743)
-- style: automatically omit table cell content based on width [`#1646`](https://github.com/nocobase/nocobase/pull/1646)
-- feat(collection-manager): support for setting the title field [`#1729`](https://github.com/nocobase/nocobase/pull/1729)
-- fix: acl scope support variables [`#1660`](https://github.com/nocobase/nocobase/pull/1660)
-- fix: filter-condition-update-incorrectly(switch "and"、"or") [`#1737`](https://github.com/nocobase/nocobase/pull/1737)
-- fix(plugin-workflow): fix foreignkey in variable [`#1740`](https://github.com/nocobase/nocobase/pull/1740)
-- fix(plugin-formula): remove showUnchecked option [`#1730`](https://github.com/nocobase/nocobase/pull/1730)
-- fix(plugin-workflow): fix manual migration script [`#1735`](https://github.com/nocobase/nocobase/pull/1735)
-- fix: correcting misspelled word [`#1731`](https://github.com/nocobase/nocobase/pull/1731)
-- fix(FilterFormBlock): fix association field can not to filter [`#1699`](https://github.com/nocobase/nocobase/pull/1699)
-- feat: add react-hooks lint [`#1728`](https://github.com/nocobase/nocobase/pull/1728)
-- fix: missing spacing after dragging [`#1671`](https://github.com/nocobase/nocobase/pull/1671)
-- fix: load view collection [`#1727`](https://github.com/nocobase/nocobase/pull/1727)
+- fix: пользовательский заголовок столбца, аналогично заголовку поля формы [`#1745`](https://github.com/nocobase/nocobase/pull/1745)
+- feat: поддержка использования переменных для установки значения по умолчанию [`#1726`](https://github.com/nocobase/nocobase/pull/1726)
+- fix(plugin-workflow): заголовки запросов и параметры должны поддерживать ввод [`#1750`](https://github.com/nocobase/nocobase/pull/1750)
+- fix(client): исправление свойств инициализатора memo на основе antd@^4.24 [`#1746`](https://github.com/nocobase/nocobase/pull/1746)
+- fix: улучшение отображения поля заголовка [`#1741`](https://github.com/nocobase/nocobase/pull/1741)
+- fix: пакетное редактирование удаляет поля связанной таблицы [`#1743`](https://github.com/nocobase/nocobase/pull/1743)
+- style: автоматическое сокращение содержимого ячейки таблицы на основе ширины [`#1646`](https://github.com/nocobase/nocobase/pull/1646)
+- feat(collection-manager): поддержка установки поля заголовка [`#1729`](https://github.com/nocobase/nocobase/pull/1729)
+- fix: область ACL поддерживает переменные [`#1660`](https://github.com/nocobase/nocobase/pull/1660)
+- fix: исправление некорректного обновления условия фильтра (переключение "и", "или") [`#1737`](https://github.com/nocobase/nocobase/pull/1737)
+- fix(plugin-workflow): исправление внешнего ключа в переменной [`#1740`](https://github.com/nocobase/nocobase/pull/1740)
+- fix(plugin-formula): удаление опции showUnchecked [`#1730`](https://github.com/nocobase/nocobase/pull/1730)
+- fix(plugin-workflow): исправление скрипта миграции вручную [`#1735`](https://github.com/nocobase/nocobase/pull/1735)
+- fix: исправление опечатки [`#1731`](https://github.com/nocobase/nocobase/pull/1731)
+- fix(FilterFormBlock): исправление невозможности фильтрации поля связи [`#1699`](https://github.com/nocobase/nocobase/pull/1699)
+- feat: добавление линтинга для react-hooks [`#1728`](https://github.com/nocobase/nocobase/pull/1728)
+- fix: отсутствие интервала после перетаскивания [`#1671`](https://github.com/nocobase/nocobase/pull/1671)
+- fix: загрузка коллекции представления [`#1727`](https://github.com/nocobase/nocobase/pull/1727)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.9.2-alpha.3 [`9756dd1`](https://github.com/nocobase/nocobase/commit/9756dd134b741dfcea4546f36182f64c56b87a52)
-- fix(collection-manager): fix table layout [`683db5b`](https://github.com/nocobase/nocobase/commit/683db5b3ba3cfe83e5f5574075ebc1b657d42de1)
-- refactor: fix lint error [`7b9bfa1`](https://github.com/nocobase/nocobase/commit/7b9bfa116ff625a06d7c575f51fefd7dfb6cf711)
+- chore(versions): 😊 публикация v0.9.2-alpha.3 [`9756dd1`](https://github.com/nocobase/nocobase/commit/9756dd134b741dfcea4546f36182f64c56b87a52)
+- fix(collection-manager): исправление макета таблицы [`683db5b`](https://github.com/nocobase/nocobase/commit/683db5b3ba3cfe83e5f5574075ebc1b657d42de1)
+- refactor: исправление ошибок линтинга [`7b9bfa1`](https://github.com/nocobase/nocobase/commit/7b9bfa116ff625a06d7c575f51fefd7dfb6cf711)
 
 ## [v0.9.2-alpha.2](https://github.com/nocobase/nocobase/compare/v0.9.2-alpha.1...v0.9.2-alpha.2) - 2023-04-19
 
-### Merged
+### Объединено
 
-- fix: press enter to reload when the Pagination is focused [`#1720`](https://github.com/nocobase/nocobase/pull/1720)
+- fix: нажатие Enter для перезагрузки, когда фокус на Pagination [`#1720`](https://github.com/nocobase/nocobase/pull/1720)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.9.2-alpha.2 [`3dfd5a1`](https://github.com/nocobase/nocobase/commit/3dfd5a1f7a3ff14606357f441f547f40fdaa1344)
+- chore(versions): 😊 публикация v0.9.2-alpha.2 [`3dfd5a1`](https://github.com/nocobase/nocobase/commit/3dfd5a1f7a3ff14606357f441f547f40fdaa1344)
 
 ## [v0.9.2-alpha.1](https://github.com/nocobase/nocobase/compare/v0.9.1-alpha.2...v0.9.2-alpha.1) - 2023-04-19
 
-### Merged
+### Объединено
 
-- refactor(plugin-workflow): change single form to custom form block [`#1707`](https://github.com/nocobase/nocobase/pull/1707)
-- chore(ci): add timeout config for jobs [`#1725`](https://github.com/nocobase/nocobase/pull/1725)
-- refactor(plugin-workflow): migrate menu items to options [`#1724`](https://github.com/nocobase/nocobase/pull/1724)
-- fix(client): fix error on clear value in variable input [`#1723`](https://github.com/nocobase/nocobase/pull/1723)
-- fix(record-picker): fix the table paging problem [`#1718`](https://github.com/nocobase/nocobase/pull/1718)
-- fix(map-plugin): some data is incorrect [`#1717`](https://github.com/nocobase/nocobase/pull/1717)
-- fix: data scope not effect in gantt [`#1716`](https://github.com/nocobase/nocobase/pull/1716)
-- fix: button loading does not disappear when the  operation submit failed [`#1698`](https://github.com/nocobase/nocobase/pull/1698)
-- fix(linkage rule):multiple select  condition judgment failed  [`#1715`](https://github.com/nocobase/nocobase/pull/1715)
-- Fix/save through table data [`#1714`](https://github.com/nocobase/nocobase/pull/1714)
-- feat: improve ui design for linkage action [`#1659`](https://github.com/nocobase/nocobase/pull/1659)
-- feat(map): support to filter other blocks [`#1691`](https://github.com/nocobase/nocobase/pull/1691)
-- refactor: improve linkage rule enable [`#1700`](https://github.com/nocobase/nocobase/pull/1700)
-- fix: find fields arg [`#1710`](https://github.com/nocobase/nocobase/pull/1710)
-- feat(form-block): data templates [`#1704`](https://github.com/nocobase/nocobase/pull/1704)
-- fix: linkage relationship data condition judgment failed [`#1681`](https://github.com/nocobase/nocobase/pull/1681)
-- fix(gantt): update permission check  in gantt block [`#1701`](https://github.com/nocobase/nocobase/pull/1701)
+- refactor(plugin-workflow): изменение единичной формы на пользовательский блок формы [`#1707`](https://github.com/nocobase/nocobase/pull/1707)
+- chore(ci): добавление конфигурации таймаута для задач [`#1725`](https://github.com/nocobase/nocobase/pull/1725)
+- refactor(plugin-workflow): миграция пунктов меню в опции [`#1724`](https://github.com/nocobase/nocobase/pull/1724)
+- fix(client): исправление ошибки при очистке значения ввода переменной [`#1723`](https://github.com/nocobase/nocobase/pull/1723)
+- fix(record-picker): исправление проблемы пагинации таблицы [`#1718`](https://github.com/nocobase/nocobase/pull/1718)
+- fix(map-plugin): некоторые данные некорректны [`#1717`](https://github.com/nocobase/nocobase/pull/1717)
+- fix: область данных не влияет на диаграмму Ганта [`#1716`](https://github.com/nocobase/nocobase/pull/1716)
+- fix: индикатор загрузки кнопки не исчезает при сбое отправки операции [`#1698`](https://github.com/nocobase/nocobase/pull/1698)
+- fix(linkage rule): ошибка проверки условия множественного выбора [`#1715`](https://github.com/nocobase/nocobase/pull/1715)
+- Fix/save данные промежуточной таблицы [`#1714`](https://github.com/nocobase/nocobase/pull/1714)
+- feat: улучшение дизайна UI для действия связывания [`#1659`](https://github.com/nocobase/nocobase/pull/1659)
+- feat(map): поддержка фильтрации других блоков [`#1691`](https://github.com/nocobase/nocobase/pull/1691)
+- refactor: улучшение активации правила связывания [`#1700`](https://github.com/nocobase/nocobase/pull/1700)
+- fix: аргумент find fields [`#1710`](https://github.com/nocobase/nocobase/pull/1710)
+- feat(form-block): шаблоны данных [`#1704`](https://github.com/nocobase/nocobase/pull/1704)
+- fix: ошибка проверки условия данных связи [`#1681`](https://github.com/nocobase/nocobase/pull/1681)
+- fix(gantt): обновление проверки разрешений в блоке диаграммы Ганта [`#1701`](https://github.com/nocobase/nocobase/pull/1701)
 - fix: clearFormGraph [`#1706`](https://github.com/nocobase/nocobase/pull/1706)
-- fix(plugin-workflow): fix request body variable component [`#1703`](https://github.com/nocobase/nocobase/pull/1703)
-- fix(gantt):  improve task bar text [`#1696`](https://github.com/nocobase/nocobase/pull/1696)
-- fix: long text should be line feed [`#1686`](https://github.com/nocobase/nocobase/pull/1686)
-- fix: cannot display data when remove last page and the page only just one item [`#1685`](https://github.com/nocobase/nocobase/pull/1685)
-- fix: meta acl with association query [`#1695`](https://github.com/nocobase/nocobase/pull/1695)
-- fix: linkage rule title can not set empty [`#1688`](https://github.com/nocobase/nocobase/pull/1688)
-- feat: improve plugin manager ui [`#1650`](https://github.com/nocobase/nocobase/pull/1650)
-- feat: gantt block [`#1393`](https://github.com/nocobase/nocobase/pull/1393)
-- fix(client): fix constant input lose focus in variable [`#1689`](https://github.com/nocobase/nocobase/pull/1689)
-- feat(plugin-workflow): add workflow specific logger [`#1677`](https://github.com/nocobase/nocobase/pull/1677)
-- fix: remove designer [`#1684`](https://github.com/nocobase/nocobase/pull/1684)
-- test: should load the .env.test [`#1678`](https://github.com/nocobase/nocobase/pull/1678)
-- fix: incorrect language after logout [`#1679`](https://github.com/nocobase/nocobase/pull/1679)
-- feat: optimize file collection [`#1666`](https://github.com/nocobase/nocobase/pull/1666)
-- fix: sort field init performance [`#1675`](https://github.com/nocobase/nocobase/pull/1675)
-- fix(plugin-workflow): fix null collection fields [`#1674`](https://github.com/nocobase/nocobase/pull/1674)
-- fix(client): fix variable component read pretty mode [`#1673`](https://github.com/nocobase/nocobase/pull/1673)
-- fix: ui problem of compact theme [`#1670`](https://github.com/nocobase/nocobase/pull/1670)
-- fix: linkage rule enable effect in form [`#1669`](https://github.com/nocobase/nocobase/pull/1669)
-- feat: collection template summary [`#1672`](https://github.com/nocobase/nocobase/pull/1672)
-- feat: (plugin-workflow) dynamic expression [`#1560`](https://github.com/nocobase/nocobase/pull/1560)
-- chore: find inherit collection warn [`#1663`](https://github.com/nocobase/nocobase/pull/1663)
-- fix: linkage rule title config clear exception [`#1665`](https://github.com/nocobase/nocobase/pull/1665)
-- feat: support tableoid filter [`#1657`](https://github.com/nocobase/nocobase/pull/1657)
-- feat(plugin-workflow): add array mapping support in processor [`#1662`](https://github.com/nocobase/nocobase/pull/1662)
-- fix(plugin-workflow): fix appends null to collection trigger [`#1661`](https://github.com/nocobase/nocobase/pull/1661)
-- feat(filter-operators): eq and ne operators support array [`#1658`](https://github.com/nocobase/nocobase/pull/1658)
-- fix(plugin-workflow): fix todo drawer data load [`#1656`](https://github.com/nocobase/nocobase/pull/1656)
-- refactor(client): improve translation [`#1654`](https://github.com/nocobase/nocobase/pull/1654)
-- fix: fix the 'Add menu item' button disappears [`#1655`](https://github.com/nocobase/nocobase/pull/1655)
-- chore: add new allowAddtoCurrent config [`#1652`](https://github.com/nocobase/nocobase/pull/1652)
-- feat: support file collection [`#1636`](https://github.com/nocobase/nocobase/pull/1636)
-- fix(plugin-workflow): fix manual node drawer [`#1653`](https://github.com/nocobase/nocobase/pull/1653)
-- chore: inhertis api with difference schema [`#1545`](https://github.com/nocobase/nocobase/pull/1545)
-- fix: select record can not enable child collection [`#1649`](https://github.com/nocobase/nocobase/pull/1649)
-- feat: plugin before enable hook [`#1648`](https://github.com/nocobase/nocobase/pull/1648)
-- chore: add transaction in set field action [`#1647`](https://github.com/nocobase/nocobase/pull/1647)
-- fix(linkage rule):linkage rule not display in action  [`#1644`](https://github.com/nocobase/nocobase/pull/1644)
-- refactor: view collection options [`#1643`](https://github.com/nocobase/nocobase/pull/1643)
-- fix: update field error [`#1645`](https://github.com/nocobase/nocobase/pull/1645)
-- feat(Table): column action support linkage rules [`#1638`](https://github.com/nocobase/nocobase/pull/1638)
-- fix(view-collection):  field name cannot be edited when there with field source [`#1642`](https://github.com/nocobase/nocobase/pull/1642)
-- fix: linkage rule config closing rules require reopening the form to take effect [`#1640`](https://github.com/nocobase/nocobase/pull/1640)
-- refactor(client): change Variable.TextArea to controlled component [`#1605`](https://github.com/nocobase/nocobase/pull/1605)
-- fix: get pg view def [`#1641`](https://github.com/nocobase/nocobase/pull/1641)
-- fix: infer view column type with alias [`#1634`](https://github.com/nocobase/nocobase/pull/1634)
-- fix(plugin-workflow): fix minors ui issues [`#1635`](https://github.com/nocobase/nocobase/pull/1635)
-- chore: disabled underscored in view collection. [`#1633`](https://github.com/nocobase/nocobase/pull/1633)
-- fix: form action dragging area is too large [`#1628`](https://github.com/nocobase/nocobase/pull/1628)
-- fix: FixedBlock related ui [`#1632`](https://github.com/nocobase/nocobase/pull/1632)
-- feat:  database view collection [`#1587`](https://github.com/nocobase/nocobase/pull/1587)
-- fix: init sort value in sort field with scopeKey [`#1626`](https://github.com/nocobase/nocobase/pull/1626)
-- style: linkage rule style improve [`#1625`](https://github.com/nocobase/nocobase/pull/1625)
-- fix: find with attributes and group [`#1411`](https://github.com/nocobase/nocobase/pull/1411)
-- docs: transform video link to video tag [`#1414`](https://github.com/nocobase/nocobase/pull/1414)
-- feat(parse-variables): support to parse variables in filter params [`#1558`](https://github.com/nocobase/nocobase/pull/1558)
-- fix(linkage rules) :  support naming, enabling and disabling, copying, and assigning null values [`#1511`](https://github.com/nocobase/nocobase/pull/1511)
-- chore: update test ci [`#1622`](https://github.com/nocobase/nocobase/pull/1622)
-- fix:  history add new button does not support enabling child collection [`#1536`](https://github.com/nocobase/nocobase/pull/1536)
-- fix/(linkages-action): detail block actions does not support linkage rules [`#1504`](https://github.com/nocobase/nocobase/pull/1504)
-- fix: avoid fixedblock height working in popup [`#1621`](https://github.com/nocobase/nocobase/pull/1621)
-- fix: when the page has FixedBlock, the table of popup is not displayed [`#1619`](https://github.com/nocobase/nocobase/pull/1619)
-- feat: association-filter-improve  [`#1606`](https://github.com/nocobase/nocobase/pull/1606)
-- fix(Table): cannot display table data [`#1617`](https://github.com/nocobase/nocobase/pull/1617)
-- fix(plugin-workflow): fix todo list form read-pretty for non-assigneed user [`#1615`](https://github.com/nocobase/nocobase/pull/1615)
-- feat(table): hidden pagination when only one page is available [`#1614`](https://github.com/nocobase/nocobase/pull/1614)
-- refactor:  improve FixedBlock performance [`#1593`](https://github.com/nocobase/nocobase/pull/1593)
-- fix(collection-manager): infinite recursion [`#1608`](https://github.com/nocobase/nocobase/pull/1608)
-- fix(audit-logs): Add ellipsis feature to table columns  [`#1603`](https://github.com/nocobase/nocobase/pull/1603)
-- feat: improve the non-link ui of association data [`#1602`](https://github.com/nocobase/nocobase/pull/1602)
-- feat(Kanban): the card support open mode [`#1601`](https://github.com/nocobase/nocobase/pull/1601)
-- fix( importable-field): incorrect display when moving sort handle [`#1613`](https://github.com/nocobase/nocobase/pull/1613)
-- fix: enable child collections remain after deleting a child collection [`#1610`](https://github.com/nocobase/nocobase/pull/1610)
-- fix: destroy through table record referencing collections table [`#1611`](https://github.com/nocobase/nocobase/pull/1611)
-- fix(plugin-workflow): add default actions value of manual node [`#1600`](https://github.com/nocobase/nocobase/pull/1600)
-- feat(plugin-workflow): add failOnEmpty option for query node [`#1599`](https://github.com/nocobase/nocobase/pull/1599)
-- fix(plugin-workflow): use toJSON instead of get to get valid result [`#1596`](https://github.com/nocobase/nocobase/pull/1596)
-- Translation pt-BR (Brazilian Portuguese) [`#1591`](https://github.com/nocobase/nocobase/pull/1591)
-- fix: role permission add new scope display blank [`#1592`](https://github.com/nocobase/nocobase/pull/1592)
-- fix(FixedBlock): avoid kanban triggering programmatic scrolling [`#1406`](https://github.com/nocobase/nocobase/pull/1406)
-- fix: repeat request categories when switching between graph interface and collection&fields [`#1590`](https://github.com/nocobase/nocobase/pull/1590)
-- fix: collectionFieldsOptions cannot get all fields [`#1588`](https://github.com/nocobase/nocobase/pull/1588)
-- fix(plugin-workflow): fix input width in request node config [`#1585`](https://github.com/nocobase/nocobase/pull/1585)
-- feat(filter-blocks): support filter-blocks [`#1505`](https://github.com/nocobase/nocobase/pull/1505)
-- refactor: multi-app [`#1578`](https://github.com/nocobase/nocobase/pull/1578)
-- feat: compact theme [`#1574`](https://github.com/nocobase/nocobase/pull/1574)
-- feat: support cron field [`#1421`](https://github.com/nocobase/nocobase/pull/1421)
-- fix(Calendar): ensur to get correct gridInitializer when adding a new… [`#1425`](https://github.com/nocobase/nocobase/pull/1425)
-- feat(markdown): support mermaid and better style [`#1583`](https://github.com/nocobase/nocobase/pull/1583)
-- fix(plugin-map): map block repeats [`#1582`](https://github.com/nocobase/nocobase/pull/1582)
-- feat: tree collection [`#1561`](https://github.com/nocobase/nocobase/pull/1561)
-- feat(plugin-map): add map block [`#1486`](https://github.com/nocobase/nocobase/pull/1486)
-- chore: lazy load sub app in share collection [`#1569`](https://github.com/nocobase/nocobase/pull/1569)
-- fix(record-picker): supports adding sub-collection records [`#1573`](https://github.com/nocobase/nocobase/pull/1573)
-- fix: app manager reload [`#1565`](https://github.com/nocobase/nocobase/pull/1565)
-- feat: multi-app-share-collection plugin [`#1562`](https://github.com/nocobase/nocobase/pull/1562)
-- feat: record picker support to enable links [`#1515`](https://github.com/nocobase/nocobase/pull/1515)
-- feat: multiple apps [`#1540`](https://github.com/nocobase/nocobase/pull/1540)
-- docs(client): add variable docs [`#1556`](https://github.com/nocobase/nocobase/pull/1556)
-- fix(charts): improve chart table preview with object type [`#1555`](https://github.com/nocobase/nocobase/pull/1555)
-- feat(plugin-workflow) config preload associations in triggers and nodes [`#1548`](https://github.com/nocobase/nocobase/pull/1548)
+- fix(plugin-workflow): исправление компонента переменной тела запроса [`#1703`](https://github.com/nocobase/nocobase/pull/1703)
+- fix(gantt): улучшение текста полосы задач [`#1696`](https://github.com/nocobase/nocobase/pull/1696)
+- fix: длинный текст должен переноситься [`#1686`](https://github.com/nocobase/nocobase/pull/1686)
+- fix: данные не отображаются при удалении последней страницы, если на ней только один элемент [`#1685`](https://github.com/nocobase/nocobase/pull/1685)
+- fix: мета ACL с запросом связи [`#1695`](https://github.com/nocobase/nocobase/pull/1695)
+- fix: заголовок правила связывания не может быть пустым [`#1688`](https://github.com/nocobase/nocobase/pull/1688)
+- feat: улучшение UI менеджера плагинов [`#1650`](https://github.com/nocobase/nocobase/pull/1650)
+- feat: блок диаграммы Ганта [`#1393`](https://github.com/nocobase/nocobase/pull/1393)
+- fix(client): исправление потери фокуса постоянного ввода в переменной [`#1689`](https://github.com/nocobase/nocobase/pull/1689)
+- feat(plugin-workflow): добавление специфического логгера для workflow [`#1677`](https://github.com/nocobase/nocobase/pull/1677)
+- fix: удаление дизайнера [`#1684`](https://github.com/nocobase/nocobase/pull/1684)
+- test: загрузка файла .env.test [`#1678`](https://github.com/nocobase/nocobase/pull/1678)
+- fix: некорректный язык после выхода из системы [`#1679`](https://github.com/nocobase/nocobase/pull/1679)
+- feat: оптимизация коллекции файлов [`#1666`](https://github.com/nocobase/nocobase/pull/1666)
+- fix: производительность инициализации поля сортировки [`#1675`](https://github.com/nocobase/nocobase/pull/1675)
+- fix(plugin-workflow): исправление полей коллекции со значением null [`#1674`](https://github.com/nocobase/nocobase/pull/1674)
+- fix(client): исправление режима read pretty компонента переменной [`#1673`](https://github.com/nocobase/nocobase/pull/1673)
+- fix: проблема UI компактной темы [`#1670`](https://github.com/nocobase/nocobase/pull/1670)
+- fix: эффект активации правила связывания в форме [`#1669`](https://github.com/nocobase/nocobase/pull/1669)
+- feat: шаблон сводки коллекции [`#1672`](https://github.com/nocobase/nocobase/pull/1672)
+- feat: (plugin-workflow) динамическое выражение [`#1560`](https://github.com/nocobase/nocobase/pull/1560)
+- chore: предупреждение поиска наследуемой коллекции [`#1663`](https://github.com/nocobase/nocobase/pull/1663)
+- fix: исключение очистки конфигурации заголовка правила связывания [`#1665`](https://github.com/nocobase/nocobase/pull/1665)
+- feat: поддержка фильтра tableoid [`#1657`](https://github.com/nocobase/nocobase/pull/1657)
+- feat(plugin-workflow): добавление поддержки массивного отображения в процессоре [`#1662`](https://github.com/nocobase/nocobase/pull/1662)
+- fix(plugin-workflow): исправление добавления null к триггеру коллекции [`#1661`](https://github.com/nocobase/nocobase/pull/1661)
+- feat(filter-operators): операторы eq и ne поддерживают массивы [`#1658`](https://github.com/nocobase/nocobase/pull/1658)
+- fix(plugin-workflow): исправление загрузки данных в выдвижной панели задач [`#1656`](https://github.com/nocobase/nocobase/pull/1656)
+### Объединено
 
-### Fixed
+- refactor(client): улучшение перевода [`#1654`](https://github.com/nocobase/nocobase/pull/1654)
+- fix: исправление исчезновения кнопки "Добавить пункт меню" [`#1655`](https://github.com/nocobase/nocobase/pull/1655)
+- chore: добавление новой конфигурации allowAddtoCurrent [`#1652`](https://github.com/nocobase/nocobase/pull/1652)
+- feat: поддержка коллекции файлов [`#1636`](https://github.com/nocobase/nocobase/pull/1636)
+- fix(plugin-workflow): исправление выдвижной панели ручного узла [`#1653`](https://github.com/nocobase/nocobase/pull/1653)
+- chore: наследование API с различной схемой [`#1545`](https://github.com/nocobase/nocobase/pull/1545)
+- fix: выбранная запись не может активировать дочернюю коллекцию [`#1649`](https://github.com/nocobase/nocobase/pull/1649)
+- feat: хук перед включением плагина [`#1648`](https://github.com/nocobase/nocobase/pull/1648)
+- chore: добавление транзакции в действие установки поля [`#1647`](https://github.com/nocobase/nocobase/pull/1647)
+- fix(linkage rule): правило связывания не отображается в действии [`#1644`](https://github.com/nocobase/nocobase/pull/1644)
+- refactor: параметры коллекции представления [`#1643`](https://github.com/nocobase/nocobase/pull/1643)
+- fix: ошибка обновления поля [`#1645`](https://github.com/nocobase/nocobase/pull/1645)
+- feat(Table): поддержка правил связывания для действия столбца [`#1638`](https://github.com/nocobase/nocobase/pull/1638)
+- fix(view-collection): имя поля нельзя редактировать при наличии источника поля [`#1642`](https://github.com/nocobase/nocobase/pull/1642)
+- fix: закрытие правил связывания требует повторного открытия формы для вступления в силу [`#1640`](https://github.com/nocobase/nocobase/pull/1640)
+- refactor(client): изменение Variable.TextArea на управляемый компонент [`#1605`](https://github.com/nocobase/nocobase/pull/1605)
+- fix: получение определения представления PostgreSQL [`#1641`](https://github.com/nocobase/nocobase/pull/1641)
+- fix: вывод типа столбца представления с псевдонимом [`#1634`](https://github.com/nocobase/nocobase/pull/1634)
+- fix(plugin-workflow): исправление незначительных проблем UI [`#1635`](https://github.com/nocobase/nocobase/pull/1635)
+- chore: отключение подчеркивания в коллекции представлений [`#1633`](https://github.com/nocobase/nocobase/pull/1633)
+- fix: область перетаскивания действия формы слишком большая [`#1628`](https://github.com/nocobase/nocobase/pull/1628)
+- fix: исправление UI связанного блока FixedBlock [`#1632`](https://github.com/nocobase/nocobase/pull/1632)
+- feat: коллекция представлений базы данных [`#1587`](https://github.com/nocobase/nocobase/pull/1587)
+- fix: инициализация значения сортировки в поле сортировки с scopeKey [`#1626`](https://github.com/nocobase/nocobase/pull/1626)
+- style: улучшение стиля правила связывания [`#1625`](https://github.com/nocobase/nocobase/pull/1625)
+- fix: поиск с атрибутами и группой [`#1411`](https://github.com/nocobase/nocobase/pull/1411)
+- docs: преобразование ссылки на видео в тег видео [`#1414`](https://github.com/nocobase/nocobase/pull/1414)
+- feat(parse-variables): поддержка разбора переменных в параметрах фильтра [`#1558`](https://github.com/nocobase/nocobase/pull/1558)
+- fix(linkage rules): поддержка именования, включения, отключения, копирования и присвоения null [`#1511`](https://github.com/nocobase/nocobase/pull/1511)
+- chore: обновление тестового CI [`#1622`](https://github.com/nocobase/nocobase/pull/1622)
+- fix: кнопка "Добавить" в истории не поддерживает активацию дочерней коллекции [`#1536`](https://github.com/nocobase/nocobase/pull/1536)
+- fix(linkages-action): действия блока деталей не поддерживают правила связывания [`#1504`](https://github.com/nocobase/nocobase/pull/1504)
+- fix: избежание работы высоты FixedBlock во всплывающем окне [`#1621`](https://github.com/nocobase/nocobase/pull/1621)
+- fix: таблица во всплывающем окне не отображается при наличии FixedBlock [`#1619`](https://github.com/nocobase/nocobase/pull/1619)
+- feat: улучшение фильтра связи [`#1606`](https://github.com/nocobase/nocobase/pull/1606)
+- fix(Table): невозможно отобразить данные таблицы [`#1617`](https://github.com/nocobase/nocobase/pull/1617)
+- fix(plugin-workflow): исправление read-pretty формы списка задач для неназначенного пользователя [`#1615`](https://github.com/nocobase/nocobase/pull/1615)
+- feat(table): скрытие пагинации при наличии только одной страницы [`#1614`](https://github.com/nocobase/nocobase/pull/1614)
+- refactor: улучшение производительности FixedBlock [`#1593`](https://github.com/nocobase/nocobase/pull/1593)
+- fix(collection-manager): бесконечная рекурсия [`#1608`](https://github.com/nocobase/nocobase/pull/1608)
+- fix(audit-logs): добавление многоточия для столбцов таблицы [`#1603`](https://github.com/nocobase/nocobase/pull/1603)
+- feat: улучшение UI для несвязанных данных [`#1602`](https://github.com/nocobase/nocobase/pull/1602)
+- feat(Kanban): карточка поддерживает режим открытия [`#1601`](https://github.com/nocobase/nocobase/pull/1601)
+- fix(importable-field): некорректное отображение при перемещении маркера сортировки [`#1613`](https://github.com/nocobase/nocobase/pull/1613)
+- fix: активированные дочерние коллекции остаются после удаления дочерней коллекции [`#1610`](https://github.com/nocobase/nocobase/pull/1610)
+- fix: удаление записи промежуточной таблицы, ссылающейся на таблицу коллекций [`#1611`](https://github.com/nocobase/nocobase/pull/1611)
+- fix(plugin-workflow): добавление значений по умолчанию для действий ручного узла [`#1600`](https://github.com/nocobase/nocobase/pull/1600)
+- feat(plugin-workflow): добавление опции failOnEmpty для узла запроса [`#1599`](https://github.com/nocobase/nocobase/pull/1599)
+- fix(plugin-workflow): использование toJSON вместо get для получения корректного результата [`#1596`](https://github.com/nocobase/nocobase/pull/1596)
+- Translation pt-BR (Бразильский португальский) [`#1591`](https://github.com/nocobase/nocobase/pull/1591)
+- fix: область разрешений роли отображается пустой [`#1592`](https://github.com/nocobase/nocobase/pull/1592)
+- fix(FixedBlock): избежание программной прокрутки канбана [`#1406`](https://github.com/nocobase/nocobase/pull/1406)
+- fix: повторный запрос категорий при переключении между интерфейсом графа и коллекциями/полями [`#1590`](https://github.com/nocobase/nocobase/pull/1590)
+- fix: collectionFieldsOptions не может получить все поля [`#1588`](https://github.com/nocobase/nocobase/pull/1588)
+- fix(plugin-workflow): исправление ширины ввода в конфигурации узла запроса [`#1585`](https://github.com/nocobase/nocobase/pull/1585)
+- feat(filter-blocks): поддержка filter-blocks [`#1505`](https://github.com/nocobase/nocobase/pull/1505)
+- refactor: мульти-приложение [`#1578`](https://github.com/nocobase/nocobase/pull/1578)
+### Объединено
 
-- fix(plugin-workflow): fix todo list form read-pretty for non-assigneed user (#1615) [`#1572`](https://github.com/nocobase/nocobase/issues/1572)
+- feat: компактная тема [`#1574`](https://github.com/nocobase/nocobase/pull/1574)
+- feat: поддержка поля cron [`#1421`](https://github.com/nocobase/nocobase/pull/1421)
+- fix(Calendar): обеспечение получения правильного gridInitializer при добавлении новой записи… [`#1425`](https://github.com/nocobase/nocobase/pull/1425)
+- feat(markdown): поддержка mermaid и улучшенный стиль [`#1583`](https://github.com/nocobase/nocobase/pull/1583)
+- fix(plugin-map): повторение блока карты [`#1582`](https://github.com/nocobase/nocobase/pull/1582)
+- feat: древовидная коллекция [`#1561`](https://github.com/nocobase/nocobase/pull/1561)
+- feat(plugin-map): добавление блока карты [`#1486`](https://github.com/nocobase/nocobase/pull/1486)
+- chore: ленивая загрузка подприложения в общей коллекции [`#1569`](https://github.com/nocobase/nocobase/pull/1569)
+- fix(record-picker): поддержка добавления записей подколлекции [`#1573`](https://github.com/nocobase/nocobase/pull/1573)
+- fix: перезагрузка менеджера приложений [`#1565`](https://github.com/nocobase/nocobase/pull/1565)
+- feat: плагин мульти-приложений с общей коллекцией [`#1562`](https://github.com/nocobase/nocobase/pull/1562)
+- feat: поддержка ссылок в выборе записей [`#1515`](https://github.com/nocobase/nocobase/pull/1515)
+- feat: мульти-приложения [`#1540`](https://github.com/nocobase/nocobase/pull/1540)
+- docs(client): добавление документации по переменным [`#1556`](https://github.com/nocobase/nocobase/pull/1556)
+- fix(charts): улучшение предпросмотра таблицы диаграмм для объектного типа [`#1555`](https://github.com/nocobase/nocobase/pull/1555)
+- feat(plugin-workflow): конфигурация предзагрузки связей в триггерах и узлах [`#1548`](https://github.com/nocobase/nocobase/pull/1548)
 
-### Commits
+### Исправлено
 
-- chore(versions): 😊 publish v0.9.2-alpha.1 [`d1adc9d`](https://github.com/nocobase/nocobase/commit/d1adc9de0b87b896e90c81c226646b840309c240)
-- fix(file-manager): upgrade s3 version [`50183b0`](https://github.com/nocobase/nocobase/commit/50183b065d32be5d2f6590bfb0c6190fafc12881)
-- fix: linkage rule [`b8776fe`](https://github.com/nocobase/nocobase/commit/b8776fe2d0fd6729c18b968d9f7b15e7c81c4ef2)
+- fix(plugin-workflow): исправление формы списка задач в режиме read-pretty для неназначенного пользователя (#1615) [`#1572`](https://github.com/nocobase/nocobase/issues/1572)
+
+### Коммиты
+
+- chore(versions): 😊 публикация v0.9.2-alpha.1 [`d1adc9d`](https://github.com/nocobase/nocobase/commit/d1adc9de0b87b896e90c81c226646b840309c240)
+- fix(file-manager): обновление версии s3 [`50183b0`](https://github.com/nocobase/nocobase/commit/50183b065d32be5d2f6590bfb0c6190fafc12881)
+- fix: правило связывания [`b8776fe`](https://github.com/nocobase/nocobase/commit/b8776fe2d0fd6729c18b968d9f7b15e7c81c4ef2)
 
 ## [v0.9.1-alpha.2](https://github.com/nocobase/nocobase/compare/v0.9.1-alpha.1...v0.9.1-alpha.2) - 2023-03-09
 
-### Merged
+### Объединено
 
-- fix(plugin-workflow): fix module import (#1550) [`#1552`](https://github.com/nocobase/nocobase/pull/1552)
-- chore: relation repository response when source model not found [`#1546`](https://github.com/nocobase/nocobase/pull/1546)
-- fix(plugin-workflow): fix assignees config component in manual node [`#1547`](https://github.com/nocobase/nocobase/pull/1547)
-- feat: stopped state in application [`#1543`](https://github.com/nocobase/nocobase/pull/1543)
-- fix(plugin-workflow): fix AssociationInput field path [`#1542`](https://github.com/nocobase/nocobase/pull/1542)
-- fix: cache with index.html [`#1541`](https://github.com/nocobase/nocobase/pull/1541)
-- fix: belongs to many through table with custom schema [`#1539`](https://github.com/nocobase/nocobase/pull/1539)
-- fix(plugin-formula): expose formula field result in form [`#1534`](https://github.com/nocobase/nocobase/pull/1534)
-- test: with collection_manager_schema env [`#1532`](https://github.com/nocobase/nocobase/pull/1532)
-- fix: filter by association field with underscored [`#1537`](https://github.com/nocobase/nocobase/pull/1537)
-- fix(charts): fix copy [`#1533`](https://github.com/nocobase/nocobase/pull/1533)
-- feat: add chart plugin [`#1477`](https://github.com/nocobase/nocobase/pull/1477)
-- feat: support add new  in block for inheritance collection [`#1518`](https://github.com/nocobase/nocobase/pull/1518)
-- refactor(plugin-workflow): change canvas card and adjust styles [`#1529`](https://github.com/nocobase/nocobase/pull/1529)
-- fix: test with nocobase plugin [`#1525`](https://github.com/nocobase/nocobase/pull/1525)
-- fix: nginx cache [`#1523`](https://github.com/nocobase/nocobase/pull/1523)
-- fix: remove field when collection has difference schema with database [`#1524`](https://github.com/nocobase/nocobase/pull/1524)
+- fix(plugin-workflow): исправление импорта модуля (#1550) [`#1552`](https://github.com/nocobase/nocobase/pull/1552)
+- chore: ответ репозитория отношений, когда исходная модель не найдена [`#1546`](https://github.com/nocobase/nocobase/pull/1546)
+- fix(plugin-workflow): исправление компонента конфигурации назначаемых в ручном узле [`#1547`](https://github.com/nocobase/nocobase/pull/1547)
+- feat: состояние остановки в приложении [`#1543`](https://github.com/nocobase/nocobase/pull/1543)
+- fix(plugin-workflow): исправление пути поля AssociationInput [`#1542`](https://github.com/nocobase/nocobase/pull/1542)
+- fix: кэширование с index.html [`#1541`](https://github.com/nocobase/nocobase/pull/1541)
+- fix: связь многие-ко-многим через таблицу с пользовательской схемой [`#1539`](https://github.com/nocobase/nocobase/pull/1539)
+- fix(plugin-formula): предоставление результата поля формулы в форме [`#1534`](https://github.com/nocobase/nocobase/pull/1534)
+- test: тестирование с переменной окружения collection_manager_schema [`#1532`](https://github.com/nocobase/nocobase/pull/1532)
+- fix: фильтрация по полю связи с подчеркиванием [`#1537`](https://github.com/nocobase/nocobase/pull/1537)
+- fix(charts): исправление копирования [`#1533`](https://github.com/nocobase/nocobase/pull/1533)
+- feat: добавление плагина диаграмм [`#1477`](https://github.com/nocobase/nocobase/pull/1477)
+- feat: поддержка добавления новых блоков для коллекций наследования [`#1518`](https://github.com/nocobase/nocobase/pull/1518)
+- refactor(plugin-workflow): изменение карточки холста и корректировка стилей [`#1529`](https://github.com/nocobase/nocobase/pull/1529)
+- fix: тестирование с плагином nocobase [`#1525`](https://github.com/nocobase/nocobase/pull/1525)
+- fix: кэширование nginx [`#1523`](https://github.com/nocobase/nocobase/pull/1523)
+- fix: удаление поля при наличии различий между схемой коллекции и базой данных [`#1524`](https://github.com/nocobase/nocobase/pull/1524)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.9.1-alpha.2 [`bc5156d`](https://github.com/nocobase/nocobase/commit/bc5156d458adecce8189aa535e5738672e63c2c0)
-- fix: add new blocks [`3904aa7`](https://github.com/nocobase/nocobase/commit/3904aa7c111eaa522cc7072a268a579aa115906e)
-- fix: schema name conflicts [`a463c3d`](https://github.com/nocobase/nocobase/commit/a463c3d747666496721571110bd77dba3726c2f7)
+- chore(versions): 😊 публикация v0.9.1-alpha.2 [`bc5156d`](https://github.com/nocobase/nocobase/commit/bc5156d458adecce8189aa535e5738672e63c2c0)
+- fix: добавление новых блоков [`3904aa7`](https://github.com/nocobase/nocobase/commit/3904aa7c111eaa522cc7072a268a579aa115906e)
+- fix: конфликты имен схем [`a463c3d`](https://github.com/nocobase/nocobase/commit/a463c3d747666496721571110bd77dba3726c2f7)
 
 ## [v0.9.1-alpha.1](https://github.com/nocobase/nocobase/compare/v0.9.0-alpha.2...v0.9.1-alpha.1) - 2023-03-03
 
-### Merged
+### Объединено
 
-- refactor: audit logs block [`#1517`](https://github.com/nocobase/nocobase/pull/1517)
-- fix(evaluators): fix preprocessing and add test cases [`#1519`](https://github.com/nocobase/nocobase/pull/1519)
-- chore(debug): fix debug filename when run test [`#1520`](https://github.com/nocobase/nocobase/pull/1520)
-- feat: collection manager schema env [`#1506`](https://github.com/nocobase/nocobase/pull/1506)
-- fix(client): fix checkbox unchecked display [`#1508`](https://github.com/nocobase/nocobase/pull/1508)
-- feat(snapshot-field): improve transition [`#1513`](https://github.com/nocobase/nocobase/pull/1513)
-- fix(plugin-workflow): fix CollectionField validation when using variable [`#1512`](https://github.com/nocobase/nocobase/pull/1512)
-- feat(plugin-formula): calculation with snapshot field [`#1498`](https://github.com/nocobase/nocobase/pull/1498)
-- fix(association-select): filter without data scope not work [`#1509`](https://github.com/nocobase/nocobase/pull/1509)
-- feat: fallback sort field init to createdAt field [`#1507`](https://github.com/nocobase/nocobase/pull/1507)
-- fix(graphical-interface): collection category does not display title [`#1503`](https://github.com/nocobase/nocobase/pull/1503)
-- fix(association-select): data is incorrect when use data scope [`#1491`](https://github.com/nocobase/nocobase/pull/1491)
-- feat: dialect version accessors [`#1502`](https://github.com/nocobase/nocobase/pull/1502)
-- fix: collection schema updated but model _schema not change [`#1500`](https://github.com/nocobase/nocobase/pull/1500)
+- refactor: блок журналов аудита [`#1517`](https://github.com/nocobase/nocobase/pull/1517)
+- fix(evaluators): исправление предварительной обработки и добавление тестовых случаев [`#1519`](https://github.com/nocobase/nocobase/pull/1519)
+- chore(debug): исправление имени файла отладки при запуске теста [`#1520`](https://github.com/nocobase/nocobase/pull/1520)
+- feat: переменная окружения схемы менеджера коллекций [`#1506`](https://github.com/nocobase/nocobase/pull/1506)
+- fix(client): исправление отображения неотмеченного чекбокса [`#1508`](https://github.com/nocobase/nocobase/pull/1508)
+- feat(snapshot-field): улучшение перехода [`#1513`](https://github.com/nocobase/nocobase/pull/1513)
+- fix(plugin-workflow): исправление валидации CollectionField при использовании переменной [`#1512`](https://github.com/nocobase/nocobase/pull/1512)
+- feat(plugin-formula): вычисления с полем моментального снимка [`#1498`](https://github.com/nocobase/nocobase/pull/1498)
+- fix(association-select): фильтр без области данных не работает [`#1509`](https://github.com/nocobase/nocobase/pull/1509)
+- feat: резервная сортировка поля инициализации по полю createdAt [`#1507`](https://github.com/nocobase/nocobase/pull/1507)
+- fix(graphical-interface): категория коллекции не отображает заголовок [`#1503`](https://github.com/nocobase/nocobase/pull/1503)
+- fix(association-select): данные некорректны при использовании области данных [`#1491`](https://github.com/nocobase/nocobase/pull/1491)
+- feat: методы доступа к версии диалекта [`#1502`](https://github.com/nocobase/nocobase/pull/1502)
+- fix: схема коллекции обновлена, но модель _schema не изменилась [`#1500`](https://github.com/nocobase/nocobase/pull/1500)
 - Update zh_CN.ts [`#1481`](https://github.com/nocobase/nocobase/pull/1481)
-- fix(linkageRules): support empty condiction [`#1496`](https://github.com/nocobase/nocobase/pull/1496)
-- feat: form/button linkage rules [`#1456`](https://github.com/nocobase/nocobase/pull/1456)
-- fix: collection importer has incorrect reference [`#1495`](https://github.com/nocobase/nocobase/pull/1495)
-- feat: support custom plugin deployment in dockerfile [`#1494`](https://github.com/nocobase/nocobase/pull/1494)
-- fix: environment variables [`#1490`](https://github.com/nocobase/nocobase/pull/1490)
-- feat: prepare database method [`#1492`](https://github.com/nocobase/nocobase/pull/1492)
-- Fix/multiple schema query [`#1488`](https://github.com/nocobase/nocobase/pull/1488)
-- fix: string violation [`#1487`](https://github.com/nocobase/nocobase/pull/1487)
-- refactor(plugin-workflow): migrate evaluators [`#1485`](https://github.com/nocobase/nocobase/pull/1485)
-- docs: fix typo [`#1482`](https://github.com/nocobase/nocobase/pull/1482)
-- fix(plugin-workflow): fix customized job status [`#1484`](https://github.com/nocobase/nocobase/pull/1484)
-- fix(plugin-workflow): fix condition config param [`#1483`](https://github.com/nocobase/nocobase/pull/1483)
-- fix(plugin-workflow): fix migration [`#1479`](https://github.com/nocobase/nocobase/pull/1479)
-- fix(plugin-workflow): fix migration on table prefix [`#1478`](https://github.com/nocobase/nocobase/pull/1478)
-- refactor(plugin-formula): combine 2 formula field type into 1 [`#1457`](https://github.com/nocobase/nocobase/pull/1457)
-- fix(plugin-workflow): fix migration for calculation [`#1476`](https://github.com/nocobase/nocobase/pull/1476)
-- fix(plugin-workflow): fix schedule trigger number type repeat [`#1475`](https://github.com/nocobase/nocobase/pull/1475)
-- Feat(plugin-workflow) manual instruction [`#1339`](https://github.com/nocobase/nocobase/pull/1339)
-- feat: support for importing attachments [`#1466`](https://github.com/nocobase/nocobase/pull/1466)
-- fix:  column not exists error after destory relation field [`#1465`](https://github.com/nocobase/nocobase/pull/1465)
-- fix: add schema [`#1464`](https://github.com/nocobase/nocobase/pull/1464)
-- fix: avoid o2o, o2m can select the data already selected [`#1462`](https://github.com/nocobase/nocobase/pull/1462)
-- feat: add test cases [`#1463`](https://github.com/nocobase/nocobase/pull/1463)
-- feat: update zh_CN.ts [`#1458`](https://github.com/nocobase/nocobase/pull/1458)
-- refactor: export plugin [`#1460`](https://github.com/nocobase/nocobase/pull/1460)
-- Fix/pg schema with inherit [`#1446`](https://github.com/nocobase/nocobase/pull/1446)
-- feat: multiple apps admin [`#1431`](https://github.com/nocobase/nocobase/pull/1431)
-- chore: fix build plugin error [`#1454`](https://github.com/nocobase/nocobase/pull/1454)
-- feat: provide the underscored option for the database [`#1366`](https://github.com/nocobase/nocobase/pull/1366)
-- Revert "fix(table): make filed overflow behavior right (#1392)" [`#1452`](https://github.com/nocobase/nocobase/pull/1452)
-- fix(collection category): zh_cn locale defect [`#1451`](https://github.com/nocobase/nocobase/pull/1451)
-- feat: add namespace and duplicator parameters for collection options [`#1449`](https://github.com/nocobase/nocobase/pull/1449)
-- fix(snapshot-field): remove depth limit [`#1450`](https://github.com/nocobase/nocobase/pull/1450)
-- chore: update licenses url [`#1285`](https://github.com/nocobase/nocobase/pull/1285)
-- feat: association snapshot [`#1438`](https://github.com/nocobase/nocobase/pull/1438)
-- fix(table): make filed overflow behavior right [`#1392`](https://github.com/nocobase/nocobase/pull/1392)
-- fix(plugin-sequence): fix missed createdAt field in bulk hook [`#1448`](https://github.com/nocobase/nocobase/pull/1448)
-- fix: error:0308010C:digital envelope routines::unsupported [`#1447`](https://github.com/nocobase/nocobase/pull/1447)
-- feat: collection categories [`#1327`](https://github.com/nocobase/nocobase/pull/1327)
-- fix(plugin-fm): fix path config for storages [`#1445`](https://github.com/nocobase/nocobase/pull/1445)
-- fix: node.js 17+, add openssl-legacy-provider [`#1434`](https://github.com/nocobase/nocobase/pull/1434)
-- fix(plugin-workflow): fix schedule on field null value [`#1442`](https://github.com/nocobase/nocobase/pull/1442)
-- feat: pg schema support [`#1439`](https://github.com/nocobase/nocobase/pull/1439)
-- fix(i18n): set key and ns separator default to false [`#1432`](https://github.com/nocobase/nocobase/pull/1432)
-- feat: disable trigger when import collection [`#1417`](https://github.com/nocobase/nocobase/pull/1417)
-- chore: translate 'Add tab' in page header [`#1424`](https://github.com/nocobase/nocobase/pull/1424)
-- fix(plugin-workflow): use promise to request [`#1426`](https://github.com/nocobase/nocobase/pull/1426)
-- fix(acl): custom appends merge strategy [`#1416`](https://github.com/nocobase/nocobase/pull/1416)
-- docs: update G2Plot example url [`#1408`](https://github.com/nocobase/nocobase/pull/1408)
-- docs: fix typo [`#1412`](https://github.com/nocobase/nocobase/pull/1412)
-- fix(FixedBlock): using both association filters and FixedBlock does not show the complete table [`#1405`](https://github.com/nocobase/nocobase/pull/1405)
-- feat(calendar): startDate and endDate support the use of association fields [`#1397`](https://github.com/nocobase/nocobase/pull/1397)
-- fix: load through collection before belongsToMany field bind [`#1409`](https://github.com/nocobase/nocobase/pull/1409)
-- feat(verification-plugin): support tencent sms [`#1382`](https://github.com/nocobase/nocobase/pull/1382)
-- fix: foreign keys are editable when adding fields [`#1404`](https://github.com/nocobase/nocobase/pull/1404)
-- fix: navbar_ui style [`#1398`](https://github.com/nocobase/nocobase/pull/1398)
-- fix: inherit startup sort [`#1402`](https://github.com/nocobase/nocobase/pull/1402)
-- fix(plugin-workflow): fix url input width for request config [`#1401`](https://github.com/nocobase/nocobase/pull/1401)
+- fix(linkageRules): поддержка пустого условия [`#1496`](https://github.com/nocobase/nocobase/pull/1496)
+- feat: правила связывания кнопок формы [`#1456`](https://github.com/nocobase/nocobase/pull/1456)
+- fix: импортер коллекций имеет некорректную ссылку [`#1495`](https://github.com/nocobase/nocobase/pull/1495)
+- feat: поддержка пользовательского развертывания плагинов в Dockerfile [`#1494`](https://github.com/nocobase/nocobase/pull/1494)
+- fix: переменные окружения [`#1490`](https://github.com/nocobase/nocobase/pull/1490)
+- feat: метод подготовки базы данных [`#1492`](https://github.com/nocobase/nocobase/pull/1492)
+- Fix/множественные запросы схемы [`#1488`](https://github.com/nocobase/nocobase/pull/1488)
+- fix: нарушение строки [`#1487`](https://github.com/nocobase/nocobase/pull/1487)
+- refactor(plugin-workflow): миграция оценщиков [`#1485`](https://github.com/nocobase/nocobase/pull/1485)
+- docs: исправление опечатки [`#1482`](https://github.com/nocobase/nocobase/pull/1482)
+- fix(plugin-workflow): исправление пользовательского статуса задачи [`#1484`](https://github.com/nocobase/nocobase/pull/1484)
+- fix(plugin-workflow): исправление параметра конфигурации условия [`#1483`](https://github.com/nocobase/nocobase/pull/1483)
+- fix(plugin-workflow): исправление миграции [`#1479`](https://github.com/nocobase/nocobase/pull/1479)
+- fix(plugin-workflow): исправление миграции с префиксом таблицы [`#1478`](https://github.com/nocobase/nocobase/pull/1478)
+- refactor(plugin-formula): объединение двух типов полей формулы в один [`#1457`](https://github.com/nocobase/nocobase/pull/1457)
+- fix(plugin-workflow): исправление миграции для вычислений [`#1476`](https://github.com/nocobase/nocobase/pull/1476)
+- fix(plugin-workflow): исправление повторения типа числа в триггере расписания [`#1475`](https://github.com/nocobase/nocobase/pull/1475)
+- Feat(plugin-workflow) инструкция вручную [`#1339`](https://github.com/nocobase/nocobase/pull/1339)
+- feat: поддержка импорта вложений [`#1466`](https://github.com/nocobase/nocobase/pull/1466)
+- fix: ошибка "столбец не существует" после уничтожения поля связи [`#1465`](https://github.com/nocobase/nocobase/pull/1465)
+- fix: добавление схемы [`#1464`](https://github.com/nocobase/nocobase/pull/1464)
+- fix: избежание выбора уже выбранных данных в o2o, o2m [`#1462`](https://github.com/nocobase/nocobase/pull/1462)
+- feat: добавление тестовых случаев [`#1463`](https://github.com/nocobase/nocobase/pull/1463)
+- feat: обновление zh_CN.ts [`#1458`](https://github.com/nocobase/nocobase/pull/1458)
+- refactor: экспорт плагина [`#1460`](https://github.com/nocobase/nocobase/pull/1460)
+- Fix/pg схема с наследованием [`#1446`](https://github.com/nocobase/nocobase/pull/1446)
+- feat: админка для нескольких приложений [`#1431`](https://github.com/nocobase/nocobase/pull/1431)
+- chore: исправление ошибки сборки плагина [`#1454`](https://github.com/nocobase/nocobase/pull/1454)
+- feat: предоставление опции подчеркивания для базы данных [`#1366`](https://github.com/nocobase/nocobase/pull/1366)
+- Revert "fix(table): исправление поведения переполнения поля (#1392)" [`#1452`](https://github.com/nocobase/nocobase/pull/1452)
+- fix(collection category): дефект локализации zh_cn [`#1451`](https://github.com/nocobase/nocobase/pull/1451)
+- feat: добавление параметров namespace и duplicator для опций коллекции [`#1449`](https://github.com/nocobase/nocobase/pull/1449)
+- fix(snapshot-field): удаление ограничения глубины [`#1450`](https://github.com/nocobase/nocobase/pull/1450)
+- chore: обновление URL лицензий [`#1285`](https://github.com/nocobase/nocobase/pull/1285)
+- feat: моментальный снимок связи [`#1438`](https://github.com/nocobase/nocobase/pull/1438)
+- fix(table): исправление поведения переполнения поля [`#1392`](https://github.com/nocobase/nocobase/pull/1392)
+- fix(plugin-sequence): исправление пропущенного поля createdAt в массовом хуке [`#1448`](https://github.com/nocobase/nocobase/pull/1448)
+- fix: ошибка:0308010C:цифровые подпрограммы конверта::неподдерживаемо [`#1447`](https://github.com/nocobase/nocobase/pull/1447)
+- feat: категории коллекций [`#1327`](https://github.com/nocobase/nocobase/pull/1327)
+- fix(plugin-fm): исправление конфигурации пути для хранилищ [`#1445`](https://github.com/nocobase/nocobase/pull/1445)
+- fix: Node.js 17+, добавление openssl-legacy-provider [`#1434`](https://github.com/nocobase/nocobase/pull/1434)
+- fix(plugin-workflow): исправление расписания для поля со значением null [`#1442`](https://github.com/nocobase/nocobase/pull/1442)
+- feat: поддержка схемы PostgreSQL [`#1439`](https://github.com/nocobase/nocobase/pull/1439)
+- fix(i18n): установка разделителя ключа и пространства имен по умолчанию в false [`#1432`](https://github.com/nocobase/nocobase/pull/1432)
+- feat: отключение триггера при импорте коллекции [`#1417`](https://github.com/nocobase/nocobase/pull/1417)
+- chore: перевод "Добавить вкладку" в заголовке страницы [`#1424`](https://github.com/nocobase/nocobase/pull/1424)
+- fix(plugin-workflow): использование промиса для запроса [`#1426`](https://github.com/nocobase/nocobase/pull/1426)
+- fix(acl): стратегия слияния пользовательских appends [`#1416`](https://github.com/nocobase/nocobase/pull/1416)
+- docs: обновление URL примера G2Plot [`#1408`](https://github.com/nocobase/nocobase/pull/1408)
+- docs: исправление опечатки [`#1412`](https://github.com/nocobase/nocobase/pull/1412)
+
+### Объединено
+
+- fix(FixedBlock): использование фильтров связи и FixedBlock одновременно не отображает полную таблицу [`#1405`](https://github.com/nocobase/nocobase/pull/1405)
+- feat(calendar): поля startDate и endDate поддерживают использование полей связи [`#1397`](https://github.com/nocobase/nocobase/pull/1397)
+- fix: загрузка промежуточной коллекции перед привязкой поля belongsToMany [`#1409`](https://github.com/nocobase/nocobase/pull/1409)
+- feat(verification-plugin): поддержка SMS Tencent [`#1382`](https://github.com/nocobase/nocobase/pull/1382)
+- fix: внешние ключи доступны для редактирования при добавлении полей [`#1404`](https://github.com/nocobase/nocobase/pull/1404)
+- fix: стиль navbar_ui [`#1398`](https://github.com/nocobase/nocobase/pull/1398)
+- fix: наследование начальной сортировки [`#1402`](https://github.com/nocobase/nocobase/pull/1402)
+- fix(plugin-workflow): исправление ширины ввода URL для конфигурации запроса [`#1401`](https://github.com/nocobase/nocobase/pull/1401)
 - Fix/snapshot [`#1396`](https://github.com/nocobase/nocobase/pull/1396)
-- feat: fix  through collections inherits filter [`#1394`](https://github.com/nocobase/nocobase/pull/1394)
-- Fix(plugin-sequence): support sequence field in m2m through table [`#1383`](https://github.com/nocobase/nocobase/pull/1383)
-- fix(plugin-workflow): adjust executed alert position [`#1381`](https://github.com/nocobase/nocobase/pull/1381)
-- fix: through collection individual hooks [`#1378`](https://github.com/nocobase/nocobase/pull/1378)
-- fix: through collection records should not be reset [`#1377`](https://github.com/nocobase/nocobase/pull/1377)
-- feat(client): add form disabled context [`#1374`](https://github.com/nocobase/nocobase/pull/1374)
-- Fix(plugin-workflow): request node [`#1367`](https://github.com/nocobase/nocobase/pull/1367)
+- feat: исправление фильтра наследования через коллекции [`#1394`](https://github.com/nocobase/nocobase/pull/1394)
+- Fix(plugin-sequence): поддержка поля последовательности в таблице m2m [`#1383`](https://github.com/nocobase/nocobase/pull/1383)
+- fix(plugin-workflow): корректировка позиции уведомления о выполнении [`#1381`](https://github.com/nocobase/nocobase/pull/1381)
+- fix: индивидуальные хуки для промежуточной коллекции [`#1378`](https://github.com/nocobase/nocobase/pull/1378)
+- fix: записи промежуточной коллекции не должны сбрасываться [`#1377`](https://github.com/nocobase/nocobase/pull/1377)
+- feat(client): добавление контекста disabled для формы [`#1374`](https://github.com/nocobase/nocobase/pull/1374)
+- Fix(plugin-workflow): узел запроса [`#1367`](https://github.com/nocobase/nocobase/pull/1367)
 
-### Commits
+### Коммиты
 
-- docs: add plug-in documentation [`68511f0`](https://github.com/nocobase/nocobase/commit/68511f05bc7dbca49e0ab95eb868a193a3502d71)
-- feat(db): field value parser [`5805b69`](https://github.com/nocobase/nocobase/commit/5805b69455532ad643e9c87831da985d41bc5d6d)
-- chore(versions): 😊 publish v0.9.1-alpha.1 [`946c8f2`](https://github.com/nocobase/nocobase/commit/946c8f25a3df538f4a83abe4468786cf554d8914)
+- docs: добавление документации по плагинам [`68511f0`](https://github.com/nocobase/nocobase/commit/68511f05bc7dbca49e0ab95eb868a193a3502d71)
+- feat(db): парсер значений полей [`5805b69`](https://github.com/nocobase/nocobase/commit/5805b69455532ad643e9c87831da985d41bc5d6d)
+- chore(versions): 😊 публикация v0.9.1-alpha.1 [`946c8f2`](https://github.com/nocobase/nocobase/commit/946c8f25a3df538f4a83abe4468786cf554d8914)
 
 ## [v0.9.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.9.0-alpha.1...v0.9.0-alpha.2) - 2023-01-14
 
-### Merged
+### Объединено
 
-- feat: load multiple languages dynamically [`#1355`](https://github.com/nocobase/nocobase/pull/1355)
-- refactor(plugin-workflow): refactor request instruction [`#1356`](https://github.com/nocobase/nocobase/pull/1356)
-- feat: update dependencies [`#1353`](https://github.com/nocobase/nocobase/pull/1353)
+- feat: динамическая загрузка нескольких языков [`#1355`](https://github.com/nocobase/nocobase/pull/1355)
+- refactor(plugin-workflow): рефакторинг инструкции запроса [`#1356`](https://github.com/nocobase/nocobase/pull/1356)
+- feat: обновление зависимостей [`#1353`](https://github.com/nocobase/nocobase/pull/1353)
 
-### Commits
+### Коммиты
 
-- feat: add en-US.example.json [`86554c0`](https://github.com/nocobase/nocobase/commit/86554c0205d6cb8f5dd3a293c9929b4aa9cb5897)
-- fix: locale cache [`a4116a2`](https://github.com/nocobase/nocobase/commit/a4116a251b00109dad96e5062bf9b6441544f8b3)
-- chore(versions): 😊 publish v0.9.0-alpha.2 [`daa91e9`](https://github.com/nocobase/nocobase/commit/daa91e95a6192bac19702eb17e9f764a7df11477)
+- feat: добавление en-US.example.json [`86554c0`](https://github.com/nocobase/nocobase/commit/86554c0205d6cb8f5dd3a293c9929b4aa9cb5897)
+- fix: кэширование локализации [`a4116a2`](https://github.com/nocobase/nocobase/commit/a4116a251b00109dad96e5062bf9b6441544f8b3)
+- chore(versions): 😊 публикация v0.9.0-alpha.2 [`daa91e9`](https://github.com/nocobase/nocobase/commit/daa91e95a6192bac19702eb17e9f764a7df11477)
 
 ## [v0.9.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.8.1-alpha.4...v0.9.0-alpha.1) - 2023-01-11
 
-### Merged
+### Объединено
 
-- feat: change license [`#1350`](https://github.com/nocobase/nocobase/pull/1350)
-- feat: formula plugin [`#1344`](https://github.com/nocobase/nocobase/pull/1344)
-- feat: acl optimization [`#1136`](https://github.com/nocobase/nocobase/pull/1136)
-- feat: duplicator plugin [`#1265`](https://github.com/nocobase/nocobase/pull/1265)
-- fix(plugin-workflow): fix missed preparing [`#1337`](https://github.com/nocobase/nocobase/pull/1337)
-- fix: FixedBlock does not disappear when the current tab is deleted [`#1324`](https://github.com/nocobase/nocobase/pull/1324)
-- feat(Select): should compile title and label [`#1332`](https://github.com/nocobase/nocobase/pull/1332)
-- fix: improve filter [`#1333`](https://github.com/nocobase/nocobase/pull/1333)
+- feat: изменение лицензии [`#1350`](https://github.com/nocobase/nocobase/pull/1350)
+- feat: плагин формулы [`#1344`](https://github.com/nocobase/nocobase/pull/1344)
+- feat: оптимизация ACL [`#1136`](https://github.com/nocobase/nocobase/pull/1136)
+- feat: плагин дубликатора [`#1265`](https://github.com/nocobase/nocobase/pull/1265)
+- fix(plugin-workflow): исправление пропущенной подготовки [`#1337`](https://github.com/nocobase/nocobase/pull/1337)
+- fix: FixedBlock не исчезает при удалении текущей вкладки [`#1324`](https://github.com/nocobase/nocobase/pull/1324)
+- feat(Select): компиляция title и label [`#1332`](https://github.com/nocobase/nocobase/pull/1332)
+- fix: улучшение фильтра [`#1333`](https://github.com/nocobase/nocobase/pull/1333)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.9.0-alpha.1 [`013f091`](https://github.com/nocobase/nocobase/commit/013f0916a521fef74970ba6feed76c1b17b6ff01)
-- fix: typeError: Cannot read properties of undefined (reading 'find') [`1dc4142`](https://github.com/nocobase/nocobase/commit/1dc4142da2195fb6f09bd691b23948d9d5f9e01d)
-- feat: improve translation [`31794d3`](https://github.com/nocobase/nocobase/commit/31794d3c1b7af13d9dbaca8d12b1843c18553307)
+- chore(versions): 😊 публикация v0.9.0-alpha.1 [`013f091`](https://github.com/nocobase/nocobase/commit/013f0916a521fef74970ba6feed76c1b17b6ff01)
+- fix: typeError: Не удается прочитать свойства undefined (чтение 'find') [`1dc4142`](https://github.com/nocobase/nocobase/commit/1dc4142da2195fb6f09bd691b23948d9d5f9e01d)
+- feat: улучшение перевода [`31794d3`](https://github.com/nocobase/nocobase/commit/31794d3c1b7af13d9dbaca8d12b1843c18553307)
 
 ## [v0.8.1-alpha.4](https://github.com/nocobase/nocobase/compare/v0.8.1-alpha.2...v0.8.1-alpha.4) - 2023-01-05
 
-### Merged
+### Объединено
 
-- chore(versions): 😊 publish v0.8.1-alpha.4 [`#1331`](https://github.com/nocobase/nocobase/pull/1331)
+- chore(versions): 😊 публикация v0.8.1-alpha.4 [`#1331`](https://github.com/nocobase/nocobase/pull/1331)
 
 ## [v0.8.1-alpha.2](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.13...v0.8.1-alpha.2) - 2023-01-05
 
-### Merged
+### Объединено
 
-- fix(plugin-sequence-field): integer generated should not less then start [`#1330`](https://github.com/nocobase/nocobase/pull/1330)
-- fix: filter removeNullConditions [`#1329`](https://github.com/nocobase/nocobase/pull/1329)
-- fix: snapshot display fix [`#1328`](https://github.com/nocobase/nocobase/pull/1328)
-- fix(plugin-workflow): fix history drawer in workflow canvas [`#1326`](https://github.com/nocobase/nocobase/pull/1326)
-- feat: snapshot field plugin [`#1253`](https://github.com/nocobase/nocobase/pull/1253)
-- feat: configure fields style fix [`#1322`](https://github.com/nocobase/nocobase/pull/1322)
-- fix(plugin-workflow): fix events in prepare [`#1325`](https://github.com/nocobase/nocobase/pull/1325)
-- fix(database): filter match [`#1319`](https://github.com/nocobase/nocobase/pull/1319)
-- fix: action merge params [`#1321`](https://github.com/nocobase/nocobase/pull/1321)
-- chore:  set belongs to many on delete to cascade [`#1311`](https://github.com/nocobase/nocobase/pull/1311)
-- fix: disable filterByTk options in destory method when collection has no primary key or has composite primary key [`#1313`](https://github.com/nocobase/nocobase/pull/1313)
-- fix: slow find with include in mysql [`#1304`](https://github.com/nocobase/nocobase/pull/1304)
-- fix(map-plugin): cannot save because the value is null  [`#1309`](https://github.com/nocobase/nocobase/pull/1309)
-- fix: create inherits with table name contains upper case [`#1308`](https://github.com/nocobase/nocobase/pull/1308)
-- fix: upgrade error [`#1303`](https://github.com/nocobase/nocobase/pull/1303)
-- fix: association filter [`#1301`](https://github.com/nocobase/nocobase/pull/1301)
-- fix: pageSize 200 & not a function [`#1299`](https://github.com/nocobase/nocobase/pull/1299)
-- refactor(client): make tab initializer more common [`#1298`](https://github.com/nocobase/nocobase/pull/1298)
-- fix(Select): title field and clear button not work [`#1296`](https://github.com/nocobase/nocobase/pull/1296)
-- fix(plugin-fm): fix local storage config and skip empty base url [`#1294`](https://github.com/nocobase/nocobase/pull/1294)
-- feat: antd-&gt;4.2.8 [`#1231`](https://github.com/nocobase/nocobase/pull/1231)
-- feat: association filter [`#1274`](https://github.com/nocobase/nocobase/pull/1274)
-- chore: upgrade sequelize version to to latest [`#1234`](https://github.com/nocobase/nocobase/pull/1234)
-- feat: add iframe-block plugin [`#1281`](https://github.com/nocobase/nocobase/pull/1281)
-- feat: update page size to 200 and limit fields [`#1282`](https://github.com/nocobase/nocobase/pull/1282)
-- fix: prevent horizontal scroll of menus [`#1279`](https://github.com/nocobase/nocobase/pull/1279)
-- Turkish language created for Docs. Belgeler için türkçe dil desteği [`#1071`](https://github.com/nocobase/nocobase/pull/1071)
-- fix(client/kanban): fix kanban card default active all fields bug [`#1270`](https://github.com/nocobase/nocobase/pull/1270)
-- fix: cannot delete event in calendar [`#1277`](https://github.com/nocobase/nocobase/pull/1277)
-- fix(AssociationSelect): missing field title in details [`#1275`](https://github.com/nocobase/nocobase/pull/1275)
-- fix: menu cannot scroll [`#1276`](https://github.com/nocobase/nocobase/pull/1276)
-- feat: support fixed block [`#1267`](https://github.com/nocobase/nocobase/pull/1267)
-- fix(plugin-sequence): fix test case [`#1268`](https://github.com/nocobase/nocobase/pull/1268)
-- fix(plugin-sequence): fix update pattern index [`#1266`](https://github.com/nocobase/nocobase/pull/1266)
-- feat : support fixed menu and header [`#1260`](https://github.com/nocobase/nocobase/pull/1260)
-- fix: destroy field in parent table [`#1263`](https://github.com/nocobase/nocobase/pull/1263)
-- refactor(client/popup): text: 'Set popup size' changed to 'Popup size' [`#1262`](https://github.com/nocobase/nocobase/pull/1262)
-- feat: page tabs [`#1261`](https://github.com/nocobase/nocobase/pull/1261)
-- fix(plugin-fm): drawer form values [`#1259`](https://github.com/nocobase/nocobase/pull/1259)
-- feat: support sync button [`#1258`](https://github.com/nocobase/nocobase/pull/1258)
-- fix: isOverride cannot work [`#1257`](https://github.com/nocobase/nocobase/pull/1257)
-- refactor(sequence-field): move to plugin and use table to record [`#1209`](https://github.com/nocobase/nocobase/pull/1209)
-- feat: add map plugin [`#1229`](https://github.com/nocobase/nocobase/pull/1229)
-- fix(plugin-workflow): fix job result in history [`#1242`](https://github.com/nocobase/nocobase/pull/1242)
-- feat: set field [`#1237`](https://github.com/nocobase/nocobase/pull/1237)
-- chore: update ci [`#1239`](https://github.com/nocobase/nocobase/pull/1239)
-- feat(client/popup): support set drawer and modal popup size [`#1224`](https://github.com/nocobase/nocobase/pull/1224)
-- fix(plugin-file-manager): fix local serve middleware [`#1226`](https://github.com/nocobase/nocobase/pull/1226)
-- feat: iframe block [`#1225`](https://github.com/nocobase/nocobase/pull/1225)
-- fix(workflow/request-var): fix request node var editor [`#1223`](https://github.com/nocobase/nocobase/pull/1223)
-- fix: change nginx timeout as 10min [`#1222`](https://github.com/nocobase/nocobase/pull/1222)
-- fix: change import timeout as 10 min [`#1221`](https://github.com/nocobase/nocobase/pull/1221)
-- fix: field component options appears in non-association interface [`#1220`](https://github.com/nocobase/nocobase/pull/1220)
-- Fix(plugin-workflow): client refactor [`#1163`](https://github.com/nocobase/nocobase/pull/1163)
-- feat(cli): quickstart [`#1204`](https://github.com/nocobase/nocobase/pull/1204)
-- fix(plugin-cm): fix interfaces injection and getter [`#1196`](https://github.com/nocobase/nocobase/pull/1196)
-- fix(i18n): move back key to global [`#1195`](https://github.com/nocobase/nocobase/pull/1195)
-- test(plugin-workflow): add cache and test for sqlite [`#1194`](https://github.com/nocobase/nocobase/pull/1194)
-- fix(plugin-workflow): use dual pipes to process triggers [`#1187`](https://github.com/nocobase/nocobase/pull/1187)
-- fix(plugin-workflow): temp skip case [`#1188`](https://github.com/nocobase/nocobase/pull/1188)
-- feat(menu): when a group is selected, the submenu items are also selected together [`#1152`](https://github.com/nocobase/nocobase/pull/1152)
-- fix(plugin-workflow): fix transaction in trigger [`#1186`](https://github.com/nocobase/nocobase/pull/1186)
-- feat:  export blob type error [`#1170`](https://github.com/nocobase/nocobase/pull/1170)
-- fix(plugin-workflow): dispatch when Server start [`#1183`](https://github.com/nocobase/nocobase/pull/1183)
-- fix: yarn start error in windows system [`#1177`](https://github.com/nocobase/nocobase/pull/1177)
-- fix(plugin-users): fix initialization of sms verification [`#1173`](https://github.com/nocobase/nocobase/pull/1173)
-- fix(plugin-workflow): fix test case [`#1172`](https://github.com/nocobase/nocobase/pull/1172)
-- feat(plugin-workflow): add duplicate action [`#1171`](https://github.com/nocobase/nocobase/pull/1171)
-- fix(plugin-workflow): fix context operand [`#1169`](https://github.com/nocobase/nocobase/pull/1169)
-- fix: auto deploy error [`#1168`](https://github.com/nocobase/nocobase/pull/1168)
-- feat: configurable the scope of target collections [`#1165`](https://github.com/nocobase/nocobase/pull/1165)
-- ci(workflows): fix auto deploy error [`#1166`](https://github.com/nocobase/nocobase/pull/1166)
-- ci(workflows): support manual depoly and stop pr [`#1132`](https://github.com/nocobase/nocobase/pull/1132)
-- fix: saml oidc text [`#1164`](https://github.com/nocobase/nocobase/pull/1164)
-- fix: transaction error [`#1162`](https://github.com/nocobase/nocobase/pull/1162)
-- fix: create inherits with empty table [`#1160`](https://github.com/nocobase/nocobase/pull/1160)
-- fix: sso optimization  [`#1159`](https://github.com/nocobase/nocobase/pull/1159)
-- feat: saml [`#1143`](https://github.com/nocobase/nocobase/pull/1143)
-- feat: oidc [`#1126`](https://github.com/nocobase/nocobase/pull/1126)
-- feat: belongs to many on delete [`#1158`](https://github.com/nocobase/nocobase/pull/1158)
-- Feat/collection templates [`#1124`](https://github.com/nocobase/nocobase/pull/1124)
-- Fix/action 404 [`#1157`](https://github.com/nocobase/nocobase/pull/1157)
-- fix: 404 response [`#1156`](https://github.com/nocobase/nocobase/pull/1156)
-- Feat: plugin verification config [`#1129`](https://github.com/nocobase/nocobase/pull/1129)
-- feat: support use select field [`#1105`](https://github.com/nocobase/nocobase/pull/1105)
-- fix(plugin-workflow): fix trigger context getters [`#1149`](https://github.com/nocobase/nocobase/pull/1149)
-- feat: option readPretty optimization [`#1138`](https://github.com/nocobase/nocobase/pull/1138)
-- fix(plugin-workflow): fix locale [`#1145`](https://github.com/nocobase/nocobase/pull/1145)
-- fix(plugin-workflow): fix endsOn field [`#1144`](https://github.com/nocobase/nocobase/pull/1144)
-- fix: create empty collection [`#1141`](https://github.com/nocobase/nocobase/pull/1141)
-- fix(client): fix no key warning in menu [`#1140`](https://github.com/nocobase/nocobase/pull/1140)
-- Fix(plugin workflow) interval [`#1139`](https://github.com/nocobase/nocobase/pull/1139)
-- fix: x-collection-field [`#1134`](https://github.com/nocobase/nocobase/pull/1134)
-- feat: update many [`#1135`](https://github.com/nocobase/nocobase/pull/1135)
-- feat(workflow): support Http Request Node [`#1102`](https://github.com/nocobase/nocobase/pull/1102)
-- fix: incorrect repeat of calendar [`#1131`](https://github.com/nocobase/nocobase/pull/1131)
-- fix(database): refresh indexes [`#1127`](https://github.com/nocobase/nocobase/pull/1127)
-- fix: reference check after remove collection [`#1123`](https://github.com/nocobase/nocobase/pull/1123)
-- fix: sort field with table dose not have primary key [`#1119`](https://github.com/nocobase/nocobase/pull/1119)
-- fix: test [`#1118`](https://github.com/nocobase/nocobase/pull/1118)
-- fix: update to bigint [`#1117`](https://github.com/nocobase/nocobase/pull/1117)
-- fix(cm): default values for override [`#1112`](https://github.com/nocobase/nocobase/pull/1112)
-- fix: update sequence and foreignKey [`#1116`](https://github.com/nocobase/nocobase/pull/1116)
-- fix(plugin-workflow): fix workflow schema [`#1115`](https://github.com/nocobase/nocobase/pull/1115)
-- fix(client): menu key warnings [`#1114`](https://github.com/nocobase/nocobase/pull/1114)
-- fix: fk type invalid [`#1113`](https://github.com/nocobase/nocobase/pull/1113)
-- fix: handle column does not exist error [`#1110`](https://github.com/nocobase/nocobase/pull/1110)
-- fix: inherits with collection not exists [`#1109`](https://github.com/nocobase/nocobase/pull/1109)
-- fix(locale): move description to global [`#1108`](https://github.com/nocobase/nocobase/pull/1108)
-- feat: using bigint for id field [`#1100`](https://github.com/nocobase/nocobase/pull/1100)
-- refactor: formula plugin [`#1082`](https://github.com/nocobase/nocobase/pull/1082)
-- fix: create inherits from a table that has no id [`#1104`](https://github.com/nocobase/nocobase/pull/1104)
-- fix: find table sequence [`#1101`](https://github.com/nocobase/nocobase/pull/1101)
+- fix(plugin-sequence-field): целое число, генерируемое последовательностью, не должно быть меньше начального значения [`#1330`](https://github.com/nocobase/nocobase/pull/1330)
+- fix: фильтр removeNullConditions [`#1329`](https://github.com/nocobase/nocobase/pull/1329)
+- fix: исправление отображения моментального снимка [`#1328`](https://github.com/nocobase/nocobase/pull/1328)
+- fix(plugin-workflow): исправление выдвижной панели истории в холсте рабочего процесса [`#1326`](https://github.com/nocobase/nocobase/pull/1326)
+- feat: плагин поля моментального снимка [`#1253`](https://github.com/nocobase/nocobase/pull/1253)
+- feat: исправление стиля настраиваемых полей [`#1322`](https://github.com/nocobase/nocobase/pull/1322)
+- fix(plugin-workflow): исправление событий в prepare [`#1325`](https://github.com/nocobase/nocobase/pull/1325)
+- fix(database): соответствие фильтра [`#1319`](https://github.com/nocobase/nocobase/pull/1319)
+- fix: слияние параметров действия [`#1321`](https://github.com/nocobase/nocobase/pull/1321)
+- chore: установка каскадного удаления для belongsToMany [`#1311`](https://github.com/nocobase/nocobase/pull/1311)
+- fix: отключение опции filterByTk в методе destroy, если коллекция не имеет первичного ключа или имеет составной первичный ключ [`#1313`](https://github.com/nocobase/nocobase/pull/1313)
+- fix: медленный поиск с include в MySQL [`#1304`](https://github.com/nocobase/nocobase/pull/1304)
+- fix(map-plugin): невозможность сохранения из-за null значения [`#1309`](https://github.com/nocobase/nocobase/pull/1309)
+- fix: создание наследования с именем таблицы, содержащим заглавные буквы [`#1308`](https://github.com/nocobase/nocobase/pull/1308)
+- fix: ошибка обновления [`#1303`](https://github.com/nocobase/nocobase/pull/1303)
+- fix: фильтр связи [`#1301`](https://github.com/nocobase/nocobase/pull/1301)
+- fix: pageSize 200 & "не является функцией" [`#1299`](https://github.com/nocobase/nocobase/pull/1299)
+- refactor(client): улучшение универсальности инициализатора вкладок [`#1298`](https://github.com/nocobase/nocobase/pull/1298)
+- fix(Select): поле title и кнопка очистки не работают [`#1296`](https://github.com/nocobase/nocobase/pull/1296)
+- fix(plugin-fm): исправление конфигурации локального хранилища и пропуск пустого базового URL [`#1294`](https://github.com/nocobase/nocobase/pull/1294)
+- feat: обновление antd до версии 4.2.8 [`#1231`](https://github.com/nocobase/nocobase/pull/1231)
+- feat: фильтр связи [`#1274`](https://github.com/nocobase/nocobase/pull/1274)
+- chore: обновление версии Sequelize до последней [`#1234`](https://github.com/nocobase/nocobase/pull/1234)
+- feat: добавление плагина iframe-block [`#1281`](https://github.com/nocobase/nocobase/pull/1281)
+- feat: обновление размера страницы до 200 и ограничение полей [`#1282`](https://github.com/nocobase/nocobase/pull/1282)
+- fix: предотвращение горизонтальной прокрутки меню [`#1279`](https://github.com/nocobase/nocobase/pull/1279)
+- Turkish language created for Docs. Поддержка турецкого языка для документации [`#1071`](https://github.com/nocobase/nocobase/pull/1071)
+- fix(client/kanban): исправление бага с активацией всех полей по умолчанию в карточке канбан [`#1270`](https://github.com/nocobase/nocobase/pull/1270)
+- fix: невозможность удаления события в календаре [`#1277`](https://github.com/nocobase/nocobase/pull/1277)
+- fix(AssociationSelect): отсутствующее поле title в деталях [`#1275`](https://github.com/nocobase/nocobase/pull/1275)
+- fix: меню не прокручивается [`#1276`](https://github.com/nocobase/nocobase/pull/1276)
+- feat: поддержка фиксированного блока [`#1267`](https://github.com/nocobase/nocobase/pull/1267)
+- fix(plugin-sequence): исправление тестового случая [`#1268`](https://github.com/nocobase/nocobase/pull/1268)
+- fix(plugin-sequence): исправление индекса шаблона обновления [`#1266`](https://github.com/nocobase/nocobase/pull/1266)
+- feat: поддержка фиксированного меню и заголовка [`#1260`](https://github.com/nocobase/nocobase/pull/1260)
+- fix: удаление поля в родительской таблице [`#1263`](https://github.com/nocobase/nocobase/pull/1263)
+- refactor(client/popup): изменение текста 'Set popup size' на 'Popup size' [`#1262`](https://github.com/nocobase/nocobase/pull/1262)
+- feat: вкладки страницы [`#1261`](https://github.com/nocobase/nocobase/pull/1261)
+- fix(plugin-fm): значения формы в выдвижной панели [`#1259`](https://github.com/nocobase/nocobase/pull/1259)
+- feat: поддержка кнопки синхронизации [`#1258`](https://github.com/nocobase/nocobase/pull/1258)
+- fix: isOverride не работает [`#1257`](https://github.com/nocobase/nocobase/pull/1257)
+- refactor(sequence-field): перемещение в плагин и использование таблицы для записи [`#1209`](https://github.com/nocobase/nocobase/pull/1209)
+- feat: добавление плагина карты [`#1229`](https://github.com/nocobase/nocobase/pull/1229)
+- fix(plugin-workflow): исправление результата задачи в истории [`#1242`](https://github.com/nocobase/nocobase/pull/1242)
+- feat: установка поля [`#1237`](https://github.com/nocobase/nocobase/pull/1237)
+- chore: обновление CI [`#1239`](https://github.com/nocobase/nocobase/pull/1239)
+- feat(client/popup): поддержка установки размера выдвижной панели и модального окна [`#1224`](https://github.com/nocobase/nocobase/pull/1224)
+- fix(plugin-file-manager): исправление промежуточного ПО локального сервера [`#1226`](https://github.com/nocobase/nocobase/pull/1226)
+- feat: блок iframe [`#1225`](https://github.com/nocobase/nocobase/pull/1225)
+- fix(workflow/request-var): исправление редактора переменных узла запроса [`#1223`](https://github.com/nocobase/nocobase/pull/1223)
+- fix: изменение времени ожидания nginx на 10 минут [`#1222`](https://github.com/nocobase/nocobase/pull/1222)
+- fix: изменение времени ожидания импорта на 10 минут [`#1221`](https://github.com/nocobase/nocobase/pull/1221)
+- fix: параметры компонента поля появляются в неассоциативном интерфейсе [`#1220`](https://github.com/nocobase/nocobase/pull/1220)
+- Fix(plugin-workflow): рефакторинг клиента [`#1163`](https://github.com/nocobase/nocobase/pull/1163)
+- feat(cli): быстрый старт [`#1204`](https://github.com/nocobase/nocobase/pull/1204)
+- fix(plugin-cm): исправление инъекции интерфейсов и геттеров [`#1196`](https://github.com/nocobase/nocobase/pull/1196)
+- fix(i18n): возврат ключа в глобальную область [`#1195`](https://github.com/nocobase/nocobase/pull/1195)
+- test(plugin-workflow): добавление кэширования и тестов для SQLite [`#1194`](https://github.com/nocobase/nocobase/pull/1194)
+- fix(plugin-workflow): использование двойных каналов для обработки триггеров [`#1187`](https://github.com/nocobase/nocobase/pull/1187)
+- fix(plugin-workflow): временный пропуск теста [`#1188`](https://github.com/nocobase/nocobase/pull/1188)
+- feat(menu): при выборе группы также выбираются подменю [`#1152`](https://github.com/nocobase/nocobase/pull/1152)
+- fix(plugin-workflow): исправление транзакции в триггере [`#1186`](https://github.com/nocobase/nocobase/pull/1186)
+- feat: экспорт ошибки типа blob [`#1170`](https://github.com/nocobase/nocobase/pull/1170)
+- fix(plugin-workflow): диспетчеризация при запуске сервера [`#1183`](https://github.com/nocobase/nocobase/pull/1183)
+- fix: ошибка `yarn start` в системе Windows [`#1177`](https://github.com/nocobase/nocobase/pull/1177)
+- fix(plugin-users): исправление инициализации SMS-верификации [`#1173`](https://github.com/nocobase/nocobase/pull/1173)
+- fix(plugin-workflow): исправление тестового случая [`#1172`](https://github.com/nocobase/nocobase/pull/1172)
+- feat(plugin-workflow): добавление действия дублирования [`#1171`](https://github.com/nocobase/nocobase/pull/1171)
+- fix(plugin-workflow): исправление операнда контекста [`#1169`](https://github.com/nocobase/nocobase/pull/1169)
+- fix: ошибка автоматического развертывания [`#1168`](https://github.com/nocobase/nocobase/pull/1168)
+- feat: настройка области целевых коллекций [`#1165`](https://github.com/nocobase/nocobase/pull/1165)
+- ci(workflows): исправление ошибки автоматического развертывания [`#1166`](https://github.com/nocobase/nocobase/pull/1118)
+### Объединено (продолжение)
+
+- fix: обновление до bigint [`#1117`](https://github.com/nocobase/nocobase/pull/1117)
+- fix(cm): значения по умолчанию для переопределения [`#1112`](https://github.com/nocobase/nocobase/pull/1112)
+- fix: обновление последовательности и внешнего ключа [`#1116`](https://github.com/nocobase/nocobase/pull/1116)
+- fix(plugin-workflow): исправление схемы рабочего процесса [`#1115`](https://github.com/nocobase/nocobase/pull/1115)
+- fix(client): предупреждения о ключах меню [`#1114`](https://github.com/nocobase/nocobase/pull/1114)
+- fix: недопустимый тип внешнего ключа [`#1113`](https://github.com/nocobase/nocobase/pull/1113)
+- fix: обработка ошибки "столбец не существует" [`#1110`](https://github.com/nocobase/nocobase/pull/1110)
+- fix: наследование с коллекцией, которая не существует [`#1109`](https://github.com/nocobase/nocobase/pull/1109)
+- fix(locale): перемещение описания в глобальную область [`#1108`](https://github.com/nocobase/nocobase/pull/1108)
+- feat: использование bigint для поля id [`#1100`](https://github.com/nocobase/nocobase/pull/1100)
+- refactor: плагин формулы [`#1082`](https://github.com/nocobase/nocobase/pull/1082)
+- fix: создание наследования из таблицы без id [`#1104`](https://github.com/nocobase/nocobase/pull/1104)
+- fix: поиск последовательности таблицы [`#1101`](https://github.com/nocobase/nocobase/pull/1101)
 - Feat/collection inherits [`#1097`](https://github.com/nocobase/nocobase/pull/1097)
-- fix: create collection with emtpy inhertis params [`#1096`](https://github.com/nocobase/nocobase/pull/1096)
-- fix: remove node after collection removed [`#1095`](https://github.com/nocobase/nocobase/pull/1095)
-- fix: unbind error [`#1094`](https://github.com/nocobase/nocobase/pull/1094)
-- chore: type conflict error message [`#1093`](https://github.com/nocobase/nocobase/pull/1093)
-- feat: collection inheritance [`#1069`](https://github.com/nocobase/nocobase/pull/1069)
-- feat: no recursive update associations [`#1091`](https://github.com/nocobase/nocobase/pull/1091)
-- fix(plugin-workflow): fix transaction chain in trigger [`#1089`](https://github.com/nocobase/nocobase/pull/1089)
-- fix(plugin-workflow): fix schema name conflict [`#1087`](https://github.com/nocobase/nocobase/pull/1087)
-- refactor(plugin-workflow): split transaction for collection trigger [`#1080`](https://github.com/nocobase/nocobase/pull/1080)
-- fix: skip records that do not exist [`#1084`](https://github.com/nocobase/nocobase/pull/1084)
-- refactor(plugin-workflow): adjust style [`#1079`](https://github.com/nocobase/nocobase/pull/1079)
-- fix: mysql variable 'lower_case_table_names' must be set to '0' or '2' [`#1078`](https://github.com/nocobase/nocobase/pull/1078)
-- feat: logging package [`#1021`](https://github.com/nocobase/nocobase/pull/1021)
-- Refactor: plugin-workflow client [`#1077`](https://github.com/nocobase/nocobase/pull/1077)
-- fix: reference options sync [`#1061`](https://github.com/nocobase/nocobase/pull/1061)
-- refactor(plugin-workflow): adjust some api [`#1067`](https://github.com/nocobase/nocobase/pull/1067)
-- fix(plugin-workflow): fix trigger getter [`#1060`](https://github.com/nocobase/nocobase/pull/1060)
+- fix: создание коллекции с пустыми параметрами наследования [`#1096`](https://github.com/nocobase/nocobase/pull/1096)
+- fix: удаление узла после удаления коллекции [`#1095`](https://github.com/nocobase/nocobase/pull/1095)
+- fix: ошибка отвязки [`#1094`](https://github.com/nocobase/nocobase/pull/1094)
+- chore: сообщение об ошибке конфликта типов [`#1093`](https://github.com/nocobase/nocobase/pull/1093)
+- feat: наследование коллекций [`#1069`](https://github.com/nocobase/nocobase/pull/1069)
+- feat: отсутствие рекурсивного обновления связей [`#1091`](https://github.com/nocobase/nocobase/pull/1091)
+- fix(plugin-workflow): исправление цепочки транзакций в триггере [`#1089`](https://github.com/nocobase/nocobase/pull/1089)
+- fix(plugin-workflow): исправление конфликта имен схемы [`#1087`](https://github.com/nocobase/nocobase/pull/1087)
+- refactor(plugin-workflow): разделение транзакций для триггера коллекции [`#1080`](https://github.com/nocobase/nocobase/pull/1080)
+- fix: пропуск записей, которые не существуют [`#1084`](https://github.com/nocobase/nocobase/pull/1084)
+- refactor(plugin-workflow): корректировка стиля [`#1079`](https://github.com/nocobase/nocobase/pull/1079)
+- fix: переменная MySQL 'lower_case_table_names' должна быть установлена в '0' или '2' [`#1078`](https://github.com/nocobase/nocobase/pull/1078)
+- feat: пакет логирования [`#1021`](https://github.com/nocobase/nocobase/pull/1021)
+- Refactor: клиент плагина workflow [`#1077`](https://github.com/nocobase/nocobase/pull/1077)
+- fix: синхронизация опций ссылок [`#1061`](https://github.com/nocobase/nocobase/pull/1061)
+- refactor(plugin-workflow): корректировка некоторых API [`#1067`](https://github.com/nocobase/nocobase/pull/1067)
+- fix(plugin-workflow): исправление геттера триггера [`#1060`](https://github.com/nocobase/nocobase/pull/1060)
 - Update README.md [`#1053`](https://github.com/nocobase/nocobase/pull/1053)
-- test(collection-manager): 20221104151410-update-collections-hidden test correct [`#1042`](https://github.com/nocobase/nocobase/pull/1042)
+- test(collection-manager): тест 20221104151410-update-collections-hidden исправлен [`#1042`](https://github.com/nocobase/nocobase/pull/1042)
 
-### Fixed
+### Исправлено
 
-- fix(client): page title translation doesn't work [`#838`](https://github.com/nocobase/nocobase/issues/838)
+- fix(client): перевод заголовка страницы не работает [`#838`](https://github.com/nocobase/nocobase/issues/838)
 
-### Commits
+### Коммиты
 
-- feat: update docs [`15cbad3`](https://github.com/nocobase/nocobase/commit/15cbad30b4e40121ab768273d6d42832960cd4bf)
-- Revert "refactor: formula plugin (#1082)" [`0cbfa0a`](https://github.com/nocobase/nocobase/commit/0cbfa0a52177cce6b5400107a639d97de0b4e7a9)
-- chore(versions): 😊 publish v0.8.1-alpha.2 [`4ecd2ee`](https://github.com/nocobase/nocobase/commit/4ecd2ee40d0ddfdfc5440670aa4f2b3a64f1c819)
+- feat: обновление документации [`15cbad3`](https://github.com/nocobase/nocobase/commit/15cbad30b4e40121ab768273d6d42832960cd4bf)
+- Revert "refactor: плагин формулы (#1082)" [`0cbfa0a`](https://github.com/nocobase/nocobase/commit/0cbfa0a52177cce6b5400107a639d97de0b4e7a9)
+- chore(versions): 😊 публикация v0.8.1-alpha.2 [`4ecd2ee`](https://github.com/nocobase/nocobase/commit/4ecd2ee40d0ddfdfc5440670aa4f2b3a64f1c819)
 
 ## [v0.8.0-alpha.13](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.11...v0.8.0-alpha.13) - 2022-11-04
 
-### Merged
+### Объединено
 
-- test(collection-manager): migration - 20221104151410-update-collections-hidden test optimize [`#1040`](https://github.com/nocobase/nocobase/pull/1040)
+- test(collection-manager): миграция - оптимизация теста 20221104151410-update-collections-hidden [`#1040`](https://github.com/nocobase/nocobase/pull/1040)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.13 [`ce588ee`](https://github.com/nocobase/nocobase/commit/ce588eefb0bfc50f7d5bbee575e0b5e843bf6644)
+- chore(versions): 😊 публикация v0.8.0-alpha.13 [`ce588ee`](https://github.com/nocobase/nocobase/commit/ce588eefb0bfc50f7d5bbee575e0b5e843bf6644)
 
 ## [v0.8.0-alpha.11](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.9...v0.8.0-alpha.11) - 2022-11-04
 
-### Merged
+### Объединено
 
-- chore(collection-manager): migration - 20221104151410-update-collections-hidden [`#1039`](https://github.com/nocobase/nocobase/pull/1039)
-- fix: db sync failed [`#1037`](https://github.com/nocobase/nocobase/pull/1037)
-- feat: 添加字段浮窗定位优化 [`#1034`](https://github.com/nocobase/nocobase/pull/1034)
-- fix: association accessors rebind [`#1027`](https://github.com/nocobase/nocobase/pull/1027)
-- chore(debugger): clean scripts [`#1029`](https://github.com/nocobase/nocobase/pull/1029)
-- fix(calendar): events cannot support moment [`#1017`](https://github.com/nocobase/nocobase/pull/1017)
-- Fix: debugger [`#1014`](https://github.com/nocobase/nocobase/pull/1014)
+- chore(collection-manager): миграция - 20221104151410-update-collections-hidden [`#1039`](https://github.com/nocobase/nocobase/pull/1039)
+- fix: сбой синхронизации БД [`#1037`](https://github.com/nocobase/nocobase/pull/1037)
+- feat: оптимизация позиционирования всплывающего окна добавления поля [`#1034`](https://github.com/nocobase/nocobase/pull/1034)
+- fix: повторная привязка методов доступа ассоциаций [`#1027`](https://github.com/nocobase/nocobase/pull/1027)
+- chore(debugger): очистка скриптов [`#1029`](https://github.com/nocobase/nocobase/pull/1029)
+- fix(calendar): события не поддерживают moment [`#1017`](https://github.com/nocobase/nocobase/pull/1017)
+- Fix: отладчик [`#1014`](https://github.com/nocobase/nocobase/pull/1014)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.11 [`6d9006f`](https://github.com/nocobase/nocobase/commit/6d9006f361f569546777f05f03414acc66d06506)
-- feat: more console log [`f15c67a`](https://github.com/nocobase/nocobase/commit/f15c67afd5745ccf37b5303f2bf8d61513d62183)
-- feat(client): add filter option [`af3fbeb`](https://github.com/nocobase/nocobase/commit/af3fbeb99b9d2b80433bb25ec7c1158ae8addda6)
+- chore(versions): 😊 публикация v0.8.0-alpha.11 [`6d9006f`](https://github.com/nocobase/nocobase/commit/6d9006f361f569546777f05f03414acc66d06506)
+- feat: больше логов в консоль [`f15c67a`](https://github.com/nocobase/nocobase/commit/f15c67afd5745ccf37b5303f2bf8d61513d62183)
+- feat(client): добавление опции фильтра [`af3fbeb`](https://github.com/nocobase/nocobase/commit/af3fbeb99b9d2b80433bb25ec7c1158ae8addda6)
 
 ## [v0.8.0-alpha.9](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.8...v0.8.0-alpha.9) - 2022-11-02
 
-### Merged
+### Объединено
 
-- feat: improve collection manager [`#1013`](https://github.com/nocobase/nocobase/pull/1013)
-- feat(calendar): support for add/remove repeats events [`#988`](https://github.com/nocobase/nocobase/pull/988)
-- Fix: sequence field [`#1009`](https://github.com/nocobase/nocobase/pull/1009)
-- feat: update docs [`#1006`](https://github.com/nocobase/nocobase/pull/1006)
-- fix(sample): fix shop-i18n client [`#1005`](https://github.com/nocobase/nocobase/pull/1005)
-- chore(versions): 😊 publish v0.8.0-alpha.7 [`#1002`](https://github.com/nocobase/nocobase/pull/1002)
-- fix(plugin-workflow): fix trigger config [`#997`](https://github.com/nocobase/nocobase/pull/997)
+- feat: улучшение менеджера коллекций [`#1013`](https://github.com/nocobase/nocobase/pull/1013)
+- feat(calendar): поддержка добавления/удаления повторяющихся событий [`#988`](https://github.com/nocobase/nocobase/pull/988)
+- Fix: поле последовательности [`#1009`](https://github.com/nocobase/nocobase/pull/1009)
+- feat: обновление документации [`#1006`](https://github.com/nocobase/nocobase/pull/1006)
+- fix(sample): исправление клиента shop-i18n [`#1005`](https://github.com/nocobase/nocobase/pull/1005)
+- chore(versions): 😊 публикация v0.8.0-alpha.7 [`#1002`](https://github.com/nocobase/nocobase/pull/1002)
+- fix(plugin-workflow): исправление конфигурации триггера [`#997`](https://github.com/nocobase/nocobase/pull/997)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.9 [`642e044`](https://github.com/nocobase/nocobase/commit/642e04490d41acd9c4abba00112fa7f634d83d89)
-- chore(versions): 😊 publish v0.8.0-alpha.8 [`d5680f8`](https://github.com/nocobase/nocobase/commit/d5680f80d7e468ee5972f008e162eca39c86aa87)
-- fix: remove sample plugin client files [`7cded43`](https://github.com/nocobase/nocobase/commit/7cded4395a95922918a2b8abe041160b715a601b)
+- chore(versions): 😊 публикация v0.8.0-alpha.9 [`642e044`](https://github.com/nocobase/nocobase/commit/642e04490d41acd9c4abba00112fa7f634d83d89)
+- chore(versions): 😊 публикация v0.8.0-alpha.8 [`d5680f8`](https://github.com/nocobase/nocobase/commit/d5680f80d7e468ee5972f008e162eca39c86aa87)
+- fix: удаление клиентских файлов плагина sample [`7cded43`](https://github.com/nocobase/nocobase/commit/7cded4395a95922918a2b8abe041160b715a601b)
 
 ## [v0.8.0-alpha.8](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.7...v0.8.0-alpha.8) - 2022-11-01
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.8 [`6d3aa09`](https://github.com/nocobase/nocobase/commit/6d3aa092c0e788824bd0f7fd92607002e8000d66)
-- fix: remove sample plugin client files [`8da81f0`](https://github.com/nocobase/nocobase/commit/8da81f00e5f65d3cd17819f1959d0ef4575461fd)
+- chore(versions): 😊 публикация v0.8.0-alpha.8 [`6d3aa09`](https://github.com/nocobase/nocobase/commit/6d3aa092c0e788824bd0f7fd92607002e8000d66)
+- fix: удаление клиентских файлов плагина sample [`8da81f0`](https://github.com/nocobase/nocobase/commit/8da81f00e5f65d3cd17819f1959d0ef4575461fd)
 
 ## [v0.8.0-alpha.7](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.6...v0.8.0-alpha.7) - 2022-11-01
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.7 [`9fbb789`](https://github.com/nocobase/nocobase/commit/9fbb78932ac739fa4c97869fa28d9a676f905519)
-- fix(pm): upgrade error when using sqlite database [`bc7848d`](https://github.com/nocobase/nocobase/commit/bc7848da68516f18a5332c3ab1154675314f1ab1)
+- chore(versions): 😊 публикация v0.8.0-alpha.7 [`9fbb789`](https://github.com/nocobase/nocobase/commit/9fbb78932ac739fa4c97869fa28d9a676f905519)
+- fix(pm): ошибка обновления при использовании базы данных SQLite [`bc7848d`](https://github.com/nocobase/nocobase/commit/bc7848da68516f18a5332c3ab1154675314f1ab1)
 
 ## [v0.8.0-alpha.6](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.5...v0.8.0-alpha.6) - 2022-11-01
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.6 [`88b8a0f`](https://github.com/nocobase/nocobase/commit/88b8a0f379a261b2b65ee5ba3a958a1d450e0e37)
-- fix: upgrade failure using docker [`af32f08`](https://github.com/nocobase/nocobase/commit/af32f08d5f624468c371bff61d2e7f62cfe20db8)
+- chore(versions): 😊 публикация v0.8.0-alpha.6 [`88b8a0f`](https://github.com/nocobase/nocobase/commit/88b8a0f379a261b2b65ee5ba3a958a1d450e0e37)
+- fix: сбой обновления при использовании Docker [`af32f08`](https://github.com/nocobase/nocobase/commit/af32f08d5f624468c371bff61d2e7f62cfe20db8)
 - Update README.zh-CN.md [`fc7b17b`](https://github.com/nocobase/nocobase/commit/fc7b17b0858b328a0f2844260ebd3adfaa3f08e3)
 
 ## [v0.8.0-alpha.5](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.3...v0.8.0-alpha.5) - 2022-11-01
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.5 [`3453f46`](https://github.com/nocobase/nocobase/commit/3453f46997df9648f6aace49c80922a19611bf99)
+- chore(versions): 😊 публикация v0.8.0-alpha.5 [`3453f46`](https://github.com/nocobase/nocobase/commit/3453f46997df9648f6aace49c80922a19611bf99)
 
 ## [v0.8.0-alpha.3](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.2...v0.8.0-alpha.3) - 2022-11-01
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.3 [`3395eb6`](https://github.com/nocobase/nocobase/commit/3395eb66898d506fd5f465f11c60513a1b46bcab)
+- chore(versions): 😊 публикация v0.8.0-alpha.3 [`3395eb6`](https://github.com/nocobase/nocobase/commit/3395eb66898d506fd5f465f11c60513a1b46bcab)
 
 ## [v0.8.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.8.0-alpha.1...v0.8.0-alpha.2) - 2022-11-01
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.8.0-alpha.2 [`7f4c2de`](https://github.com/nocobase/nocobase/commit/7f4c2de98dd9bad88398351080c56753b0cac03c)
+- chore(versions): 😊 публикация v0.8.0-alpha.2 [`7f4c2de`](https://github.com/nocobase/nocobase/commit/7f4c2de98dd9bad88398351080c56753b0cac03c)
 
 ## [v0.8.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.7.7-alpha.1...v0.8.0-alpha.1) - 2022-11-01
 
-### Merged
+### Объединено
 
-- Some features [`#979`](https://github.com/nocobase/nocobase/pull/979)
-- fix(client/form-fields): fix fields's x-read-pretty [`#994`](https://github.com/nocobase/nocobase/pull/994)
-- feat: reference check [`#989`](https://github.com/nocobase/nocobase/pull/989)
-- fix(client/menu-permisssions-page): fix menu-permisssions-page no data [`#993`](https://github.com/nocobase/nocobase/pull/993)
-- feat: update docs [`#996`](https://github.com/nocobase/nocobase/pull/996)
-- fix(client): add locale for sequence field [`#995`](https://github.com/nocobase/nocobase/pull/995)
-- docs: update api docs [`#973`](https://github.com/nocobase/nocobase/pull/973)
-- feat: update docs [`#990`](https://github.com/nocobase/nocobase/pull/990)
-- fix(client/upload): fix upload mutiple files always uploading status [`#974`](https://github.com/nocobase/nocobase/pull/974)
-- fix(client/table-selector-provider): make data range config effective [`#960`](https://github.com/nocobase/nocobase/pull/960)
-- fix(client/formula): set cursor focus on input [`#959`](https://github.com/nocobase/nocobase/pull/959)
-- feat: plugin workflow visualization [`#987`](https://github.com/nocobase/nocobase/pull/987)
-- feat: support show lunar day in week and day [`#977`](https://github.com/nocobase/nocobase/pull/977)
-- fix: add sample plugins [`#986`](https://github.com/nocobase/nocobase/pull/986)
-- feat: improve code [`#978`](https://github.com/nocobase/nocobase/pull/978)
-- chore: improve ci [`#976`](https://github.com/nocobase/nocobase/pull/976)
-- feat: support show lunar day [`#972`](https://github.com/nocobase/nocobase/pull/972)
-- chore: fix incorrect deps [`#970`](https://github.com/nocobase/nocobase/pull/970)
-- fix: empty logic operator filter [`#961`](https://github.com/nocobase/nocobase/pull/961)
-- fix(plugin-workflow): fix workflow update action [`#964`](https://github.com/nocobase/nocobase/pull/964)
-- fix(database/formula-field): when formula's field caculate result is 0 it alse will be save [`#962`](https://github.com/nocobase/nocobase/pull/962)
-- feat(file-manager): support tencent cos [`#958`](https://github.com/nocobase/nocobase/pull/958)
-- feat: push ali docker registry [`#957`](https://github.com/nocobase/nocobase/pull/957)
-- fix(plugin-workflow): fix constant schedule trigger time [`#956`](https://github.com/nocobase/nocobase/pull/956)
+- Различные улучшения [`#979`](https://github.com/nocobase/nocobase/pull/979)
+- fix(client/form-fields): исправление x-read-pretty для полей [`#994`](https://github.com/nocobase/nocobase/pull/994)
+- feat: проверка ссылок [`#989`](https://github.com/nocobase/nocobase/pull/989)
+- fix(client/menu-permissions-page): исправление отсутствия данных на странице разрешений меню [`#993`](https://github.com/nocobase/nocobase/pull/993)
+- feat: обновление документации [`#996`](https://github.com/nocobase/nocobase/pull/996)
+- fix(client): добавление локализации для поля последовательности [`#995`](https://github.com/nocobase/nocobase/pull/995)
+- docs: обновление API документации [`#973`](https://github.com/nocobase/nocobase/pull/973)
+- feat: обновление документации [`#990`](https://github.com/nocobase/nocobase/pull/990)
+- fix(client/upload): исправление состояния загрузки нескольких файлов [`#974`](https://github.com/nocobase/nocobase/pull/974)
+- fix(client/table-selector-provider): применение конфигурации диапазона данных [`#960`](https://github.com/nocobase/nocobase/pull/960)
+- fix(client/formula): установка фокуса курсора на поле ввода [`#959`](https://github.com/nocobase/nocobase/pull/959)
+- feat: визуализация рабочего процесса плагина [`#987`](https://github.com/nocobase/nocobase/pull/987)
+- feat: поддержка отображения лунного дня в неделе и дне [`#977`](https://github.com/nocobase/nocobase/pull/977)
+- fix: добавление примеров плагинов [`#986`](https://github.com/nocobase/nocobase/pull/986)
+- feat: улучшение кода [`#978`](https://github.com/nocobase/nocobase/pull/978)
+- chore: улучшение CI [`#976`](https://github.com/nocobase/nocobase/pull/976)
+- feat: поддержка отображения лунного дня [`#972`](https://github.com/nocobase/nocobase/pull/972)
+- chore: исправление некорректных зависимостей [`#970`](https://github.com/nocobase/nocobase/pull/970)
+- fix: пустой оператор логического фильтра [`#961`](https://github.com/nocobase/nocobase/pull/961)
+- fix(plugin-workflow): исправление действия обновления рабочего процесса [`#964`](https://github.com/nocobase/nocobase/pull/964)
+- fix(database/formula-field): сохранение результата формулы, даже если результат равен 0 [`#962`](https://github.com/nocobase/nocobase/pull/962)
+- feat(file-manager): поддержка Tencent COS [`#958`](https://github.com/nocobase/nocobase/pull/958)
+- feat: отправка в реестр Docker Alibaba [`#957`](https://github.com/nocobase/nocobase/pull/957)
+- fix(plugin-workflow): исправление времени триггера расписания [`#956`](https://github.com/nocobase/nocobase/pull/956)
 - Turkish readme [`#955`](https://github.com/nocobase/nocobase/pull/955)
-- chore(versions): 😊 publish v0.7.6-alpha.2 [`#954`](https://github.com/nocobase/nocobase/pull/954)
+- chore(versions): 😊 публикация v0.7.6-alpha.2 [`#954`](https://github.com/nocobase/nocobase/pull/954)
 - Turkish language [`#939`](https://github.com/nocobase/nocobase/pull/939)
-- refactor(plugin-file-manager): move client code into plugin folder and enable path config [`#913`](https://github.com/nocobase/nocobase/pull/913)
-- refactor: plugin manager [`#965`](https://github.com/nocobase/nocobase/pull/965)
-- feat: add filter action to collection table [`#953`](https://github.com/nocobase/nocobase/pull/953)
-- feat: ui schema cache [`#877`](https://github.com/nocobase/nocobase/pull/877)
-- feat: changed with associations [`#943`](https://github.com/nocobase/nocobase/pull/943)
-- feat: docker optimizing [`#948`](https://github.com/nocobase/nocobase/pull/948)
-- fix(plugin-workflow): test changedWithAssociations() [`#950`](https://github.com/nocobase/nocobase/pull/950)
-- fix(plugin-workflow): skip time based test [`#951`](https://github.com/nocobase/nocobase/pull/951)
-- fix(plugin-workflow): fix schedule trigger bug [`#949`](https://github.com/nocobase/nocobase/pull/949)
-- fix(plugin-workflow): fix collection fieldset component [`#942`](https://github.com/nocobase/nocobase/pull/942)
-- fix(plugin-workflow): avoid revision with ghost nodes [`#941`](https://github.com/nocobase/nocobase/pull/941)
-- fix(plugin-workflow): add req context to processor [`#936`](https://github.com/nocobase/nocobase/pull/936)
-- feat: plugin workflow collection field [`#934`](https://github.com/nocobase/nocobase/pull/934)
-- fix(plugin-workflow): fix schedule infinitely trigger when repeat not set [`#926`](https://github.com/nocobase/nocobase/pull/926)
-- fix(plugin-workflow): temp disable validation of collection field in node [`#928`](https://github.com/nocobase/nocobase/pull/928)
+- refactor(plugin-file-manager): перемещение клиентского кода в папку плагина и активация конфигурации пути [`#913`](https://github.com/nocobase/nocobase/pull/913)
+- refactor: менеджер плагинов [`#965`](https://github.com/nocobase/nocobase/pull/965)
+- feat: добавление действия фильтрации в таблицу коллекций [`#953`](https://github.com/nocobase/nocobase/pull/953)
+- feat: кэширование UI схемы [`#877`](https://github.com/nocobase/nocobase/pull/877)
+- feat: изменение связей [`#943`](https://github.com/nocobase/nocobase/pull/943)
+- feat: оптимизация Docker [`#948`](https://github.com/nocobase/nocobase/pull/948)
+- fix(plugin-workflow): тестирование changedWithAssociations() [`#950`](https://github.com/nocobase/nocobase/pull/950)
+- fix(plugin-workflow): пропуск времязависимых тестов [`#951`](https://github.com/nocobase/nocobase/pull/951)
+- fix(plugin-workflow): исправление бага триггера расписания [`#949`](https://github.com/nocobase/nocobase/pull/949)
+- fix(plugin-workflow): исправление компонента поля коллекции [`#942`](https://github.com/nocobase/nocobase/pull/942)
+- fix(plugin-workflow): избегание ревизий с "призрачными" узлами [`#941`](https://github.com/nocobase/nocobase/pull/941)
+- fix(plugin-workflow): добавление контекста запроса в процессор [`#936`](https://github.com/nocobase/nocobase/pull/936)
+- feat: плагин рабочего процесса для поля коллекции [`#934`](https://github.com/nocobase/nocobase/pull/934)
+- fix(plugin-workflow): исправление бесконечного запуска триггера расписания при отсутствии повтора [`#926`](https://github.com/nocobase/nocobase/pull/926)
+- fix(plugin-workflow): временное отключение валидации поля коллекции в узле [`#928`](https://github.com/nocobase/nocobase/pull/928)
 - Doc/db repository [`#896`](https://github.com/nocobase/nocobase/pull/896)
-- docs: fix resource & action dev doc [`#880`](https://github.com/nocobase/nocobase/pull/880)
-- docs: fix i18n dev sample [`#910`](https://github.com/nocobase/nocobase/pull/910)
-- feat: create with array of values [`#912`](https://github.com/nocobase/nocobase/pull/912)
-- fix: unbind on error throwing [`#914`](https://github.com/nocobase/nocobase/pull/914)
-- fix: appends merge now using primary key [`#911`](https://github.com/nocobase/nocobase/pull/911)
-- Doc: api database events [`#887`](https://github.com/nocobase/nocobase/pull/887)
-- feat: limit database identifier [`#908`](https://github.com/nocobase/nocobase/pull/908)
-- fix: sync collection field default value [`#907`](https://github.com/nocobase/nocobase/pull/907)
-- fix: appends merge includes [`#905`](https://github.com/nocobase/nocobase/pull/905)
-- fix(samples): fix test case [`#903`](https://github.com/nocobase/nocobase/pull/903)
-- fix: single relation repository appends query issue [`#901`](https://github.com/nocobase/nocobase/pull/901)
-- feat(plugin-workflow): add concat calculator [`#894`](https://github.com/nocobase/nocobase/pull/894)
-- fix(client/record-picker): support record-picker show format DataPicker [`#888`](https://github.com/nocobase/nocobase/pull/888)
-- fix(client/block-select-collection): fix select collection menu view error [`#889`](https://github.com/nocobase/nocobase/pull/889)
-- fix: unable to submit form during file upload [`#892`](https://github.com/nocobase/nocobase/pull/892)
-- fix: run test by jest [`#891`](https://github.com/nocobase/nocobase/pull/891)
-- feat(collection-manager): inverse fields can be configured [`#883`](https://github.com/nocobase/nocobase/pull/883)
-- fix(formula): support integer and fix NaN error [`#879`](https://github.com/nocobase/nocobase/pull/879)
-- fix: sort parameter is missing [`#849`](https://github.com/nocobase/nocobase/pull/849)
-- fix: slow join query issued by appends field in find method of repository  [`#845`](https://github.com/nocobase/nocobase/pull/845)
-- feat(core/cache): support cache [`#876`](https://github.com/nocobase/nocobase/pull/876)
-- feat: update option must have filter or filterByTk [`#847`](https://github.com/nocobase/nocobase/pull/847)
+- docs: исправление документации по ресурсам и действиям [`#880`](https://github.com/nocobase/nocobase/pull/880)
+- docs: исправление примера i18n разработки [`#910`](https://github.com/nocobase/nocobase/pull/910)
+- feat: создание массива значений [`#912`](https://github.com/nocobase/nocobase/pull/912)
+- fix: отвязка при выбросе ошибки [`#914`](https://github.com/nocobase/nocobase/pull/914)
+- fix: слияние appends теперь использует первичный ключ [`#911`](https://github.com/nocobase/nocobase/pull/911)
+- Doc: события базы данных API [`#887`](https://github.com/nocobase/nocobase/pull/887)
+- feat: ограничение идентификаторов базы данных [`#908`](https://github.com/nocobase/nocobase/pull/908)
+- fix: синхронизация значения по умолчанию для поля коллекции [`#907`](https://github.com/nocobase/nocobase/pull/907)
+- fix: слияние appends включает [`#905`](https://github.com/nocobase/nocobase/pull/905)
+- fix(samples): исправление тестового случая [`#903`](https://github.com/nocobase/nocobase/pull/903)
+- fix: проблема запроса appends в репозитории одиночной связи [`#901`](https://github.com/nocobase/nocobase/pull/901)
+- feat(plugin-workflow): добавление конкатенации вычислений [`#894`](https://github.com/nocobase/nocobase/pull/894)
+- fix(client/record-picker): поддержка форматирования DataPicker в record-picker [`#888`](https://github.com/nocobase/nocobase/pull/888)
+- fix(client/block-select-collection): исправление ошибки отображения меню выбора коллекции [`#889`](https://github.com/nocobase/nocobase/pull/889)
+- fix: невозможность отправки формы во время загрузки файла [`#892`](https://github.com/nocobase/nocobase/pull/892)
+- fix: запуск тестов через Jest [`#891`](https://github.com/nocobase/nocobase/pull/891)
+### Объединено (продолжение)
+
+- feat(collection-manager): обратные поля теперь можно настраивать [`#883`](https://github.com/nocobase/nocobase/pull/883)
+- fix(formula): поддержка целых чисел и исправление ошибки NaN [`#879`](https://github.com/nocobase/nocobase/pull/879)
+- fix: отсутствует параметр сортировки [`#849`](https://github.com/nocobase/nocobase/pull/849)
+- fix: медленный запрос соединения, вызванный полем appends в методе find репозитория [`#845`](https://github.com/nocobase/nocobase/pull/845)
+- feat(core/cache): поддержка кэширования [`#876`](https://github.com/nocobase/nocobase/pull/876)
+- feat: обновление опции должно иметь фильтр или filterByTk [`#847`](https://github.com/nocobase/nocobase/pull/847)
 - added Russian translation [`#840`](https://github.com/nocobase/nocobase/pull/840)
-- feat(database): add sequence field type [`#779`](https://github.com/nocobase/nocobase/pull/779)
-- fix: can't access pages without permission via url [`#826`](https://github.com/nocobase/nocobase/pull/826)
-- fix: listen promisify [`#899`](https://github.com/nocobase/nocobase/pull/899)
-- refactor(core): simplify some code [`#895`](https://github.com/nocobase/nocobase/pull/895)
-- feat: sample-custom-signup-page [`#893`](https://github.com/nocobase/nocobase/pull/893)
-- docs: relation repository & acl [`#848`](https://github.com/nocobase/nocobase/pull/848)
+- feat(database): добавление типа поля последовательности [`#779`](https://github.com/nocobase/nocobase/pull/779)
+- fix: невозможность доступа к страницам без разрешений через URL [`#826`](https://github.com/nocobase/nocobase/pull/826)
+- fix: прослушивание promisify [`#899`](https://github.com/nocobase/nocobase/pull/899)
+- refactor(core): упрощение части кода [`#895`](https://github.com/nocobase/nocobase/pull/895)
+- feat: пример страницы регистрации [`#893`](https://github.com/nocobase/nocobase/pull/893)
+- docs: репозиторий отношений и ACL [`#848`](https://github.com/nocobase/nocobase/pull/848)
 - Update actions.md [`#873`](https://github.com/nocobase/nocobase/pull/873)
-- docs: add testing dev doc [`#871`](https://github.com/nocobase/nocobase/pull/871)
-- Doc: dev migration [`#870`](https://github.com/nocobase/nocobase/pull/870)
-- Doc: command [`#869`](https://github.com/nocobase/nocobase/pull/869)
-- docs: add hooks dev doc [`#868`](https://github.com/nocobase/nocobase/pull/868)
-- feat: update development doc [`#866`](https://github.com/nocobase/nocobase/pull/866)
-- feat: ratelimit sample plugin [`#862`](https://github.com/nocobase/nocobase/pull/862)
-- feat: custom block sample [`#867`](https://github.com/nocobase/nocobase/pull/867)
-- docs: move http to dev [`#861`](https://github.com/nocobase/nocobase/pull/861)
+- docs: добавление документации по тестированию [`#871`](https://github.com/nocobase/nocobase/pull/871)
+- Doc: миграция разработки [`#870`](https://github.com/nocobase/nocobase/pull/870)
+- Doc: команда [`#869`](https://github.com/nocobase/nocobase/pull/869)
+- docs: добавление документации по хукам [`#868`](https://github.com/nocobase/nocobase/pull/868)
+- feat: обновление документации разработки [`#866`](https://github.com/nocobase/nocobase/pull/866)
+- feat: плагин ограничения частоты запросов [`#862`](https://github.com/nocobase/nocobase/pull/862)
+- feat: пример пользовательского блока [`#867`](https://github.com/nocobase/nocobase/pull/867)
+- docs: перемещение HTTP в раздел разработки [`#861`](https://github.com/nocobase/nocobase/pull/861)
 - refactor: middleware [`#857`](https://github.com/nocobase/nocobase/pull/857)
-- Doc: dev i18n [`#858`](https://github.com/nocobase/nocobase/pull/858)
-- docs: add resources-actions doc and sample [`#853`](https://github.com/nocobase/nocobase/pull/853)
-- feat: add custom page sample and doc [`#855`](https://github.com/nocobase/nocobase/pull/855)
-- feat: nocobase cli doc [`#854`](https://github.com/nocobase/nocobase/pull/854)
-- fix:  auto install a plugin on enable [`#852`](https://github.com/nocobase/nocobase/pull/852)
-- Doc: dev collection fields [`#846`](https://github.com/nocobase/nocobase/pull/846)
-- docs: Server application api [`#842`](https://github.com/nocobase/nocobase/pull/842)
-- docs: add actions api [`#844`](https://github.com/nocobase/nocobase/pull/844)
-- refactor(doc): change to new structure [`#804`](https://github.com/nocobase/nocobase/pull/804)
-- refactor: plugin manager [`#775`](https://github.com/nocobase/nocobase/pull/775)
+- Doc: i18n разработка [`#858`](https://github.com/nocobase/nocobase/pull/858)
+- docs: добавление документации и примера действий с ресурсами [`#853`](https://github.com/nocobase/nocobase/pull/853)
+- feat: добавление примера и документации для пользовательской страницы [`#855`](https://github.com/nocobase/nocobase/pull/855)
+- feat: документация CLI NocoBase [`#854`](https://github.com/nocobase/nocobase/pull/854)
+- fix: автоматическая установка плагина при включении [`#852`](https://github.com/nocobase/nocobase/pull/852)
+- Doc: поля коллекции разработки [`#846`](https://github.com/nocobase/nocobase/pull/846)
+- docs: API серверного приложения [`#842`](https://github.com/nocobase/nocobase/pull/842)
+- docs: добавление API действий [`#844`](https://github.com/nocobase/nocobase/pull/844)
+- refactor(doc): изменение структуры документации [`#804`](https://github.com/nocobase/nocobase/pull/804)
+- refactor: менеджер плагинов [`#775`](https://github.com/nocobase/nocobase/pull/775)
 
-### Commits
+### Коммиты
 
-- feat: release notes [`b185412`](https://github.com/nocobase/nocobase/commit/b18541255c4c07d138793a018c785451542aab74)
+- feat: заметки о выпуске [`b185412`](https://github.com/nocobase/nocobase/commit/b18541255c4c07d138793a018c785451542aab74)
 - Update v08-changelog.md [`d242169`](https://github.com/nocobase/nocobase/commit/d24216962b46c286411d15051e85861f764f5a03)
-- fix(client): tab pane initializers for create form block [`929a4f8`](https://github.com/nocobase/nocobase/commit/929a4f848a327d7f8c55bcc786f584f4444ad36e)
+- fix(client): инициализаторы вкладок для блока формы создания [`929a4f8`](https://github.com/nocobase/nocobase/commit/929a4f848a327d7f8c55bcc786f584f4444ad36e)
 
 ## [v0.7.7-alpha.1](https://github.com/nocobase/nocobase/compare/v0.7.6-alpha.2...v0.7.7-alpha.1) - 2022-10-26
 
-### Merged
+### Объединено
 
-- fix(database/formula-field): when formula's field caculate result is 0 it alse will be save [`#962`](https://github.com/nocobase/nocobase/pull/962)
-- feat(file-manager): support tencent cos [`#958`](https://github.com/nocobase/nocobase/pull/958)
-- feat: push ali docker registry [`#957`](https://github.com/nocobase/nocobase/pull/957)
-- fix(plugin-workflow): fix constant schedule trigger time [`#956`](https://github.com/nocobase/nocobase/pull/956)
+- fix(database/formula-field): результат формулы, равный 0, также будет сохранен [`#962`](https://github.com/nocobase/nocobase/pull/962)
+- feat(file-manager): поддержка Tencent COS [`#958`](https://github.com/nocobase/nocobase/pull/958)
+- feat: отправка в реестр Docker Alibaba [`#957`](https://github.com/nocobase/nocobase/pull/957)
+- fix(plugin-workflow): исправление времени триггера расписания [`#956`](https://github.com/nocobase/nocobase/pull/956)
 - Turkish readme [`#955`](https://github.com/nocobase/nocobase/pull/955)
-- chore(versions): 😊 publish v0.7.6-alpha.2 [`#954`](https://github.com/nocobase/nocobase/pull/954)
+- chore(versions): 😊 публикация v0.7.6-alpha.2 [`#954`](https://github.com/nocobase/nocobase/pull/954)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.7-alpha.1 [`a7a807c`](https://github.com/nocobase/nocobase/commit/a7a807c433df69e4edf93dfb1bd31ee5a9f4beab)
-- fix: lerna ERR! EUNCOMMIT  M yarn.lock [`39eb3c9`](https://github.com/nocobase/nocobase/commit/39eb3c90bea25e6308723a87f91c80f60939d3cb)
-- feat: api service [`59f102d`](https://github.com/nocobase/nocobase/commit/59f102de8acd7dd16a8ba0955aeef9df8d77d655)
+- chore(versions): 😊 публикация v0.7.7-alpha.1 [`a7a807c`](https://github.com/nocobase/nocobase/commit/a7a807c433df69e4edf93dfb1bd31ee5a9f4beab)
+- fix: ошибка lerna ERR! EUNCOMMIT M yarn.lock [`39eb3c9`](https://github.com/nocobase/nocobase/commit/39eb3c90bea25e6308723a87f91c80f60939d3cb)
+- feat: сервис API [`59f102d`](https://github.com/nocobase/nocobase/commit/59f102de8acd7dd16a8ba0955aeef9df8d77d655)
 
 ## [v0.7.6-alpha.2](https://github.com/nocobase/nocobase/compare/v0.7.5-alpha.1.1666403334...v0.7.6-alpha.2) - 2022-10-24
 
-### Merged
+### Объединено
 
 - Turkish language [`#939`](https://github.com/nocobase/nocobase/pull/939)
-- refactor(plugin-file-manager): move client code into plugin folder and enable path config [`#913`](https://github.com/nocobase/nocobase/pull/913)
-- feat: add filter action to collection table [`#953`](https://github.com/nocobase/nocobase/pull/953)
-- feat: ui schema cache [`#877`](https://github.com/nocobase/nocobase/pull/877)
-- feat: docker optimizing [`#948`](https://github.com/nocobase/nocobase/pull/948)
-- fix(plugin-workflow): test changedWithAssociations() [`#950`](https://github.com/nocobase/nocobase/pull/950)
-- fix(plugin-workflow): skip time based test [`#951`](https://github.com/nocobase/nocobase/pull/951)
-- fix(plugin-workflow): fix schedule trigger bug [`#949`](https://github.com/nocobase/nocobase/pull/949)
+- refactor(plugin-file-manager): перемещение клиентского кода в папку плагина и активация конфигурации пути [`#913`](https://github.com/nocobase/nocobase/pull/913)
+- feat: добавление действия фильтрации в таблицу коллекций [`#953`](https://github.com/nocobase/nocobase/pull/953)
+- feat: кэширование UI схемы [`#877`](https://github.com/nocobase/nocobase/pull/877)
+- feat: оптимизация Docker [`#948`](https://github.com/nocobase/nocobase/pull/948)
+- fix(plugin-workflow): тестирование changedWithAssociations() [`#950`](https://github.com/nocobase/nocobase/pull/950)
+- fix(plugin-workflow): пропуск времязависимых тестов [`#951`](https://github.com/nocobase/nocobase/pull/951)
+- fix(plugin-workflow): исправление бага триггера расписания [`#949`](https://github.com/nocobase/nocobase/pull/949)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.6-alpha.1 [`a0382a9`](https://github.com/nocobase/nocobase/commit/a0382a90c1e764dc48d25153f03856d991bc27d2)
-- chore(versions): 😊 publish v0.7.6-alpha.2 [`b304681`](https://github.com/nocobase/nocobase/commit/b3046819d88b3341b9e2ead41e9c15bde2c41da8)
+- chore(versions): 😊 публикация v0.7.6-alpha.1 [`a0382a9`](https://github.com/nocobase/nocobase/commit/a0382a90c1e764dc48d25153f03856d991bc27d2)
+- chore(versions): 😊 публикация v0.7.6-alpha.2 [`b304681`](https://github.com/nocobase/nocobase/commit/b3046819d88b3341b9e2ead41e9c15bde2c41da8)
 - Revert "fix: registry.npmjs.org" [`e24d6bd`](https://github.com/nocobase/nocobase/commit/e24d6bdebce7b076974dd4759688ab434369e41c)
 
 ## [v0.7.5-alpha.1.1666403334](https://github.com/nocobase/nocobase/compare/v0.7.5-alpha.1...v0.7.5-alpha.1.1666403334) - 2022-10-22
 
-### Merged
+### Объединено
 
-- feat: changed with associations [`#943`](https://github.com/nocobase/nocobase/pull/943)
-- fix(plugin-workflow): fix collection fieldset component [`#942`](https://github.com/nocobase/nocobase/pull/942)
-- fix(plugin-workflow): avoid revision with ghost nodes [`#941`](https://github.com/nocobase/nocobase/pull/941)
-- fix(plugin-workflow): add req context to processor [`#936`](https://github.com/nocobase/nocobase/pull/936)
+- feat: изменение связей [`#943`](https://github.com/nocobase/nocobase/pull/943)
+- fix(plugin-workflow): исправление компонента поля коллекции [`#942`](https://github.com/nocobase/nocobase/pull/942)
+- fix(plugin-workflow): избежание ревизий с "призрачными" узлами [`#941`](https://github.com/nocobase/nocobase/pull/941)
+- fix(plugin-workflow): добавление контекста запроса в процессор [`#936`](https://github.com/nocobase/nocobase/pull/936)
 - Feat/plugin workflow collection field [`#934`](https://github.com/nocobase/nocobase/pull/934)
-- fix(plugin-workflow): fix schedule infinitely trigger when repeat not set [`#926`](https://github.com/nocobase/nocobase/pull/926)
-- fix(plugin-workflow): temp disable validation of collection field in node [`#928`](https://github.com/nocobase/nocobase/pull/928)
+- fix(plugin-workflow): исправление бесконечного запуска триггера расписания при отсутствии повтора [`#926`](https://github.com/nocobase/nocobase/pull/926)
+- fix(plugin-workflow): временное отключение валидации поля коллекции в узле [`#928`](https://github.com/nocobase/nocobase/pull/928)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.5-alpha.1.1666403334 [`692f7e7`](https://github.com/nocobase/nocobase/commit/692f7e7ae5ddca3a3f3793bf57604603924c6af9)
+- chore(versions): 😊 публикация v0.7.5-alpha.1.1666403334 [`692f7e7`](https://github.com/nocobase/nocobase/commit/692f7e7ae5ddca3a3f3793bf57604603924c6af9)
 - chore: dockerfile [`65724de`](https://github.com/nocobase/nocobase/commit/65724de42cfe65cbcfcbc56496c9fda1b0509ff7)
 - chore: dockerfile [`bd5a0ce`](https://github.com/nocobase/nocobase/commit/bd5a0cefed7ff837237ff730ccf6e50a0419b49f)
 
 ## [v0.7.5-alpha.1](https://github.com/nocobase/nocobase/compare/v0.7.4-alpha.7...v0.7.5-alpha.1) - 2022-10-16
 
-### Merged
+### Объединено
 
-- chore(versions): 😊 publish v0.7.5-alpha.1 [`#920`](https://github.com/nocobase/nocobase/pull/920)
-- Feat: plugin workflow collection field [`#919`](https://github.com/nocobase/nocobase/pull/919)
-- feat: create with array of values [`#912`](https://github.com/nocobase/nocobase/pull/912)
-- fix: unbind on error throwing [`#914`](https://github.com/nocobase/nocobase/pull/914)
-- fix: appends merge now using primary key [`#911`](https://github.com/nocobase/nocobase/pull/911)
-- feat: limit database identifier [`#908`](https://github.com/nocobase/nocobase/pull/908)
-- fix: sync collection field default value [`#907`](https://github.com/nocobase/nocobase/pull/907)
-- fix: appends merge includes [`#905`](https://github.com/nocobase/nocobase/pull/905)
-- fix: single relation repository appends query issue [`#901`](https://github.com/nocobase/nocobase/pull/901)
-- feat(plugin-workflow): add concat calculator [`#894`](https://github.com/nocobase/nocobase/pull/894)
-- fix(client/record-picker): support record-picker show format DataPicker [`#888`](https://github.com/nocobase/nocobase/pull/888)
-- fix(client/block-select-collection): fix select collection menu view error [`#889`](https://github.com/nocobase/nocobase/pull/889)
-- fix: unable to submit form during file upload [`#892`](https://github.com/nocobase/nocobase/pull/892)
-- fix: run test by jest [`#891`](https://github.com/nocobase/nocobase/pull/891)
-- feat(collection-manager): inverse fields can be configured [`#883`](https://github.com/nocobase/nocobase/pull/883)
-- fix(formula): support integer and fix NaN error [`#879`](https://github.com/nocobase/nocobase/pull/879)
-- fix: sort parameter is missing [`#849`](https://github.com/nocobase/nocobase/pull/849)
-- fix: slow join query issued by appends field in find method of repository  [`#845`](https://github.com/nocobase/nocobase/pull/845)
-- feat(core/cache): support cache [`#876`](https://github.com/nocobase/nocobase/pull/876)
-- feat: update option must have filter or filterByTk [`#847`](https://github.com/nocobase/nocobase/pull/847)
+- chore(versions): 😊 публикация v0.7.5-alpha.1 [`#920`](https://github.com/nocobase/nocobase/pull/920)
+- Feat: плагин рабочего процесса для поля коллекции [`#919`](https://github.com/nocobase/nocobase/pull/919)
+- feat: создание массива значений [`#912`](https://github.com/nocobase/nocobase/pull/912)
+- fix: отвязка при выбросе ошибки [`#914`](https://github.com/nocobase/nocobase/pull/914)
+- fix: слияние appends теперь использует первичный ключ [`#911`](https://github.com/nocobase/nocobase/pull/911)
+- feat: ограничение идентификаторов базы данных [`#908`](https://github.com/nocobase/nocobase/pull/908)
+- fix: синхронизация значения по умолчанию для поля коллекции [`#907`](https://github.com/nocobase/nocobase/pull/907)
+- fix: слияние appends включает [`#905`](https://github.com/nocobase/nocobase/pull/905)
+- fix: проблема запроса appends в репозитории одиночной связи [`#901`](https://github.com/nocobase/nocobase/pull/901)
+- feat(plugin-workflow): добавление конкатенации вычислений [`#894`](https://github.com/nocobase/nocobase/pull/894)
+- fix(client/record-picker): поддержка форматирования DataPicker в record-picker [`#888`](https://github.com/nocobase/nocobase/pull/888)
+- fix(client/block-select-collection): исправление ошибки отображения меню выбора коллекции [`#889`](https://github.com/nocobase/nocobase/pull/889)
+- fix: невозможность отправки формы во время загрузки файла [`#892`](https://github.com/nocobase/nocobase/pull/892)
+- fix: запуск тестов через Jest [`#891`](https://github.com/nocobase/nocobase/pull/891)
+- feat(collection-manager): обратные поля теперь можно настраивать [`#883`](https://github.com/nocobase/nocobase/pull/883)
+- fix(formula): поддержка целых чисел и исправление ошибки NaN [`#879`](https://github.com/nocobase/nocobase/pull/879)
+- fix: отсутствует параметр сортировки [`#849`](https://github.com/nocobase/nocobase/pull/849)
+- fix: медленный запрос соединения, вызванный полем appends в методе find репозитория [`#845`](https://github.com/nocobase/nocobase/pull/845)
+- feat(core/cache): поддержка кэширования [`#876`](https://github.com/nocobase/nocobase/pull/876)
+- feat: обновление опции должно иметь фильтр или filterByTk [`#847`](https://github.com/nocobase/nocobase/pull/847)
 - added Russian translation [`#840`](https://github.com/nocobase/nocobase/pull/840)
-- feat(database): add sequence field type [`#779`](https://github.com/nocobase/nocobase/pull/779)
-- fix: can't access pages without permission via url [`#826`](https://github.com/nocobase/nocobase/pull/826)
-- refactor(resourcer): combine middleware class [`#825`](https://github.com/nocobase/nocobase/pull/825)
-- refactor(database): fix some fields and types [`#820`](https://github.com/nocobase/nocobase/pull/820)
-- feat(locale): added Japanese translation [`#813`](https://github.com/nocobase/nocobase/pull/813)
-- fix(plugin-workflow): fix value type for DatePicker to moment (#815) [`#819`](https://github.com/nocobase/nocobase/pull/819)
-- refactor(plugin-workflow): export client calculators registry [`#816`](https://github.com/nocobase/nocobase/pull/816)
-- fix: number storage type changed to double [`#810`](https://github.com/nocobase/nocobase/pull/810)
+- feat(database): добавление типа поля последовательности [`#779`](https://github.com/nocobase/nocobase/pull/779)
+- fix: невозможность доступа к страницам без разрешений через URL [`#826`](https://github.com/nocobase/nocobase/pull/826)
+- refactor(resourcer): объединение класса middleware [`#825`](https://github.com/nocobase/nocobase/pull/825)
+- refactor(database): исправление некоторых полей и типов [`#820`](https://github.com/nocobase/nocobase/pull/820)
+- feat(locale): добавлен японский перевод [`#813`](https://github.com/nocobase/nocobase/pull/813)
+- fix(plugin-workflow): исправление типа значения для DatePicker на moment (#815) [`#819`](https://github.com/nocobase/nocobase/pull/819)
+- refactor(plugin-workflow): экспорт реестра клиентских калькуляторов [`#816`](https://github.com/nocobase/nocobase/pull/816)
+- fix: изменение типа хранения числа на double [`#810`](https://github.com/nocobase/nocobase/pull/810)
 - refactor(Server) [`#795`](https://github.com/nocobase/nocobase/pull/795)
-- fix(plugin-verification): change provider rate limit error to 429 [`#788`](https://github.com/nocobase/nocobase/pull/788)
-- fix(plugin-cm): fix field disappear after failed to update [`#773`](https://github.com/nocobase/nocobase/pull/773)
-- fix: fix uiSchema undefined [`#770`](https://github.com/nocobase/nocobase/pull/770)
-- fix(plugin-cm): fix unique option default value to update [`#768`](https://github.com/nocobase/nocobase/pull/768)
-- fix(plugin-users): fix update profile 500 (#766) [`#767`](https://github.com/nocobase/nocobase/pull/767)
-- fix: mysql column in where clause is ambiguous [`#756`](https://github.com/nocobase/nocobase/pull/756)
-- feat(plugin-cm): add unique option for base fields [`#745`](https://github.com/nocobase/nocobase/pull/745)
-- feat(plugin-verification): add plugin-verification and phone for users [`#722`](https://github.com/nocobase/nocobase/pull/722)
-- feat: resize grid columns with drag and drop [`#748`](https://github.com/nocobase/nocobase/pull/748)
-- refactor(client): split schema-initializer items into multiple files [`#744`](https://github.com/nocobase/nocobase/pull/744)
-- refactor(plugin-workflow): change files mode to 644 [`#755`](https://github.com/nocobase/nocobase/pull/755)
-- fix: db version check [`#749`](https://github.com/nocobase/nocobase/pull/749)
-- feat: add examples [`#718`](https://github.com/nocobase/nocobase/pull/718)
+- fix(plugin-verification): изменение ошибки лимита скорости провайдера на 429 [`#788`](https://github.com/nocobase/nocobase/pull/788)
+- fix(plugin-cm): исправление исчезновения поля после неудачного обновления [`#773`](https://github.com/nocobase/nocobase/pull/773)
+- fix: исправление uiSchema undefined [`#770`](https://github.com/nocobase/nocobase/pull/770)
+- fix(plugin-cm): исправление значения по умолчанию для уникальной опции обновления [`#768`](https://github.com/nocobase/nocobase/pull/768)
+- fix(plugin-users): исправление обновления профиля 500 (#766) [`#767`](https://github.com/nocobase/nocobase/pull/767)
+- fix: столбец MySQL в предложении WHERE неоднозначен [`#756`](https://github.com/nocobase/nocobase/pull/756)
+- feat(plugin-cm): добавление уникальной опции для базовых полей [`#745`](https://github.com/nocobase/nocobase/pull/745)
+- feat(plugin-verification): добавление плагина верификации и телефона для пользователей [`#722`](https://github.com/nocobase/nocobase/pull/722)
+- feat: изменение размера столбцов сетки перетаскиванием [`#748`](https://github.com/nocobase/nocobase/pull/748)
+- refactor(client): разделение элементов schema-initializer на несколько файлов [`#744`](https://github.com/nocobase/nocobase/pull/744)
+- refactor(plugin-workflow): изменение режима файлов на 644 [`#755`](https://github.com/nocobase/nocobase/pull/755)
+- fix: проверка версии базы данных [`#749`](https://github.com/nocobase/nocobase/pull/749)
+- feat: добавление примеров [`#718`](https://github.com/nocobase/nocobase/pull/718)
 
-### Fixed
+### Исправлено
 
-- fix(plugin-workflow): fix value type for DatePicker to moment (#815) (#819) [`#815`](https://github.com/nocobase/nocobase/issues/815)
-- fix(plugin-users): fix update profile 500 (#766) (#767) [`#766`](https://github.com/nocobase/nocobase/issues/766)
-- fix: db version check (#749) [`#742`](https://github.com/nocobase/nocobase/issues/742)
+- fix(plugin-workflow): исправление типа значения для DatePicker на moment (#815) (#819) [`#815`](https://github.com/nocobase/nocobase/issues/815)
+- fix(plugin-users): исправление обновления профиля 500 (#766) (#767) [`#766`](https://github.com/nocobase/nocobase/issues/766)
+- fix: проверка версии базы данных (#749) [`#742`](https://github.com/nocobase/nocobase/issues/742)
 
-### Commits
+### Коммиты
 
-- fix(client): tab pane initializers for create form block [`7efc4bc`](https://github.com/nocobase/nocobase/commit/7efc4bca0e3c5f2e1c5cd9e1365e77a005f3e108)
-- fix: transaction cannot be rolled back because it has been finished with state: rollback [`6dacec4`](https://github.com/nocobase/nocobase/commit/6dacec4158103fd165ec2865ea87ed9d3d4ceaa4)
-- fix(database): fix the index name too long error [`7bfe6b8`](https://github.com/nocobase/nocobase/commit/7bfe6b8c46bef0183c4703683175561c7fc91aee)
+- fix(client): инициализаторы вкладок для блока формы создания [`7efc4bc`](https://github.com/nocobase/nocobase/commit/7efc4bca0e3c5f2e1c5cd9e1365e77a005f3e108)
+- fix: транзакция не может быть отменена, так как она завершена с состоянием: rollback [`6dacec4`](https://github.com/nocobase/nocobase/commit/6dacec4158103fd165ec2865ea87ed9d3d4ceaa4)
+- fix(database): исправление ошибки слишком длинного имени индекса [`7bfe6b8`](https://github.com/nocobase/nocobase/commit/7bfe6b8c46bef0183c4703683175561c7fc91aee)
 
 ## [v0.7.4-alpha.7](https://github.com/nocobase/nocobase/compare/v0.7.4-alpha.4...v0.7.4-alpha.7) - 2022-08-15
 
-### Merged
+### Объединено
 
-- chore(versions): 😊 publish v0.7.4-alpha.7 [`#740`](https://github.com/nocobase/nocobase/pull/740)
+- chore(versions): 😊 публикация v0.7.4-alpha.7 [`#740`](https://github.com/nocobase/nocobase/pull/740)
 
-### Commits
+### Коммиты
 
-- docs: update release notes [`a260d29`](https://github.com/nocobase/nocobase/commit/a260d29222abe49d1453df828bb06a368e83dcf3)
-- fix(collection-manager): update collection without fields [`03538ee`](https://github.com/nocobase/nocobase/commit/03538ee82f7b7cd73367d9904e4ac3c87d7a4345)
+- docs: обновление заметок о выпуске [`a260d29`](https://github.com/nocobase/nocobase/commit/a260d29222abe49d1453df828bb06a368e83dcf3)
+- fix(collection-manager): обновление коллекции без полей [`03538ee`](https://github.com/nocobase/nocobase/commit/03538ee82f7b7cd73367d9904e4ac3c87d7a4345)
 
 ## [v0.7.4-alpha.4](https://github.com/nocobase/nocobase/compare/v0.7.4-alpha.1...v0.7.4-alpha.4) - 2022-08-12
 
-### Merged
+### Объединено
 
-- chore(versions): 😊 publish v0.7.4-alpha.4 [`#727`](https://github.com/nocobase/nocobase/pull/727)
-- fix: sync table sort to export [`#723`](https://github.com/nocobase/nocobase/pull/723)
-- feat: full version of the NocoBase dockerfile [`#719`](https://github.com/nocobase/nocobase/pull/719)
-- fix(plugin-workflow): fix extend collection [`#708`](https://github.com/nocobase/nocobase/pull/708)
-- fix: DB_TABLE_PREFIX doesn't get applied [`#710`](https://github.com/nocobase/nocobase/pull/710)
-- feat: default value [`#679`](https://github.com/nocobase/nocobase/pull/679)
-- fix: required field delete submit error (#688) [`#694`](https://github.com/nocobase/nocobase/pull/694)
+- chore(versions): 😊 публикация v0.7.4-alpha.4 [`#727`](https://github.com/nocobase/nocobase/pull/727)
+- fix: синхронизация сортировки таблицы для экспорта [`#723`](https://github.com/nocobase/nocobase/pull/723)
+- feat: полная версия Dockerfile NocoBase [`#719`](https://github.com/nocobase/nocobase/pull/719)
+- fix(plugin-workflow): исправление расширения коллекции [`#708`](https://github.com/nocobase/nocobase/pull/708)
+- fix: DB_TABLE_PREFIX не применяется [`#710`](https://github.com/nocobase/nocobase/pull/710)
+- feat: значение по умолчанию [`#679`](https://github.com/nocobase/nocobase/pull/679)
+- fix: ошибка отправки при удалении обязательного поля (#688) [`#694`](https://github.com/nocobase/nocobase/pull/694)
 
-### Commits
+### Коммиты
 
-- feat: add examples [`b848b9c`](https://github.com/nocobase/nocobase/commit/b848b9cd6774df6ed86acd30edb81ed6381c3555)
-- fix: record provider required for read pretty [`38c3e3e`](https://github.com/nocobase/nocobase/commit/38c3e3e4cc2698069c741d25ddda8e3e8e4d1db0)
+- feat: добавление примеров [`b848b9c`](https://github.com/nocobase/nocobase/commit/b848b9cd6774df6ed86acd30edb81ed6381c3555)
+- fix: провайдер записей необходим для read pretty [`38c3e3e`](https://github.com/nocobase/nocobase/commit/38c3e3e4cc2698069c741d25ddda8e3e8e4d1db0)
 - Update README.zh-CN.md [`ba0e618`](https://github.com/nocobase/nocobase/commit/ba0e61873e7f69dee6a76929eb774828ac980760)
 
 ## [v0.7.4-alpha.1](https://github.com/nocobase/nocobase/compare/v0.7.3-alpha.1...v0.7.4-alpha.1) - 2022-07-28
 
-### Merged
+### Объединено
 
-- chore(versions): 😊 publish v0.7.4-alpha.1 [`#696`](https://github.com/nocobase/nocobase/pull/696)
-- fix: append roles to current user [`#695`](https://github.com/nocobase/nocobase/pull/695)
-- fix: fix date format [`#686`](https://github.com/nocobase/nocobase/pull/686)
-- test(plugin-workflow): skip prompt tests [`#692`](https://github.com/nocobase/nocobase/pull/692)
-- fix: fix accuracy of percent [`#685`](https://github.com/nocobase/nocobase/pull/685)
-- fix(plugin-workflow): adjust await sleep time for test cases [`#691`](https://github.com/nocobase/nocobase/pull/691)
-- feat(plugin-workflow): add assignees config for prompt instruction [`#690`](https://github.com/nocobase/nocobase/pull/690)
-- fix: role export button display (#616) [`#666`](https://github.com/nocobase/nocobase/pull/666)
-- feat: uid validate [`#681`](https://github.com/nocobase/nocobase/pull/681)
-- refactor: replace react-drag-listview with @dnd-kit/sortable [`#660`](https://github.com/nocobase/nocobase/pull/660)
-- refactor(plugin-users): improve extendibility of middlewares [`#677`](https://github.com/nocobase/nocobase/pull/677)
-- feat: o2m delete not refresh [`#646`](https://github.com/nocobase/nocobase/pull/646)
-- feat: kanban add description [`#659`](https://github.com/nocobase/nocobase/pull/659)
-- fix: field loss enum [`#667`](https://github.com/nocobase/nocobase/pull/667)
-- feat: add editor hot key Ctrl+Shift+U [`#675`](https://github.com/nocobase/nocobase/pull/675)
-- fix: Fix calendar change field error (#626) [`#671`](https://github.com/nocobase/nocobase/pull/671)
-- chore: fix eslint not work [`#670`](https://github.com/nocobase/nocobase/pull/670)
-- feat: number precision [`#661`](https://github.com/nocobase/nocobase/pull/661)
-- feat: nginx config [`#664`](https://github.com/nocobase/nocobase/pull/664)
-- feat: form item designer form switch issue [`#656`](https://github.com/nocobase/nocobase/pull/656)
+- chore(versions): 😊 публикация v0.7.4-alpha.1 [`#696`](https://github.com/nocobase/nocobase/pull/696)
+- fix: добавление ролей текущему пользователю [`#695`](https://github.com/nocobase/nocobase/pull/695)
+- fix: исправление формата даты [`#686`](https://github.com/nocobase/nocobase/pull/686)
+- test(plugin-workflow): пропуск тестов prompt [`#692`](https://github.com/nocobase/nocobase/pull/692)
+- fix: исправление точности процентов [`#685`](https://github.com/nocobase/nocobase/pull/685)
+- fix(plugin-workflow): корректировка времени ожидания для тестовых случаев [`#691`](https://github.com/nocobase/nocobase/pull/691)
+- feat(plugin-workflow): добавление конфигурации исполнителей для инструкции prompt [`#690`](https://github.com/nocobase/nocobase/pull/690)
+- fix: отображение кнопки экспорта ролей (#616) [`#666`](https://github.com/nocobase/nocobase/pull/666)
+- feat: валидация UID [`#681`](https://github.com/nocobase/nocobase/pull/681)
+- refactor: замена react-drag-listview на @dnd-kit/sortable [`#660`](https://github.com/nocobase/nocobase/pull/660)
+- refactor(plugin-users): улучшение расширяемости middleware [`#677`](https://github.com/nocobase/nocobase/pull/677)
+- feat: удаление o2m без обновления [`#646`](https://github.com/nocobase/nocobase/pull/646)
+- feat: добавление описания в канбан [`#659`](https://github.com/nocobase/nocobase/pull/659)
+- fix: потеря поля enum [`#667`](https://github.com/nocobase/nocobase/pull/667)
+- feat: добавление горячей клавиши редактора Ctrl+Shift+U [`#675`](https://github.com/nocobase/nocobase/pull/675)
+- fix: исправление ошибки изменения поля календаря (#626) [`#671`](https://github.com/nocobase/nocobase/pull/671)
+- chore: исправление неработающего eslint [`#670`](https://github.com/nocobase/nocobase/pull/670)
+- feat: точность чисел [`#661`](https://github.com/nocobase/nocobase/pull/661)
+- feat: конфигурация nginx [`#664`](https://github.com/nocobase/nocobase/pull/664)
+- feat: проблема переключения формы дизайнера элементов формы [`#656`](https://github.com/nocobase/nocobase/pull/656)
 
-### Commits
+### Коммиты
 
-- fix(client): fieldNames of RecordPicker [`9038d11`](https://github.com/nocobase/nocobase/commit/9038d111ea71a89798cb1499f3dadc3f9c3dbfd7)
-- fix(client): required for the sub-table field [`609b0e2`](https://github.com/nocobase/nocobase/commit/609b0e2ff2d5aece96185cbcd30ec1810194be0d)
-- feat(client): tab icon [`d9b2bf8`](https://github.com/nocobase/nocobase/commit/d9b2bf8af1c42e2f4e81533f6db92b19523410bd)
+- fix(client): fieldNames компонента RecordPicker [`9038d11`](https://github.com/nocobase/nocobase/commit/9038d111ea71a89798cb1499f3dadc3f9c3dbfd7)
+- fix(client): обязательное поле для подтаблицы [`609b0e2`](https://github.com/nocobase/nocobase/commit/609b0e2ff2d5aece96185cbcd30ec1810194be0d)
+- feat(client): иконка вкладки [`d9b2bf8`](https://github.com/nocobase/nocobase/commit/d9b2bf8af1c42e2f4e81533f6db92b19523410bd)
 
 ## [v0.7.3-alpha.1](https://github.com/nocobase/nocobase/compare/v0.7.2-alpha.2...v0.7.3-alpha.1) - 2022-08-10
 
-### Merged
+### Объединено
 
-- chore(versions): 😊 publish v0.7.3-alpha.1 [`#657`](https://github.com/nocobase/nocobase/pull/657)
-- feat: print action [`#652`](https://github.com/nocobase/nocobase/pull/652)
-- feat: restore action-hooks [`#655`](https://github.com/nocobase/nocobase/pull/655)
-- feat: collections&fields pagination issue [`#653`](https://github.com/nocobase/nocobase/pull/653)
-- fix(core): change proxied agent methods to native [`#654`](https://github.com/nocobase/nocobase/pull/654)
-- feat: remove table field details actions [`#638`](https://github.com/nocobase/nocobase/pull/638)
-- fix: link to default value [`#641`](https://github.com/nocobase/nocobase/pull/641)
-- feat: support for displaying relational table fields in details or form blocks [`#635`](https://github.com/nocobase/nocobase/pull/635)
-- fix: record picker cannot select from different pages [`#623`](https://github.com/nocobase/nocobase/pull/623)
-- fix: dragging an element to the left, right, or bottom would cause the element to disappear [`#620`](https://github.com/nocobase/nocobase/pull/620)
-- feat: table action add reload button [`#630`](https://github.com/nocobase/nocobase/pull/630)
-- feat: improve language settings [`#627`](https://github.com/nocobase/nocobase/pull/627)
-- feat: field assignment for custom actions supports string variables [`#597`](https://github.com/nocobase/nocobase/pull/597)
-- fix: skip recursive remove on grid component [`#621`](https://github.com/nocobase/nocobase/pull/621)
-- feat: fix time and collection pagination [`#618`](https://github.com/nocobase/nocobase/pull/618)
-- feat: recordblockinitializers fields pick [`#558`](https://github.com/nocobase/nocobase/pull/558)
-- fix: incorrectly :active background [`#607`](https://github.com/nocobase/nocobase/pull/607)
-- fix: obo table selector [`#613`](https://github.com/nocobase/nocobase/pull/613)
-- feat: form validator [`#569`](https://github.com/nocobase/nocobase/pull/569)
-- fix: table selector [`#612`](https://github.com/nocobase/nocobase/pull/612)
-- chore(versions): 😊 publish v0.7.2-alpha.7 [`#611`](https://github.com/nocobase/nocobase/pull/611)
-- chore(versions): 😊 publish v0.7.2-alpha.3 [`#608`](https://github.com/nocobase/nocobase/pull/608)
-- chore(versions): 😊 publish v0.7.2-alpha.2 [`#606`](https://github.com/nocobase/nocobase/pull/606)
+- chore(versions): 😊 публикация v0.7.3-alpha.1 [`#657`](https://github.com/nocobase/nocobase/pull/657)
+- feat: действие печати [`#652`](https://github.com/nocobase/nocobase/pull/652)
+- feat: восстановление action-hooks [`#655`](https://github.com/nocobase/nocobase/pull/655)
+- feat: проблема пагинации коллекций и полей [`#653`](https://github.com/nocobase/nocobase/pull/653)
+- fix(core): изменение методов прокси агента на нативные [`#654`](https://github.com/nocobase/nocobase/pull/654)
+- feat: удаление действий деталей поля таблицы [`#638`](https://github.com/nocobase/nocobase/pull/638)
+- fix: ссылка на значение по умолчанию [`#641`](https://github.com/nocobase/nocobase/pull/641)
+- feat: поддержка отображения связанных полей таблицы в блоках деталей или форм [`#635`](https://github.com/nocobase/nocobase/pull/635)
+- fix: record picker не может выбирать с разных страниц [`#623`](https://github.com/nocobase/nocobase/pull/623)
+- fix: перетаскивание элемента влево, вправо или вниз вызывало исчезновение элемента [`#620`](https://github.com/nocobase/nocobase/pull/620)
+- feat: добавление кнопки перезагрузки в действия таблицы [`#630`](https://github.com/nocobase/nocobase/pull/630)
+- feat: улучшение настроек языка [`#627`](https://github.com/nocobase/nocobase/pull/627)
+- feat: назначение полей для пользовательских действий поддерживает строковые переменные [`#597`](https://github.com/nocobase/nocobase/pull/597)
+- fix: пропуск рекурсивного удаления в компоненте grid [`#621`](https://github.com/nocobase/nocobase/pull/621)
+- feat: исправление времени и пагинации коллекции [`#618`](https://github.com/nocobase/nocobase/pull/618)
+- feat: выбор полей recordblockinitializers [`#558`](https://github.com/nocobase/nocobase/pull/558)
+- fix: неправильный фон :active [`#607`](https://github.com/nocobase/nocobase/pull/607)
+- fix: селектор таблицы OBO [`#613`](https://github.com/nocobase/nocobase/pull/613)
+- feat: валидатор формы [`#569`](https://github.com/nocobase/nocobase/pull/569)
+- fix: селектор таблицы [`#612`](https://github.com/nocobase/nocobase/pull/612)
+- chore(versions): 😊 публикация v0.7.2-alpha.7 [`#611`](https://github.com/nocobase/nocobase/pull/611)
+- chore(versions): 😊 публикация v0.7.2-alpha.3 [`#608`](https://github.com/nocobase/nocobase/pull/608)
+- chore(versions): 😊 публикация v0.7.2-alpha.2 [`#606`](https://github.com/nocobase/nocobase/pull/606)
 
-### Commits
+### Коммиты
 
-- fix(client): build error [`600f13f`](https://github.com/nocobase/nocobase/commit/600f13f4a06ccfed27df928d7435afa83391c18a)
-- fix(client): blocks are deleted when they are dragged below the current block [`20ab8c1`](https://github.com/nocobase/nocobase/commit/20ab8c15017d9dbf941bf963ce3023115050edf8)
-- feat(client): plugin toolbar icons and translations [`c51c6c0`](https://github.com/nocobase/nocobase/commit/c51c6c097f24417f0ff82d3c5178ec3be1ee7630)
+- fix(client): ошибка сборки [`600f13f`](https://github.com/nocobase/nocobase/commit/600f13f4a06ccfed27df928d7435afa83391c18a)
+- fix(client): блоки удаляются при перетаскивании ниже текущего блока [`20ab8c1`](https://github.com/nocobase/nocobase/commit/20ab8c15017d9dbf941bf963ce3023115050edf8)
+- feat(client): иконки и переводы панели инструментов плагинов [`c51c6c0`](https://github.com/nocobase/nocobase/commit/c51c6c097f24417f0ff82d3c5178ec3be1ee7630)
 
 ## [v0.7.2-alpha.2](https://github.com/nocobase/nocobase/compare/v0.7.2-alpha.1...v0.7.2-alpha.2) - 2022-07-07
 
-### Merged
+### Объединено
 
-- fix: field permissions cannot be saved [`#605`](https://github.com/nocobase/nocobase/pull/605)
-- fix(plugin-workflow): fix revision bug [`#603`](https://github.com/nocobase/nocobase/pull/603)
-- fix(plugin-workflow): fix select value [`#600`](https://github.com/nocobase/nocobase/pull/600)
-- fix(plugin-workflow): fix CollectionFieldSelect component [`#598`](https://github.com/nocobase/nocobase/pull/598)
-- feat(plugin-workflow): add association select in calculation [`#584`](https://github.com/nocobase/nocobase/pull/584)
+- fix: права полей не могут быть сохранены [`#605`](https://github.com/nocobase/nocobase/pull/605)
+- fix(plugin-workflow): исправление бага ревизии [`#603`](https://github.com/nocobase/nocobase/pull/603)
+- fix(plugin-workflow): исправление выбранного значения [`#600`](https://github.com/nocobase/nocobase/pull/600)
+- fix(plugin-workflow): исправление компонента CollectionFieldSelect [`#598`](https://github.com/nocobase/nocobase/pull/598)
+- feat(plugin-workflow): добавление выбора ассоциации в расчетах [`#584`](https://github.com/nocobase/nocobase/pull/584)
 
-### Fixed
+### Исправлено
 
-- fix: field permissions cannot be saved (#605) [`#599`](https://github.com/nocobase/nocobase/issues/599)
+- fix: права полей не могут быть сохранены (#605) [`#599`](https://github.com/nocobase/nocobase/issues/599)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.2-alpha.1 [`a0cc501`](https://github.com/nocobase/nocobase/commit/a0cc50154cc292248ef107c95a24bcc0c7a586fa)
-- fix(g2plot): import all plots [`2bb8fd9`](https://github.com/nocobase/nocobase/commit/2bb8fd984fb5c9cdd484cffc18411f4b644b8fb3)
+- chore(versions): 😊 публикация v0.7.2-alpha.1 [`a0cc501`](https://github.com/nocobase/nocobase/commit/a0cc50154cc292248ef107c95a24bcc0c7a586fa)
+- fix(g2plot): импорт всех графиков [`2bb8fd9`](https://github.com/nocobase/nocobase/commit/2bb8fd984fb5c9cdd484cffc18411f4b644b8fb3)
 - Update issue templates [`7767335`](https://github.com/nocobase/nocobase/commit/7767335ba7fe83e22bcc1976a8fd57926dc12c0a)
 
 ## [v0.7.2-alpha.1](https://github.com/nocobase/nocobase/compare/v0.7.1-alpha.5...v0.7.2-alpha.1) - 2022-07-05
 
-### Merged
+### Объединено
 
-- chore(versions): 😊 publish v0.7.2-alpha.1 [`#578`](https://github.com/nocobase/nocobase/pull/578)
-- fix: drop all foreign keys [`#576`](https://github.com/nocobase/nocobase/pull/576)
-- fix(plugin-workflow): fix collection trigger config [`#575`](https://github.com/nocobase/nocobase/pull/575)
-- feat: filter with variable [`#574`](https://github.com/nocobase/nocobase/pull/574)
-- feat(cli): check database version before installation [`#572`](https://github.com/nocobase/nocobase/pull/572)
-- fix(database): index invalid [`#564`](https://github.com/nocobase/nocobase/pull/564)
-- fix: export association table data [`#561`](https://github.com/nocobase/nocobase/pull/561)
-- Refactor(plugin workflow): move client files into plugin [`#556`](https://github.com/nocobase/nocobase/pull/556)
-- fix(database): constraints default to false [`#550`](https://github.com/nocobase/nocobase/pull/550)
-- fix(plugin-workflow): fix select width [`#552`](https://github.com/nocobase/nocobase/pull/552)
-- feat: compatible with old kanban [`#553`](https://github.com/nocobase/nocobase/pull/553)
-- feat: display association fields [`#512`](https://github.com/nocobase/nocobase/pull/512)
+- chore(versions): 😊 публикация v0.7.2-alpha.1 [`#578`](https://github.com/nocobase/nocobase/pull/578)
+- fix: удаление всех внешних ключей [`#576`](https://github.com/nocobase/nocobase/pull/576)
+- fix(plugin-workflow): исправление конфигурации триггера коллекции [`#575`](https://github.com/nocobase/nocobase/pull/575)
+- feat: фильтрация с переменной [`#574`](https://github.com/nocobase/nocobase/pull/574)
+- feat(cli): проверка версии базы данных перед установкой [`#572`](https://github.com/nocobase/nocobase/pull/572)
+- fix(database): недействительный индекс [`#564`](https://github.com/nocobase/nocobase/pull/564)
+- fix: экспорт данных таблицы ассоциаций [`#561`](https://github.com/nocobase/nocobase/pull/561)
+- Refactor(plugin workflow): перемещение клиентских файлов в плагин [`#556`](https://github.com/nocobase/nocobase/pull/556)
+- fix(database): ограничения по умолчанию отключены [`#550`](https://github.com/nocobase/nocobase/pull/550)
+- fix(plugin-workflow): исправление ширины выбора [`#552`](https://github.com/nocobase/nocobase/pull/552)
+- feat: совместимость со старым канбаном [`#553`](https://github.com/nocobase/nocobase/pull/553)
+- feat: отображение полей ассоциаций [`#512`](https://github.com/nocobase/nocobase/pull/512)
 - Fix(plugin workflow) [`#549`](https://github.com/nocobase/nocobase/pull/549)
 - fix:update mysql port [`#548`](https://github.com/nocobase/nocobase/pull/548)
-- fix: export of relation blocks [`#546`](https://github.com/nocobase/nocobase/pull/546)
-- fix(plugin-workflow): clear options when change collection [`#547`](https://github.com/nocobase/nocobase/pull/547)
-- feat(plugin-workflow): add race mode [`#542`](https://github.com/nocobase/nocobase/pull/542)
-- fix(client): change toArr to _.castArray in select component [`#543`](https://github.com/nocobase/nocobase/pull/543)
-- chore(versions): 😊 publish v0.7.1-alpha.7 [`#539`](https://github.com/nocobase/nocobase/pull/539)
+- fix: экспорт блоков связей [`#546`](https://github.com/nocobase/nocobase/pull/546)
+- fix(plugin-workflow): очистка опций при изменении коллекции [`#547`](https://github.com/nocobase/nocobase/pull/547)
+- feat(plugin-workflow): добавление режима гонки [`#542`](https://github.com/nocobase/nocobase/pull/542)
+- fix(client): изменение toArr на _.castArray в компоненте выбора [`#543`](https://github.com/nocobase/nocobase/pull/543)
+- chore(versions): 😊 публикация v0.7.1-alpha.7 [`#539`](https://github.com/nocobase/nocobase/pull/539)
 
-### Commits
+### Коммиты
 
-- fix(client): comment out useless code [`4e9384b`](https://github.com/nocobase/nocobase/commit/4e9384bce27676a3cc1ce8d8fd08f5611cffbe5a)
-- fix(workflow): merge workflow providers [`008a7f7`](https://github.com/nocobase/nocobase/commit/008a7f7f3351bdedf01b4490d1658edeacc95a16)
-- feat(client): integer field [`9928424`](https://github.com/nocobase/nocobase/commit/9928424f5a163fe4edd7cfd60f349ca65b47c9bf)
+- fix(client): закомментирован бесполезный код [`4e9384b`](https://github.com/nocobase/nocobase/commit/4e9384bce27676a3cc1ce8d8fd08f5611cffbe5a)
+- fix(workflow): объединение провайдеров рабочего процесса [`008a7f7`](https://github.com/nocobase/nocobase/commit/008a7f7f3351bdedf01b4490d1658edeacc95a16)
+- feat(client): поле целого числа [`9928424`](https://github.com/nocobase/nocobase/commit/9928424f5a163fe4edd7cfd60f349ca65b47c9bf)
 
 ## [v0.7.1-alpha.5](https://github.com/nocobase/nocobase/compare/v0.7.1-alpha.4...v0.7.1-alpha.5) - 2022-06-26
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.1-alpha.5 [`c9159c6`](https://github.com/nocobase/nocobase/commit/c9159c6cf4b7deb80e87122d4b7967a510b8ae7c)
-- fix(cli): upgrade from docker [`c4c96e5`](https://github.com/nocobase/nocobase/commit/c4c96e5a79562d87b597d23f0e536cd19687c890)
+- chore(versions): 😊 публикация v0.7.1-alpha.5 [`c9159c6`](https://github.com/nocobase/nocobase/commit/c9159c6cf4b7deb80e87122d4b7967a510b8ae7c)
+- fix(cli): обновление из Docker [`c4c96e5`](https://github.com/nocobase/nocobase/commit/c4c96e5a79562d87b597d23f0e536cd19687c890)
 
 ## [v0.7.1-alpha.4](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.82...v0.7.1-alpha.4) - 2022-06-26
 
-### Merged
+### Объединено
 
-- chore(create-nocobase-app): fix some bugs [`#538`](https://github.com/nocobase/nocobase/pull/538)
-- fix: destroy collection fields [`#536`](https://github.com/nocobase/nocobase/pull/536)
-- feat(plugin-workflow): add delay node type [`#532`](https://github.com/nocobase/nocobase/pull/532)
-- refactor: client application [`#533`](https://github.com/nocobase/nocobase/pull/533)
-- fix: missing transaction [`#531`](https://github.com/nocobase/nocobase/pull/531)
-- fix: add ellipsis property to record picker [`#527`](https://github.com/nocobase/nocobase/pull/527)
-- fix: remove pattern without form item [`#528`](https://github.com/nocobase/nocobase/pull/528)
-- fix(plugin-workflow): set current when update [`#526`](https://github.com/nocobase/nocobase/pull/526)
-- fix: order nulls last [`#519`](https://github.com/nocobase/nocobase/pull/519)
-- fix: action loading, refresh context, form submit and validate [`#523`](https://github.com/nocobase/nocobase/pull/523)
+- chore(create-nocobase-app): исправление некоторых ошибок [`#538`](https://github.com/nocobase/nocobase/pull/538)
+- fix: удаление полей коллекции [`#536`](https://github.com/nocobase/nocobase/pull/536)
+- feat(plugin-workflow): добавление типа узла задержки [`#532`](https://github.com/nocobase/nocobase/pull/532)
+- refactor: клиентское приложение [`#533`](https://github.com/nocobase/nocobase/pull/533)
+- fix: отсутствующая транзакция [`#531`](https://github.com/nocobase/nocobase/pull/531)
+- fix: добавление свойства обрезки текста в record picker [`#527`](https://github.com/nocobase/nocobase/pull/527)
+- fix: удаление шаблона без элементов формы [`#528`](https://github.com/nocobase/nocobase/pull/528)
+- fix(plugin-workflow): установка текущего при обновлении [`#526`](https://github.com/nocobase/nocobase/pull/526)
+- fix: сортировка с NULLS LAST [`#519`](https://github.com/nocobase/nocobase/pull/519)
+- fix: загрузка действия, обновление контекста, отправка и валидация формы [`#523`](https://github.com/nocobase/nocobase/pull/523)
 - Fix field pattern [`#520`](https://github.com/nocobase/nocobase/pull/520)
-- fix(plugin-workflow): fix searchable select min-width [`#524`](https://github.com/nocobase/nocobase/pull/524)
-- fix: template with fields only [`#517`](https://github.com/nocobase/nocobase/pull/517)
-- fix(plugin-workflow): fix update workflow current property [`#521`](https://github.com/nocobase/nocobase/pull/521)
-- refactor(plugin-workflow): abstract to classes [`#515`](https://github.com/nocobase/nocobase/pull/515)
-- feat: column sortable and form item pattern [`#518`](https://github.com/nocobase/nocobase/pull/518)
-- fix(custom-request): support string/json templates [`#514`](https://github.com/nocobase/nocobase/pull/514)
-- feat: add block title [`#513`](https://github.com/nocobase/nocobase/pull/513)
-- fix: remove collections & fields from db [`#511`](https://github.com/nocobase/nocobase/pull/511)
-- feat: improve migrations [`#510`](https://github.com/nocobase/nocobase/pull/510)
-- fix(client): consolidate usage of date/time as UTC in transfering [`#509`](https://github.com/nocobase/nocobase/pull/509)
-- fix: formula bug [`#508`](https://github.com/nocobase/nocobase/pull/508)
-- fix: default exportable fields [`#506`](https://github.com/nocobase/nocobase/pull/506)
-- feat: association field block [`#493`](https://github.com/nocobase/nocobase/pull/493)
-- feat: plugin export [`#479`](https://github.com/nocobase/nocobase/pull/479)
-- fix(client): package path (fix #503) [`#504`](https://github.com/nocobase/nocobase/pull/504)
-- fix: create or delete collection error [`#501`](https://github.com/nocobase/nocobase/pull/501)
-- feat: update collections & fields [`#500`](https://github.com/nocobase/nocobase/pull/500)
-- fix: rollback when field creation fails [`#498`](https://github.com/nocobase/nocobase/pull/498)
-- fix(client): set `dropdownMatchSelectWidth` to false globally [`#497`](https://github.com/nocobase/nocobase/pull/497)
-- fix(client): no-key warning in user menu items [`#496`](https://github.com/nocobase/nocobase/pull/496)
-- Feat(plugin workflow): cron field for schedule trigger configuration [`#495`](https://github.com/nocobase/nocobase/pull/495)
-- feat: audit logs [`#494`](https://github.com/nocobase/nocobase/pull/494)
-- refactor(plugin-workflow): add revision column to execution [`#491`](https://github.com/nocobase/nocobase/pull/491)
-- feat: relation field uiSchema [`#487`](https://github.com/nocobase/nocobase/pull/487)
-- feat: change FK to input component [`#488`](https://github.com/nocobase/nocobase/pull/488)
-- fix(plugin-multi-app-manager): fix pg cannot create database block tests [`#486`](https://github.com/nocobase/nocobase/pull/486)
-- refactor(database): hook proxy [`#402`](https://github.com/nocobase/nocobase/pull/402)
-- feat: chart blocks [`#484`](https://github.com/nocobase/nocobase/pull/484)
-- Refactor(plugin workflow): support number in repeat config for schedule [`#482`](https://github.com/nocobase/nocobase/pull/482)
-- chore(debug): add debug config [`#475`](https://github.com/nocobase/nocobase/pull/475)
-- fix: has one bug [`#478`](https://github.com/nocobase/nocobase/pull/478)
-- feat: relationships [`#473`](https://github.com/nocobase/nocobase/pull/473)
-- fix(plugin-workflow): fix collection trigger transaction [`#474`](https://github.com/nocobase/nocobase/pull/474)
-- fix(plugin-workflow): temporary solution for collection trigger conditions [`#472`](https://github.com/nocobase/nocobase/pull/472)
-- fix: markdown component [`#469`](https://github.com/nocobase/nocobase/pull/469)
-- fix: formula field and percent field [`#467`](https://github.com/nocobase/nocobase/pull/467)
-- fix(plugin-workflow): fix update workflow action [`#464`](https://github.com/nocobase/nocobase/pull/464)
-- fix: update formula field and percent field  [`#461`](https://github.com/nocobase/nocobase/pull/461)
-- feat: add formula field type [`#457`](https://github.com/nocobase/nocobase/pull/457)
-- fix: the details of the associated data in the subtable are not displayed [`#454`](https://github.com/nocobase/nocobase/pull/454)
-- fix(plugin-workflow): fix languages [`#451`](https://github.com/nocobase/nocobase/pull/451)
-- fix: afterSync hook not triggered [`#450`](https://github.com/nocobase/nocobase/pull/450)
-- docs(various): Improve readability [`#447`](https://github.com/nocobase/nocobase/pull/447)
-- feat: custom request [`#439`](https://github.com/nocobase/nocobase/pull/439)
-- Feat(plugin workflow): schedule trigger [`#438`](https://github.com/nocobase/nocobase/pull/438)
-- feat: db migrator [`#432`](https://github.com/nocobase/nocobase/pull/432)
-- fix(client): select component cannot be opened in sub-table block [`#431`](https://github.com/nocobase/nocobase/pull/431)
-- docs(github): change to markdown format [`#430`](https://github.com/nocobase/nocobase/pull/430)
-- fix(cli): typo [`#429`](https://github.com/nocobase/nocobase/pull/429)
+- fix(plugin-workflow): исправление минимальной ширины searchable select [`#524`](https://github.com/nocobase/nocobase/pull/524)
+- fix: шаблон только с полями [`#517`](https://github.com/nocobase/nocobase/pull/517)
+- fix(plugin-workflow): исправление свойства current при обновлении рабочего процесса [`#521`](https://github.com/nocobase/nocobase/pull/521)
+- refactor(plugin-workflow): абстракция в классы [`#515`](https://github.com/nocobase/nocobase/pull/515)
+- feat: сортируемые столбцы и шаблоны элементов формы [`#518`](https://github.com/nocobase/nocobase/pull/518)
+- fix(custom-request): поддержка строковых/JSON шаблонов [`#514`](https://github.com/nocobase/nocobase/pull/514)
+- feat: добавление заголовка блока [`#513`](https://github.com/nocobase/nocobase/pull/513)
+- fix: удаление коллекций и полей из базы данных [`#511`](https://github.com/nocobase/nocobase/pull/511)
+- feat: улучшение миграций [`#510`](https://github.com/nocobase/nocobase/pull/510)
+- fix(client): унификация использования даты/времени в формате UTC при передаче [`#509`](https://github.com/nocobase/nocobase/pull/509)
+- fix: баг формулы [`#508`](https://github.com/nocobase/nocobase/pull/508)
+- fix: поля экспорта по умолчанию [`#506`](https://github.com/nocobase/nocobase/pull/506)
+- feat: блок полей ассоциации [`#493`](https://github.com/nocobase/nocobase/pull/493)
+- feat: экспорт плагинов [`#479`](https://github.com/nocobase/nocobase/pull/479)
+- fix(client): путь пакета (исправление #503) [`#504`](https://github.com/nocobase/nocobase/pull/504)
+- fix: ошибка создания или удаления коллекции [`#501`](https://github.com/nocobase/nocobase/pull/501)
+- feat: обновление коллекций и полей [`#500`](https://github.com/nocobase/nocobase/pull/500)
+- fix: откат при ошибке создания поля [`#498`](https://github.com/nocobase/nocobase/pull/498)
+- fix(client): глобальная установка `dropdownMatchSelectWidth` в false [`#497`](https://github.com/nocobase/nocobase/pull/497)
+- fix(client): предупреждение об отсутствии ключа в пунктах меню пользователя [`#496`](https://github.com/nocobase/nocobase/pull/496)
+- Feat(plugin workflow): поле cron для конфигурации триггера расписания [`#495`](https://github.com/nocobase/nocobase/pull/495)
+- feat: журналы аудита [`#494`](https://github.com/nocobase/nocobase/pull/494)
+- refactor(plugin-workflow): добавление столбца ревизии к выполнению [`#491`](https://github.com/nocobase/nocobase/pull/491)
+- feat: uiSchema для поля связи [`#487`](https://github.com/nocobase/nocobase/pull/487)
+- feat: изменение FK на компонент ввода [`#488`](https://github.com/nocobase/nocobase/pull/488)
+- fix(plugin-multi-app-manager): исправление ошибки pg при создании базы данных в блокированных тестах [`#486`](https://github.com/nocobase/nocobase/pull/486)
+- refactor(database): прокси-хук [`#402`](https://github.com/nocobase/nocobase/pull/402)
+- feat: блоки диаграмм [`#484`](https://github.com/nocobase/nocobase/pull/484)
+- Refactor(plugin workflow): поддержка чисел в конфигурации повтора для расписания [`#482`](https://github.com/nocobase/nocobase/pull/482)
+- chore(debug): добавление конфигурации отладки [`#475`](https://github.com/nocobase/nocobase/pull/475)
+- fix: баг has one [`#478`](https://github.com/nocobase/nocobase/pull/478)
+- feat: связи [`#473`](https://github.com/nocobase/nocobase/pull/473)
+- fix(plugin-workflow): исправление транзакции триггера коллекции [`#474`](https://github.com/nocobase/nocobase/pull/474)
+- fix(plugin-workflow): временное решение для условий триггера коллекции [`#472`](https://github.com/nocobase/nocobase/pull/472)
+- fix: компонент markdown [`#469`](https://github.com/nocobase/nocobase/pull/469)
+- fix: поле формулы и поле процента [`#467`](https://github.com/nocobase/nocobase/pull/467)
+- fix(plugin-workflow): исправление действия обновления рабочего процесса [`#464`](https://github.com/nocobase/nocobase/pull/464)
+- fix: обновление поля формулы и поля процента [`#461`](https://github.com/nocobase/nocobase/pull/461)
+- feat: добавление типа поля формулы [`#457`](https://github.com/nocobase/nocobase/pull/457)
+- fix: детали связанных данных в подтаблице не отображаются [`#454`](https://github.com/nocobase/nocobase/pull/454)
+- fix(plugin-workflow): исправление языков [`#451`](https://github.com/nocobase/nocobase/pull/451)
+- fix: хук afterSync не запускается [`#450`](https://github.com/nocobase/nocobase/pull/450)
+- docs(various): улучшение читаемости [`#447`](https://github.com/nocobase/nocobase/pull/447)
+- feat: пользовательский запрос [`#439`](https://github.com/nocobase/nocobase/pull/439)
+- Feat(plugin workflow): триггер расписания [`#438`](https://github.com/nocobase/nocobase/pull/438)
+- feat: мигратор базы данных [`#432`](https://github.com/nocobase/nocobase/pull/432)
+- fix(client): компонент select не открывается в блоке подтаблицы [`#431`](https://github.com/nocobase/nocobase/pull/431)
+- docs(github): переход на формат markdown [`#430`](https://github.com/nocobase/nocobase/pull/430)
+- fix(cli): опечатка [`#429`](https://github.com/nocobase/nocobase/pull/429)
 
-### Fixed
+### Исправлено
 
-- fix(client): package path (fix #503) (#504) [`#503`](https://github.com/nocobase/nocobase/issues/503)
+- fix(client): путь пакета (исправление #503) (#504) [`#503`](https://github.com/nocobase/nocobase/issues/503)
 
-### Commits
+### Коммиты
 
-- feat(client): update locales [`e57e60e`](https://github.com/nocobase/nocobase/commit/e57e60e6cb84431e694e69830d128cd71938388f)
-- docs: update doc [`e5cb948`](https://github.com/nocobase/nocobase/commit/e5cb94803f738961fcbc1986a94d258ef9e191a9)
-- fix(client): improve datepicker component, date with time zone, gmt support [`1c03fbb`](https://github.com/nocobase/nocobase/commit/1c03fbb853b5885547835f50fc9a0932f63c363b)
+- feat(client): обновление локализаций [`e57e60e`](https://github.com/nocobase/nocobase/commit/e57e60e6cb84431e694e69830d128cd71938388f)
+- docs: обновление документации [`e5cb948`](https://github.com/nocobase/nocobase/commit/e5cb94803f738961fcbc1986a94d258ef9e191a9)
+- fix(client): улучшение компонента datepicker, дата с временной зоной, поддержка GMT [`1c03fbb`](https://github.com/nocobase/nocobase/commit/1c03fbb853b5885547835f50fc9a0932f63c363b)
 
 ## [v0.7.0-alpha.82](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.67...v0.7.0-alpha.82) - 2022-05-27
 
-### Merged
+### Объединено
 
-- feat(client,sdk): improve api client [`#425`](https://github.com/nocobase/nocobase/pull/425)
-- feat: add create-plugin command [`#423`](https://github.com/nocobase/nocobase/pull/423)
-- feat: add button color [`#420`](https://github.com/nocobase/nocobase/pull/420)
-- chore(versions): 😊 publish v0.7.0-alpha.78 [`#419`](https://github.com/nocobase/nocobase/pull/419)
+- feat(client,sdk): улучшение API клиента [`#425`](https://github.com/nocobase/nocobase/pull/425)
+- feat: добавление команды create-plugin [`#423`](https://github.com/nocobase/nocobase/pull/423)
+- feat: добавление цвета кнопки [`#420`](https://github.com/nocobase/nocobase/pull/420)
+- chore(versions): 😊 публикация v0.7.0-alpha.78 [`#419`](https://github.com/nocobase/nocobase/pull/419)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.82 [`4820fd0`](https://github.com/nocobase/nocobase/commit/4820fd09375c7200d1ea0bb0aab1bd4783b80d3d)
-- docs: update installation documentation [`90623e8`](https://github.com/nocobase/nocobase/commit/90623e8e9a175238c3fc8bb527c8884c207ff78e)
+- chore(versions): 😊 публикация v0.7.0-alpha.82 [`4820fd0`](https://github.com/nocobase/nocobase/commit/4820fd09375c7200d1ea0bb0aab1bd4783b80d3d)
+- docs: обновление документации по установке [`90623e8`](https://github.com/nocobase/nocobase/commit/90623e8e9a175238c3fc8bb527c8884c207ff78e)
 - fix: "typescript": "4.5.5" [`c071217`](https://github.com/nocobase/nocobase/commit/c071217fff819378e982e611af1fd9fa71ebc5fb)
 
 ## [v0.7.0-alpha.67](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.64...v0.7.0-alpha.67) - 2022-05-24
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.67 [`3262979`](https://github.com/nocobase/nocobase/commit/326297936b17c6da3f6e86891c9772c72b088312)
-- chore(versions): 😊 publish v0.7.0-alpha.66 [`9c19e4d`](https://github.com/nocobase/nocobase/commit/9c19e4d67f0b59b8ec957b1a9164acc88a50416d)
+- chore(versions): 😊 публикация v0.7.0-alpha.67 [`3262979`](https://github.com/nocobase/nocobase/commit/326297936b17c6da3f6e86891c9772c72b088312)
+- chore(versions): 😊 публикация v0.7.0-alpha.66 [`9c19e4d`](https://github.com/nocobase/nocobase/commit/9c19e4d67f0b59b8ec957b1a9164acc88a50416d)
 
 ## [v0.7.0-alpha.64](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.60...v0.7.0-alpha.64) - 2022-05-24
 
-### Merged
+### Объединено
 
-- feat: update docs [`#413`](https://github.com/nocobase/nocobase/pull/413)
+- feat: обновление документации [`#413`](https://github.com/nocobase/nocobase/pull/413)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.63 [`c01c695`](https://github.com/nocobase/nocobase/commit/c01c6952a58c2677d9f45fb41872363afda25197)
-- chore(versions): 😊 publish v0.7.0-alpha.64 [`35d01a5`](https://github.com/nocobase/nocobase/commit/35d01a5fb0f0522e263c7fc37bc8384f99424240)
-- fix(plugin-users): add translations (#416) [`72c3ba4`](https://github.com/nocobase/nocobase/commit/72c3ba4fae5cdee6b84eed65e3a35180186a987e)
+- chore(versions): 😊 публикация v0.7.0-alpha.63 [`c01c695`](https://github.com/nocobase/nocobase/commit/c01c6952a58c2677d9f45fb41872363afda25197)
+- chore(versions): 😊 публикация v0.7.0-alpha.64 [`35d01a5`](https://github.com/nocobase/nocobase/commit/35d01a5fb0f0522e263c7fc37bc8384f99424240)
+- fix(plugin-users): добавление переводов (#416) [`72c3ba4`](https://github.com/nocobase/nocobase/commit/72c3ba4fae5cdee6b84eed65e3a35180186a987e)
 
 ## [v0.7.0-alpha.60](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.59...v0.7.0-alpha.60) - 2022-05-23
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.60 [`f0d0afb`](https://github.com/nocobase/nocobase/commit/f0d0afbb19dbd90ac3cf4155748fa084c67f54ee)
-- fix(create-nocobase-app): storage path [`a0245ca`](https://github.com/nocobase/nocobase/commit/a0245caeb816fede8bb40c33e694de6419a21f26)
+- chore(versions): 😊 публикация v0.7.0-alpha.60 [`f0d0afb`](https://github.com/nocobase/nocobase/commit/f0d0afbb19dbd90ac3cf4155748fa084c67f54ee)
+- fix(create-nocobase-app): путь хранилища [`a0245ca`](https://github.com/nocobase/nocobase/commit/a0245caeb816fede8bb40c33e694de6419a21f26)
 
 ## [v0.7.0-alpha.59](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.58...v0.7.0-alpha.59) - 2022-05-23
 
-### Merged
+### Объединено
 
-- refactor(plugin-workflow): change column type of executed from boolean to integer [`#411`](https://github.com/nocobase/nocobase/pull/411)
+- refactor(plugin-workflow): изменение типа столбца executed с boolean на integer [`#411`](https://github.com/nocobase/nocobase/pull/411)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.59 [`c90e5ae`](https://github.com/nocobase/nocobase/commit/c90e5aee4c8257a3ab7ff492e69cb568cccff8b5)
-- docs: update roadmap and release notes [`f198411`](https://github.com/nocobase/nocobase/commit/f198411c7386afaa4b6fc41ebb1806d40e3752b1)
+- chore(versions): 😊 публикация v0.7.0-alpha.59 [`c90e5ae`](https://github.com/nocobase/nocobase/commit/c90e5aee4c8257a3ab7ff492e69cb568cccff8b5)
+- docs: обновление дорожной карты и заметок о выпуске [`f198411`](https://github.com/nocobase/nocobase/commit/f198411c7386afaa4b6fc41ebb1806d40e3752b1)
 - Update roadmap.md [`e5c5e16`](https://github.com/nocobase/nocobase/commit/e5c5e16b73174bf8092f730b196ef2ef088001b4)
 
 ## [v0.7.0-alpha.58](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.57...v0.7.0-alpha.58) - 2022-05-22
 
-### Merged
+### Объединено
 
-- fix: 204 no content response [`#378`](https://github.com/nocobase/nocobase/pull/378)
-- feat: destroy association field after target collection destroy [`#376`](https://github.com/nocobase/nocobase/pull/376)
-- fix(type): use sequelize native Transactionable instead of TransactionAble [`#410`](https://github.com/nocobase/nocobase/pull/410)
-- fix(plugin-workflow): remove previous listeners when collection changed in config [`#409`](https://github.com/nocobase/nocobase/pull/409)
-- feat: add custom action [`#396`](https://github.com/nocobase/nocobase/pull/396)
-- refactor(plugin-workflow): multiple instances and event management (fix #384) [`#408`](https://github.com/nocobase/nocobase/pull/408)
+- fix: ответ 204 без содержимого [`#378`](https://github.com/nocobase/nocobase/pull/378)
+- feat: уничтожение поля ассоциации после уничтожения целевой коллекции [`#376`](https://github.com/nocobase/nocobase/pull/376)
+- fix(type): использование нативного Transactionable из Sequelize вместо TransactionAble [`#410`](https://github.com/nocobase/nocobase/pull/410)
+- fix(plugin-workflow): удаление предыдущих слушателей при изменении коллекции в конфигурации [`#409`](https://github.com/nocobase/nocobase/pull/409)
+- feat: добавление пользовательского действия [`#396`](https://github.com/nocobase/nocobase/pull/396)
+- refactor(plugin-workflow): поддержка нескольких экземпляров и управление событиями (исправление #384) [`#408`](https://github.com/nocobase/nocobase/pull/408)
 
-### Fixed
+### Исправлено
 
-- refactor(plugin-workflow): multiple instances and event management (fix #384) (#408) [`#384`](https://github.com/nocobase/nocobase/issues/384) [`#384`](https://github.com/nocobase/nocobase/issues/384)
+- refactor(plugin-workflow): поддержка нескольких экземпляров и управление событиями (исправление #384) (#408) [`#384`](https://github.com/nocobase/nocobase/issues/384) [`#384`](https://github.com/nocobase/nocobase/issues/384)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.58 [`19ee422`](https://github.com/nocobase/nocobase/commit/19ee42257edf17804d548ffd5ba9ddff6dc775d1)
-- fix(plugin-acl): missing pagination parameters #394 [`b44753d`](https://github.com/nocobase/nocobase/commit/b44753d528a12075e64754828982ca80dfc90263)
-- fix: missing isTruly/isFalsy filter operators #390 [`e596e6d`](https://github.com/nocobase/nocobase/commit/e596e6d365a3e46859e7d7bafcc3e54d286656cf)
+- chore(versions): 😊 публикация v0.7.0-alpha.58 [`19ee422`](https://github.com/nocobase/nocobase/commit/19ee42257edf17804d548ffd5ba9ddff6dc775d1)
+- fix(plugin-acl): отсутствующие параметры пагинации #394 [`b44753d`](https://github.com/nocobase/nocobase/commit/b44753d528a12075e64754828982ca80dfc90263)
+- fix: отсутствующие операторы фильтрации isTruly/isFalsy #390 [`e596e6d`](https://github.com/nocobase/nocobase/commit/e596e6d365a3e46859e7d7bafcc3e54d286656cf)
 
 ## [v0.7.0-alpha.57](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.34...v0.7.0-alpha.57) - 2022-05-19
 
-### Merged
+### Объединено
 
-- fix(plugin-workflow): fix node type title in drawers [`#389`](https://github.com/nocobase/nocobase/pull/389)
+- fix(plugin-workflow): исправление заголовка типа узла в ящиках [`#389`](https://github.com/nocobase/nocobase/pull/389)
 
-### Commits
+### Коммиты
 
-- feat: build, cli, devtools, sdk, docs... [`6410bc8`](https://github.com/nocobase/nocobase/commit/6410bc8a75fa4dda9fe2bccfadca336fc8e794d0)
-- chore(versions): 😊 publish v0.7.0-alpha.57 [`33f076e`](https://github.com/nocobase/nocobase/commit/33f076e430645055d79254592971c50d9f131a6d)
+- feat: сборка, cli, devtools, sdk, документация... [`6410bc8`](https://github.com/nocobase/nocobase/commit/6410bc8a75fa4dda9fe2bccfadca336fc8e794d0)
+- chore(versions): 😊 публикация v0.7.0-alpha.57 [`33f076e`](https://github.com/nocobase/nocobase/commit/33f076e430645055d79254592971c50d9f131a6d)
 - Update README.md [`e24e007`](https://github.com/nocobase/nocobase/commit/e24e007395ed09463acdc3cf53b856ca9e0dd664)
 
 ## [v0.7.0-alpha.34](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.33...v0.7.0-alpha.34) - 2022-05-14
 
-### Merged
+### Объединено
 
-- Fix(plugin workflow): fix cannot get job result properties [`#382`](https://github.com/nocobase/nocobase/pull/382)
-- feat: exist on Server start throw error [`#374`](https://github.com/nocobase/nocobase/pull/374)
-- chore: application options [`#375`](https://github.com/nocobase/nocobase/pull/375)
-- fix: not in operator with null value record [`#377`](https://github.com/nocobase/nocobase/pull/377)
+- Fix(plugin workflow): исправление невозможности получения свойств результата работы [`#382`](https://github.com/nocobase/nocobase/pull/382)
+- feat: завершение работы сервера при возникновении ошибки [`#374`](https://github.com/nocobase/nocobase/pull/374)
+- chore: параметры приложения [`#375`](https://github.com/nocobase/nocobase/pull/375)
+- fix: оператор not in с null значением записи [`#377`](https://github.com/nocobase/nocobase/pull/377)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.34 [`48b2b4b`](https://github.com/nocobase/nocobase/commit/48b2b4bc7bbc39533e461d34d7f026a4ad1a9b5c)
-- feat: add plugins:getPinned action api [`b5c24aa`](https://github.com/nocobase/nocobase/commit/b5c24aa7999934f2b6f7ca1e9e9448b220a61af2)
+- chore(versions): 😊 публикация v0.7.0-alpha.34 [`48b2b4b`](https://github.com/nocobase/nocobase/commit/48b2b4bc7bbc39533e461d34d7f026a4ad1a9b5c)
+- feat: добавление API действия plugins:getPinned [`b5c24aa`](https://github.com/nocobase/nocobase/commit/b5c24aa7999934f2b6f7ca1e9e9448b220a61af2)
 
 ## [v0.7.0-alpha.33](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.30...v0.7.0-alpha.33) - 2022-05-13
 
-### Merged
+### Объединено
 
-- Feat(plugin workflow): revisions [`#379`](https://github.com/nocobase/nocobase/pull/379)
-- fix(database): fix option-parser include list index [`#371`](https://github.com/nocobase/nocobase/pull/371)
-- fix(plugin-worklfow): fix duplicated description in fields values [`#368`](https://github.com/nocobase/nocobase/pull/368)
-- fix(database): fix type and transaction in repository [`#366`](https://github.com/nocobase/nocobase/pull/366)
-- Fix(plugin workflow): fix transaction of execution [`#364`](https://github.com/nocobase/nocobase/pull/364)
-- fix(plugin-workflow): add document title [`#363`](https://github.com/nocobase/nocobase/pull/363)
-- fix: set visible with confirm [`#361`](https://github.com/nocobase/nocobase/pull/361)
+- Feat(plugin workflow): ревизии [`#379`](https://github.com/nocobase/nocobase/pull/379)
+- fix(database): исправление парсера опций списка include [`#371`](https://github.com/nocobase/nocobase/pull/371)
+- fix(plugin-workflow): исправление дублирования описания в значениях полей [`#368`](https://github.com/nocobase/nocobase/pull/368)
+- fix(database): исправление типа и транзакции в репозитории [`#366`](https://github.com/nocobase/nocobase/pull/366)
+- Fix(plugin workflow): исправление транзакции выполнения [`#364`](https://github.com/nocobase/nocobase/pull/364)
+- fix(plugin-workflow): добавление заголовка документа [`#363`](https://github.com/nocobase/nocobase/pull/363)
+- fix: установка видимости с подтверждением [`#361`](https://github.com/nocobase/nocobase/pull/361)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.33 [`c4b5f4f`](https://github.com/nocobase/nocobase/commit/c4b5f4f84b18c2d8bc40f82947b9338e2f620984)
+- chore(versions): 😊 публикация v0.7.0-alpha.33 [`c4b5f4f`](https://github.com/nocobase/nocobase/commit/c4b5f4f84b18c2d8bc40f82947b9338e2f620984)
 - Update issue templates [`8466159`](https://github.com/nocobase/nocobase/commit/846615937add786319dde167f2b28e981941e18e)
-- fix: link-to field data scope error  (#1337) [`2156c70`](https://github.com/nocobase/nocobase/commit/2156c70ff3a7e65a8ad1bf14602f0dad150382ab)
+- fix: ошибка области данных поля link-to (#1337) [`2156c70`](https://github.com/nocobase/nocobase/commit/2156c70ff3a7e65a8ad1bf14602f0dad150382ab)
 
 ## [v0.7.0-alpha.30](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.29...v0.7.0-alpha.30) - 2022-05-05
 
-### Merged
+### Объединено
 
-- fix(plugin-workflow): fix tests [`#360`](https://github.com/nocobase/nocobase/pull/360)
-- Feat: Unsaved changes tip [`#359`](https://github.com/nocobase/nocobase/pull/359)
+- fix(plugin-workflow): исправление тестов [`#360`](https://github.com/nocobase/nocobase/pull/360)
+- Feat: подсказка о несохраненных изменениях [`#359`](https://github.com/nocobase/nocobase/pull/359)
 - Fix acl error [`#358`](https://github.com/nocobase/nocobase/pull/358)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.30 [`781fb0a`](https://github.com/nocobase/nocobase/commit/781fb0a999854341cd8c353d31ae5a11ecbbe775)
-- fix(client): upgrade formily packages [`58b151c`](https://github.com/nocobase/nocobase/commit/58b151c74512d5fa3f33c094580c4f5f15792342)
-- fix(client): setFormValueChanged must be defined [`b33c819`](https://github.com/nocobase/nocobase/commit/b33c8198e676cc935bccf995ff3d18b249290062)
+- chore(versions): 😊 публикация v0.7.0-alpha.30 [`781fb0a`](https://github.com/nocobase/nocobase/commit/781fb0a999854341cd8c353d31ae5a11ecbbe775)
+- fix(client): обновление пакетов formily [`58b151c`](https://github.com/nocobase/nocobase/commit/58b151c74512d5fa3f33c094580c4f5f15792342)
+- fix(client): setFormValueChanged должен быть определен [`b33c819`](https://github.com/nocobase/nocobase/commit/b33c8198e676cc935bccf995ff3d18b249290062)
 
 ## [v0.7.0-alpha.29](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.28...v0.7.0-alpha.29) - 2022-05-04
 
-### Merged
+### Объединено
 
-- fix: empty resource acl error [`#357`](https://github.com/nocobase/nocobase/pull/357)
-- Feat: from values changed when unsaved will prompt [`#351`](https://github.com/nocobase/nocobase/pull/351)
-- fix: modify filter close icon color [`#356`](https://github.com/nocobase/nocobase/pull/356)
-- fix(plugin-workflow): fix i18n [`#354`](https://github.com/nocobase/nocobase/pull/354)
+- fix: ошибка ACL пустого ресурса [`#357`](https://github.com/nocobase/nocobase/pull/357)
+- Feat: при изменении значений формы без сохранения будет выводиться запрос [`#351`](https://github.com/nocobase/nocobase/pull/351)
+- fix: изменение цвета значка закрытия фильтра [`#356`](https://github.com/nocobase/nocobase/pull/356)
+- fix(plugin-workflow): исправление i18n [`#354`](https://github.com/nocobase/nocobase/pull/354)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.29 [`46e660b`](https://github.com/nocobase/nocobase/commit/46e660b10d1cf94ecb808a9a45edb5e8d40398dc)
-- fix(client): color styling [`90a58cc`](https://github.com/nocobase/nocobase/commit/90a58cc3cf3eab02bc61f363d4476454383907d3)
-- feat(client): translation [`33a99d9`](https://github.com/nocobase/nocobase/commit/33a99d91b8dc19186ed743b1bbc073c09dd4629e)
+- chore(versions): 😊 публикация v0.7.0-alpha.29 [`46e660b`](https://github.com/nocobase/nocobase/commit/46e660b10d1cf94ecb808a9a45edb5e8d40398dc)
+- fix(client): стилизация цветов [`90a58cc`](https://github.com/nocobase/nocobase/commit/90a58cc3cf3eab02bc61f363d4476454383907d3)
+- feat(client): перевод [`33a99d9`](https://github.com/nocobase/nocobase/commit/33a99d91b8dc19186ed743b1bbc073c09dd4629e)
 
 ## [v0.7.0-alpha.28](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.24...v0.7.0-alpha.28) - 2022-05-02
 
-### Merged
+### Объединено
 
 - Fix(plugin-workflow) [`#353`](https://github.com/nocobase/nocobase/pull/353)
-- fix(plugin-file-manager): upgrade multer-aliyun-oss package to fix size [`#352`](https://github.com/nocobase/nocobase/pull/352)
-- feat: improve code [`#350`](https://github.com/nocobase/nocobase/pull/350)
+- fix(plugin-file-manager): обновление пакета multer-aliyun-oss для исправления размера [`#352`](https://github.com/nocobase/nocobase/pull/352)
+- feat: улучшение кода [`#350`](https://github.com/nocobase/nocobase/pull/350)
 - Fix/plugin workflow [`#349`](https://github.com/nocobase/nocobase/pull/349)
-- fix: db:sync not working [`#348`](https://github.com/nocobase/nocobase/pull/348)
-- fix(plugin-workflow): fix trigger bind logic to avoid duplication [`#347`](https://github.com/nocobase/nocobase/pull/347)
+- fix: db:sync не работает [`#348`](https://github.com/nocobase/nocobase/pull/348)
+- fix(plugin-workflow): исправление логики привязки триггера для избежания дублирования [`#347`](https://github.com/nocobase/nocobase/pull/347)
 - Fix(plugin workflow) [`#346`](https://github.com/nocobase/nocobase/pull/346)
-- Fix:menu url style [`#344`](https://github.com/nocobase/nocobase/pull/344)
-- chore(plugin-workflow): add translation [`#345`](https://github.com/nocobase/nocobase/pull/345)
-- fix(plugin-workflow): break cycling trigger through transaction id [`#341`](https://github.com/nocobase/nocobase/pull/341)
+- Fix: стиль URL меню [`#344`](https://github.com/nocobase/nocobase/pull/344)
+- chore(plugin-workflow): добавление перевода [`#345`](https://github.com/nocobase/nocobase/pull/345)
+- fix(plugin-workflow): разрыв циклического триггера через идентификатор транзакции [`#341`](https://github.com/nocobase/nocobase/pull/341)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.28 [`a48d004`](https://github.com/nocobase/nocobase/commit/a48d00492ebc34c66c63d9644530c5b8a7c9914a)
-- chore(versions): 😊 publish v0.7.0-alpha.27 [`ebfe11f`](https://github.com/nocobase/nocobase/commit/ebfe11ff09bf50b4b2322cbbad65b4ea936fdb71)
-- chore(versions): 😊 publish v0.7.0-alpha.26 [`515d952`](https://github.com/nocobase/nocobase/commit/515d95276700ffafe7d2785a93fc510d36da462b)
+- chore(versions): 😊 публикация v0.7.0-alpha.28 [`a48d004`](https://github.com/nocobase/nocobase/commit/a48d00492ebc34c66c63d9644530c5b8a7c9914a)
+- chore(versions): 😊 публикация v0.7.0-alpha.27 [`ebfe11f`](https://github.com/nocobase/nocobase/commit/ebfe11ff09bf50b4b2322cbbad65b4ea936fdb71)
+- chore(versions): 😊 публикация v0.7.0-alpha.26 [`515d952`](https://github.com/nocobase/nocobase/commit/515d95276700ffafe7d2785a93fc510d36da462b)
 
 ## [v0.7.0-alpha.24](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.16...v0.7.0-alpha.24) - 2022-04-29
 
-### Merged
+### Объединено
 
-- fix: model.beforeCreate not called [`#343`](https://github.com/nocobase/nocobase/pull/343)
-- fix: thumbnail image in kanban card [`#338`](https://github.com/nocobase/nocobase/pull/338)
-- feat: db authenticate [`#342`](https://github.com/nocobase/nocobase/pull/342)
-- chore: install subApp asynchronous [`#336`](https://github.com/nocobase/nocobase/pull/336)
-- fix(plugin-workflow): change collection values input ux in workflow nodes [`#340`](https://github.com/nocobase/nocobase/pull/340)
-- feat: improvements [`#335`](https://github.com/nocobase/nocobase/pull/335)
-- Feat(plugin workflow): add changed fields to model trigger config [`#332`](https://github.com/nocobase/nocobase/pull/332)
+- fix: model.beforeCreate не вызывается [`#343`](https://github.com/nocobase/nocobase/pull/343)
+- fix: миниатюрное изображение в карточке канбан [`#338`](https://github.com/nocobase/nocobase/pull/338)
+- feat: аутентификация базы данных [`#342`](https://github.com/nocobase/nocobase/pull/342)
+- chore: асинхронная установка подприложения [`#336`](https://github.com/nocobase/nocobase/pull/336)
+- fix(plugin-workflow): изменение UX ввода значений коллекции в узлах рабочего процесса [`#340`](https://github.com/nocobase/nocobase/pull/340)
+- feat: улучшения [`#335`](https://github.com/nocobase/nocobase/pull/335)
+- Feat(plugin workflow): добавление измененных полей в конфигурацию триггера модели [`#332`](https://github.com/nocobase/nocobase/pull/332)
 
-### Commits
+### Коммиты
 
-- docs: update readme.md [`aacec30`](https://github.com/nocobase/nocobase/commit/aacec306733ee1cab3c3c7e5a7fcbbeb372a03e9)
-- chore(versions): 😊 publish v0.7.0-alpha.24 [`1fb2dd8`](https://github.com/nocobase/nocobase/commit/1fb2dd884c4f2d2167f5dde40a15012a752e53ab)
-- feat: uuid field [`2c0d3fc`](https://github.com/nocobase/nocobase/commit/2c0d3fcc5ad1bce2cbc47e82e76277918c66c565)
+- docs: обновление readme.md [`aacec30`](https://github.com/nocobase/nocobase/commit/aacec306733ee1cab3c3c7e5a7fcbbeb372a03e9)
+- chore(versions): 😊 публикация v0.7.0-alpha.24 [`1fb2dd8`](https://github.com/nocobase/nocobase/commit/1fb2dd884c4f2d2167f5dde40a15012a752e53ab)
+- feat: поле UUID [`2c0d3fc`](https://github.com/nocobase/nocobase/commit/2c0d3fcc5ad1bce2cbc47e82e76277918c66c565)
 
 ## [v0.7.0-alpha.16](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.15...v0.7.0-alpha.16) - 2022-04-27
 
-### Merged
+### Объединено
 
-- fix: cannot find module mkdirp [`#330`](https://github.com/nocobase/nocobase/pull/330)
-- Fix(plugin workflow): UX issues [`#329`](https://github.com/nocobase/nocobase/pull/329)
+- fix: невозможно найти модуль mkdirp [`#330`](https://github.com/nocobase/nocobase/pull/330)
+- Fix(plugin workflow): проблемы UX [`#329`](https://github.com/nocobase/nocobase/pull/329)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.16 [`27399f4`](https://github.com/nocobase/nocobase/commit/27399f4e5e6d1f9f2c0eee4d6be8ff89df625bd8)
-- feat: improve code [`c71f45c`](https://github.com/nocobase/nocobase/commit/c71f45ca6a15149703fdf12f4d0f68a226d10a7e)
+- chore(versions): 😊 публикация v0.7.0-alpha.16 [`27399f4`](https://github.com/nocobase/nocobase/commit/27399f4e5e6d1f9f2c0eee4d6be8ff89df625bd8)
+- feat: улучшение кода [`c71f45c`](https://github.com/nocobase/nocobase/commit/c71f45ca6a15149703fdf12f4d0f68a226d10a7e)
 - Update README.md [`4317de7`](https://github.com/nocobase/nocobase/commit/4317de7eb116dd7d538d0cf2c4782372e1b5fce2)
 
 ## [v0.7.0-alpha.15](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.6...v0.7.0-alpha.15) - 2022-04-26
 
-### Merged
+### Объединено
 
-- fix: create-nocobase-app compatibility [`#323`](https://github.com/nocobase/nocobase/pull/323)
-- fix: create-nocobase-app client package version [`#321`](https://github.com/nocobase/nocobase/pull/321)
-- fix: app manager [`#320`](https://github.com/nocobase/nocobase/pull/320)
+- fix: совместимость create-nocobase-app [`#323`](https://github.com/nocobase/nocobase/pull/323)
+- fix: версия клиентского пакета create-nocobase-app [`#321`](https://github.com/nocobase/nocobase/pull/321)
+- fix: менеджер приложений [`#320`](https://github.com/nocobase/nocobase/pull/320)
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.15 [`f0d9b0e`](https://github.com/nocobase/nocobase/commit/f0d9b0ec026b589b3d10dcdbbbb656baca1a9004)
-- chore(versions): 😊 publish v0.7.0-alpha.14 [`8736278`](https://github.com/nocobase/nocobase/commit/87362789f331e043336b571137a7ace7e38a6da1)
-- chore(versions): 😊 publish v0.7.0-alpha.13 [`62eb85d`](https://github.com/nocobase/nocobase/commit/62eb85de5f341f343577232ebecce7f9fb7a5b21)
+- chore(versions): 😊 публикация v0.7.0-alpha.15 [`f0d9b0e`](https://github.com/nocobase/nocobase/commit/f0d9b0ec026b589b3d10dcdbbbb656baca1a9004)
+- chore(versions): 😊 публикация v0.7.0-alpha.14 [`8736278`](https://github.com/nocobase/nocobase/commit/87362789f331e043336b571137a7ace7e38a6da1)
+- chore(versions): 😊 публикация v0.7.0-alpha.13 [`62eb85d`](https://github.com/nocobase/nocobase/commit/62eb85de5f341f343577232ebecce7f9fb7a5b21)
 
 ## [v0.7.0-alpha.6](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.5...v0.7.0-alpha.6) - 2022-04-25
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.6 [`7d0087c`](https://github.com/nocobase/nocobase/commit/7d0087cbb3b7663ba05366ca3b80db2853669ee9)
+- chore(versions): 😊 публикация v0.7.0-alpha.6 [`7d0087c`](https://github.com/nocobase/nocobase/commit/7d0087cbb3b7663ba05366ca3b80db2853669ee9)
 
 ## [v0.7.0-alpha.5](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.4...v0.7.0-alpha.5) - 2022-04-25
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.5 [`a00b45a`](https://github.com/nocobase/nocobase/commit/a00b45a2686695c5f4824d074ac5e1aff210793a)
-- fix(plugin-system-settings): cannot read property cliArgs of undefined [`b0d3274`](https://github.com/nocobase/nocobase/commit/b0d3274b2d98147679f91c468327287675de0c08)
+- chore(versions): 😊 публикация v0.7.0-alpha.5 [`a00b45a`](https://github.com/nocobase/nocobase/commit/a00b45a2686695c5f4824d074ac5e1aff210793a)
+- fix(plugin-system-settings): невозможно прочитать свойство cliArgs undefined [`b0d3274`](https://github.com/nocobase/nocobase/commit/b0d3274b2d98147679f91c468327287675de0c08)
 
 ## [v0.7.0-alpha.4](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.3...v0.7.0-alpha.4) - 2022-04-25
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.4 [`327e413`](https://github.com/nocobase/nocobase/commit/327e413b6dd94dad9b756b1e08cda47cad734dc1)
+- chore(versions): 😊 публикация v0.7.0-alpha.4 [`327e413`](https://github.com/nocobase/nocobase/commit/327e413b6dd94dad9b756b1e08cda47cad734dc1)
 
 ## [v0.7.0-alpha.3](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.2...v0.7.0-alpha.3) - 2022-04-25
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.3 [`b12507f`](https://github.com/nocobase/nocobase/commit/b12507f6e4bcb5f1fd8285670a43fb3807d90ea0)
-- fix: antd use ~v4.19.5 [`733c704`](https://github.com/nocobase/nocobase/commit/733c7048ed0e00bd2c01bfaf8452731a9a89670e)
+- chore(versions): 😊 публикация v0.7.0-alpha.3 [`b12507f`](https://github.com/nocobase/nocobase/commit/b12507f6e4bcb5f1fd8285670a43fb3807d90ea0)
+- fix: antd использует ~v4.19.5 [`733c704`](https://github.com/nocobase/nocobase/commit/733c7048ed0e00bd2c01bfaf8452731a9a89670e)
 
 ## [v0.7.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.1...v0.7.0-alpha.2) - 2022-04-25
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.2 [`0e0e99e`](https://github.com/nocobase/nocobase/commit/0e0e99ef79c0b25bb0b45ecaa477c049cb16afee)
-- feat(license): update license [`ed9b2b6`](https://github.com/nocobase/nocobase/commit/ed9b2b6d950cab33423225069a7b0de24b65ef45)
+- chore(versions): 😊 публикация v0.7.0-alpha.2 [`0e0e99e`](https://github.com/nocobase/nocobase/commit/0e0e99ef79c0b25bb0b45ecaa477c049cb16afee)
+- feat(license): обновление лицензии [`ed9b2b6`](https://github.com/nocobase/nocobase/commit/ed9b2b6d950cab33423225069a7b0de24b65ef45)
 - feat: kanban disableCardDrag [`05a251b`](https://github.com/nocobase/nocobase/commit/05a251b1fc06012e77e402b422e3120430effef1)
 
 ## [v0.7.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.7.0-alpha.0...v0.7.0-alpha.1) - 2022-04-25
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.7.0-alpha.1 [`e7293ad`](https://github.com/nocobase/nocobase/commit/e7293ad7aadbdf2084042f7800a232af6e0b7a8a)
+- chore(versions): 😊 публикация v0.7.0-alpha.1 [`e7293ad`](https://github.com/nocobase/nocobase/commit/e7293ad7aadbdf2084042f7800a232af6e0b7a8a)
 
 ## [v0.7.0-alpha.0](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.12...v0.7.0-alpha.0) - 2022-04-25
 
-### Merged
+### Объединено
 
-- refactor: modify default lable style [`#318`](https://github.com/nocobase/nocobase/pull/318)
+- refactor: изменение стиля метки по умолчанию [`#318`](https://github.com/nocobase/nocobase/pull/318)
 - Fix multiple apps [`#317`](https://github.com/nocobase/nocobase/pull/317)
 - Fix multiple apps [`#316`](https://github.com/nocobase/nocobase/pull/316)
 - Fix acl target action error [`#311`](https://github.com/nocobase/nocobase/pull/311)
-- feat: file storages [`#314`](https://github.com/nocobase/nocobase/pull/314)
-- fix(plugin-workflow): fix some ux [`#313`](https://github.com/nocobase/nocobase/pull/313)
-- fix(plugin-workflow): fix query node getter field [`#308`](https://github.com/nocobase/nocobase/pull/308)
+- feat: файловые хранилища [`#314`](https://github.com/nocobase/nocobase/pull/314)
+- fix(plugin-workflow): исправление UX [`#313`](https://github.com/nocobase/nocobase/pull/313)
+- fix(plugin-workflow): исправление поля получения узла запроса [`#308`](https://github.com/nocobase/nocobase/pull/308)
 - Fix create nocobase app [`#307`](https://github.com/nocobase/nocobase/pull/307)
 - fix: create-nocobase-app [`#306`](https://github.com/nocobase/nocobase/pull/306)
 - Fix create nocobase app [`#305`](https://github.com/nocobase/nocobase/pull/305)
-- fix: block item add overflow:hidden [`#304`](https://github.com/nocobase/nocobase/pull/304)
+- fix: добавление overflow:hidden в элемент блока [`#304`](https://github.com/nocobase/nocobase/pull/304)
 
-### Commits
+### Коммиты
 
-- feat(license): replace MIT license with Apache-2.0 [`717efa8`](https://github.com/nocobase/nocobase/commit/717efa889d471fac3f909137e2adb96586414aad)
-- feat: translations [`5c0184a`](https://github.com/nocobase/nocobase/commit/5c0184a397885d6de5307a7087c2d93042cd49f8)
-- feat: translations [`1f04f90`](https://github.com/nocobase/nocobase/commit/1f04f90a00e071aa9ab294f21e8d02373191eecc)
+- feat(license): замена лицензии MIT на Apache-2.0 [`717efa8`](https://github.com/nocobase/nocobase/commit/717efa889d471fac3f909137e2adb96586414aad)
+- feat: переводы [`5c0184a`](https://github.com/nocobase/nocobase/commit/5c0184a397885d6de5307a7087c2d93042cd49f8)
+- feat: переводы [`1f04f90`](https://github.com/nocobase/nocobase/commit/1f04f90a00e071aa9ab294f21e8d02373191eecc)
 
 ## [v0.6.2-alpha.12](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.11...v0.6.2-alpha.12) - 2022-04-21
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.2-alpha.12 [`5a668cf`](https://github.com/nocobase/nocobase/commit/5a668cf9d0450944f3d2d5beed9e8d5e5b96f5d7)
-- fix: create-nocobase-app publish [`269e73e`](https://github.com/nocobase/nocobase/commit/269e73ef19d41835813609b39744c40fb1fff92e)
-- chore: create-nocobase-app package.json [`1c30ee1`](https://github.com/nocobase/nocobase/commit/1c30ee1c630d021dc919ce6fcc56cce179db20ae)
+- chore(versions): 😊 публикация v0.6.2-alpha.12 [`5a668cf`](https://github.com/nocobase/nocobase/commit/5a668cf9d0450944f3d2d5beed9e8d5e5b96f5d7)
+- fix: публикация create-nocobase-app [`269e73e`](https://github.com/nocobase/nocobase/commit/269e73ef19d41835813609b39744c40fb1fff92e)
+- chore: package.json для create-nocobase-app [`1c30ee1`](https://github.com/nocobase/nocobase/commit/1c30ee1c630d021dc919ce6fcc56cce179db20ae)
 
 ## [v0.6.2-alpha.11](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.10...v0.6.2-alpha.11) - 2022-04-20
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.2-alpha.11 [`8741015`](https://github.com/nocobase/nocobase/commit/8741015a6237cd3ea7342edcb7aa11fe794e6b18)
+- chore(versions): 😊 публикация v0.6.2-alpha.11 [`8741015`](https://github.com/nocobase/nocobase/commit/8741015a6237cd3ea7342edcb7aa11fe794e6b18)
 - fix: read-config [`f6d23ad`](https://github.com/nocobase/nocobase/commit/f6d23add8c1845dd4b567d2958c24ada8ae8cee0)
 
 ## [v0.6.2-alpha.10](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.9...v0.6.2-alpha.10) - 2022-04-20
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.2-alpha.10 [`693c668`](https://github.com/nocobase/nocobase/commit/693c668282d8032b69245ae7e5c1cafa3c41e584)
-- fix: publish [`9e717ae`](https://github.com/nocobase/nocobase/commit/9e717ae3ca2f453005602df03b08edca14c56505)
+- chore(versions): 😊 публикация v0.6.2-alpha.10 [`693c668`](https://github.com/nocobase/nocobase/commit/693c668282d8032b69245ae7e5c1cafa3c41e584)
+- fix: публикация [`9e717ae`](https://github.com/nocobase/nocobase/commit/9e717ae3ca2f453005602df03b08edca14c56505)
 
 ## [v0.6.2-alpha.9](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.7...v0.6.2-alpha.9) - 2022-04-20
 
-### Merged
+### Объединено
 
-- feat: details block [`#302`](https://github.com/nocobase/nocobase/pull/302)
-- Fix(plugin workflow): fix collection data form view [`#301`](https://github.com/nocobase/nocobase/pull/301)
-- feat: add $isCurrentUser filter operator [`#299`](https://github.com/nocobase/nocobase/pull/299)
-- fix: through table primaryKey error [`#297`](https://github.com/nocobase/nocobase/pull/297)
-- feat: junction collection for linkTo field [`#296`](https://github.com/nocobase/nocobase/pull/296)
-- fix: long text will wrap in FormItem [`#295`](https://github.com/nocobase/nocobase/pull/295)
-- fix(client): avoid cannot getField by randomly generated name and throw error [`#294`](https://github.com/nocobase/nocobase/pull/294)
+- feat: блок деталей [`#302`](https://github.com/nocobase/nocobase/pull/302)
+- Fix(plugin workflow): исправление представления формы данных коллекции [`#301`](https://github.com/nocobase/nocobase/pull/301)
+- feat: добавление оператора фильтра $isCurrentUser [`#299`](https://github.com/nocobase/nocobase/pull/299)
+- fix: ошибка первичного ключа промежуточной таблицы [`#297`](https://github.com/nocobase/nocobase/pull/297)
+- feat: промежуточная коллекция для поля linkTo [`#296`](https://github.com/nocobase/nocobase/pull/296)
+- fix: длинный текст будет переноситься в FormItem [`#295`](https://github.com/nocobase/nocobase/pull/295)
+- fix(client): предотвращение ошибки при получении поля по случайному имени [`#294`](https://github.com/nocobase/nocobase/pull/294)
 - Feat/create nocobase app [`#273`](https://github.com/nocobase/nocobase/pull/273)
-- feat(plugin-workflow): add all crud nodes for workflow [`#293`](https://github.com/nocobase/nocobase/pull/293)
-- feat(plugin-workflow): add create node component [`#292`](https://github.com/nocobase/nocobase/pull/292)
-- fix: rich text removed value avoid dispaly html string [`#290`](https://github.com/nocobase/nocobase/pull/290)
+- feat(plugin-workflow): добавление всех CRUD-узлов для рабочего процесса [`#293`](https://github.com/nocobase/nocobase/pull/293)
+- feat(plugin-workflow): добавление компонента узла создания [`#292`](https://github.com/nocobase/nocobase/pull/292)
+- fix: удаление значения редактора, чтобы избежать отображения HTML-строки [`#290`](https://github.com/nocobase/nocobase/pull/290)
 
-### Commits
+### Коммиты
 
-- fix: update yarn.lock [`fcfde7e`](https://github.com/nocobase/nocobase/commit/fcfde7ed0a5b7fdae3fe7424e406ca2e5d944f9b)
-- chore(versions): 😊 publish v0.6.2-alpha.9 [`1afc867`](https://github.com/nocobase/nocobase/commit/1afc86733cb090cf5f45c781ad6488c32caa740c)
-- fix: update useCreateActionProps & useUpdateActionProps [`fca0943`](https://github.com/nocobase/nocobase/commit/fca0943e8d013a0e8bb46756b89cfc992aa1b6c1)
+- fix: обновление yarn.lock [`fcfde7e`](https://github.com/nocobase/nocobase/commit/fcfde7ed0a5b7fdae3fe7424e406ca2e5d944f9b)
+- chore(versions): 😊 публикация v0.6.2-alpha.9 [`1afc867`](https://github.com/nocobase/nocobase/commit/1afc86733cb090cf5f45c781ad6488c32caa740c)
+- fix: обновление useCreateActionProps & useUpdateActionProps [`fca0943`](https://github.com/nocobase/nocobase/commit/fca0943e8d013a0e8bb46756b89cfc992aa1b6c1)
 
 ## [v0.6.2-alpha.7](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.6...v0.6.2-alpha.7) - 2022-04-16
 
-### Commits
+### Коммиты
 
-- feat: improve code [`2202cc6`](https://github.com/nocobase/nocobase/commit/2202cc64d960918113b50bf0dc352a59cac04484)
-- chore(versions): 😊 publish v0.6.2-alpha.7 [`d165782`](https://github.com/nocobase/nocobase/commit/d165782860681af206005039f4bec00fc7fe4241)
+- feat: улучшение кода [`2202cc6`](https://github.com/nocobase/nocobase/commit/2202cc64d960918113b50bf0dc352a59cac04484)
+- chore(versions): 😊 публикация v0.6.2-alpha.7 [`d165782`](https://github.com/nocobase/nocobase/commit/d165782860681af206005039f4bec00fc7fe4241)
 
 ## [v0.6.2-alpha.6](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.5...v0.6.2-alpha.6) - 2022-04-15
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.2-alpha.6 [`faa064a`](https://github.com/nocobase/nocobase/commit/faa064ae8dbdcba98e1782a8e2c0b5a338e68219)
+- chore(versions): 😊 публикация v0.6.2-alpha.6 [`faa064a`](https://github.com/nocobase/nocobase/commit/faa064ae8dbdcba98e1782a8e2c0b5a338e68219)
 
 ## [v0.6.2-alpha.5](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.4...v0.6.2-alpha.5) - 2022-04-15
 
-### Commits
+### Коммиты
 
-- chore: create-nocobase-app lib [`fc27ebc`](https://github.com/nocobase/nocobase/commit/fc27ebc08a5c889596432a2ece6ba9e0c8957bab)
+- chore: библиотека create-nocobase-app [`fc27ebc`](https://github.com/nocobase/nocobase/commit/fc27ebc08a5c889596432a2ece6ba9e0c8957bab)
 - chore: create-nocobase-app [`8d0703c`](https://github.com/nocobase/nocobase/commit/8d0703c568ad0e66a14e3a4d47d57b1d63cd64f8)
-- chore(versions): 😊 publish v0.6.2-alpha.5 [`2b21546`](https://github.com/nocobase/nocobase/commit/2b21546c4c50c7b5447d991d3852b90dca7219b9)
+- chore(versions): 😊 публикация v0.6.2-alpha.5 [`2b21546`](https://github.com/nocobase/nocobase/commit/2b21546c4c50c7b5447d991d3852b90dca7219b9)
 
 ## [v0.6.2-alpha.4](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.3...v0.6.2-alpha.4) - 2022-04-15
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.2-alpha.4 [`e3a9e92`](https://github.com/nocobase/nocobase/commit/e3a9e924e002afeb02fb785fcecb124dd6d995a1)
+- chore(versions): 😊 публикация v0.6.2-alpha.4 [`e3a9e92`](https://github.com/nocobase/nocobase/commit/e3a9e924e002afeb02fb785fcecb124dd6d995a1)
 
 ## [v0.6.2-alpha.3](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.1...v0.6.2-alpha.3) - 2022-04-15
 
-### Commits
+### Коммиты
 
-- feat: workspaces [`0eb6997`](https://github.com/nocobase/nocobase/commit/0eb6997c7257332751e49d4a6c623c2ccd786495)
-- chore(versions): 😊 publish v0.6.2-alpha.3 [`2feae05`](https://github.com/nocobase/nocobase/commit/2feae051e24a46c0b78b31ef2a4dafdb14344398)
+- feat: рабочие пространства [`0eb6997`](https://github.com/nocobase/nocobase/commit/0eb6997c7257332751e49d4a6c623c2ccd786495)
+- chore(versions): 😊 публикация v0.6.2-alpha.3 [`2feae05`](https://github.com/nocobase/nocobase/commit/2feae051e24a46c0b78b31ef2a4dafdb14344398)
 - chore: 0.6.2-alpha.2 [`dbf86d5`](https://github.com/nocobase/nocobase/commit/dbf86d52ccc7653e6b23386c2aa465402702da85)
 
 ## [v0.6.2-alpha.1](https://github.com/nocobase/nocobase/compare/v0.6.2-alpha.0...v0.6.2-alpha.1) - 2022-04-15
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.2-alpha.1 [`c6b58b2`](https://github.com/nocobase/nocobase/commit/c6b58b215e43a48d625b8493eefc438c6b9e1e7a)
+- chore(versions): 😊 публикация v0.6.2-alpha.1 [`c6b58b2`](https://github.com/nocobase/nocobase/commit/c6b58b215e43a48d625b8493eefc438c6b9e1e7a)
 
 ## [v0.6.2-alpha.0](https://github.com/nocobase/nocobase/compare/v0.6.1-alpha.0...v0.6.2-alpha.0) - 2022-04-15
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.2-alpha.0 [`5351fb3`](https://github.com/nocobase/nocobase/commit/5351fb3ab34a92b97102640dffa7aeafa5294b97)
+- chore(versions): 😊 публикация v0.6.2-alpha.0 [`5351fb3`](https://github.com/nocobase/nocobase/commit/5351fb3ab34a92b97102640dffa7aeafa5294b97)
 
 ## [v0.6.1-alpha.0](https://github.com/nocobase/nocobase/compare/v0.6.0...v0.6.1-alpha.0) - 2022-04-15
 
-### Commits
+### Коммиты
 
-- chore(versions): 😊 publish v0.6.1-alpha.0 [`0b52b73`](https://github.com/nocobase/nocobase/commit/0b52b731dcd23e6ae251c4d5f5c4da781dd109d5)
+- chore(versions): 😊 публикация v0.6.1-alpha.0 [`0b52b73`](https://github.com/nocobase/nocobase/commit/0b52b731dcd23e6ae251c4d5f5c4da781dd109d5)
 
 ## [v0.6.0](https://github.com/nocobase/nocobase/compare/v0.6.0-alpha.1...v0.6.0) - 2022-04-15
 
-### Merged
+### Объединено
 
 - Feat: plugin-workflow [`#288`](https://github.com/nocobase/nocobase/pull/288)
-- fix: slate style [`#289`](https://github.com/nocobase/nocobase/pull/289)
-- fix: toJSON with belongsTo Assoication [`#287`](https://github.com/nocobase/nocobase/pull/287)
-- feat: improve acl module [`#283`](https://github.com/nocobase/nocobase/pull/283)
-- fix: destroy own records [`#285`](https://github.com/nocobase/nocobase/pull/285)
-- feat(plugin-workflow): support context variables from model trigger [`#284`](https://github.com/nocobase/nocobase/pull/284)
-- fix: acl write [`#280`](https://github.com/nocobase/nocobase/pull/280)
-- fix: call root Server hook after insertNewSchema [`#282`](https://github.com/nocobase/nocobase/pull/282)
+- fix: стиль slate [`#289`](https://github.com/nocobase/nocobase/pull/289)
+- fix: toJSON с belongsTo ассоциацией [`#287`](https://github.com/nocobase/nocobase/pull/287)
+- feat: улучшение модуля ACL [`#283`](https://github.com/nocobase/nocobase/pull/283)
+- fix: удаление собственных записей [`#285`](https://github.com/nocobase/nocobase/pull/285)
+- feat(plugin-workflow): поддержка переменных контекста из триггера модели [`#284`](https://github.com/nocobase/nocobase/pull/284)
+- fix: ACL запись [`#280`](https://github.com/nocobase/nocobase/pull/280)
+- fix: вызов корневого хука сервера после insertNewSchema [`#282`](https://github.com/nocobase/nocobase/pull/282)
 - Feat/plugin workflow [`#278`](https://github.com/nocobase/nocobase/pull/278)
-- feat: acl provider [`#279`](https://github.com/nocobase/nocobase/pull/279)
-- feat: add Slate component [`#272`](https://github.com/nocobase/nocobase/pull/272)
-- Feat/plugin users with jwt [`#258`](https://github.com/nocobase/nocobase/pull/258)
-- fix: modify antd style of default [`#277`](https://github.com/nocobase/nocobase/pull/277)
-- fix(client): meet undefined error after clear filter cascader value [`#267`](https://github.com/nocobase/nocobase/pull/267)
-- Feat(plugin workflow): refactor calculation and add filter for query [`#264`](https://github.com/nocobase/nocobase/pull/264)
-- feat: block provider [`#261`](https://github.com/nocobase/nocobase/pull/261)
-- fix: toJSON with null association [`#260`](https://github.com/nocobase/nocobase/pull/260)
-- fix: error handle error [`#259`](https://github.com/nocobase/nocobase/pull/259)
+- feat: провайдер ACL [`#279`](https://github.com/nocobase/nocobase/pull/279)
+- feat: добавление компонента Slate [`#272`](https://github.com/nocobase/nocobase/pull/272)
+- Feat(plugin users with jwt) [`#258`](https://github.com/nocobase/nocobase/pull/258)
+- fix: изменение стиля antd по умолчанию [`#277`](https://github.com/nocobase/nocobase/pull/277)
+- fix(client): ошибка undefined после очистки значения фильтра каскада [`#267`](https://github.com/nocobase/nocobase/pull/267)
+- Feat(plugin workflow): рефакторинг расчетов и добавление фильтра для запроса [`#264`](https://github.com/nocobase/nocobase/pull/264)
+- feat: провайдер блока [`#261`](https://github.com/nocobase/nocobase/pull/261)
+- fix: toJSON с нулевой ассоциацией [`#260`](https://github.com/nocobase/nocobase/pull/260)
+- fix: обработка ошибок [`#259`](https://github.com/nocobase/nocobase/pull/259)
 
-### Commits
+### Коммиты
 
 - fix: yarn.lock [`7a7eb0c`](https://github.com/nocobase/nocobase/commit/7a7eb0cc82af0b1621476d2bb163b43ccc92da80)
 - fix: yarn.lock [`e226f04`](https://github.com/nocobase/nocobase/commit/e226f04e505ed7f4d94abf3074ad4f375d15c67d)
-- feat: rich text [`5b41b33`](https://github.com/nocobase/nocobase/commit/5b41b338072ec75f579a695bdae34dd69918752b)
+- feat: редактор форматированного текста [`5b41b33`](https://github.com/nocobase/nocobase/commit/5b41b338072ec75f579a695bdae34dd69918752b)
 
 ## [v0.6.0-alpha.1](https://github.com/nocobase/nocobase/compare/v0.5.0-alpha.33...v0.6.0-alpha.1) - 2022-04-05
 
-### Merged
+### Объединено
 
-- fix: textarea read pretty can support break line [`#255`](https://github.com/nocobase/nocobase/pull/255)
-- fix: markdown support ellipsis [`#257`](https://github.com/nocobase/nocobase/pull/257)
-- featPlugin multiple apps [`#248`](https://github.com/nocobase/nocobase/pull/248)
-- add action log tempalte [`#239`](https://github.com/nocobase/nocobase/pull/239)
-- fix some bugs [`#252`](https://github.com/nocobase/nocobase/pull/252)
-- fix(plugin-workflow): fix adding/removing node in parallel branches [`#253`](https://github.com/nocobase/nocobase/pull/253)
-- Feat: client base entry of plugin workflow [`#225`](https://github.com/nocobase/nocobase/pull/225)
-- fix: updateAt on move scope change [`#251`](https://github.com/nocobase/nocobase/pull/251)
-- feat: get json schema with async node [`#246`](https://github.com/nocobase/nocobase/pull/246)
-- feat: insertNewSchema [`#245`](https://github.com/nocobase/nocobase/pull/245)
-- fix: transaction error [`#242`](https://github.com/nocobase/nocobase/pull/242)
-- feat: block templates [`#240`](https://github.com/nocobase/nocobase/pull/240)
-- feat: uiSchema clearAncestor [`#241`](https://github.com/nocobase/nocobase/pull/241)
-- feat: init sort field values [`#236`](https://github.com/nocobase/nocobase/pull/236)
-- fix: move action without alter updatedAt [`#235`](https://github.com/nocobase/nocobase/pull/235)
-- feat: role check action [`#234`](https://github.com/nocobase/nocobase/pull/234)
-- feat: ne operator [`#233`](https://github.com/nocobase/nocobase/pull/233)
-- fix: user current role [`#232`](https://github.com/nocobase/nocobase/pull/232)
-- featEnable permission [`#229`](https://github.com/nocobase/nocobase/pull/229)
-- test: update reverseField [`#231`](https://github.com/nocobase/nocobase/pull/231)
-- feat: kanban [`#230`](https://github.com/nocobase/nocobase/pull/230)
-- Nocobase next kanban [`#223`](https://github.com/nocobase/nocobase/pull/223)
-- add: test [`#224`](https://github.com/nocobase/nocobase/pull/224)
+- fix: поддержка переноса строк в режиме чтения для `textarea` [`#255`](https://github.com/nocobase/nocobase/pull/255)
+- fix: поддержка многоточия в `markdown` [`#257`](https://github.com/nocobase/nocobase/pull/257)
+- featPlugin: поддержка нескольких приложений [`#248`](https://github.com/nocobase/nocobase/pull/248)
+- add: шаблон журнала действий [`#239`](https://github.com/nocobase/nocobase/pull/239)
+- fix: исправление некоторых ошибок [`#252`](https://github.com/nocobase/nocobase/pull/252)
+- fix(plugin-workflow): исправление добавления/удаления узлов в параллельных ветвях [`#253`](https://github.com/nocobase/nocobase/pull/253)
+- Feat: базовая точка входа клиента для плагина `workflow` [`#225`](https://github.com/nocobase/nocobase/pull/225)
+- fix: обновление `updatedAt` при изменении области действия [`#251`](https://github.com/nocobase/nocobase/pull/251)
+- feat: получение JSON-схемы с асинхронным узлом [`#246`](https://github.com/nocobase/nocobase/pull/246)
+- feat: `insertNewSchema` [`#245`](https://github.com/nocobase/nocobase/pull/245)
+- fix: ошибка транзакции [`#242`](https://github.com/nocobase/nocobase/pull/242)
+- feat: шаблоны блоков [`#240`](https://github.com/nocobase/nocobase/pull/240)
+- feat: очистка предков в `uiSchema` [`#241`](https://github.com/nocobase/nocobase/pull/241)
+- feat: инициализация значений поля сортировки [`#236`](https://github.com/nocobase/nocobase/pull/236)
+- fix: действие перемещения без изменения `updatedAt` [`#235`](https://github.com/nocobase/nocobase/pull/235)
+- feat: проверка роли действия [`#234`](https://github.com/nocobase/nocobase/pull/234)
+- feat: оператор "не равно" (`ne`) [`#233`](https://github.com/nocobase/nocobase/pull/233)
+- fix: текущая роль пользователя [`#232`](https://github.com/nocobase/nocobase/pull/232)
+- featEnable: разрешения [`#229`](https://github.com/nocobase/nocobase/pull/229)
+- test: обновление `reverseField` [`#231`](https://github.com/nocobase/nocobase/pull/231)
+- feat: `kanban` [`#230`](https://github.com/nocobase/nocobase/pull/230)
+- Nocobase next `kanban` [`#223`](https://github.com/nocobase/nocobase/pull/223)
+- add: тесты [`#224`](https://github.com/nocobase/nocobase/pull/224)
 - Plugin error handler [`#222`](https://github.com/nocobase/nocobase/pull/222)
-- fix: array $noneOf with null [`#220`](https://github.com/nocobase/nocobase/pull/220)
-- fix: filter parser with number in key [`#219`](https://github.com/nocobase/nocobase/pull/219)
-- feat: ui-schema-tree-path descendant index [`#218`](https://github.com/nocobase/nocobase/pull/218)
-- fix: array operator query error [`#217`](https://github.com/nocobase/nocobase/pull/217)
-- fix: operator query value [`#216`](https://github.com/nocobase/nocobase/pull/216)
-- feat: string operators [`#215`](https://github.com/nocobase/nocobase/pull/215)
-- feat: error handle middleware [`#214`](https://github.com/nocobase/nocobase/pull/214)
-- refactor: filter schema component [`#213`](https://github.com/nocobase/nocobase/pull/213)
-- fix: empty operator with $or filter [`#212`](https://github.com/nocobase/nocobase/pull/212)
-- feat: plugin install [`#211`](https://github.com/nocobase/nocobase/pull/211)
-- feat: sortBy through table value [`#209`](https://github.com/nocobase/nocobase/pull/209)
-- Feat: plugin workflow [`#210`](https://github.com/nocobase/nocobase/pull/210)
-- fix: collection fields sort [`#208`](https://github.com/nocobase/nocobase/pull/208)
-- feat: sort in collection fields [`#207`](https://github.com/nocobase/nocobase/pull/207)
-- fix Collection rest api [`#205`](https://github.com/nocobase/nocobase/pull/205)
-- feat: non paged list [`#204`](https://github.com/nocobase/nocobase/pull/204)
-- feat: finish calendar component develop [`#199`](https://github.com/nocobase/nocobase/pull/199)
-- fix(dependencies): move json-template into original sub packages [`#203`](https://github.com/nocobase/nocobase/pull/203)
-- Feat(plugin workflow): add more instructions [`#201`](https://github.com/nocobase/nocobase/pull/201)
-- fix: getJsonSchema with properties [`#202`](https://github.com/nocobase/nocobase/pull/202)
-- fix: postgres array operator [`#200`](https://github.com/nocobase/nocobase/pull/200)
-- fix: postgres sort with appends issue [`#198`](https://github.com/nocobase/nocobase/pull/198)
-- feat: uiSchema remove api [`#196`](https://github.com/nocobase/nocobase/pull/196)
-- refactor: perPage to pageSize [`#197`](https://github.com/nocobase/nocobase/pull/197)
-- fix: option parser test [`#195`](https://github.com/nocobase/nocobase/pull/195)
-- fix: nest append [`#194`](https://github.com/nocobase/nocobase/pull/194)
-- fix: test with database [`#193`](https://github.com/nocobase/nocobase/pull/193)
-- fix(plugin-workflow): fix dependencies in package [`#192`](https://github.com/nocobase/nocobase/pull/192)
-- Fix: plugin-workflow test [`#191`](https://github.com/nocobase/nocobase/pull/191)
-- Refactor(plugin-workflow): upgrade plugin to use abstract plugin class and fix types [`#190`](https://github.com/nocobase/nocobase/pull/190)
-- fix: ui schema storage [`#188`](https://github.com/nocobase/nocobase/pull/188)
-- fix: ui schema storage [`#187`](https://github.com/nocobase/nocobase/pull/187)
-- fix: update guard with Model instance [`#186`](https://github.com/nocobase/nocobase/pull/186)
-- fix: getProperties with order [`#183`](https://github.com/nocobase/nocobase/pull/183)
-- feat(Server): improve application [`#177`](https://github.com/nocobase/nocobase/pull/177)
-- Feature: plugin-workflow MVP [`#171`](https://github.com/nocobase/nocobase/pull/171)
-- fix(root): fix dependencies in packages to avoid building errors [`#178`](https://github.com/nocobase/nocobase/pull/178)
+- fix: массив `$noneOf` с `null` [`#220`](https://github.com/nocobase/nocobase/pull/220)
+- fix: парсер фильтров с числом в ключе [`#219`](https://github.com/nocobase/nocobase/pull/219)
+- feat: индекс потомков в `ui-schema-tree-path` [`#218`](https://github.com/nocobase/nocobase/pull/218)
+- fix: ошибка запроса оператора массива [`#217`](https://github.com/nocobase/nocobase/pull/217)
+- fix: значение запроса оператора [`#216`](https://github.com/nocobase/nocobase/pull/216)
+- feat: строковые операторы [`#215`](https://github.com/nocobase/nocobase/pull/215)
+- feat: middleware обработки ошибок [`#214`](https://github.com/nocobase/nocobase/pull/214)
+- refactor: компонент схемы фильтров [`#213`](https://github.com/nocobase/nocobase/pull/213)
+- fix: пустой оператор с фильтром `$or` [`#212`](https://github.com/nocobase/nocobase/pull/212)
+- feat: установка плагина [`#211`](https://github.com/nocobase/nocobase/pull/211)
+- feat: сортировка по значению через таблицу [`#209`](https://github.com/nocobase/nocobase/pull/209)
+- Feat: плагин `workflow` [`#210`](https://github.com/nocobase/nocobase/pull/210)
+- fix: сортировка полей коллекции [`#208`](https://github.com/nocobase/nocobase/pull/208)
+- feat: сортировка в полях коллекции [`#207`](https://github.com/nocobase/nocobase/pull/207)
+- fix: REST API коллекции [`#205`](https://github.com/nocobase/nocobase/pull/205)
+- feat: непостраничный список [`#204`](https://github.com/nocobase/nocobase/pull/204)
+- feat: завершение разработки компонента календаря [`#199`](https://github.com/nocobase/nocobase/pull/199)
+- fix(dependencies): перемещение `json-template` в исходные подпакеты [`#203`](https://github.com/nocobase/nocobase/pull/203)
+- Feat(plugin workflow): добавление дополнительных инструкций [`#201`](https://github.com/nocobase/nocobase/pull/201)
+- fix: `getJsonSchema` с свойствами [`#202`](https://github.com/nocobase/nocobase/pull/202)
+- fix: оператор массива PostgreSQL [`#200`](https://github.com/nocobase/nocobase/pull/200)
+### Объединено (продолжение)
+
+- fix: сортировка PostgreSQL с проблемой `appends` [`#198`](https://github.com/nocobase/nocobase/pull/198)
+- feat: удаление API в `uiSchema` [`#196`](https://github.com/nocobase/nocobase/pull/196)
+- refactor: переименование `perPage` в `pageSize` [`#197`](https://github.com/nocobase/nocobase/pull/197)
+- fix: тест парсера опций [`#195`](https://github.com/nocobase/nocobase/pull/195)
+- fix: вложенное `append` [`#194`](https://github.com/nocobase/nocobase/pull/194)
+- fix: тест с базой данных [`#193`](https://github.com/nocobase/nocobase/pull/193)
+- fix(plugin-workflow): зависимости в пакете [`#192`](https://github.com/nocobase/nocobase/pull/192)
+- Fix: тест `plugin-workflow` [`#191`](https://github.com/nocobase/nocobase/pull/191)
+- Refactor(plugin-workflow): обновление плагина для использования абстрактного класса плагина и исправление типов [`#190`](https://github.com/nocobase/nocobase/pull/190)
+- fix: хранение `ui schema` [`#188`](https://github.com/nocobase/nocobase/pull/188)
+- fix: хранение `ui schema` [`#187`](https://github.com/nocobase/nocobase/pull/187)
+- fix: обновление `guard` с экземпляром `Model` [`#186`](https://github.com/nocobase/nocobase/pull/186)
+- fix: `getProperties` с порядком [`#183`](https://github.com/nocobase/nocobase/pull/183)
+- feat(Server): улучшение приложения [`#177`](https://github.com/nocobase/nocobase/pull/177)
+- Feature: MVP плагина `workflow` [`#171`](https://github.com/nocobase/nocobase/pull/171)
+- fix(root): исправление зависимостей в пакетах для избежания ошибок сборки [`#178`](https://github.com/nocobase/nocobase/pull/178)
 - Application [`#175`](https://github.com/nocobase/nocobase/pull/175)
-- feat: add acl plugin [`#169`](https://github.com/nocobase/nocobase/pull/169)
-- add Filter component into schema componens [`#176`](https://github.com/nocobase/nocobase/pull/176)
-- feat: add Markdown component into schema components [`#173`](https://github.com/nocobase/nocobase/pull/173)
-- feat: table related components [`#172`](https://github.com/nocobase/nocobase/pull/172)
-- feat: add select component into schema component [`#168`](https://github.com/nocobase/nocobase/pull/168)
-- feat: add TreeSelect component into schema components [`#167`](https://github.com/nocobase/nocobase/pull/167)
+- feat: добавление плагина ACL [`#169`](https://github.com/nocobase/nocobase/pull/169)
+- add: компонент `Filter` в схему компонентов [`#176`](https://github.com/nocobase/nocobase/pull/176)
+- feat: добавление компонента `Markdown` в схему компонентов [`#173`](https://github.com/nocobase/nocobase/pull/173)
+- feat: связанные с таблицей компоненты [`#172`](https://github.com/nocobase/nocobase/pull/172)
+- feat: добавление компонента `select` в схему компонентов [`#168`](https://github.com/nocobase/nocobase/pull/168)
+- feat: добавление `TreeSelect` в схему компонентов [`#167`](https://github.com/nocobase/nocobase/pull/167)
 - Plugin acl [`#166`](https://github.com/nocobase/nocobase/pull/166)
-- add upload component into schema components [`#165`](https://github.com/nocobase/nocobase/pull/165)
-- migrate TimePicker component into schema components [`#164`](https://github.com/nocobase/nocobase/pull/164)
+- add: компонент загрузки в схему компонентов [`#165`](https://github.com/nocobase/nocobase/pull/165)
+- migrate: `TimePicker` в схему компонентов [`#164`](https://github.com/nocobase/nocobase/pull/164)
 - Feat/plugin UI schema v0.6 [`#143`](https://github.com/nocobase/nocobase/pull/143)
 - Feat/plugin collection manager [`#147`](https://github.com/nocobase/nocobase/pull/147)
 - Acl [`#162`](https://github.com/nocobase/nocobase/pull/162)
 - feat: acl [`#153`](https://github.com/nocobase/nocobase/pull/153)
-- feat: add InputNumber Component into schema component [`#160`](https://github.com/nocobase/nocobase/pull/160)
+- feat: добавление компонента `InputNumber` в схему компонентов [`#160`](https://github.com/nocobase/nocobase/pull/160)
 - feature/nocobase next password [`#159`](https://github.com/nocobase/nocobase/pull/159)
-- feat: add DatePicker into schema components [`#161`](https://github.com/nocobase/nocobase/pull/161)
-- feat: add input into schema component [`#158`](https://github.com/nocobase/nocobase/pull/158)
-- feat: add radio into schema component [`#154`](https://github.com/nocobase/nocobase/pull/154)
-- optimize: rename checkbox component file [`#155`](https://github.com/nocobase/nocobase/pull/155)
+- feat: добавление `DatePicker` в схему компонентов [`#161`](https://github.com/nocobase/nocobase/pull/161)
+- feat: добавление `input` в схему компонентов [`#158`](https://github.com/nocobase/nocobase/pull/158)
+- feat: добавление `radio` в схему компонентов [`#154`](https://github.com/nocobase/nocobase/pull/154)
+- optimize: переименование файла компонента `checkbox` [`#155`](https://github.com/nocobase/nocobase/pull/155)
 - Nocobase next color select [`#157`](https://github.com/nocobase/nocobase/pull/157)
-- feat: add async-data-provider component [`#151`](https://github.com/nocobase/nocobase/pull/151)
-- feat: client v0.6 [`#150`](https://github.com/nocobase/nocobase/pull/150)
+- feat: добавление компонента `async-data-provider` [`#151`](https://github.com/nocobase/nocobase/pull/151)
+- feat: клиентская часть v0.6 [`#150`](https://github.com/nocobase/nocobase/pull/150)
 - Feat/GitHub actions [`#148`](https://github.com/nocobase/nocobase/pull/148)
-- feat: filter by target key [`#146`](https://github.com/nocobase/nocobase/pull/146)
-- refactor: actions [`#137`](https://github.com/nocobase/nocobase/pull/137)
-- feat: context field type support [`#131`](https://github.com/nocobase/nocobase/pull/131)
-- feat: database next [`#130`](https://github.com/nocobase/nocobase/pull/130)
-- feat: rename resourceKey & associatedKey to resourceIndex & associatedIndex [`#126`](https://github.com/nocobase/nocobase/pull/126)
-- refactor: table cell text overflow that show ellipsis [`#125`](https://github.com/nocobase/nocobase/pull/125)
+- feat: фильтрация по целевому ключу [`#146`](https://github.com/nocobase/nocobase/pull/146)
+- refactor: действия [`#137`](https://github.com/nocobase/nocobase/pull/137)
+- feat: поддержка типа поля контекста [`#131`](https://github.com/nocobase/nocobase/pull/131)
+- feat: следующая версия базы данных [`#130`](https://github.com/nocobase/nocobase/pull/130)
+- feat: переименование `resourceKey` и `associatedKey` в `resourceIndex` и `associatedIndex` [`#126`](https://github.com/nocobase/nocobase/pull/126)
+- refactor: переполнение текста в ячейке таблицы с многоточием [`#125`](https://github.com/nocobase/nocobase/pull/125)
 - Add S3 storage and refactors [`#124`](https://github.com/nocobase/nocobase/pull/124)
-- Fix: plugin-file-manager [`#111`](https://github.com/nocobase/nocobase/pull/111)
-- refactor: code splitting of the table component [`#121`](https://github.com/nocobase/nocobase/pull/121)
-- refactor: code splitting of the table component [`#120`](https://github.com/nocobase/nocobase/pull/120)
-- feat: add reset button in the filter panel [`#110`](https://github.com/nocobase/nocobase/pull/110)
-- feat: allow user to change password [`#109`](https://github.com/nocobase/nocobase/pull/109)
+- Fix: плагин `plugin-file-manager` [`#111`](https://github.com/nocobase/nocobase/pull/111)
+- refactor: разделение кода компонента таблицы [`#121`](https://github.com/nocobase/nocobase/pull/121)
+- refactor: разделение кода компонента таблицы [`#120`](https://github.com/nocobase/nocobase/pull/120)
+- feat: добавление кнопки сброса в панель фильтров [`#110`](https://github.com/nocobase/nocobase/pull/110)
+- feat: разрешение пользователю изменять пароль [`#109`](https://github.com/nocobase/nocobase/pull/109)
 
-### Commits
+### Коммиты
 
 - v0.6 [`732d310`](https://github.com/nocobase/nocobase/commit/732d31009eafbded78dd35dee5d891438783ba53)
-- create-nocobase-app template from [develop] [`9f4bea7`](https://github.com/nocobase/nocobase/commit/9f4bea79668643d37c2b488eb969b2c93a241026)
-- feat: improve view action schema initializer [`590ca26`](https://github.com/nocobase/nocobase/commit/590ca267b27b093b67aa140c4e94fd2b97c8eeb6)
+- create-nocobase-app шаблон из [develop] [`9f4bea7`](https://github.com/nocobase/nocobase/commit/9f4bea79668643d37c2b488eb969b2c93a241026)
+- feat: улучшение инициализатора схемы действия просмотра [`590ca26`](https://github.com/nocobase/nocobase/commit/590ca267b27b093b67aa140c4e94fd2b97c8eeb6)
 
 ## [v0.5.0-alpha.33](https://github.com/nocobase/nocobase/compare/v0.4.0-alpha.6...v0.5.0-alpha.33) - 2021-11-22
 
-### Merged
+### Объединено
 
-- fix: upgrade formily & side menu render with createPortal & use deep compare effect [`#103`](https://github.com/nocobase/nocobase/pull/103)
-- fix: SchemaRenderer get schema value [`#102`](https://github.com/nocobase/nocobase/pull/102)
-- fix: upgrade formily and form.setValues uses overwrite strategy  [`#101`](https://github.com/nocobase/nocobase/pull/101)
-- feat: support  i18n [`#99`](https://github.com/nocobase/nocobase/pull/99)
-- feat: new version of the documentation [`#95`](https://github.com/nocobase/nocobase/pull/95)
-- option-tag style [`#92`](https://github.com/nocobase/nocobase/pull/92)
+- fix: обновление formily & рендеринг бокового меню с использованием createPortal & эффект глубокого сравнения [`#103`](https://github.com/nocobase/nocobase/pull/103)
+- fix: получение значения схемы в SchemaRenderer [`#102`](https://github.com/nocobase/nocobase/pull/102)
+- fix: обновление formily и использование стратегии перезаписи в form.setValues [`#101`](https://github.com/nocobase/nocobase/pull/101)
+- feat: поддержка i18n [`#99`](https://github.com/nocobase/nocobase/pull/99)
+- feat: новая версия документации [`#95`](https://github.com/nocobase/nocobase/pull/95)
+- стиль option-tag [`#92`](https://github.com/nocobase/nocobase/pull/92)
 - create-nocobase-app: favicon [`#91`](https://github.com/nocobase/nocobase/pull/91)
-- feat: create nocobase app with simple & quickstart option [`#87`](https://github.com/nocobase/nocobase/pull/87)
-- feat: export plugin [`#73`](https://github.com/nocobase/nocobase/pull/73)
+- feat: создание приложения nocobase с опциями simple и quickstart [`#87`](https://github.com/nocobase/nocobase/pull/87)
+- feat: экспорт плагина [`#73`](https://github.com/nocobase/nocobase/pull/73)
 
-### Commits
+### Коммиты
 
 - v0.5 [`2cbcd08`](https://github.com/nocobase/nocobase/commit/2cbcd087ce6629d8f0df550ee35e02065db41dbc)
-- refactor [`75cd158`](https://github.com/nocobase/nocobase/commit/75cd158a270935559a9922d1dd074811253013b9)
-- feat: improve code [`c6b68f2`](https://github.com/nocobase/nocobase/commit/c6b68f2b10e4e8df5257345f5e39408666c5810d)
+- рефакторинг [`75cd158`](https://github.com/nocobase/nocobase/commit/75cd158a270935559a9922d1dd074811253013b9)
+- feat: улучшение кода [`c6b68f2`](https://github.com/nocobase/nocobase/commit/c6b68f2b10e4e8df5257345f5e39408666c5810d)
 
 ## [v0.4.0-alpha.6](https://github.com/nocobase/nocobase/compare/v0.4.0-alpha.5...v0.4.0-alpha.6) - 2021-04-18
 
-### Merged
+### Объединено
 
-- docs: add docs [`#75`](https://github.com/nocobase/nocobase/pull/75)
-- refactor: use boolean value instead of null [`#74`](https://github.com/nocobase/nocobase/pull/74)
+- docs: добавление документации [`#75`](https://github.com/nocobase/nocobase/pull/75)
+- refactor: использование булевых значений вместо null [`#74`](https://github.com/nocobase/nocobase/pull/74)
 
-### Commits
+### Коммиты
 
-- fix: improve login form styles [`5319000`](https://github.com/nocobase/nocobase/commit/5319000bd613ce9d2ac0a66f73ab403a84c5b8dd)
-- fix: error message for login and registration [`214b227`](https://github.com/nocobase/nocobase/commit/214b227a6c1fe92bf54968e369aeaeabb8f73d7a)
-- docs: nodejs provided by docker [`22739af`](https://github.com/nocobase/nocobase/commit/22739afa2da4dd38eda9077f5ca566cd022f4dc2)
+- fix: улучшение стилей формы входа [`5319000`](https://github.com/nocobase/nocobase/commit/5319000bd613ce9d2ac0a66f73ab403a84c5b8dd)
+- fix: сообщение об ошибке для входа и регистрации [`214b227`](https://github.com/nocobase/nocobase/commit/214b227a6c1fe92bf54968e369aeaeabb8f73d7a)
+- docs: Node.js, предоставляемый Docker [`22739af`](https://github.com/nocobase/nocobase/commit/22739afa2da4dd38eda9077f5ca566cd022f4dc2)
 
 ## [v0.4.0-alpha.5](https://github.com/nocobase/nocobase/compare/v0.4.0-alpha.2...v0.4.0-alpha.5) - 2021-04-07
 
-### Commits
+### Коммиты
 
-- chore(versions): publish packages 0.4.0-alpha.5 [`ef93a3c`](https://github.com/nocobase/nocobase/commit/ef93a3c11c28419e1e842f73799cf005d49a5116)
-- chore(versions): publish packages 0.4.0-alpha.4 [`a22efec`](https://github.com/nocobase/nocobase/commit/a22efec65d85fd15e59332d2eb6483cb84a1e619)
-- chore(versions): publish packages 0.4.0-alpha.3 [`e72eebb`](https://github.com/nocobase/nocobase/commit/e72eebb8cd5e666b642030a9e268961385cc4d4d)
+- chore(versions): публикация пакетов 0.4.0-alpha.5 [`ef93a3c`](https://github.com/nocobase/nocobase/commit/ef93a3c11c28419e1e842f73799cf005d49a5116)
+- chore(versions): публикация пакетов 0.4.0-alpha.4 [`a22efec`](https://github.com/nocobase/nocobase/commit/a22efec65d85fd15e59332d2eb6483cb84a1e619)
+- chore(versions): публикация пакетов 0.4.0-alpha.3 [`e72eebb`](https://github.com/nocobase/nocobase/commit/e72eebb8cd5e666b642030a9e268961385cc4d4d)
 
 ## [v0.4.0-alpha.2](https://github.com/nocobase/nocobase/compare/v0.4.0-alpha.1...v0.4.0-alpha.2) - 2021-04-07
 
-### Commits
+### Коммиты
 
-- refactor: app middlewares [`17362a8`](https://github.com/nocobase/nocobase/commit/17362a844439e5510f254195fa135b6335866ef3)
-- chore(versions): publish packages 0.4.0-alpha.2 [`c2f1876`](https://github.com/nocobase/nocobase/commit/c2f18763c9e7c03a7a46edafd26b1fa884b8f272)
+- refactor: промежуточные обработчики приложения [`17362a8`](https://github.com/nocobase/nocobase/commit/17362a844439e5510f254195fa135b6335866ef3)
+- chore(versions): публикация пакетов 0.4.0-alpha.2 [`c2f1876`](https://github.com/nocobase/nocobase/commit/c2f18763c9e7c03a7a46edafd26b1fa884b8f272)
 
 ## v0.4.0-alpha.1 - 2021-04-07
 
-### Merged
+### Объединено
 
-- fix: minor problems [`#72`](https://github.com/nocobase/nocobase/pull/72)
+- fix: незначительные проблемы [`#72`](https://github.com/nocobase/nocobase/pull/72)
 - Develop [`#68`](https://github.com/nocobase/nocobase/pull/68)
-- Feature: plugin-china-region [`#66`](https://github.com/nocobase/nocobase/pull/66)
-- Feature: filter for linkTo field [`#64`](https://github.com/nocobase/nocobase/pull/64)
-- fix: make default view/tab cannot be destroyed [`#63`](https://github.com/nocobase/nocobase/pull/63)
+- Feature: плагин `china-region` [`#66`](https://github.com/nocobase/nocobase/pull/66)
+- Feature: фильтр для поля `linkTo` [`#64`](https://github.com/nocobase/nocobase/pull/64)
+- fix: сделать представление/вкладку по умолчанию неудаляемыми [`#63`](https://github.com/nocobase/nocobase/pull/63)
 - Feature/plugin automations [`#65`](https://github.com/nocobase/nocobase/pull/65)
 - Feature/action logs [`#62`](https://github.com/nocobase/nocobase/pull/62)
 - Feature/action logs [`#61`](https://github.com/nocobase/nocobase/pull/61)
 - Feature/destroy lock [`#60`](https://github.com/nocobase/nocobase/pull/60)
-- fix: ignore some typescript error [`#59`](https://github.com/nocobase/nocobase/pull/59)
-- feat: route permissions [`#58`](https://github.com/nocobase/nocobase/pull/58)
-- Feature: add permission plugin api [`#57`](https://github.com/nocobase/nocobase/pull/57)
-- fix: updatedBy foreignKey [`#56`](https://github.com/nocobase/nocobase/pull/56)
-- feat: add permissions plugin [`#53`](https://github.com/nocobase/nocobase/pull/53)
-- fix: updatedBy field in bulkUpdate hook [`#54`](https://github.com/nocobase/nocobase/pull/54)
-- test: skip bug test cases for ci passing [`#52`](https://github.com/nocobase/nocobase/pull/52)
-- fix: avoid bug when update other field [`#51`](https://github.com/nocobase/nocobase/pull/51)
-- feat: date-only operators [`#50`](https://github.com/nocobase/nocobase/pull/50)
-- Feature field for set default [`#49`](https://github.com/nocobase/nocobase/pull/49)
-- Feature: custom operators for querying [`#48`](https://github.com/nocobase/nocobase/pull/48)
-- fix: toInclude bug with nested associations [`#47`](https://github.com/nocobase/nocobase/pull/47)
-- feat: make single file upload to attachment available [`#46`](https://github.com/nocobase/nocobase/pull/46)
-- feature: add file manager base architecture [`#44`](https://github.com/nocobase/nocobase/pull/44)
-- feat: add createdBy/updatedBy field config for table managed by collections [`#43`](https://github.com/nocobase/nocobase/pull/43)
-- fix: use wrapped and logic for merging filters [`#42`](https://github.com/nocobase/nocobase/pull/42)
-- fix: filterByFields should return same value when input == null (close 0) [`#41`](https://github.com/nocobase/nocobase/pull/41)
-- fix: Symbol property could not be iterated in for-in [`#39`](https://github.com/nocobase/nocobase/pull/39)
+- fix: игнорирование некоторых ошибок TypeScript [`#59`](https://github.com/nocobase/nocobase/pull/59)
+- feat: разрешения маршрутов [`#58`](https://github.com/nocobase/nocobase/pull/58)
+- Feature: добавление API плагина разрешений [`#57`](https://github.com/nocobase/nocobase/pull/57)
+- fix: внешний ключ `updatedBy` [`#56`](https://github.com/nocobase/nocobase/pull/56)
+- feat: добавление плагина разрешений [`#53`](https://github.com/nocobase/nocobase/pull/53)
+- fix: поле `updatedBy` в хуке `bulkUpdate` [`#54`](https://github.com/nocobase/nocobase/pull/54)
+- test: пропуск тестов с ошибками для прохождения CI [`#52`](https://github.com/nocobase/nocobase/pull/52)
+- fix: избежание ошибок при обновлении других полей [`#51`](https://github.com/nocobase/nocobase/pull/51)
+- feat: операторы только для дат [`#50`](https://github.com/nocobase/nocobase/pull/50)
+- Feature: поле для установки значения по умолчанию [`#49`](https://github.com/nocobase/nocobase/pull/49)
+- Feature: пользовательские операторы для запросов [`#48`](https://github.com/nocobase/nocobase/pull/48)
+- fix: ошибка `toInclude` с вложенными ассоциациями [`#47`](https://github.com/nocobase/nocobase/pull/47)
+- feat: возможность загрузки одного файла в вложение [`#46`](https://github.com/nocobase/nocobase/pull/46)
+- feature: добавление базовой архитектуры менеджера файлов [`#44`](https://github.com/nocobase/nocobase/pull/44)
+- feat: добавление конфигурации полей `createdBy/updatedBy` для таблиц, управляемых коллекциями [`#43`](https://github.com/nocobase/nocobase/pull/43)
+- fix: использование `wrapped` и логики для объединения фильтров [`#42`](https://github.com/nocobase/nocobase/pull/42)
+- fix: `filterByFields` должен возвращать то же значение, когда вход == null (закрыть 0) [`#41`](https://github.com/nocobase/nocobase/pull/41)
+- fix: свойства Symbol не могут быть перебраны в цикле for-in [`#39`](https://github.com/nocobase/nocobase/pull/39)
 - Feature/sort [`#38`](https://github.com/nocobase/nocobase/pull/38)
-- refactor: change sort strategy from offset to targetId [`#37`](https://github.com/nocobase/nocobase/pull/37)
+- refactor: изменение стратегии сортировки с offset на targetId [`#37`](https://github.com/nocobase/nocobase/pull/37)
 - Feature/sort [`#36`](https://github.com/nocobase/nocobase/pull/36)
-- feat: add filter and transaction for destroy action [`#35`](https://github.com/nocobase/nocobase/pull/35)
-- fix: field filter logic for create/update [`#34`](https://github.com/nocobase/nocobase/pull/34)
-- Feature: action fields options for create/update [`#32`](https://github.com/nocobase/nocobase/pull/32)
-- Fix: change strategy from add to set for updateAssociations [`#33`](https://github.com/nocobase/nocobase/pull/33)
+- feat: добавление фильтра и транзакции для действия destroy [`#35`](https://github.com/nocobase/nocobase/pull/35)
+- fix: логика фильтра полей для create/update [`#34`](https://github.com/nocobase/nocobase/pull/34)
+- Feature: параметры полей действий для create/update [`#32`](https://github.com/nocobase/nocobase/pull/32)
+- Fix: изменение стратегии с add на set для updateAssociations [`#33`](https://github.com/nocobase/nocobase/pull/33)
 - Test/ci [`#31`](https://github.com/nocobase/nocobase/pull/31)
-- feat: improve collection hooks/fields/actions/views... [`#30`](https://github.com/nocobase/nocobase/pull/30)
+- feat: улучшение хуков/полей/действий/представлений коллекций [`#30`](https://github.com/nocobase/nocobase/pull/30)
 - Fix/model update associations [`#29`](https://github.com/nocobase/nocobase/pull/29)
-- fix: database test cases and table options [`#28`](https://github.com/nocobase/nocobase/pull/28)
-- feat: add virtual attribute geter & setter support [`#27`](https://github.com/nocobase/nocobase/pull/27)
-- feat: collection options & hooks [`#21`](https://github.com/nocobase/nocobase/pull/21)
-- feat(users): add users module [`#26`](https://github.com/nocobase/nocobase/pull/26)
-- feat: add sort action [`#22`](https://github.com/nocobase/nocobase/pull/22)
-- Test/list [`#19`](https://github.com/nocobase/nocobase/pull/19)
-- feat: pagination options [`#20`](https://github.com/nocobase/nocobase/pull/20)
-- test: refactor test in database and add more [`#17`](https://github.com/nocobase/nocobase/pull/17)
-- feat: actions & views [`#18`](https://github.com/nocobase/nocobase/pull/18)
-- Test cases for database [`#16`](https://github.com/nocobase/nocobase/pull/16)
-- Refactor: change global injection of test for actions package. [`#15`](https://github.com/nocobase/nocobase/pull/15)
-- feat: improve plugins [`#14`](https://github.com/nocobase/nocobase/pull/14)
-- Doc: add README.md for Server. [`#12`](https://github.com/nocobase/nocobase/pull/12)
-- fix: parseRequest & registerHandlers [`#10`](https://github.com/nocobase/nocobase/pull/10)
-- fix #9 [`#11`](https://github.com/nocobase/nocobase/pull/11)
-- feat: support register and call partial actions [`#7`](https://github.com/nocobase/nocobase/pull/7)
-- 发布核心框架 [`#6`](https://github.com/nocobase/nocobase/pull/6)
+- fix: тестовые случаи базы данных и опции таблицы [`#28`](https://github.com/nocobase/nocobase/pull/28)
+- feat: добавление поддержки геттеров и сеттеров виртуальных атрибутов [`#27`](https://github.com/nocobase/nocobase/pull/27)
+- feat: опции коллекции и хуки [`#21`](https://github.com/nocobase/nocobase/pull/21)
+### Объединено (продолжение)
 
-### Fixed
+- feat(users): добавление модуля пользователей [`#26`](https://github.com/nocobase/nocobase/pull/26)
+- feat: добавление действия сортировки [`#22`](https://github.com/nocobase/nocobase/pull/22)
+- Test/list [`#19`](https://github.com/nocobase/nocobase/pull/19)
+- feat: параметры пагинации [`#20`](https://github.com/nocobase/nocobase/pull/20)
+- test: рефакторинг тестов в базе данных и добавление новых [`#17`](https://github.com/nocobase/nocobase/pull/17)
+- feat: действия и представления [`#18`](https://github.com/nocobase/nocobase/pull/18)
+- Тестовые случаи для базы данных [`#16`](https://github.com/nocobase/nocobase/pull/16)
+- Refactor: изменение глобальной инъекции тестов для пакета действий [`#15`](https://github.com/nocobase/nocobase/pull/15)
+- feat: улучшение плагинов [`#14`](https://github.com/nocobase/nocobase/pull/14)
+- Doc: добавление README.md для сервера [`#12`](https://github.com/nocobase/nocobase/pull/12)
+- fix: `parseRequest` & `registerHandlers` [`#10`](https://github.com/nocobase/nocobase/pull/10)
+- fix #9 [`#11`](https://github.com/nocobase/nocobase/pull/11)
+- feat: поддержка регистрации и вызова частичных действий [`#7`](https://github.com/nocobase/nocobase/pull/7)
+- 发布核心框架 [`#6`](https://github.com/nocobase/nocobase/pull/6) *(Публикация основной структуры)*
+
+### Исправлено
 
 - fix #9 (#11) [`#9`](https://github.com/nocobase/nocobase/issues/9) [`#9`](https://github.com/nocobase/nocobase/issues/9)
 
-### Commits
+### Коммиты
 
-- chore: adjust parameters [`b95e2da`](https://github.com/nocobase/nocobase/commit/b95e2da129aa49b5d8fb3e31ba8975818f7053cb)
+- chore: корректировка параметров [`b95e2da`](https://github.com/nocobase/nocobase/commit/b95e2da129aa49b5d8fb3e31ba8975818f7053cb)
 - first commit [`e5d30b3`](https://github.com/nocobase/nocobase/commit/e5d30b30ba4dd38de764b0e5044f836f04a03706)
-- style: code formatting [`ce4a22f`](https://github.com/nocobase/nocobase/commit/ce4a22fbb9b1ba9b88db1dc86609e94944f9d904)
+- style: форматирование кода [`ce4a22f`](https://github.com/nocobase/nocobase/commit/ce4a22fbb9b1ba9b88db1dc86609e94944f9d904)
